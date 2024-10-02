@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Authentication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="{% static 'signupPage/css/style.css' %}">
+    <div>
+      <link rel="stylesheet" href="{% static 'signupPage/css/authenticationSuccess.css' %}">
+
+      <div class="bacaltos-sign-up-page-container">
+        <div class="bacaltos-sign-up-page-bacaltos-sign-up-page">
+          <div class="bacaltos-sign-up-page-frame1">
+            <div class="bacaltos-sign-up-page-frame3">
+            </div>
+            <div class="bacaltos-sign-up-page-frame2">
+              <img
+                alt="logoPurple4350"
+                src="/static/signupPage/images/logopurple4350-j51-200h.png"
+                class="bacaltos-sign-up-page-logo-purple"
+              />
+              <div class="bacaltos-sign-up-page-group1">
+                <a href="{% url 'knowMore' %}">
+                  <img
+                  src="/static/signupPage/images/rectangle24358-mj5o-200h.png"
+                  alt="Rectangle24358"
+                  class="bacaltos-sign-up-page-rectangle2"
+                />
+                  <div class="bacaltos-sign-up-page-text12">Confirm</div>
+                </a>
+              </div>
+              <div class="bacaltos-sign-up-page-group2">
+                <input
+                  type="text"
+                  placeholder="Welcome to the club"
+                  class="bacaltos-sign-up-page-text14"
+                />
+              </div>
+              <a href="{% url 'authentication' %}">
+                <img
+                src="/static/signupPage/images/left-arrow1.png"
+                alt="leftarrow15487"
+                class="bacaltos-sign-up-page2-leftarrow1"
+              />
+              </a>              
+              <span class="bacaltos-sign-up-page-text26">
+                <span>Authentication</span>
+                <br />
+                <span>Success!</span>
+              </span>
+            </div>
+            <div class="bacaltos-sign-up-page-frame4">
+              <img
+                src="/static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png"
+                alt="Screenshot20240828at100419PMremovebgpreview14361"
+                class="bacaltos-sign-up-page-screenshot20240828at100419p-mremovebgpreview1"
+              />
+              <div class="video-container">
+                <video id="bodyBoostVideo" width=auto height="100%" autoplay loop muted playsinline>
+                  <source src="{% static 'loginPage/images/BodyBoostVideo.mp4' %}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <a href="{% url 'login' %}">
+                <div class="bacaltos-sign-up-page-text30">Login</div>
+              </a>
+              <a href="{% url 'signup' %}">
+                <img
+                  alt="Rectangle34362"
+                  src="/static/signupPage/images/rectangle34362-p04m-200h.png"
+                  class="bacaltos-sign-up-page-rectangle3"
+                />
+                <div class="bacaltos-sign-up-page-text32">Sign Up</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,471 @@
+.bacaltos-sign-up-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bacaltos-sign-up-page-bacaltos-sign-up-page {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.bacaltos-sign-up-page-frame1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 832px;
+  display: flex;
+  overflow: fit;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(58, 46, 121, 1);
+}
+.bacaltos-sign-up-page-frame3 {
+  top: 0px;
+  left: 689px;
+  width: 750px;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(252, 250, 250, 1);
+}
+.bacaltos-sign-up-page-text10 {
+  top: 774px;
+  left: 140px;
+  color: rgba(58, 46, 121, 1);
+  width: 179px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-sign-up-page-facebook11 {
+  top: 766px;
+  left: 336px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-apple1 {
+  top: 766px;
+  left: 473px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-google2 {
+  top: 766px;
+  left: 404px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-frame2 {
+  top: -99px;
+  left: 685px;
+  width: 640px;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 10.199999809265137px 3px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 120px;
+  background-color: rgba(246, 240, 240, 1);
+  z-index: 4;
+}
+.bacaltos-sign-up-page-logo-purple {
+  top: 162px;
+  left: 187px;
+  width: 240px;
+  height: 114px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-group1 {
+  top: 640px;
+  left: 179px;
+  width: 287px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bacaltos-sign-up-page-rectangle2 {
+  top: 0px;
+  left: 12px;
+  width: 262px;
+  height: 50px;
+  position: absolute;
+  border-radius: 30px;
+}
+.bacaltos-sign-up-page-text12 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 21px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-sign-up-page-group2 {
+  top: 397px;
+  left: 111px;
+  width: 400px;
+  height: 228px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bacaltos-sign-up-page-line1 {
+  top: 37px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+.bacaltos-sign-up-page-line2 {
+  top: 163px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+.bacaltos-sign-up-page-text14 {
+  top: 2px;
+  left: 28px;
+  color: rgb(5, 5, 5);
+  width: 340px;
+  height: 30px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.bacaltos-sign-up-page-text16 {
+  top: 128px;
+  left: 15px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 340px;
+  height: 30px;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 20px;
+  font-style: Light;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.bacaltos-sign-up-page-line3 {
+  top: 228px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+.bacaltos-sign-up-page-padlock2 {
+  top: 190px;
+  left: 5px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-text18 {
+  top: 193px;
+  left: 15px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 340px;
+  height: 30px;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 20px;
+  font-style: Light;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.bacaltos-sign-up-page-account1 {
+  top: 0px;
+  left: 4px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-line4 {
+  top: 100px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+.bacaltos-sign-up-page-text20 {
+  top: 66px;
+  left: 15px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 340px;
+  height: 30px;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 20px;
+  font-style: Light;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+.bacaltos-sign-up-page-phonecall1 {
+  top: 63px;
+  left: 5px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-padlock11 {
+  top: 126px;
+  left: 5px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.bacaltos-sign-up-page-group3 {
+  top: 720px;
+  left: 158px;
+  width: 329px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bacaltos-sign-up-page-text22 {
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 268px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-sign-up-page-text24 {
+  left: 239px;
+  color: rgba(58, 46, 121, 1);
+  width: 90px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-sign-up-page-text26 {
+  top: 291px;
+  left: 151px;
+  color: rgba(58, 46, 121, 1);
+  width: 329px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-sign-up-page-frame4 {
+  top: 0px;
+  left: 0px;
+  width: 60%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bacaltos-sign-up-page-screenshot20240828at100419p-mremovebgpreview1 {
+  top: 340px;
+  left: 113px;
+  width: 463px;
+  height: 152px;
+  position: absolute;
+  z-index: 3;
+}
+.bacaltos-sign-up-page-rectangle3 {
+  top: 131px;
+  left: 491px;
+  width: 243px;
+  height: 69px;
+  position: absolute;
+  border-radius: 25px;
+  z-index: 3;
+}
+.bacaltos-sign-up-page-text30 {
+  top: 75px;
+  left: 510px;
+  color: rgba(255, 255, 255, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  z-index: 3;
+}
+.bacaltos-sign-up-page-text32 {
+  top: 146px;
+  left: 510px;
+  color: rgba(80, 67, 150, 0.8899999856948853);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.video-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(80, 67, 150, 0.6); /* #504396E3 with 0.89 opacity */
+  z-index: 1;
+  pointer-events: none;
+}
+
+video {
+  position: absolute;
+  z-index: 0;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bacaltos-sign-up-page2-leftarrow1 {
+  top: 125px;
+  left: 34px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}
+
+.group-2 {
+  position: absolute;
+  width: 322px;
+  height: 71px;
+  top: 480px;
+  left: 151px;
+  z-index: 5; /* Ensure it's above other elements */
+}
+
+.rectangle-2,
+.rectangle-3,
+.rectangle-4,
+.rectangle-5 {
+  width: 67px;
+  height: 71px;
+  background-color: #fdfdfde6;
+  box-shadow: -1px 4px 9px 1px #0000004c;
+  position: absolute;
+  top: 0;
+}
+
+.rectangle-2 { left: 5px; }
+.rectangle-3 { left: 90px; }
+.rectangle-4 { left: 175px; }
+.rectangle-5 { left: 260px; }
+
+
