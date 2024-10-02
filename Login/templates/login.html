@@ -1,0 +1,234 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="{% static 'loginPage/css/style.css' %}">
+    <div>
+      <link rel="stylesheet" href="{% static 'loginPage/css/login.css' %}">
+
+      <div class="bacaltos-login-page-container">
+        <div class="bacaltos-login-page-bacaltos-login-page">
+          <div class="bacaltos-login-page-frame1">
+            <div class="bacaltos-login-page-frame3">
+              <span class="bacaltos-login-page-text10">
+                <span>Or Login With:</span>
+              </span>
+              <img
+                alt="facebook111326"
+                src="static/loginPage/images/facebook111326-lv3f-200h.png"
+                class="bacaltos-login-page-facebook11"
+              />
+              <img
+                alt="apple11328"
+                src="static/loginPage/images/apple11328-lh7k-200h.png"
+                class="bacaltos-login-page-apple1"
+              />
+              <img
+                alt="google21329"
+                src="static/loginPage/images/google21329-u3ug-200h.png"
+                class="bacaltos-login-page-google2"
+              />
+            </div>
+            <div class="bacaltos-login-page-frame2">
+              <img
+                alt="logoPurple1334"
+                src="static/loginPage/images/logopurple1334-xx9k-200h.png"
+                class="bacaltos-login-page-logo-purple"
+              />
+              <form method="post" action="{% url 'home' %}">
+                {% csrf_token %}
+                <div class="bacaltos-login-page-group5">
+                  <img
+                    alt="Line11312"
+                    src="static/loginPage/images/line11312-6ae.svg"
+                    class="bacaltos-login-page-line1"
+                  />
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email/Phone Number"
+                    class="bacaltos-login-page-input"
+                    required
+                  />
+                  <img
+                    alt="account11317"
+                    src="static/loginPage/images/account11317-fo1r-200h.png"
+                    class="bacaltos-login-page-account1"
+                  />
+                </div>
+                <div class="bacaltos-login-page-group4">
+                  <img
+                    alt="Line21314"
+                    src="static/loginPage/images/line21314-biuw.svg"
+                    class="bacaltos-login-page-line2"
+                  />
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Password"
+                    class="bacaltos-login-page-password-input"
+                    required
+                  />
+                  <img
+                    alt="padlock11315"
+                    src="static/loginPage/images/padlock11315-20sp-200h.png"
+                    class="bacaltos-login-page-padlock1"
+                  />
+                </div>
+                <div class="bacaltos-login-page-group13">
+                  <button type="submit" class="bacaltos-login-page-rectangle2" style="border: none; padding: 0; background: none; cursor: pointer; width: 100%; height: 100%;">
+                    <img
+                      alt="Rectangle21319"
+                      src="static/loginPage/images/rectangle21319-q36m-200h.png"
+                      class="bacaltos-login-page-rectangle2"
+                      style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"
+                    />
+                    <div class="bacaltos-login-page-text18" style="position: relative; z-index: 1;">Login</div>
+                  </button>
+                </div>
+              </form>
+              {% if messages %}
+  <div>
+    {% for message in messages %}
+      <p style="color: red;">{{ message }}</p>
+    {% endfor %}
+  </div>
+{% endif %}
+              <a href="/forgotPassword">
+                <div class="bacaltos-login-page-text14">Forgot Password?</div>
+              </a>
+              <span class="bacaltos-login-page-text20">
+                <span>Welcome back!</span>
+                <br />
+                <span>Enter your login details.</span>
+              </span>
+            </div>
+            <div class="bacaltos-login-page-frame4">
+              <img
+                alt="Screenshot20240828at100419PMremovebgpreview11333"
+                src="static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png"
+                class="bacaltos-login-page-screenshot20240828at100419p-mremovebgpreview1"
+              />
+              <div class="video-container">
+                <video id="bodyBoostVideo" width=auto height="100%" autoplay loop muted playsinline>
+                  <source src="{% static 'loginPage/images/BodyBoostVideo.mp4' %}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+              <a href="{% url 'login' %}">
+              <img
+                alt="Rectangle34135"
+                src="static/loginPage/images/rectangle34135-lzwh-200h.png"
+                class="bacaltos-login-page-rectangle3"
+              />         
+                <div class="bacaltos-login-page-text24">Login</div>
+              </a>
+              <a href="{% url 'signup' %}">
+                <div class="bacaltos-login-page-text26">Sign Up</div>
+              </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

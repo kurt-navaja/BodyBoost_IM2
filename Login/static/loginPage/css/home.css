@@ -1,0 +1,165 @@
+.bacaltos-home-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bacaltos-home-page .frame-wrapper {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+}
+
+.bacaltos-home-page .frame {
+  position: relative;
+  height: 135px;
+  background-color: #3a2e79ed;
+  width: 100%;
+}
+
+.bacaltos-home-page .screenshot {
+  position: absolute;
+  width: 196px;
+  height: 44px;
+  top: 46px;
+  left: 110px;
+}
+
+.bacaltos-home-page .user {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 53px;
+  left: 1147px;
+  object-fit: cover;
+}
+
+.bacaltos-home-page .bell {
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  top: 53px;
+  left: 1085px;
+  object-fit: cover;
+}
+
+.bacaltos-home-page .welcome-name {
+  position: absolute;
+  width: 134px;
+  top: 40px;
+  left: 907px;
+  opacity: 0.89;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: -0.23px;
+  line-height: normal;
+}
+
+.bacaltos-home-page .group {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  top: 58px;
+  left: 321px;
+}
+
+.bacaltos-home-page .overlap-group-wrapper {
+  width: 122px;
+  height: 30px;
+}
+
+.bacaltos-home-page .overlap-group {
+  width: 120px;
+  position: relative;
+  height: 30px;
+}
+
+.bacaltos-home-page .text-wrapper {
+  position: absolute;
+  width: 118px;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  font-family: "Outfit-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: normal;
+}
+
+.bacaltos-home-page .arrow-down {
+  top: 6px;
+  left: 108px;
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  object-fit: cover;
+}
+
+.bacaltos-home-page .overlap-wrapper {
+  position: absolute;
+  width: 176px;
+  height: 30px;
+  top: 58px;
+  left: 451px;
+}
+
+.bacaltos-home-page .overlap {
+  width: 174px;
+  position: relative;
+  height: 30px;
+}
+
+.bacaltos-home-page .div {
+  position: absolute;
+  width: 171px;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  font-family: "Outfit-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  line-height: normal;
+}
+
+.bacaltos-home-page .arrow-down-1 {
+  top: 6px;
+  left: 161px;
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  object-fit: cover;
+}
+
+.bacaltos-home-page .div-wrapper {
+  position: absolute;
+  width: 179px;
+  height: 30px;
+  top: 58px;
+  left: 640px;
+}
+
+.bacaltos-home-page .overlap-2 {
+  width: 177px;
+  position: relative;
+  height: 30px;
+}
+
+.bacaltos-home-page .arrow-down-2 {
+  top: 5px;
+  left: 168px;
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  object-fit: cover;
+}
