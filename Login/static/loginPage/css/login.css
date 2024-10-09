@@ -1,0 +1,384 @@
+.bacaltos-login-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bacaltos-login-page-bacaltos-login-page {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.bacaltos-login-page-frame1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 100%;
+  display: flex;
+  overflow: fit;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(58, 46, 121, 1);
+}
+.bacaltos-login-page-frame3 {
+  top: 0px;
+  left: 60%;
+  width: 697px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(252, 250, 250, 1);
+  z-index: 4;
+}
+.bacaltos-login-page-text10 {
+  top: 82%;
+  left: 70px;
+  color: rgba(58, 46, 121, 1);
+  width: 167px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-login-page-facebook11 {
+  top: 81%;
+  left: 250px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-login-page-apple1 {
+  top: 81%;
+  left: 394px;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-login-page-google2 {
+  top: 81%;
+  left: 320px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.bacaltos-login-page-frame2 {
+  top: -99px;
+  left: 685px;
+  width: 640px;
+  height: 732px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 4px 10.199999809265137px 3px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 120px;
+  background-color: rgba(246, 240, 240, 1);
+  z-index: 4;
+}
+.bacaltos-login-page-logo-purple {
+  top: 187px;
+  left: 187px;
+  width: 240px;
+  height: 114px;
+  position: absolute;
+}
+.bacaltos-login-page-group4 {
+  top: 542px;
+  left: 116px;
+  width: 400px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.bacaltos-login-page-line2 {
+  top: 39px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+
+.bacaltos-login-page-password-input {
+  top: 4px;
+  left: 11px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 340px;
+  height: 30px;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 22px;
+  font-style: Light;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+
+.bacaltos-login-page-password-input::placeholder {
+  color: rgba(5, 5, 5, 0.8799999952316284);
+}
+
+.bacaltos-login-page-padlock1 {
+  top: 0px;
+  left: 4px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  z-index: 1;
+}
+.bacaltos-login-page-text12 {
+  top: 5px;
+  left: 33px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 106px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 22px;
+  font-style: Light;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-login-page-text14 {
+  top: 638px;
+  left: 116px;
+  color: rgba(58, 46, 121, 1);
+  width: 191px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-login-page-group5 {
+  top: 474px;
+  left: 116px;
+  width: 400px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.bacaltos-login-page-line1 {
+  top: 37px;
+  left: 50%;
+  width: 370px;
+  height: 1px;
+  position: absolute;
+  margin-left: -195px;
+}
+
+.bacaltos-login-page-input {
+  top: 2px;
+  left: 10px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 340px;
+  height: 30px;
+  opacity: 0.50;
+  position: absolute;
+  font-size: 22px;
+  font-style: Light;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+
+.bacaltos-login-page-input::placeholder {
+  color: rgba(5, 5, 5, 0.8799999952316284);
+}
+
+.bacaltos-login-page-account1 {
+  top: 0px;
+  left: 4px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  z-index: 1;
+}
+.bacaltos-login-page-group13 {
+  top: 625px;
+  left: 350px;
+  width: 174px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bacaltos-login-page-rectangle2 {
+  top: 0px;
+  left: -6px;
+  width: 159px;
+  height: 50px;
+  position: absolute;
+  border-radius: 30px;
+}
+.bacaltos-login-page-text18 {
+  top: -1px;
+  right: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-login-page-text20 {
+  top: 332px;
+  left: 151px;
+  color: rgba(58, 46, 121, 1);
+  width: 329px;
+  height: auto;
+  opacity: 0.80;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bacaltos-login-page-frame4 {
+  top: 0px;
+  left: 0px;
+  width: 60%; /* Updated width to cover more than half of the screen */
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bacaltos-login-page-screenshot20240828at100419p-mremovebgpreview1 {
+  top: 340px;
+  left: 113px;
+  width: 463px;
+  height: 152px;
+  position: absolute;
+  z-index: 2;
+}
+.bacaltos-login-page-rectangle3 {
+  top: 60px;
+  left: 495px;
+  width: 243px;
+  height: 69px;
+  position: absolute;
+  border-radius: 25px;
+  z-index: 3;
+}
+.bacaltos-login-page-text24 {
+  top: 75px;
+  left: 510px;
+  color: rgba(80, 66, 150, 0.8899999856948853);
+  width: 160px; 
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  z-index: 3;
+}
+.bacaltos-login-page-text26 {
+  top: 146px;
+  left: 510px;
+  color: rgba(255, 255, 255, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  z-index: 3;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.video-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(80, 67, 150, 0.6); /* #504396E3 with 0.89 opacity */
+  z-index: 1;
+  pointer-events: none;
+}
+
+video {
+  position: absolute;
+  z-index: 0;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
