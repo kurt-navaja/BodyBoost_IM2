@@ -4,5 +4,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("Login.urls")),
+    path("", include("Login.urls")),  # Root URL for login
+    path("signup/", include("Signup.urls")),  # Dedicated URL for signup
 ]

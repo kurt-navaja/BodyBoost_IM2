@@ -43,7 +43,7 @@
 .bacaltos-sign-up-page2-text10 {
   top: 774px;
   left: 88px;
-  color: rgba(58, 46, 121, 1);
+  color: #3a2e79;
   width: 179px;
   height: auto;
   opacity: 0.80;
@@ -102,16 +102,16 @@
 }
 .bacaltos-sign-up-page2-line1 {
   top: 423px;
-  left: 99px;
+  left: 95px;
   width: 188px;
   height: 1px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text12 {
   top: 393px;
-  left: 87px;
+  left: 90px;
   color: rgba(5, 5, 5, 0.8799999952316284);
-  width: 127px;
+  width: 190px;
   height: auto;
   opacity: 0.80;
   position: absolute;
@@ -123,19 +123,22 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-line5 {
   top: 423px;
-  left: 318px;
+  left: 317px;
   width: 188px;
   height: 1px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text14 {
   top: 393px;
-  left: 308px;
+  left: 311px;
   color: rgba(5, 5, 5, 0.8799999952316284);
-  width: 127px;
+  width: 190px;
   height: auto;
   opacity: 0.80;
   position: absolute;
@@ -147,17 +150,20 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-line7 {
   top: 543px;
-  left: 99px;
+  left: 95px;
   width: 190px;
   height: 1px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text16 {
   top: 513px;
-  left: 80px;
+  left: 89px;
   color: rgba(5, 5, 5, 0.8799999952316284);
   width: 110px;
   height: auto;
@@ -171,17 +177,20 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-line8 {
-  top: 542px;
-  left: 319px;
-  width: 188px;
+  top: 543px;
+  left: 316px;
+  width: 192px;
   height: 1px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text18 {
   top: 513px;
-  left: 306px;
+  left: 311px;
   color: rgba(5, 5, 5, 0.8799999952316284);
   width: 102px;
   height: auto;
@@ -195,17 +204,20 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-line6 {
-  top: 607px;
-  left: 97px;
+  top: 609px;
+  left: 94px;
   width: 95px;
   height: 1px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text20 {
   top: 578px;
-  left: 83px;
+  left: 90px;
   color: rgba(5, 5, 5, 0.8799999952316284);
   width: 76px;
   height: auto;
@@ -219,30 +231,35 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-line3 {
   top: 607px;
-  left: 226px;
-  width: 283px;
-  height: 2px;
+  left: 221px;
+  width: 288px;
+  height: 3px;
   position: absolute;
 }
 .bacaltos-sign-up-page2-text22 {
-  top: 578px;
-  left: 211px;
+  top: 580px;
+  left: 221px;
   color: rgba(5, 5, 5, 0.8799999952316284);
-  width: 130px;
+  width: 285px;
   height: auto;
-  opacity: 0.80;
+  opacity: 0.60;
   position: absolute;
   font-size: 20px;
   font-style: Light;
-  text-align: center;
   font-family: Outfit;
   font-weight: 300;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 .bacaltos-sign-up-page2-rectangle2 {
   top: 733px;
@@ -304,17 +321,17 @@
 }
 .bacaltos-sign-up-page2-ellipse28 {
   top: 463px;
-  left: 205px;
+  left: 206px;
   width: 21px;
   height: 21px;
   position: absolute;
-  border-color: rgba(123, 104, 104, 1);
+  border-color: #7b6868;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 .bacaltos-sign-up-page2-ellipse29 {
   top: 468px;
-  left: 210px;
+  left: 211px;
   width: 11px;
   height: 11px;
   position: absolute;
@@ -338,13 +355,13 @@
 }
 .bacaltos-sign-up-page2-ellipse30 {
   top: 463px;
-  left: 299px;
+  left: 301px;
   width: 21px;
   height: 21px;
   position: absolute;
   border-color: rgba(123, 104, 104, 1);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 .bacaltos-sign-up-page2-text32 {
   top: 461px;
@@ -365,13 +382,13 @@
 }
 .bacaltos-sign-up-page2-ellipse31 {
   top: 463px;
-  left: 413px;
+  left: 418px;
   width: 21px;
   height: 21px;
   position: absolute;
   border-color: rgba(123, 104, 104, 1);
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
 }
 .bacaltos-sign-up-page2-text34 {
   top: 575px;
@@ -578,6 +595,42 @@
   text-decoration: none;
 }
 
+.weight-unit {
+  left: 241px;
+  top: 519px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 47px;
+  height: auto;
+  opacity: 0.60;
+  position: absolute;
+  font-size: 17px;
+  font-style: Light;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.height-unit {
+  left: 460px;
+  top: 519px;
+  color: rgba(5, 5, 5, 0.8799999952316284);
+  width: 47px;
+  height: auto;
+  opacity: 0.60;
+  position: absolute;
+  font-size: 17px;
+  font-style: Light;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
 .bacaltos-sign-up-page-screenshot20240828at100419p-mremovebgpreview1 {
   top: 340px;
   left: 113px;
@@ -656,4 +709,39 @@ video {
   width: auto;
   height: 100%;
   object-fit: cover;
+}
+
+.input-firstname input,
+.input-lastname input,
+.input-weight input,
+.input-height input,
+.input-age input,
+.input-bodygoal input {
+    text-align: left;
+    padding-left: 10px; /* Optional: adds space between text and border */
+}
+
+.gender-option {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.gender-option img {
+  vertical-align: middle;
+}
+.gender-option span {
+  margin-left: 5px;
+}
+
+.checkbox-image {
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the text next to the checkboxes */
+.bacaltos-sign-up-page2-text35,
+.bacaltos-sign-up-page2-text39,
+.bacaltos-sign-up-page2-text41,
+.bacaltos-sign-up-page2-text43 {
+  cursor: pointer;
 }
