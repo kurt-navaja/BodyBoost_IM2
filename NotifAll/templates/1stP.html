@@ -1,0 +1,325 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static '/css/globals.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/styleguide.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/style.css'%}" />
+  </head>
+  <body>
+    <div class="navaja-notification">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="frame">
+              <a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" src="{% static '/images/avatar-w-photo.png'%}" /></a>
+              <div class="div">
+                <a href="{% url 'notifAll:secondPage' %}"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
+                <div class="badges"><div class="badge-label">3</div></div>
+              </div>
+              <div class="greetings">
+                <div class="text-wrapper">Welcome Back!</div>
+                <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
+              </div>
+              <a href="{% url 'notifAll:settings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
+              <div class="frame-2">
+                <img class="img" src="{% static '/images/iconsax-linear-searchnormal.png'%}" />
+                <div class="text-wrapper-2">Search</div>
+              </div>
+            </div>
+            <div class="side-bar">
+              <div class="frame-3">
+                <div class="frame-4">
+                  <div class="app-logo">
+                    <div class="frame-5">
+                      <div class="fitness">BodyBoost</div>
+                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                    </div>
+                  </div>
+                  <div class="frame-6">
+                    <button class="button">
+                      <img class="img" src="{% static '/images/dashbaord-2.png'%}" />
+                      <div class="text-wrapper-3">Overview</div>
+                    </button>
+                    <a href="{% url 'notifAll:workout' %}"><button class="button-2">
+                      <img class="img" src="{% static '/images/workout-2.png'%}" />
+                      <div class="overview">Workout</div>
+                    </button></a>
+                    <button class="button-2">
+                      <img class="img" src="{% static '/images/diet-plan-2.png'%}" />
+                      <div class="overview">Diet Plan</div>
+                    </button>
+                    <button class="button-2">
+                      <img class="img" src="{% static '/images/goal-2.png'%}" />
+                      <div class="overview">Goals</div>
+                    </button>
+                    <button class="button-2">
+                      <img class="img" src="{% static '/images/schedule-2.png'%}" />
+                      <div class="overview">My Schedule</div>
+                    </button>
+                    <button class="button-2">
+                      <img class="img" src="{% static '/images/progres-2.png'%}" />
+                      <div class="overview">Progress</div>
+                      <img class="img" src="{% static '/images/arrow-dark.png'%}" />
+                    </button>
+                    <div class="frame-7"></div>
+                  </div>
+                </div>
+                <div class="frame-8"></div>
+              </div>
+              <div class="component">
+                <img class="img" src="{% static '/images/help-2.png'%}" />
+                <div class="overview">Help</div>
+              </div>
+              <a href="{% url 'login:login' %}">
+                <button class="button-3">
+                  <img class="img" src="{% static '/images/logout-2.png'%}" />
+                  <div class="overview">Logout</div>
+                </button>
+              </a>
+            </div>
+            <img class="logo-purple" src="{% static '/images/logopurple.png'%}" />
+          </div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-2">
+              <img class="anastasia-hisel" src="{% static '/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png'%}" />
+              <div class="rectangle"></div>
+              <div class="group">
+                <div class="overlap-group-2">
+                  <div class="ellipse"></div>
+                  <div class="ellipse-2"></div>
+                </div>
+              </div>
+              <div class="frame-9">
+                <div class="text-wrapper-4">Track Your Daily Activities</div>
+                <p class="imagine-waking-up">
+                  Imagine waking up each morning knowing exactly what needs to be<br> done, with a clear sense of purpose.
+                  By tracking your daily activities,<br> you&#39;re not just jotting down tasks; you&#39;re taking control
+                  of your time,<br> energy, and future. Every step you take, no matter how small, brings you<br> closer to your
+                  goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="frame-10">
+            <div class="div-wrapper">
+              <div class="overlap-group-3">
+                <div class="frame-11">
+                  <div class="group-wrapper"><img class="group-2" src="{% static '/images/group-11.png'%}" /></div>
+                  <div class="frame-12">
+                    <div class="text-wrapper-5">Workout</div>
+                    <div class="text-wrapper-6">4 hrs</div>
+                  </div>
+                </div>
+                <img class="group-3" src="{% static '/images/group-6.png'%}" />
+              </div>
+            </div>
+            <div class="frame-13">
+              <div class="overlap-group-3">
+                <div class="frame-11">
+                  <div class="frame-wrapper"><img class="frame-14" src="{% static '/images/frame.svg'%}" /></div>
+                  <div class="frame-12">
+                    <div class="text-wrapper-5">Steps</div>
+                    <div class="text-wrapper-6">4 hrs</div>
+                  </div>
+                </div>
+                <img class="group-3" src="{% static '/images/group-6-1.png'%}" />
+              </div>
+            </div>
+            <div class="frame-15">
+              <div class="overlap-3">
+                <div class="frame-16">
+                  <div class="img-wrapper"><img class="group-4" src="{% static '/images/group-8.png'%}" /></div>
+                  <div class="frame-12">
+                    <div class="text-wrapper-5">Calories</div>
+                    <div class="text-wrapper-6">1800 kcl</div>
+                  </div>
+                </div>
+                <img class="group-5" src="{% static '/images/group-5.png'%}" />
+              </div>
+            </div>
+          </div>
+          <div class="frame-17">
+            <div class="frame-18">
+              <div class="text-wrapper-7">My Schedule</div>
+              <div class="frame-19">
+                <div class="text-wrapper-8">View All</div>
+                <img class="img" src="{% static '/images/arrow-dark-5.svg'%}" />
+              </div>
+            </div>
+            <div class="frame-20">
+              <div class="frame-21">
+                <div class="frame-22">
+                  <div class="text-wrapper-9">Monday</div>
+                  <div class="frame-23">
+                    <div class="frame-24">
+                      <div class="frame-25">
+                        <img class="group-6" src="{% static '/images/group-107-1.png'%}" />
+                        <div class="frame-26">
+                          <div class="text-wrapper-10">Stretch</div>
+                          <div class="text-wrapper-11">At 08:00</div>
+                        </div>
+                      </div>
+                      <div class="frame-27"><div class="text-wrapper-12">20 Pieces</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-21">
+                <div class="frame-22">
+                  <div class="text-wrapper-9">Tuesday</div>
+                  <div class="frame-23">
+                    <div class="frame-24">
+                      <div class="frame-25">
+                        <img class="image" src="{% static '/images/image-97.png'%}" />
+                        <div class="frame-28">
+                          <div class="text-wrapper-10">Back Stretch</div>
+                          <div class="text-wrapper-11">At 08:00</div>
+                        </div>
+                      </div>
+                      <div class="frame-29"><div class="text-wrapper-12">10 Round</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-21">
+                <div class="frame-22">
+                  <div class="text-wrapper-9">Wednesday</div>
+                  <div class="frame-23">
+                    <div class="frame-24">
+                      <div class="frame-25">
+                        <img class="image-2" src="{% static '/images/image-98.png'%}" />
+                        <div class="frame-30">
+                          <div class="text-wrapper-10">Yoga</div>
+                          <div class="text-wrapper-11">At 08:00</div>
+                        </div>
+                      </div>
+                      <div class="frame-29"><div class="text-wrapper-12">20 min</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-31">
+            <div class="frame-18">
+              <div class="text-wrapper-7">Goals</div>
+              <div class="frame-19">
+                <div class="text-wrapper-8">View All</div>
+                <img class="img" src="{% static '/images/arrow-dark-5.svg'%}" />
+              </div>
+            </div>
+            <div class="frame-20">
+              <div class="frame-20">
+                <div class="frame-21">
+                  <div class="frame-22">
+                    <div class="frame-23">
+                      <div class="frame-24">
+                        <div class="frame-25">
+                          <div class="frame-32">
+                            <div class="text-wrapper-10">Running on Track</div>
+                            <p class="text-wrapper-11">Saturday, April 14 | 08:00 AM</p>
+                          </div>
+                        </div>
+                        <div class="frame-29"><div class="text-wrapper-12">04 Rounds</div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame-20">
+                <div class="frame-21">
+                  <div class="frame-22">
+                    <div class="frame-23">
+                      <div class="frame-24">
+                        <div class="frame-25">
+                          <div class="frame-32">
+                            <div class="text-wrapper-10">Push Up</div>
+                            <p class="text-wrapper-11">Sunday, April 15 | 08:00 AM</p>
+                          </div>
+                        </div>
+                        <div class="frame-29"><div class="text-wrapper-12">50 Pieces</div></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-33">
+            <div class="frame-34">
+              <div class="frame-35"><div class="text-wrapper-13">Food</div></div>
+              <div class="frame-36"><div class="text-wrapper-13">Meal</div></div>
+              <div class="calories-wrapper"><img class="calories" src="{% static '/images/calories.png'%}" /></div>
+              <div class="frame-37"><div class="text-wrapper-14">Priorities</div></div>
+              <div class="frame-37"><div class="text-wrapper-13">Carbs</div></div>
+            </div>
+            <div class="frame-22">
+              <div class="frame-38">
+                <div class="frame-39">
+                  <div class="frame-40">
+                    <div class="buritto"><img class="img-2" src="{% static '/images/buritto-1.png'%}" /></div>
+                    <div class="text-wrapper-15">Burrito</div>
+                  </div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-17">Receiving</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-18">01:00 AM</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
+                </div>
+              </div>
+              <div class="frame-38">
+                <div class="frame-39">
+                  <div class="frame-40">
+                    <div class="burger"><img class="img-2" src="{% static '/images/burger-1.png'%}" /></div>
+                    <div class="text-wrapper-20">Burger</div>
+                  </div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-21">Receiving</div></div>
+                </div>
+                <div class="frame-42">
+                  <div class="frame-43"><div class="text-wrapper-17">01:00 AM</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
+                </div>
+              </div>
+              <div class="frame-44">
+                <div class="frame-39">
+                  <div class="frame-40">
+                    <div class="burger"><img class="img-2" src="{% static '/images/meat-2.png'%}" /></div>
+                    <div class="text-wrapper-20">Pizza Burger</div>
+                  </div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-17">Receiving</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-22">01:00 AM</div></div>
+                </div>
+                <div class="frame-41">
+                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

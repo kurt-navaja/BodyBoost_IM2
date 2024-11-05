@@ -1,0 +1,453 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="{% static '/css/2ndP.css'%}" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600;900&display=swap" />
+  	
+</head>
+<body>
+  	
+  	<div class="navaja-notification-and-remi">
+    		<div class="avatar-w-photo-parent">
+				<a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" alt="" src="{% static '/images/avatar-w-photo.png'%}"></a>
+      			
+      			<a href="{% url 'notifAll:firstP' %}"><img class="bell-1-icon" alt="" src="{% static '/images/bell-1.png'%}" id="bell1Icon"></a>
+      			
+      			<div class="badges">
+        				<div class="badge-label">3</div>
+      			</div>
+      			<div class="greetings">
+        				<b class="welcome-back">Welcome Back!</b>
+        				<div class="good-morning">Good  Morning</div>
+      			</div>
+      			<a href="{% url 'notifAll:settings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static '/images/iconsax-bold-setting2.png'%}"></a>
+      			
+      			<div class="iconsaxlinearsearchnormal-parent">
+        				<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/iconsax-linear-searchnormal.png'%}">
+        				
+        				<div class="search">Search</div>
+      			</div>
+    		</div>
+    		<div class="side-bar">
+      			<div class="frame-parent">
+        				<div class="app-logo-parent">
+          					<div class="app-logo">
+            						<div class="fitness-parent">
+              							<div class="fitness">BodyBoost </div>
+              							<img class="workout-bold-icon" alt="" src="{% static '/images/workout-bold-3.png'%}">
+              							
+            						</div>
+          					</div>
+          					<div class="button-parent">
+            						<div class="button">
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/dashbaord-2.png'%}">
+              							
+              							<div class="overview">Overview</div>
+            						</div>
+            						<a href="{% url 'notifAll:workout' %}">
+										<div class="button1" id="buttonContainer">
+              								<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/workout-2.png'%}">
+              							
+              								<div class="overview">Workout</div>
+            							</div>
+									</a>
+            						<div class="button1">
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/diet-plan-2.png'%}">
+              							
+              							<div class="overview">Diet Plan</div>
+            						</div>
+            						<div class="button1">
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/goal-2.png'%}">
+              							
+              							<div class="overview">Goals</div>
+            						</div>
+            						<div class="button1">
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/schedule-2.png'%}">
+              							
+              							<div class="overview">My Schedule</div>
+            						</div>
+            						<div class="button1">
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/progres-2.png'%}">
+              							
+              							<div class="overview">Progress</div>
+              							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/arrow-dark.png'%}">
+              							
+            						</div>
+            						<div class="frame-child">
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-item">
+        				</div>
+      			</div>
+      			<div class="button1">
+        				<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/help-2.png'%}">
+        				
+        				<div class="overview">Help</div>
+      			</div>
+				<a href="{% url 'login:login' %}">
+					<div class="button6">
+							<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/logout-2.png'%}">
+							<div class="overview">Logout</div>
+					</div>
+				</a>
+    		</div>
+    		<img class="logopurple-icon" alt="" src="{% static '/images/logopurple.png'%}">
+    		
+    		<div class="anastasia-hisel-tpivpdqgc20-un-parent">
+      			<img class="anastasia-hisel-tpivpdqgc20-un-icon" alt="" src="{% static '/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png'%}">
+      			
+      			<div class="frame-inner">
+      			</div>
+      			<!-- <img class="group-icon" alt="" src="Group 13.svg"> -->
+      			
+      			<div class="track-your-daily-activities-parent">
+        				<div class="track-your-daily">Track Your Daily Activities</div>
+        				<div class="imagine-waking-up">Imagine waking up each morning knowing exactly what needs to be done,<br> 
+							with a clear sense of purpose. By tracking your daily activities, you're not<br> 
+							just jotting down tasks; you're taking control of your time, energy, and<br> 
+							future. Every step you take, no matter how small, brings you closer to your<br> 
+							goals.</div>
+      			</div>
+    		</div>
+    		<div class="frame-group">
+      			<div class="rectangle-parent">
+        				<div class="rectangle-div">
+        				</div>
+        				<div class="group-parent">
+          					<div class="rectangle-group">
+            						<div class="group-child">
+            						</div>
+            						<img class="group-item" alt="" src="{% static '/images/group-11.png'%}">
+            						
+          					</div>
+          					<div class="workout-parent">
+            						<b class="search">Workout</b>
+            						<div class="hrs">4 hrs</div>
+          					</div>
+        				</div>
+        				<img class="frame-child1" alt="" src="{% static '/images/group-6.png'%}">
+        				
+      			</div>
+      			<div class="rectangle-parent">
+        				<div class="frame-child2">
+        				</div>
+        				<div class="group-parent">
+          					<div class="rectangle-group">
+            						<div class="group-inner">
+            						</div>
+            						<img class="frame-icon" alt="" src="{% static '/images/frame.svg'%}">
+            						
+          					</div>
+          					<div class="workout-parent">
+            						<b class="search">Steps </b>
+            						<div class="hrs">4 hrs</div>
+          					</div>
+        				</div>
+        				<img class="frame-child1" alt="" src="{% static '/images/group-6-1.png'%}">
+        				
+      			</div>
+      			<div class="frame-div">
+        				<div class="frame-child4">
+        				</div>
+        				<div class="group-parent">
+          					<img class="rectangle-group" alt="" src="{% static '/images/group-8.png'%}">
+          					
+          					<div class="workout-parent">
+            						<b class="search">Calories</b>
+            						<div class="hrs">1800 kcl</div>
+          					</div>
+        				</div>
+        				<img class="frame-child6" alt="" src="{% static '/images/group-5.png'%}">
+        				
+      			</div>
+    		</div>
+    		<div class="frame-container">
+      			<div class="my-schedule-parent">
+        				<b class="my-schedule">My Schedule</b>
+        				<div class="view-all-parent">
+          					<div class="view-all">View All</div>
+          					<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/arrow-dark-5.svg'%}">
+          					
+        				</div>
+      			</div>
+      			<div class="frame-parent1">
+        				<div class="frame-wrapper">
+          					<div class="monday-parent">
+            						<div class="monday">Monday</div>
+            						<div class="frame-wrapper1">
+              							<div class="frame-parent2">
+                								<div class="group-107-1-parent">
+                  									<img class="group-107-1" alt="" src="{% static '/images/group-107-1.png'%}">
+                  									
+                  									<div class="stretch-parent">
+                    										<div class="stretch">Stretch</div>
+                    										<div class="at-0800">At 08:00</div>
+                  									</div>
+                								</div>
+                								<div class="pieces-wrapper">
+                  									<div class="view-all">20 Pieces</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-wrapper">
+          					<div class="monday-parent">
+            						<div class="monday">Tuesday</div>
+            						<div class="frame-wrapper1">
+              							<div class="frame-parent2">
+                								<div class="image-97-parent">
+                  									<img class="image-97-icon" alt="" src="{% static '/images/image-97.png'%}">
+                  									
+                  									<div class="stretch-parent">
+                    										<div class="stretch">Back Stretch</div>
+                    										<div class="at-0800">At 08:00</div>
+                  									</div>
+                								</div>
+                								<div class="round-wrapper">
+                  									<div class="view-all">10 Round</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-wrapper">
+          					<div class="monday-parent">
+            						<div class="monday">Wednesday</div>
+            						<div class="frame-wrapper1">
+              							<div class="frame-parent2">
+                								<div class="image-98-parent">
+                  									<img class="image-98-icon" alt="" src="{% static '/images/image-98.png'%}">
+                  									
+                  									<div class="stretch-parent">
+                    										<div class="stretch">Yoga</div>
+                    										<div class="at-0800">At 08:00</div>
+                  									</div>
+                								</div>
+                								<div class="round-wrapper">
+                  									<div class="view-all">20 min</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="frame-parent5">
+      			<div class="my-schedule-parent">
+        				<b class="my-schedule">Goals</b>
+        				<div class="view-all-parent">
+          					<div class="view-all">View All</div>
+          					<img class="iconsaxlinearsearchnormal" alt="" src="{% static '/images/arrow-dark-5.svg'%}">
+          					
+        				</div>
+      			</div>
+      			<div class="frame-parent6">
+        				<div class="frame-wrapper6">
+          					<div class="frame-wrapper">
+            						<div class="frame-wrapper8">
+              							<div class="frame-wrapper8">
+                								<div class="frame-parent2">
+                  									<div class="frame-wrapper10">
+                    										<div class="stretch-parent">
+                      											<div class="stretch">Running on Track</div>
+                      											<div class="at-0800">Saturday, April 14 | 08:00 AM</div>
+                    										</div>
+                  									</div>
+                  									<div class="round-wrapper">
+                    										<div class="view-all">04 Rounds</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-wrapper6">
+          					<div class="frame-wrapper">
+            						<div class="frame-wrapper8">
+              							<div class="frame-wrapper8">
+                								<div class="frame-parent2">
+                  									<div class="frame-wrapper10">
+                    										<div class="stretch-parent">
+                      											<div class="stretch">Push Up</div>
+                      											<div class="at-0800">Sunday, April 15 | 08:00 AM</div>
+                    										</div>
+                  									</div>
+                  									<div class="round-wrapper">
+                    										<div class="view-all">50 Pieces</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="frame-parent9">
+      			<div class="frame-parent10">
+        				<div class="food-wrapper">
+          					<b class="search">Food</b>
+        				</div>
+        				<div class="meal-wrapper">
+          					<b class="search">Meal</b>
+        				</div>
+        				<div class="meal-wrapper">
+          					<b class="search">Calories</b>
+        				</div>
+        				<div class="priorities-wrapper">
+          					<b class="search">Priorities</b>
+        				</div>
+        				<div class="priorities-wrapper">
+          					<b class="search">Carbs</b>
+        				</div>
+      			</div>
+      			<div class="monday-parent">
+        				<div class="frame-parent12">
+          					<div class="frame-wrapper16">
+            						<div class="buritto-parent">
+              							<img class="buritto-icon" alt="" src="{% static '/images/buritto-1.png'%}">
+              							
+              							<b class="burrito">Burrito</b>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper17">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">Pizza Burger</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper18">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">Receiving</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper18">
+            						<div class="pizza-burger-wrapper">
+              							<div class="am">01:00 AM</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper20">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">20 gm</div>
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-parent12">
+          					<div class="frame-wrapper16">
+            						<div class="buritto-parent">
+              							<img class="buritto-icon" alt="" src="{% static '/images/burger-1.png'%}">
+              							
+              							<div class="burger">Burger</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper17">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">Pizza Burger</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper18">
+            						<div class="pizza-burger-wrapper">
+              							<div class="receiving1">Receiving</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper24">
+            						<div class="am-container">
+              							<div class="pizza-burger">01:00 AM</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper20">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">20 gm</div>
+            						</div>
+          					</div>
+        				</div>
+        				<div class="frame-parent14">
+          					<div class="frame-wrapper16">
+            						<div class="buritto-parent">
+              							<img class="buritto-icon" alt="" src="{% static '/images/meat-2.png'%}">
+              							
+              							<div class="burger">Pizza Burger</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper17">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">Pizza Burger</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper18">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">Receiving</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper18">
+            						<div class="pizza-burger-wrapper">
+              							<div class="am2">01:00 AM</div>
+            						</div>
+          					</div>
+          					<div class="frame-wrapper20">
+            						<div class="pizza-burger-wrapper">
+              							<div class="pizza-burger">20 gm</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="notif-bar">
+      			<img class="notif-bar-child" alt="" src="{% static '/images/Polygon 1.png'%}">
+      			
+      			<div class="notif-bar-item">
+      			</div>
+      			<div class="div">_______________________________________</div>
+      			<div class="keep-it-up-container">
+        				<p class="keep-it-up">Keep It Up!</p>
+        				<p class="great-job-users-name-keep">
+          					<span class="great-job">Great job, </span>
+          					<span class="users-name">{{ user.first_name }}</span>
+          					<span class="keep-going">! Keep going!</span>
+        				</p>
+      			</div>
+      			<div class="meal-time-time-container">
+        				<p class="keep-it-up">Meal Time!</p>
+        				<p class="keep-it-up">Time for a healthy meal, </p>
+        				<p class="great-job-users-name-keep">
+          					<span class="users-name1">[User's Name]</span>
+          					<span class="keep-going">. Enjoy!</span>
+        				</p>
+      			</div>
+      			<div class="div1">_______________________________________</div>
+      			<div class="div2">_______________________________________</div>
+      			<div class="div3">_______________________________________</div>
+      			<div class="workout-time-hey-container">
+        				<p class="keep-it-up">Workout Time!</p>
+        				<p class="great-job-users-name-keep">
+          					<span class="keep-going">Hey </span>
+          					<span class="users-name">[User's Name]</span>
+          					<span class="great-job">, it’s time for your workout. Let’s go!</span>
+        				</p>
+      			</div>
+      			<div class="notifications">Notifications</div>
+      			<img class="rimore-2-fill-icon" alt="" src="{% static '/images/3dots.png'%}">
+      			
+      			<div class="see-more">See more...</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var bell1Icon = document.getElementById("bell1Icon");
+    		if(bell1Icon) {
+      			bell1Icon.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}</script></body>
+</html>

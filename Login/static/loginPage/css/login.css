@@ -114,7 +114,7 @@
 .bacaltos-login-page-line2 {
   top: 39px;
   left: 50%;
-  width: 370px;
+  width: 390px;
   height: 1px;
   position: absolute;
   margin-left: -195px;
@@ -202,7 +202,7 @@
 .bacaltos-login-page-line1 {
   top: 37px;
   left: 50%;
-  width: 370px;
+  width: 390px;
   height: 1px;
   position: absolute;
   margin-left: -195px;
@@ -261,7 +261,7 @@
   border-radius: 30px;
 }
 .bacaltos-login-page-text18 {
-  top: -1px;
+  top: -2px;
   right: 0px;
   color: rgba(255, 255, 255, 1);
   width: 174px;
@@ -381,4 +381,18 @@ video {
   width: auto;
   height: 100%;
   object-fit: cover;
+}
+
+.error-message {
+  margin: 0;
+  text-align: center;
+  z-index: 4;
+  color: rgb(255, 47, 0);
+  font-size: 0.75em;
+  position: absolute;
+  white-space: nowrap;
+  left: -10px;
+  width: 100%;
+  margin-top: 100px;
+  top: 496px;       
 }

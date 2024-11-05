@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     "Signup",
     "Login",
+    "NotifAll",
+    "fitness",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -165,3 +167,9 @@ LOGGING = {
         },
     },
 }
+
+import logging
+logger = logging.getLogger(__name__)
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+logger.info(f"Message storage backend: {MESSAGE_STORAGE}")

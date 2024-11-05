@@ -26,6 +26,30 @@ class CustomUser(AbstractBaseUser):
     email = models.EmailField(unique=True)
     phone_number = models.CharField(max_length=15, blank=True, null=True)
     is_active = models.BooleanField(default=True)
+    first_name = models.CharField(max_length=30, blank=True)
+    last_name = models.CharField(max_length=30, blank=True)
+    weight = models.FloatField(blank=True, null=True)
+    height = models.FloatField(blank=True, null=True)
+    age = models.IntegerField(blank=True, null=True)
+    
+    GENDER_CHOICES = [
+        ('male', 'Male'),
+        ('female', 'Female'),
+        ('other', 'Other')
+    ]
+    gender = models.CharField(max_length=10, choices=GENDER_CHOICES, blank=True)
+    
+    BODY_GOAL_CHOICES = [
+        ('victoria-secret-thin', 'Victoria-Secret Thin'),
+        ('slim', 'Slim'),
+        ('muscular', 'Muscular'),
+        ('athletic', 'Athletic'),
+        ('sumo-wrestler', 'Sumo Wrestler'),
+    ]
+    body_goal = models.CharField(max_length=30, choices=BODY_GOAL_CHOICES, blank=True)
+    
+    receive_emails = models.BooleanField(default=False)
+    agree_to_terms = models.BooleanField(default=False)
 
     objects = CustomUserManager()
 

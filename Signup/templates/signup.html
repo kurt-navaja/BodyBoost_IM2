@@ -143,7 +143,7 @@
             </div>
             <div class="bacaltos-sign-up-page-frame2">
               <img src="{% static 'signupPage/images/logopurple4350-j51-200h.png' %}" alt="logoPurple4350" class="bacaltos-sign-up-page-logo-purple">
-              <form method="POST" action="{% url 'signup' %}">
+              <form method="POST" action="{% url 'signup:signup' %}">
                 {% csrf_token %}
                 <div class="bacaltos-sign-up-page-group2">
                   <img alt="Line14351" src="{% static 'signupPage/images/line14351-6xxa.svg' %}" class="bacaltos-sign-up-page-line1" />
@@ -210,7 +210,7 @@
                 <span class="bacaltos-sign-up-page-text22">
                   <span>Already have an account?</span>
                 </span>
-                <a href="{% url 'login' %}">
+                <a href="{% url 'login:login' %}">
                   <div class="bacaltos-sign-up-page-text24">Login</div>
                 </a>
               </div>
@@ -232,10 +232,10 @@
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <a href="{% url 'login' %}">
+              <a href="{% url 'login:login' %}">
                 <div class="bacaltos-sign-up-page-text30">Login</div>
               </a>
-              <a href="{% url 'signup' %}">
+              <a href="{% url 'signup:signup' %}">
                 <img
                   alt="Rectangle34362"
                   src="/static/signupPage/images/rectangle34362-p04m-200h.png"

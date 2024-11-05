@@ -1,0 +1,244 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet"  href="{% static '/css/workout.css'%}" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" />
+  	
+</head>
+<body>
+  	
+    <div class="navaja-exercise-library-with">
+        <div class="homepage-banner-mob-btg-with"> 
+            <video controls autoplay muted loop width="100%">
+                <source src="{% static 'video/workout.mp4' %}" type="video/mp4">
+            </video>
+        </div>
+        <div class="logopurple-parent">
+            <img class="logopurple-icon" alt="" src="{% static 'images/logoPurpleB.png'%}">
+            <div class="frame-child"></div>
+            <b class="sign-up" id="signUpText">Sign Up!</b>
+            <b class="describe-yourself">Describe yourself</b>
+    
+            <form method="POST" action="{% url 'notifAll:save_workout_preferences' %}">
+                {% csrf_token %}
+            
+                <!-- Body Type -->
+                <div class="bodytype">
+                    <div class="body-type">Body Type</div>
+                    <label class="radio-label">
+                        <input type="radio" name="bodyType" value="slim">
+                        <span>Slim</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="bodyType" value="muscular">
+                        <span>Muscular</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="bodyType" value="large">
+                        <span>Large</span>
+                    </label>
+                    <button type="button" class="clear" onclick="clearSelection('bodyType')" style="display: none;">Clear Answer</button>
+                </div>
+            
+                <!-- Fitness Goal -->
+                <div class="fitness-goal">
+                    <div class="fitness-goal1">Fitness Goal</div>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessGoal" value="build-muscle">
+                        <span>Build Muscle</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessGoal" value="lose-weight">
+                        <span>Lose Weight</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessGoal" value="maintain-fitness">
+                        <span>Maintain Fitness</span>
+                    </label>
+                    <button type="button" class="clear" onclick="clearSelection('fitnessGoal')" style="display: none;">Clear Answer</button>
+                </div>
+            
+                <!-- Current Fitness Level -->
+                <div class="ellipse-parent">
+                    <div class="current-fitness-level">Current Fitness Level</div>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessLevel" value="beginner">
+                        <span>Beginner</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessLevel" value="intermediate">
+                        <span>Intermediate</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="fitnessLevel" value="advanced">
+                        <span>Advanced</span>
+                    </label>
+                    <button type="button" class="clear" onclick="clearSelection('fitnessLevel')" style="display: none;">Clear Answer</button>
+                </div>
+            
+                <!-- Preferred Workout Style -->
+                <div class="preffered-workout">
+                    <div class="preferred-workout-style">Preferred Workout Style</div>
+                    <label class="radio-label">
+                        <input type="radio" name="workoutStyle" value="strength-training">
+                        <span>Strength Training</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="workoutStyle" value="cardio">
+                        <span>Cardio</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="workoutStyle" value="flexibility-yoga">
+                        <span>Flexibility/Yoga</span>
+                    </label>
+                    <button type="button" class="clear" onclick="clearSelection('workoutStyle')" style="display: none;">Clear Answer</button>
+                </div>
+            
+                <!-- Health Concerns (Text Input) -->
+                <div class="health-concerns">
+                    <div class="health-concerns1">Health Concerns</div>
+                    <input type="text" id="healthConcernsInput" name="healthConcerns" placeholder="e.g., back pain, knee issues" style="width: 100%;">
+                </div>
+            
+                <!-- Next Button -->
+                <div class="next" id="nextContainer">
+                    <button type="submit" class="next1">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="avatar-w-photo-parent">
+        <a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
+        
+        <a href="{% url 'notifAll:secondPage'%}"><img class="bell-1-icon" alt="" src="{% static 'images/bell-1.png'%}" id="bell1Icon"></a>
+        
+        <div class="badges">
+            <div class="badge-label">3</div>
+        </div>
+        <div class="greetings">
+            <b class="welcome-back">Welcome Back!</b>
+            <div class="good-morning">Good  Morning</div>
+        </div>
+        <a href="{% url 'notifAll:settings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
+        
+        <div class="iconsaxlinearsearchnormal-parent">
+            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/iconsax-linear-searchnormal.png'%}">
+            <div class="search">Search</div>
+        </div>
+    </div>
+    <div class="side-bar">
+        <div class="frame-parent">
+            <div class="app-logo-parent">
+                <div class="app-logo">
+                    <div class="fitness-parent">
+                        <div class="fitness">BodyBoost </div>
+                        <img class="workout-bold-icon" alt="" src="{% static 'images/logoPurple.png'%}">
+                    </div>
+                </div>
+                <div class="button-parent">
+                    <a href="{% url 'notifAll:firstP' %}">
+                        <div class="button" id="buttonContainer">
+                            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/dashboardGrey.png'%}">
+                            <div class="overview">Overview</div>
+                        </div>
+                    </a>
+                    <div class="button1">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/workout_white.png'%}">
+                        <div class="overview">Workout</div>
+                    </div>
+                    <div class="button2">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/diet-plan-2.png'%}">
+                        <div class="overview">Diet Plan</div>
+                    </div>
+                    <div class="button2">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/goal-2.png'%}">
+                        <div class="overview">Goals</div>
+                    </div>
+                    <div class="button2">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/schedule-2.png'%}">
+                        <div class="overview">My Schedule</div>
+                    </div>
+                    <div class="button2">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/progres-2.png'%}">
+                        <div class="overview">Progress</div>
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/arrow-dark.png'%}">
+                    </div>
+                    <div class="frame-item">
+                    </div>
+                </div>
+            </div>
+            <div class="frame-inner">
+            </div>
+        </div>
+        <div class="button2">
+            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/help-2.png'%}">
+            <div class="overview">Help</div>
+        </div>
+        <a href="{% url 'login:login' %}">
+            <div class="button6">
+                <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
+                <div class="overview">Logout</div>
+            </div>
+        </a>
+    </div>
+
+    <script>
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission for validation
+
+    // Check for empty fields except health concerns
+    const bodyType = document.querySelector('input[name="bodyType"]:checked');
+    const fitnessGoal = document.querySelector('input[name="fitnessGoal"]:checked');
+    const fitnessLevel = document.querySelector('input[name="fitnessLevel"]:checked');
+    const workoutStyle = document.querySelector('input[name="workoutStyle"]:checked');
+
+    if (!bodyType || !fitnessGoal || !fitnessLevel || !workoutStyle) {
+        alert('Please fill out all fields except health concerns.');
+        return;
+    }
+
+    // If all validations pass, submit the form
+    this.submit();
+});
+
+function clearSelection(name) {
+    const radios = document.querySelectorAll(`input[name="${name}"]`);
+    radios.forEach(function(radio) {
+        radio.checked = false; // Uncheck each radio button in the group
+    });
+    updateClearButtons(); // Update clear button visibility
+}
+
+function updateClearButtons() {
+    const fields = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
+    fields.forEach(function(field) {
+        const radios = document.querySelectorAll(`input[name="${field}"]`);
+        const clearButton = document.querySelector(`.clear[onclick*="${field}"]`);
+        if (Array.from(radios).some(radio => radio.checked)) {
+            clearButton.style.display = 'inline'; // Show the button if any radio is checked
+        } else {
+            clearButton.style.display = 'none'; // Hide the button if none are checked
+        }
+    });
+}
+
+// Add event listeners to radio buttons
+const radioGroups = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
+radioGroups.forEach(group => {
+    const radios = document.querySelectorAll(`input[name="${group}"]`);
+    radios.forEach(radio => {
+        radio.addEventListener('change', updateClearButtons); // Update clear buttons on change
+    });
+});
+
+    </script>
+</body>
+</html>

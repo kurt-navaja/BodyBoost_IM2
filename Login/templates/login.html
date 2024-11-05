@@ -97,12 +97,12 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    
   </head>
   <body>
-    <link rel="stylesheet" href="{% static 'loginPage/css/style.css' %}">
     <div>
       <link rel="stylesheet" href="{% static 'loginPage/css/login.css' %}">
-
+      
       <div class="bacaltos-login-page-container">
         <div class="bacaltos-login-page-bacaltos-login-page">
           <div class="bacaltos-login-page-frame1">
@@ -132,46 +132,30 @@
                 src="static/loginPage/images/logopurple1334-xx9k-200h.png"
                 class="bacaltos-login-page-logo-purple"
               />
-              <form method="post" action="{% url 'home' %}">
+
+              {% if messages %}
+              <div class="error-messages">
+                  {% for message in messages %}
+                      <p class="error-message">{{ message }}</p>
+                  {% endfor %}
+              </div>
+              {% endif %}
+
+              <form method="post" action="{% url 'login:login' %}">
                 {% csrf_token %}
+
                 <div class="bacaltos-login-page-group5">
-                  <img
-                    alt="Line11312"
-                    src="static/loginPage/images/line11312-6ae.svg"
-                    class="bacaltos-login-page-line1"
-                  />
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Email/Phone Number"
-                    class="bacaltos-login-page-input"
-                    required
-                  />
-                  <img
-                    alt="account11317"
-                    src="static/loginPage/images/account11317-fo1r-200h.png"
-                    class="bacaltos-login-page-account1"
-                  />
+                  <img alt="Line11312" src="static/loginPage/images/line11312-6ae.svg" class="bacaltos-login-page-line1" />
+                  <input type="text" name="email" placeholder="Email/Phone Number" class="bacaltos-login-page-input" value="{{ email }}" required />
+                  <img alt="account11317" src="static/loginPage/images/account11317-fo1r-200h.png" class="bacaltos-login-page-account1" />
                 </div>
+
                 <div class="bacaltos-login-page-group4">
-                  <img
-                    alt="Line21314"
-                    src="static/loginPage/images/line21314-biuw.svg"
-                    class="bacaltos-login-page-line2"
-                  />
-                  <input
-                    type="password"
-                    name="password"
-                    placeholder="Password"
-                    class="bacaltos-login-page-password-input"
-                    required
-                  />
-                  <img
-                    alt="padlock11315"
-                    src="static/loginPage/images/padlock11315-20sp-200h.png"
-                    class="bacaltos-login-page-padlock1"
-                  />
+                  <img alt="Line21314" src="static/loginPage/images/line21314-biuw.svg" class="bacaltos-login-page-line2" />
+                  <input type="password" name="password" placeholder="Password" class="bacaltos-login-page-password-input" required />
+                  <img alt="padlock11315" src="static/loginPage/images/padlock11315-20sp-200h.png" class="bacaltos-login-page-padlock1" />
                 </div>
+                
                 <div class="bacaltos-login-page-group13">
                   <button type="submit" class="bacaltos-login-page-rectangle2" style="border: none; padding: 0; background: none; cursor: pointer; width: 100%; height: 100%;">
                     <img
@@ -184,13 +168,7 @@
                   </button>
                 </div>
               </form>
-              {% if messages %}
-  <div>
-    {% for message in messages %}
-      <p style="color: red;">{{ message }}</p>
-    {% endfor %}
-  </div>
-{% endif %}
+
               <a href="/forgotPassword">
                 <div class="bacaltos-login-page-text14">Forgot Password?</div>
               </a>
@@ -221,10 +199,9 @@
               />         
                 <div class="bacaltos-login-page-text24">Login</div>
               </a>
-              <a href="{% url 'signup' %}">
+              <a href="{% url 'signup:signup' %}">
                 <div class="bacaltos-login-page-text26">Sign Up</div>
               </a>
-              </span>
             </div>
           </div>
         </div>
@@ -234,6 +211,8 @@
       document.addEventListener("DOMContentLoaded", function() {
         const emailInput = document.querySelector('.bacaltos-login-page-input');
         const passwordInput = document.querySelector('.bacaltos-login-page-password-input');
+        const form = document.getElementById('loginForm');
+        const errorMessageDiv = document.getElementById('prominentErrorMessage');
 
         function adjustOpacity(input) {
           if (input.value) {
@@ -250,6 +229,17 @@
         // Event listeners for input changes
         emailInput.addEventListener('input', () => adjustOpacity(emailInput));
         passwordInput.addEventListener('input', () => adjustOpacity(passwordInput));
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Simulate an AJAX request (replace this with actual AJAX in your implementation)
+          setTimeout(function() {
+            // Simulating an error for testing purposes
+            const errorMessage = "Invalid email or password. Please try again.";
+            errorMessageDiv.textContent = errorMessage;
+            errorMessageDiv.style.display = 'block';
+          }, 1000);
+        });
       });
     </script>
   </body>

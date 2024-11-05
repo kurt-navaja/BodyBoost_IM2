@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>exported project</title>
+    <title>Know Me More</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -164,7 +164,6 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="{% static 'signupPage/css/knowMore.css' %}" rel="stylesheet" />
 
@@ -181,104 +180,139 @@
               <img alt="Line65337" src="/static/signupPage/images/line14351-6xxa.svg" class="bacaltos-sign-up-page2-line6"/>
               <img alt="Line35320" src="/static/signupPage/images/line14351-6xxa.svg" class="bacaltos-sign-up-page2-line3"/>
               
-              <img 
-                src="/static/signupPage/images/logopurple4350-j51-200h.png"
-                alt="logoPurple5315"
-                class="bacaltos-sign-up-page2-logo-purple"
-              />
+              <img src="/static/signupPage/images/logopurple4350-j51-200h.png" alt="logoPurple5315" class="bacaltos-sign-up-page2-logo-purple" />
 
-              <div class="input-firstname">
-                <input type="text" name="first_name" placeholder="First Name" class="bacaltos-sign-up-page2-text12" required />
+              <form id="signupForm" action="{% url 'signup:knowMore' %}" method="POST">
+                {% csrf_token %}
+
+                <div class="input-firstname">
+                  <input type="text" id="first_name" name="first_name" placeholder="First Name" class="bacaltos-sign-up-page2-text12" required />
                 </div>
+                
                 <div class="input-lastname">
-                <input type="text" name="last_name" placeholder="Last Name" class="bacaltos-sign-up-page2-text14" required />
+                  <input type="text" id="last_name" name="last_name" placeholder="Last Name" class="bacaltos-sign-up-page2-text14" required />
                 </div>
+
                 <div class="input-weight">
-                  <input type="number" name="weight" placeholder="Weight" class="bacaltos-sign-up-page2-text16" required />
+                  <input type="number" id="weight" name="weight" placeholder="Weight" class="bacaltos-sign-up-page2-text16" required min="30" max="300" step="0.1" />
                   <span class="weight-unit">(kg)</span>
                 </div>
+                
                 <div class="input-height">
-                  <input type="number" name="height" placeholder="Height" class="bacaltos-sign-up-page2-text18" required />
+                  <input type="number" id="height" name="height" placeholder="Height" class="bacaltos-sign-up-page2-text18" required min="100" max="250" step="0.1" />
                   <span class="height-unit">(cm)</span>
                 </div>
+                
                 <div class="input-age">
-                <input type="number" name="age" placeholder="Age" class="bacaltos-sign-up-page2-text20" required />
+                  <input type="number" name="age" placeholder="Age" class="bacaltos-sign-up-page2-text20" required min="5" max="120" {% if form.age.value %}value="{{ form.age.value }}"{% endif %} />
+                  {% if form.age.errors %}
+                    <div class="error-age">{{ form.age.errors }}</div>
+                  {% endif %}
                 </div>
+                
                 <div class="input-bodygoal">
-                  <select name="body_goal" class="bacaltos-sign-up-page2-text22" required>
-                    <option value="" disabled selected>Select Body Goal</option>
-                    <option value="victoria-secret-thin">Victoria-Secret Thin</option>
-                    <option value="slim">Slim</option>
-                    <option value="muscular">Muscular</option>
-                    <option value="athletic">Athletic</option>
-                    <option value="sumo-wrestler">Sumo Wrestler</option>
+                  <select id="body_goal" name="body_goal" class="bacaltos-sign-up-page2-text22" required>
+                    <option value="" disabled {% if not form.body_goal.value %}selected{% endif %}>Select Body Goal</option>
+                    <option value="victoria-secret-thin" {% if form.body_goal.value == 'victoria-secret-thin' %}selected{% endif %}>Victoria-Secret Thin</option>
+                    <option value="slim" {% if form.body_goal.value == 'slim' %}selected{% endif %}>Slim</option>
+                    <option value="muscular" {% if form.body_goal.value == 'muscular' %}selected{% endif %}>Muscular</option>
+                    <option value="athletic" {% if form.body_goal.value == 'athletic' %}selected{% endif %}>Athletic</option>
+                    <option value="sumo-wrestler" {% if form.body_goal.value == 'sumo-wrestler' %}selected{% endif %}>Sumo Wrestler</option>
                   </select>
+                  {% if form.body_goal.errors %}
+                    <div class="error-bodygoal">{{ form.body_goal.errors }}</div>
+                  {% endif %}
                 </div>
-              <img
-                src="/static/signupPage/images/rectangle25324-8tjq-200h.png"
-                alt="Rectangle25324"
-                class="bacaltos-sign-up-page2-rectangle2"
-              />
-              <span class="bacaltos-sign-up-page2-text24">
-                <span>Register</span>
-              </span>
-              <div class="gender-selection">
-                <span class="bacaltos-sign-up-page2-text26">
-                  <span>Gender:</span>
+
+                <div class="gender-selection">
+                  <span class="bacaltos-sign-up-page2-text26">
+                    <span>Gender:</span>
+                  </span>
+                  <div class="gender-option" data-gender="male">
+                    <input type="radio" id="gender_male" name="gender" value="male" required {% if form.gender.value == 'male' %}checked{% endif %} />
+                    <label for="gender_male">
+                      <img
+                        src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
+                        alt="Male"
+                        class="gender-ellipse bacaltos-sign-up-page2-ellipse28"
+                      />
+                      <span class="bacaltos-sign-up-page2-text28">Male</span>
+                    </label>
+                  </div>
+                  <div class="gender-option" data-gender="female">
+                    <input type="radio" id="gender_female" name="gender" value="female" required {% if form.gender.value == 'female' %}checked{% endif %} />
+                    <label for="gender_female">
+                      <img
+                        src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
+                        alt="Female"
+                        class="gender-ellipse bacaltos-sign-up-page2-ellipse30"
+                      />
+                      <span class="bacaltos-sign-up-page2-text30">Female</span>
+                    </label>
+                  </div>
+                  <div class="gender-option" data-gender="other">
+                    <input type="radio" id="gender_other" name="gender" value="other" required {% if form.gender.value == 'other' %}checked{% endif %} />
+                    <label for="gender_other">
+                      <img
+                        src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
+                        alt="Other"
+                        class="gender-ellipse bacaltos-sign-up-page2-ellipse31"
+                      />
+                      <span class="bacaltos-sign-up-page2-text32">Others</span>
+                    </label>
+                  </div>
+                  {% if form.gender.errors %}
+                    <div class="error-gender">{{ form.gender.errors }}</div>
+                  {% endif %}
+                </div>
+                
+                <div class="checkbox-container">
+                  <input type="checkbox" id="receive_emails" name="receive_emails" class="hidden-checkbox" />
+                  <img
+                    src="/static/signupPage/images/rectangle55379-wfnj-200h.png"
+                    alt="Rectangle45377"
+                    class="bacaltos-sign-up-page2-rectangle4 checkbox-image"
+                    data-checked="{% if form.receive_emails.value %}true{% else %}false{% endif %}"
+                  />
+                  <label for="receive_emails" class="bacaltos-sign-up-page2-text35">
+                    <span>Yes, I want to receive BodyBoost emails</span>
+                  </label>
+                </div>
+                
+                <span class="bacaltos-sign-up-page2-text37">
+                  <span>and</span>
                 </span>
-                <div class="gender-option" data-gender="male">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="agree_terms" name="agree_terms" class="hidden-checkbox" required {% if form.agree_terms.value %}checked{% endif %} />
                   <img
-                    src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
-                    alt="Male"
-                    class="gender-ellipse bacaltos-sign-up-page2-ellipse28"
+                    src="/static/signupPage/images/rectangle55379-wfnj-200h.png"
+                    alt="Rectangle55379"
+                    class="bacaltos-sign-up-page2-rectangle5 checkbox-image"
+                    data-checked="{% if form.agree_terms.value %}true{% else %}false{% endif %}"
                   />
-                  <span class="bacaltos-sign-up-page2-text28">Male</span>
+                  <label for="agree_terms" class="bacaltos-sign-up-page2-text39">
+                    <span>I agree to all the</span>
+                  </label>
                 </div>
-                <div class="gender-option" data-gender="female">
-                  <img
-                    src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
-                    alt="Female"
-                    class="gender-ellipse bacaltos-sign-up-page2-ellipse30"
-                  />
-                  <span class="bacaltos-sign-up-page2-text30">Female</span>
-                </div>
-                <div class="gender-option" data-gender="other">
-                  <img
-                    src="/static/signupPage/images/ellipse285370-cj3o-200h.png"
-                    alt="Other"
-                    class="gender-ellipse bacaltos-sign-up-page2-ellipse31"
-                  />
-                  <span class="bacaltos-sign-up-page2-text32">Others</span>
-                </div>
+                <span class="bacaltos-sign-up-page2-text41">
+                  <span>Terms, Privacy Policy</span>
+                </span>
+                <span class="bacaltos-sign-up-page2-text43">
+                  <span>Fees</span>
+                </span>
+                {% if form.agree_terms.errors %}
+                  <div class="error-agree-terms">{{ form.agree_terms.errors }}</div>
+                {% endif %}
+                <div class="bacaltos-sign-up-page-group1">
+                  <button type="submit" class="register-button">
+                      <img src="/static/signupPage/images/rectangle24358-mj5o-200h.png" alt="Rectangle24358" class="bacaltos-sign-up-page2-rectangle2" />
+                      <div class="bacaltos-sign-up-page2-text24">Register</div>
+                  </button>
               </div>
-              <img
-          src="/static/signupPage/images/rectangle55379-wfnj-200h.png"
-          alt="Rectangle45377"
-          class="bacaltos-sign-up-page2-rectangle4 checkbox-image"
-          data-checked="false"
-        />
-        <span class="bacaltos-sign-up-page2-text35">
-          <span>Yes, I want to receive BodyBoost emails</span>
-        </span>
-        <span class="bacaltos-sign-up-page2-text37">
-          <span>and</span>
-        </span>
-        <img
-          src="/static/signupPage/images/rectangle55379-wfnj-200h.png"
-          alt="Rectangle55379"
-          class="bacaltos-sign-up-page2-rectangle5 checkbox-image"
-          data-checked="false"
-        />
-        <span class="bacaltos-sign-up-page2-text39">
-          <span>I agree to all the</span>
-        </span>
-        <span class="bacaltos-sign-up-page2-text41">
-          <span>Terms, Privacy Policy</span>
-        </span>
-        <span class="bacaltos-sign-up-page2-text43">
-          <span>Fees</span>
-        </span>
-              <a href="{% url 'signup' %}">
+          </form>
+
+
+              <a href="{% url 'signup:signup' %}">
                 <img
                 src="/static/signupPage/images/left-arrow1.png"
                 alt="leftarrow15487"
@@ -301,10 +335,10 @@
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <a href="{% url 'login' %}">
+              <a href="{% url 'login:login' %}">
                 <div class="bacaltos-sign-up-page-text30">Login</div>
               </a>
-              <a href="{% url 'signup' %}">
+              <a href="{% url 'signup:signup' %}">
                 <img
                   alt="Rectangle34362"
                   src="/static/signupPage/images/rectangle34362-p04m-200h.png"
@@ -322,7 +356,7 @@
           const genderOptions = document.querySelectorAll('.gender-option');
           const outerEllipseSrc = "/static/signupPage/images/ellipse285370-cj3o-200h.png"; // Outer unselected ellipse
           const innerEllipseSrc = "/static/signupPage/images/radio-button (1).png"; // Inner selected ellipse
-  
+
           genderOptions.forEach(option => {
               option.addEventListener('click', function() {
                   // Deselect all options
@@ -331,53 +365,89 @@
                       img.src = outerEllipseSrc; // Set to outer ellipse
                       img.classList.remove('selected'); // Remove selected styling
                   });
-  
+
                   // Select clicked option
                   const selectedImg = this.querySelector('.gender-ellipse');
                   selectedImg.src = innerEllipseSrc; // Set to inner ellipse
                   selectedImg.style.position = 'absolute';
                   
-  
+
                   // Store the selected gender if needed
                   const selectedGender = this.dataset.gender;
                   console.log('Selected gender:', selectedGender);
               });
           });
+
           const checkboxImages = document.querySelectorAll('.checkbox-image');
     const uncheckedSrc = "/static/signupPage/images/rectangle55379-wfnj-200h.png";
     const checkedSrc = "/static/signupPage/images/check-box.png";
 
     checkboxImages.forEach(checkbox => {
-        const toggleCheckbox = () => {
+        // Initialize checkbox state based on hidden input
+        const hiddenInput = checkbox.previousElementSibling;
+        const initialState = hiddenInput.checked;
+        checkbox.src = initialState ? checkedSrc : uncheckedSrc;
+        checkbox.setAttribute('data-checked', initialState);
+
+        const toggleCheckbox = (event) => {
+            event.preventDefault(); // Prevent any default behavior
+            
             const isChecked = checkbox.getAttribute('data-checked') === 'true';
-            checkbox.src = isChecked ? uncheckedSrc : checkedSrc;
-            checkbox.setAttribute('data-checked', !isChecked);
-            console.log(`Checkbox ${checkbox.classList[0]} is now ${!isChecked ? 'checked' : 'unchecked'}`);
+            const newState = !isChecked;
+            
+            // Update the image
+            checkbox.src = newState ? checkedSrc : uncheckedSrc;
+            checkbox.setAttribute('data-checked', newState);
+            
+            // Update the hidden input
+            const hiddenCheckbox = checkbox.previousElementSibling;
+            hiddenCheckbox.checked = newState;
+            
+            // Update styles
+            checkbox.style.width = '16px';
+            checkbox.style.height = '16px';
+            checkbox.style.position = 'absolute';
+            
+            console.log(`Checkbox ${checkbox.classList[0]} is now ${newState ? 'checked' : 'unchecked'}`);
         };
 
+        // Remove old event listeners if any
+        checkbox.removeEventListener('click', toggleCheckbox);
+        
+        // Add new click event listener to the checkbox image
         checkbox.addEventListener('click', toggleCheckbox);
 
-        // Add click event to the associated text
+        // Handle clicks on associated text elements
         const textElement = checkbox.nextElementSibling;
-        if (textElement && (textElement.classList.contains('bacaltos-sign-up-page2-text35') || 
-                            textElement.classList.contains('bacaltos-sign-up-page2-text39'))) {
+        if (textElement) {
+            textElement.removeEventListener('click', toggleCheckbox);
             textElement.addEventListener('click', toggleCheckbox);
+
+            // Handle additional text elements
+            const additionalTextElements = [
+                textElement.nextElementSibling,
+                textElement.nextElementSibling?.nextElementSibling
+            ];
+
+            additionalTextElements.forEach(element => {
+                if (element && (element.classList.contains('bacaltos-sign-up-page2-text41') || 
+                              element.classList.contains('bacaltos-sign-up-page2-text43'))) {
+                    element.removeEventListener('click', toggleCheckbox);
+                    element.addEventListener('click', toggleCheckbox);
+                }
+            });
         }
-
-        // Check for additional text elements that should be clickable
-        const additionalTextElements = [
-            textElement.nextElementSibling,
-            textElement.nextElementSibling?.nextElementSibling
-        ];
-
-        additionalTextElements.forEach(element => {
-            if (element && (element.classList.contains('bacaltos-sign-up-page2-text41') || 
-                            element.classList.contains('bacaltos-sign-up-page2-text43'))) {
-                element.addEventListener('click', toggleCheckbox);
-            }
-        });
     });
-});
-    </script>
+
+          // Form validation
+          const form = document.getElementById('signupForm');
+          form.addEventListener('submit', function(event) {
+              if (!form.checkValidity()) {
+                  event.preventDefault();
+                  alert('Please fill out all required fields correctly.');
+              }
+          });
+      });
+  </script>
   </body>
 </html>
