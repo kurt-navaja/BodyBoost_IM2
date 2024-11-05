@@ -10750,3 +10750,795 @@ INFO 2024-11-05 20:31:54,235 basehttp "GET /static/css/style.css HTTP/1.1" 304 0
 INFO 2024-11-05 20:31:55,906 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18844
 INFO 2024-11-05 20:31:56,881 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
 INFO 2024-11-05 20:31:57,676 basehttp - Broken pipe from ('127.0.0.1', 61188)
+INFO 2024-11-05 14:53:51,199 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 14:53:55,420 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 14:53:55,492 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-05 14:53:55,493 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-11-05 14:53:55,495 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-05 14:53:55,495 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-05 14:53:55,497 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 170
+INFO 2024-11-05 14:53:55,498 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-11-05 14:53:55,500 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 170
+INFO 2024-11-05 14:53:55,505 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-11-05 14:53:55,506 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-11-05 14:53:55,508 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-05 14:53:55,510 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-11-05 15:07:58,293 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-05 15:07:58,339 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 200 15032
+INFO 2024-11-05 15:07:58,341 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-05 15:07:58,342 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-05 15:07:58,344 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 200 844
+INFO 2024-11-05 15:07:58,344 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 200 170
+INFO 2024-11-05 15:07:58,345 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-05 15:07:58,347 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 200 170
+INFO 2024-11-05 15:07:58,348 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 200 170
+INFO 2024-11-05 15:07:58,348 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 200 170
+INFO 2024-11-05 15:07:58,350 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 200 328
+INFO 2024-11-05 15:07:58,350 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 200 331
+INFO 2024-11-05 15:07:58,350 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 200 450
+INFO 2024-11-05 15:07:58,351 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 200 720
+INFO 2024-11-05 15:07:58,352 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 200 379
+INFO 2024-11-05 15:07:58,353 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-05 15:07:58,353 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 200 299
+INFO 2024-11-05 15:07:58,860 basehttp "GET /static/loginPage/images/BodyBoostVideo.mp4 HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:14,843 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['bllXk9RVUkWAP80Zfad7vRdkdPCd5UCkDaoqvahroN12aiEyy2A9v22upcC4PQgI'], 'email': ['asaphbacaltos@gmail.com'], 'password1': ['asaph795573'], 'password2': ['asaph795573'], 'phone_number': ['09682231595']}>
+ERROR 2024-11-05 15:08:14,876 views Form validation failed. Errors: <ul class="errorlist"><li>email<ul class="errorlist"><li>This email is already in use.</li></ul></li></ul>
+INFO 2024-11-05 15:08:14,877 basehttp "POST /signup/signup/ HTTP/1.1" 200 11778
+INFO 2024-11-05 15:08:14,881 basehttp - Broken pipe from ('127.0.0.1', 56072)
+INFO 2024-11-05 15:08:25,726 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['ySvcKIHxWkrcbhTN0gcYjxU8eQRVHggT0HyFVJ73qNwEwrxmj8z0jIJiqdRMrcUh'], 'email': ['asaphbacaltos1@gmail.com'], 'password1': ['asaph795573'], 'password2': ['asaph795573'], 'phone_number': ['09682231595']}>
+INFO 2024-11-05 15:08:25,904 views User asaphbacaltos1@gmail.com saved to the database.
+INFO 2024-11-05 15:08:25,908 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:08:25,914 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-11-05 15:08:25,920 basehttp - Broken pipe from ('127.0.0.1', 56083)
+INFO 2024-11-05 15:08:25,951 basehttp "GET /static/signupPage/css/authenticationSuccess.css HTTP/1.1" 200 8939
+INFO 2024-11-05 15:08:27,187 views Existing user profile found for user asaphbacaltos1@gmail.com
+INFO 2024-11-05 15:08:27,192 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-11-05 15:08:27,225 basehttp "GET /static/signupPage/css/knowMore.css HTTP/1.1" 200 14782
+INFO 2024-11-05 15:08:31,427 basehttp "GET /static/signupPage/images/radio-button%20(1).png HTTP/1.1" 200 12112
+INFO 2024-11-05 15:08:37,357 basehttp "GET /static/signupPage/images/check-box.png HTTP/1.1" 200 4748
+INFO 2024-11-05 15:08:40,280 views Existing user profile found for user asaphbacaltos1@gmail.com
+INFO 2024-11-05 15:08:40,285 views Additional information saved for user asaphbacaltos1@gmail.com
+INFO 2024-11-05 15:08:40,289 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:08:40,298 basehttp "GET / HTTP/1.1" 200 10987
+INFO 2024-11-05 15:08:40,335 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,335 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,337 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,340 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,342 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,345 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,345 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,345 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,347 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,347 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:40,348 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:08:58,187 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-05 15:08:58,306 basehttp - Broken pipe from ('127.0.0.1', 54618)
+INFO 2024-11-05 15:09:07,838 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 15:09:08,978 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:09:27,210 basehttp - Broken pipe from ('127.0.0.1', 56086)
+INFO 2024-11-05 15:09:27,228 basehttp "POST /forgotPassword/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:09:27,245 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10397
+INFO 2024-11-05 15:09:40,319 basehttp - Broken pipe from ('127.0.0.1', 56094)
+INFO 2024-11-05 15:09:51,827 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+ERROR 2024-11-05 15:09:51,858 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:09:51,862 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119562
+INFO 2024-11-05 15:09:58,196 basehttp - Broken pipe from ('127.0.0.1', 56097)
+INFO 2024-11-05 15:10:05,266 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:10:05,278 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:10:07,854 basehttp - Broken pipe from ('127.0.0.1', 56098)
+INFO 2024-11-05 15:10:08,989 basehttp - Broken pipe from ('127.0.0.1', 56096)
+INFO 2024-11-05 15:10:27,178 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-05 15:10:27,220 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,220 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,224 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,225 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,225 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,227 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,227 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,228 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,229 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,229 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,229 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,231 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,231 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,234 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,235 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,235 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:10:27,269 basehttp - Broken pipe from ('127.0.0.1', 56101)
+INFO 2024-11-05 15:10:28,938 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 15:10:30,596 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:10:36,360 basehttp "POST /forgotPassword/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:10:36,370 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10397
+INFO 2024-11-05 15:11:05,304 basehttp - Broken pipe from ('127.0.0.1', 56108)
+INFO 2024-11-05 15:11:05,477 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+ERROR 2024-11-05 15:11:05,497 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:11:05,498 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119562
+INFO 2024-11-05 15:11:21,733 basehttp - Broken pipe from ('127.0.0.1', 56128)
+INFO 2024-11-05 15:11:21,739 basehttp - Broken pipe from ('127.0.0.1', 56121)
+INFO 2024-11-05 15:11:30,614 basehttp - Broken pipe from ('127.0.0.1', 56127)
+INFO 2024-11-05 15:11:36,412 basehttp - Broken pipe from ('127.0.0.1', 56129)
+INFO 2024-11-05 15:12:05,516 basehttp - Broken pipe from ('127.0.0.1', 56130)
+INFO 2024-11-05 15:15:58,377 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py changed, reloading.
+INFO 2024-11-05 15:15:58,794 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:16:36,324 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/forms.py changed, reloading.
+INFO 2024-11-05 15:16:36,716 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:16:54,037 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/forms.py changed, reloading.
+INFO 2024-11-05 15:16:54,400 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:17:03,585 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/forms.py changed, reloading.
+INFO 2024-11-05 15:17:03,945 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:17:32,395 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py changed, reloading.
+INFO 2024-11-05 15:17:32,793 autoreload Watching for file changes with StatReloader
+ERROR 2024-11-05 15:18:11,185 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:18:11,190 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119531
+ERROR 2024-11-05 15:18:12,088 log Internal Server Error: /forgotPassword2/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 76, in forgot_password_2_view
+    return redirect('forgotPassword')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgotPassword' not found. 'forgotPassword' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:18:12,089 basehttp "GET /forgotPassword2/ HTTP/1.1" 500 83475
+ERROR 2024-11-05 15:18:12,845 log Internal Server Error: /forgotPassword/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 70, in forgot_password_view
+    return render(request, 'forgotPassword.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgotPassword' not found. 'forgotPassword' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:18:12,846 basehttp "GET /forgotPassword/ HTTP/1.1" 500 121864
+INFO 2024-11-05 15:18:13,630 basehttp "GET / HTTP/1.1" 200 11000
+INFO 2024-11-05 15:18:20,393 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 15:18:20,412 basehttp - Broken pipe from ('127.0.0.1', 56303)
+INFO 2024-11-05 15:18:20,465 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,465 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,468 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,468 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,469 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,470 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,470 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,471 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,471 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,471 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:18:20,471 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 304 0
+ERROR 2024-11-05 15:18:22,764 log Internal Server Error: /forgotPassword/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 70, in forgot_password_view
+    return render(request, 'forgotPassword.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgotPassword' not found. 'forgotPassword' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:18:22,767 basehttp "GET /forgotPassword/ HTTP/1.1" 500 121995
+INFO 2024-11-05 15:19:20,510 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:19:20,611 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,611 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,611 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,611 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,613 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,613 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,614 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:20,614 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:19:22,778 basehttp - Broken pipe from ('127.0.0.1', 56314)
+INFO 2024-11-05 15:20:28,929 basehttp "GET /static/loginPage/images/BodyBoostVideo.mp4 HTTP/1.1" 200 56978826
+ERROR 2024-11-05 15:20:34,101 log Internal Server Error: /forgotPassword/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 68, in forgot_password_view
+    return redirect('forgotPassword2')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgotPassword2' not found. 'forgotPassword2' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:20:34,103 basehttp "POST /forgotPassword/ HTTP/1.1" 500 84978
+INFO 2024-11-05 15:21:10,044 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py changed, reloading.
+INFO 2024-11-05 15:21:10,418 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:21:20,606 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/forms.py changed, reloading.
+INFO 2024-11-05 15:21:20,899 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:21:44,361 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py changed, reloading.
+INFO 2024-11-05 15:21:44,680 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:21:49,955 basehttp "POST /forgotPassword/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:21:49,988 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10397
+INFO 2024-11-05 15:21:50,063 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:21:50,063 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:21:50,101 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:21:50,102 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:21:50,103 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:21:54,989 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py changed, reloading.
+INFO 2024-11-05 15:21:55,441 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:21:55,932 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10095
+INFO 2024-11-05 15:21:58,452 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10095
+INFO 2024-11-05 15:21:58,457 basehttp - Broken pipe from ('127.0.0.1', 56405)
+INFO 2024-11-05 15:22:04,029 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:22:04,040 basehttp - Broken pipe from ('127.0.0.1', 56412)
+ERROR 2024-11-05 15:22:05,495 log Internal Server Error: /forgotPassword/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 68, in forgot_password_view
+    return redirect('forgotPassword2')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forgotPassword2' not found. 'forgotPassword2' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:22:05,497 basehttp "POST /forgotPassword/ HTTP/1.1" 500 84978
+INFO 2024-11-05 15:22:05,500 basehttp - Broken pipe from ('127.0.0.1', 56414)
+INFO 2024-11-05 15:22:11,837 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py changed, reloading.
+INFO 2024-11-05 15:22:12,178 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:22:21,489 basehttp "POST /forgotPassword/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:22:21,521 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10397
+INFO 2024-11-05 15:22:30,653 basehttp "POST /forgotPassword2/ HTTP/1.1" 200 10335
+INFO 2024-11-05 15:22:30,668 basehttp - Broken pipe from ('127.0.0.1', 56445)
+INFO 2024-11-05 15:22:40,199 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+ERROR 2024-11-05 15:22:40,232 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:22:40,234 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119562
+INFO 2024-11-05 15:22:40,237 basehttp - Broken pipe from ('127.0.0.1', 56451)
+ERROR 2024-11-05 15:26:40,312 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:26:40,318 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119562
+INFO 2024-11-05 15:26:57,051 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:26:57,065 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:26:57,078 basehttp - Broken pipe from ('127.0.0.1', 56657)
+INFO 2024-11-05 15:26:57,107 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,108 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,108 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,111 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,112 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,112 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,113 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,114 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:26:57,114 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,581 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-05 15:27:18,614 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,615 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,615 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,621 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,622 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,623 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,645 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:18,646 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:22,503 basehttp - Broken pipe from ('127.0.0.1', 56670)
+INFO 2024-11-05 15:27:45,386 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['eJRFtgfItWCtNsTjtmfBzRtTyBB1wLt82eNCpWvFPztHJc4xU2lcO2J6Fbqfdzp3'], 'email': ['asaphbacaltos2@gmail.com'], 'password1': ['idkwhattoput'], 'password2': ['idkwhatotput'], 'phone_number': ['09682231595']}>
+ERROR 2024-11-05 15:27:45,409 views Form validation failed. Errors: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The two password fields didn’t match.</li></ul></li></ul>
+INFO 2024-11-05 15:27:45,411 basehttp "POST /signup/signup/ HTTP/1.1" 200 11819
+INFO 2024-11-05 15:27:45,448 basehttp - Broken pipe from ('127.0.0.1', 56682)
+INFO 2024-11-05 15:27:54,987 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['bZY69YE99GZpCDil5tDK8OOacDqnCZYuZuU35EU6vjQDyntzw9JlnZ4njdfBjNUp'], 'email': ['asaphbacaltos2@gmail.com'], 'password1': ['idkwhattoput'], 'password2': ['idkwhattoput'], 'phone_number': ['09682231595']}>
+INFO 2024-11-05 15:27:55,168 views User asaphbacaltos2@gmail.com saved to the database.
+INFO 2024-11-05 15:27:55,174 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:27:55,182 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-11-05 15:27:55,187 basehttp - Broken pipe from ('127.0.0.1', 56698)
+INFO 2024-11-05 15:27:55,212 basehttp "GET /static/signupPage/css/authenticationSuccess.css HTTP/1.1" 304 0
+INFO 2024-11-05 15:27:57,192 views Existing user profile found for user asaphbacaltos2@gmail.com
+INFO 2024-11-05 15:27:57,197 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-11-05 15:27:57,231 basehttp "GET /static/signupPage/css/knowMore.css HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:01,423 basehttp "GET /static/signupPage/images/radio-button%20(1).png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:08,931 basehttp "GET /static/signupPage/images/check-box.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,884 views Existing user profile found for user asaphbacaltos2@gmail.com
+INFO 2024-11-05 15:28:10,890 views Additional information saved for user asaphbacaltos2@gmail.com
+INFO 2024-11-05 15:28:10,894 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:28:10,920 basehttp "GET / HTTP/1.1" 200 11100
+INFO 2024-11-05 15:28:10,943 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,953 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,955 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,955 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,955 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,956 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,962 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,963 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,963 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:10,964 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:28:45,311 basehttp - Broken pipe from ('127.0.0.1', 56712)
+INFO 2024-11-05 15:28:45,331 basehttp - Broken pipe from ('127.0.0.1', 56703)
+INFO 2024-11-05 15:29:08,889 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py changed, reloading.
+INFO 2024-11-05 15:29:09,286 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:29:13,409 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py changed, reloading.
+INFO 2024-11-05 15:29:13,696 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:29:15,804 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py changed, reloading.
+INFO 2024-11-05 15:29:16,204 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 15:29:19,843 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 15:29:22,318 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-05 15:29:34,972 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['jLCW9FeU3Kv9NE2v27y81Pc6lN9An7HnCUIB6fsTd8s6ZlNHapQyfUjLwmlZ3R6n'], 'email': ['asaphbacaltos3@gmail.com'], 'password1': ['niggatron'], 'password2': ['niggatron'], 'phone_number': ['09682231595']}>
+INFO 2024-11-05 15:29:35,155 views User asaphbacaltos3@gmail.com saved to the database.
+INFO 2024-11-05 15:29:35,159 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:29:35,169 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-11-05 15:29:37,134 views Existing user profile found for user asaphbacaltos3@gmail.com
+INFO 2024-11-05 15:29:37,143 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-11-05 15:29:48,930 views Existing user profile found for user asaphbacaltos3@gmail.com
+INFO 2024-11-05 15:29:48,935 views Additional information saved for user asaphbacaltos3@gmail.com
+INFO 2024-11-05 15:29:48,938 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+ERROR 2024-11-05 15:29:48,995 log Internal Server Error: /signup/knowMoreSuccess/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/views.py", line 64, in knowMoreSuccess_view
+    return render(request, 'knowMoreSuccess.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:29:48,997 basehttp "GET /signup/knowMoreSuccess/ HTTP/1.1" 500 118502
+INFO 2024-11-05 15:29:50,794 basehttp - Broken pipe from ('127.0.0.1', 56770)
+INFO 2024-11-05 15:30:24,432 basehttp - Broken pipe from ('127.0.0.1', 56790)
+INFO 2024-11-05 15:30:24,438 basehttp - Broken pipe from ('127.0.0.1', 56783)
+INFO 2024-11-05 15:30:24,446 basehttp - Broken pipe from ('127.0.0.1', 56774)
+INFO 2024-11-05 15:34:25,795 basehttp "GET /signup/knowMoreSuccess/ HTTP/1.1" 200 8049
+INFO 2024-11-05 15:34:25,854 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 304 0
+INFO 2024-11-05 15:34:25,854 basehttp "GET /static/signupPage/css/knowMoreSuccess.css HTTP/1.1" 200 8939
+INFO 2024-11-05 15:34:25,854 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:34:25,855 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:34:25,855 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:34:25,856 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:34:28,812 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-05 15:34:28,855 basehttp "GET /static/css/globals.css HTTP/1.1" 200 554
+INFO 2024-11-05 15:34:28,855 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2704
+INFO 2024-11-05 15:34:28,856 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-11-05 15:34:28,862 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-11-05 15:34:28,867 basehttp "GET /static/css/style.css HTTP/1.1" 200 22250
+INFO 2024-11-05 15:34:28,872 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-11-05 15:34:28,873 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-11-05 15:34:28,873 basehttp "GET /static/images/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-05 15:34:28,875 basehttp "GET /static/images/iconsax-linear-searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-05 15:34:28,875 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-05 15:34:28,878 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-11-05 15:34:28,880 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-11-05 15:34:28,881 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-11-05 15:34:28,882 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-11-05 15:34:28,884 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-11-05 15:34:28,885 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-11-05 15:34:28,890 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 3092
+INFO 2024-11-05 15:34:28,890 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-05 15:34:28,891 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-11-05 15:34:28,900 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 242
+INFO 2024-11-05 15:34:28,903 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-11-05 15:34:28,903 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-11-05 15:34:28,904 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-11-05 15:34:28,906 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-11-05 15:34:28,908 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-11-05 15:34:28,910 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-11-05 15:34:28,910 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-11-05 15:34:28,913 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-11-05 15:34:28,914 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1465
+INFO 2024-11-05 15:34:28,916 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-11-05 15:34:28,917 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-11-05 15:35:00,228 basehttp - Broken pipe from ('127.0.0.1', 56863)
+INFO 2024-11-05 15:35:35,727 basehttp "GET / HTTP/1.1" 200 10987
+INFO 2024-11-05 15:35:35,761 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,767 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,768 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,771 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,771 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,771 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,772 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,773 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,773 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,774 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:35,776 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:37,940 basehttp "GET /forgotPassword/ HTTP/1.1" 200 9527
+INFO 2024-11-05 15:35:37,985 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:37,986 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:37,987 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:37,988 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:42,138 basehttp "POST /forgotPassword/ HTTP/1.1" 302 0
+INFO 2024-11-05 15:35:42,148 basehttp "GET /forgotPassword2/ HTTP/1.1" 200 10397
+INFO 2024-11-05 15:35:42,186 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:42,190 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:42,192 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:42,193 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 304 0
+INFO 2024-11-05 15:35:51,215 basehttp "POST /forgotPassword2/ HTTP/1.1" 302 0
+ERROR 2024-11-05 15:35:51,238 log Internal Server Error: /forgotPassword3/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/Login/views.py", line 108, in forgot_password_3_view
+    return render(request, 'forgotPassword3.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2024-11-05 15:35:51,241 basehttp "GET /forgotPassword3/ HTTP/1.1" 500 119573
+INFO 2024-11-05 15:35:55,860 basehttp - Broken pipe from ('127.0.0.1', 56887)
+INFO 2024-11-05 15:36:24,184 basehttp "GET /forgotPassword3/ HTTP/1.1" 200 8700
+INFO 2024-11-05 15:36:24,243 basehttp "GET /static/loginPage/css/forgotPassword3.css HTTP/1.1" 200 10376
+INFO 2024-11-05 15:36:28,845 basehttp "GET / HTTP/1.1" 200 11000
+INFO 2024-11-05 15:36:30,867 basehttp - Broken pipe from ('127.0.0.1', 56895)
+INFO 2024-11-05 15:36:42,193 basehttp - Broken pipe from ('127.0.0.1', 56899)
+INFO 2024-11-05 15:36:51,281 basehttp - Broken pipe from ('127.0.0.1', 56903)
+INFO 2024-11-05 15:37:28,874 basehttp - Broken pipe from ('127.0.0.1', 56930)
+INFO 2024-11-05 15:37:37,919 basehttp "GET /static/loginPage/images/BodyBoostVideo.mp4 HTTP/1.1" 200 56978826
