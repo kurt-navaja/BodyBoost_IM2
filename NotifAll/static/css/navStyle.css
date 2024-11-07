@@ -1,0 +1,218 @@
+/* Sidebar Navigation Styles */
+.mac-book-air1-frame12 button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  background: transparent;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.mac-book-air1-frame12 button:hover {
+  background: rgba(108, 93, 211, 0.1);
+  transform: translateX(5px);
+}
+
+.mac-book-air1-frame12 button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #6C5DD3;
+  border-radius: 0 4px 4px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mac-book-air1-frame12 button:hover::before {
+  opacity: 1;
+}
+
+.mac-book-air1-frame12 button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  transition: transform 0.3s ease;
+}
+
+.mac-book-air1-frame12 button:hover img {
+  transform: scale(1.1);
+}
+
+.mac-book-air1-frame12 button span {
+  color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.mac-book-air1-frame12 button:hover span {
+  color: #6C5DD3;
+}
+
+/* Active state styles */
+.mac-book-air1-frame12 button.active {
+  background: rgba(108, 93, 211, 0.1);
+}
+
+.mac-book-air1-frame12 button.active::before {
+  opacity: 1;
+}
+
+.mac-book-air1-frame12 button.active span {
+  color: #6C5DD3;
+  font-weight: 600;
+}
+
+/* Progress button specific styles (with arrow) */
+.mac-book-air1-button6 {
+  position: relative;
+}
+
+.mac-book-air1-button6 .mac-book-air1-arrowdark {
+  position: absolute;
+  right: 10px;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
+
+.mac-book-air1-button6:hover .mac-book-air1-arrowdark {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Sidebar Footer Styles */
+.sidebar-footer {
+  margin-top: auto;
+  padding: 24px;
+}
+
+/* Help button styles */
+.mac-book-air1-component2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.mac-book-air1-component2:hover {
+  background: rgba(108, 93, 211, 0.1);
+  transform: translateX(5px);
+}
+
+.mac-book-air1-component2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #6C5DD3;
+  border-radius: 0 4px 4px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mac-book-air1-component2:hover::before {
+  opacity: 1;
+}
+
+.mac-book-air1-component2 img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  transition: transform 0.3s ease;
+}
+
+.mac-book-air1-component2:hover img {
+  transform: scale(1.1);
+}
+
+.mac-book-air1-component2 span {
+  color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.mac-book-air1-component2:hover span {
+  color: #6C5DD3;
+}
+
+/* Logout button styles */
+.mac-book-air1-button7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-left: -24px;
+
+}
+
+.mac-book-air1-button7:hover {
+  background: rgba(255, 59, 48, 0.1);
+  transform: translateX(5px);
+}
+
+.mac-book-air1-button7::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #ec1c1c;
+  border-radius: 0 4px 4px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mac-book-air1-button7:hover::before {
+  opacity: 1;
+}
+
+.mac-book-air1-button7 img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  transition: transform 0.3s ease;
+}
+
+.mac-book-air1-button7:hover img {
+  transform: scale(1.1);
+}
+
+.mac-book-air1-button7 span {
+  color: #1A1A1A;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.mac-book-air1-button7:hover span {
+  color: #FF3B30;
+}
+
+.mac-book-air1-sidebar-footer button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  background: transparent;
+  margin: 4px 0;
+}

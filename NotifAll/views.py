@@ -10,6 +10,9 @@ def firstP(request):
 def secondP(request):
     return render(request, '2ndP.html')
 
+def accountSettings(request):
+    return render(request, 'accountSettings.html')
+
 def workout(request):
     return render(request, 'workout.html')
 
