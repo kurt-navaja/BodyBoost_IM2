@@ -3,12 +3,11 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 
-
 def firstP(request):
     return render(request, '1stP.html')
 
-def secondP(request):
-    return render(request, '2ndP.html')
+# def secondP(request):
+#     return render(request, '2ndP.html')
 
 def workout(request):
     return render(request, 'workout.html')

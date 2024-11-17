@@ -10750,3 +10750,1064 @@ INFO 2024-11-05 20:31:54,235 basehttp "GET /static/css/style.css HTTP/1.1" 304 0
 INFO 2024-11-05 20:31:55,906 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18844
 INFO 2024-11-05 20:31:56,881 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
 INFO 2024-11-05 20:31:57,676 basehttp - Broken pipe from ('127.0.0.1', 61188)
+INFO 2024-11-05 22:22:49,213 autoreload Watching for file changes with StatReloader
+INFO 2024-11-05 22:22:55,839 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-05 22:23:10,759 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-05 22:23:10,786 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-05 22:23:12,549 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7202
+WARNING 2024-11-05 22:23:12,590 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-05 22:23:12,591 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5895
+INFO 2024-11-05 22:23:13,889 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-05 22:23:13,920 basehttp "GET /static/images/workout_white.png HTTP/1.1" 200 583
+INFO 2024-11-05 22:23:13,926 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-11-05 22:23:13,926 basehttp "GET /static/images/dashboardGrey.png HTTP/1.1" 200 464
+INFO 2024-11-05 22:23:16,491 basehttp - Broken pipe from ('127.0.0.1', 62241)
+INFO 2024-11-15 22:54:26,425 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 22:54:29,488 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-15 22:54:29,681 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-11-15 22:54:29,685 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-11-15 22:54:29,688 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+INFO 2024-11-15 22:54:29,691 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-11-15 22:54:29,694 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-15 22:54:29,695 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-15 22:54:29,695 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-11-15 22:54:29,698 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-15 22:54:29,701 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-11-15 22:54:29,702 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-11-15 22:54:29,707 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-11-15 22:54:29,709 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+WARNING 2024-11-15 22:54:30,014 log Not Found: /favicon.ico
+WARNING 2024-11-15 22:54:30,014 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-15 22:55:12,029 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-15 22:55:12,052 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:12,092 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-11-15 22:55:12,092 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-11-15 22:55:12,092 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-11-15 22:55:12,093 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-11-15 22:55:12,097 basehttp "GET /static/css/style.css HTTP/1.1" 200 23444
+INFO 2024-11-15 22:55:12,105 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-15 22:55:12,105 basehttp "GET /static/images/iconsax-linear-searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-15 22:55:12,105 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-11-15 22:55:12,110 basehttp "GET /static/images/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-15 22:55:12,111 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-11-15 22:55:12,119 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-11-15 22:55:12,119 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-11-15 22:55:12,119 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-11-15 22:55:12,121 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-11-15 22:55:12,121 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-11-15 22:55:12,132 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-15 22:55:12,133 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 22:55:12,133 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-11-15 22:55:12,134 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-11-15 22:55:12,140 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-11-15 22:55:12,146 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-11-15 22:55:12,148 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-11-15 22:55:12,149 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-11-15 22:55:12,149 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-11-15 22:55:12,149 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-11-15 22:55:12,161 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-11-15 22:55:12,161 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-11-15 22:55:12,165 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-11-15 22:55:12,170 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-11-15 22:55:12,171 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-11-15 22:55:12,180 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-11-15 22:55:12,180 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-11-15 22:55:12,181 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-11-15 22:55:17,290 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-15 22:55:17,324 basehttp "GET /static/images/Polygon%201.png HTTP/1.1" 200 337
+INFO 2024-11-15 22:55:17,324 basehttp "GET /static/images/3dots.png HTTP/1.1" 200 189
+INFO 2024-11-15 22:55:17,325 basehttp "GET /static/css/2ndP.css HTTP/1.1" 200 20474
+INFO 2024-11-15 22:55:18,215 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:19,032 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-15 22:55:19,660 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:20,642 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-15 22:55:21,148 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:21,180 basehttp - Broken pipe from ('127.0.0.1', 50875)
+INFO 2024-11-15 22:55:21,581 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-15 22:55:21,933 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:22,262 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-15 22:55:22,638 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-15 22:55:23,963 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7202
+WARNING 2024-11-15 22:55:23,996 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-15 22:55:23,998 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5895
+INFO 2024-11-15 22:55:23,998 basehttp "GET /static/images/settings/avatar%20settings.png HTTP/1.1" 200 3913
+INFO 2024-11-15 22:55:23,999 basehttp "GET /static/css/settings.css HTTP/1.1" 200 11839
+INFO 2024-11-15 22:55:24,003 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-15 22:55:24,003 basehttp "GET /static/images/settings/setting2.png HTTP/1.1" 200 770
+INFO 2024-11-15 22:55:24,003 basehttp "GET /static/images/settings/bell.png HTTP/1.1" 200 2427
+INFO 2024-11-15 22:55:24,008 basehttp "GET /static/images/settings/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-15 22:55:24,010 basehttp "GET /static/images/settings/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-15 22:55:24,011 basehttp "GET /static/images/settings/workout.png HTTP/1.1" 200 565
+INFO 2024-11-15 22:55:24,014 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-11-15 22:55:24,014 basehttp "GET /static/images/settings/Dp.png HTTP/1.1" 200 726
+INFO 2024-11-15 22:55:24,019 basehttp "GET /static/images/settings/Sched.png HTTP/1.1" 200 636
+INFO 2024-11-15 22:55:24,021 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-11-15 22:55:24,021 basehttp "GET /static/images/settings/Progress.png HTTP/1.1" 200 413
+INFO 2024-11-15 22:55:24,021 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-11-15 22:55:24,021 basehttp "GET /static/images/settings/AvatarB.png HTTP/1.1" 200 45747
+INFO 2024-11-15 22:55:24,024 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-15 22:55:24,026 basehttp "GET /static/images/settings/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 22:55:24,032 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-11-15 22:55:26,565 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-15 22:55:26,596 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 22:55:26,597 basehttp "GET /static/images/dashboardGrey.png HTTP/1.1" 200 464
+INFO 2024-11-15 22:55:26,598 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-11-15 22:55:26,601 basehttp "GET /static/css/workout.css HTTP/1.1" 200 14640
+INFO 2024-11-15 22:55:26,603 basehttp "GET /static/images/workout_white.png HTTP/1.1" 200 583
+INFO 2024-11-15 22:55:27,396 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-15 22:55:36,740 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-15 22:55:36,767 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+INFO 2024-11-15 22:55:36,818 basehttp "GET /static/images/Arrow%20right.png HTTP/1.1" 200 283
+INFO 2024-11-15 22:55:36,819 basehttp "GET /static/images/Track%20dot%202.png HTTP/1.1" 200 192
+INFO 2024-11-15 22:55:36,819 basehttp "GET /static/images/Arrow%20left%202.png HTTP/1.1" 200 213
+INFO 2024-11-15 22:55:36,819 basehttp "GET /static/images/icon.png HTTP/1.1" 200 652
+INFO 2024-11-15 22:55:36,819 basehttp "GET /static/images/left-arrow%201.png HTTP/1.1" 200 727
+INFO 2024-11-15 22:55:36,826 basehttp "GET /static/css/strength.css HTTP/1.1" 200 12857
+INFO 2024-11-15 22:55:36,827 basehttp "GET /static/images/Share.png HTTP/1.1" 200 534
+INFO 2024-11-15 22:55:36,828 basehttp "GET /static/images/heart.png HTTP/1.1" 200 616
+INFO 2024-11-15 22:55:36,828 basehttp "GET /static/images/check-circle.png HTTP/1.1" 200 820
+INFO 2024-11-15 22:57:14,515 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9956
+INFO 2024-11-15 23:08:33,185 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9956
+INFO 2024-11-15 23:10:19,986 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9956
+INFO 2024-11-15 23:12:14,182 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-15 23:12:19,928 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-15 23:12:24,436 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7202
+INFO 2024-11-15 23:12:24,473 basehttp "GET /static/css/settings.css HTTP/1.1" 200 11839
+WARNING 2024-11-15 23:12:24,484 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+INFO 2024-11-15 23:12:24,486 basehttp "GET /static/images/settings/avatar%20settings.png HTTP/1.1" 200 3913
+INFO 2024-11-15 23:12:24,486 basehttp "GET /static/images/settings/bell.png HTTP/1.1" 200 2427
+WARNING 2024-11-15 23:12:24,488 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5895
+INFO 2024-11-15 23:12:24,491 basehttp "GET /static/images/settings/setting2.png HTTP/1.1" 200 770
+INFO 2024-11-15 23:12:24,492 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-15 23:12:24,495 basehttp "GET /static/images/settings/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-15 23:12:24,496 basehttp "GET /static/images/settings/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-15 23:12:24,496 basehttp "GET /static/images/settings/Dp.png HTTP/1.1" 200 726
+INFO 2024-11-15 23:12:24,496 basehttp "GET /static/images/settings/workout.png HTTP/1.1" 200 565
+INFO 2024-11-15 23:12:24,496 basehttp "GET /static/images/settings/AvatarB.png HTTP/1.1" 200 45747
+INFO 2024-11-15 23:12:24,501 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-11-15 23:12:24,502 basehttp "GET /static/images/settings/Sched.png HTTP/1.1" 200 636
+INFO 2024-11-15 23:12:24,502 basehttp "GET /static/images/settings/Progress.png HTTP/1.1" 200 413
+INFO 2024-11-15 23:12:24,508 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-11-15 23:12:24,508 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-11-15 23:12:24,508 basehttp "GET /static/images/settings/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 23:12:24,508 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-15 23:12:24,508 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-11-15 23:12:31,717 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-15 23:12:31,739 basehttp "GET /static/css/workout.css HTTP/1.1" 200 14640
+INFO 2024-11-15 23:12:31,742 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 23:12:31,742 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-11-15 23:12:35,546 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-15 23:12:42,174 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-15 23:12:42,181 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-15 23:12:42,218 basehttp "GET /static/images/left-arrow%201.png HTTP/1.1" 200 727
+INFO 2024-11-15 23:12:42,231 basehttp "GET /static/images/Share.png HTTP/1.1" 200 534
+INFO 2024-11-15 23:12:42,232 basehttp "GET /static/images/Arrow%20right.png HTTP/1.1" 200 283
+INFO 2024-11-15 23:12:42,232 basehttp "GET /static/images/Track%20dot%202.png HTTP/1.1" 200 192
+INFO 2024-11-15 23:12:42,232 basehttp "GET /static/images/check-circle.png HTTP/1.1" 200 820
+INFO 2024-11-15 23:12:42,233 basehttp "GET /static/images/icon.png HTTP/1.1" 200 652
+INFO 2024-11-15 23:12:42,234 basehttp "GET /static/images/Arrow%20left%202.png HTTP/1.1" 200 213
+INFO 2024-11-15 23:12:42,242 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-15 23:12:42,243 basehttp "GET /static/images/heart.png HTTP/1.1" 200 616
+INFO 2024-11-15 23:12:42,243 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 3092
+INFO 2024-11-15 23:12:43,926 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 14:25:59,120 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 14:26:01,055 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 14:26:01,423 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-17 14:26:01,429 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-11-17 14:26:01,432 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-11-17 14:26:01,440 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-17 14:26:01,440 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-11-17 14:26:01,447 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-11-17 14:26:01,449 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-17 14:26:01,449 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-11-17 14:26:01,449 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-11-17 14:26:01,458 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-11-17 14:26:01,460 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-17 14:26:01,460 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+WARNING 2024-11-17 14:26:01,894 log Not Found: /favicon.ico
+WARNING 2024-11-17 14:26:01,894 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 14:26:45,938 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-17 14:26:46,038 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 200 844
+INFO 2024-11-17 14:26:46,044 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-17 14:26:46,044 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-17 14:26:46,050 basehttp "GET /static/signupPage/css/signup.css HTTP/1.1" 200 9897
+INFO 2024-11-17 14:26:46,050 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 200 15591
+INFO 2024-11-17 14:26:46,060 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-17 14:26:46,078 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 200 172
+INFO 2024-11-17 14:26:46,078 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 200 172
+INFO 2024-11-17 14:26:46,078 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 200 172
+INFO 2024-11-17 14:26:46,078 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 200 172
+INFO 2024-11-17 14:26:46,084 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 200 450
+INFO 2024-11-17 14:26:46,101 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 200 331
+INFO 2024-11-17 14:26:46,110 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 200 328
+INFO 2024-11-17 14:26:46,125 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 200 720
+INFO 2024-11-17 14:26:46,125 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 200 379
+INFO 2024-11-17 14:26:46,129 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 200 299
+INFO 2024-11-17 14:26:46,133 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-17 14:26:46,988 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 14:26:47,825 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-17 14:26:50,675 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 14:27:08,853 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 14:27:08,867 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 14:27:08,955 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-11-17 14:27:08,969 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-11-17 14:27:08,993 basehttp "GET /static/css/style.css HTTP/1.1" 200 23444
+INFO 2024-11-17 14:27:08,998 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-11-17 14:27:09,000 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-11-17 14:27:09,007 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-11-17 14:27:09,009 basehttp "GET /static/images/iconsax-linear-searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-17 14:27:09,020 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-17 14:27:09,024 basehttp "GET /static/images/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-17 14:27:09,029 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-11-17 14:27:09,037 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-11-17 14:27:09,039 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-11-17 14:27:09,049 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 14:27:09,051 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-11-17 14:27:09,058 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-11-17 14:27:09,064 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-11-17 14:27:09,069 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 14:27:09,072 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 3092
+INFO 2024-11-17 14:27:09,082 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-11-17 14:27:09,089 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-11-17 14:27:09,096 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-11-17 14:27:09,115 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-11-17 14:27:09,118 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-11-17 14:27:09,121 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-11-17 14:27:09,129 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-11-17 14:27:09,150 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-11-17 14:27:09,153 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-11-17 14:27:09,158 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-11-17 14:27:09,161 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-11-17 14:27:09,169 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-11-17 14:27:09,171 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-11-17 14:27:09,178 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-11-17 14:27:09,182 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-11-17 14:27:10,670 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-17 14:27:10,731 basehttp "GET /static/css/2ndP.css HTTP/1.1" 200 20474
+INFO 2024-11-17 14:27:10,737 basehttp "GET /static/images/Polygon%201.png HTTP/1.1" 200 337
+INFO 2024-11-17 14:27:10,741 basehttp "GET /static/images/3dots.png HTTP/1.1" 200 189
+INFO 2024-11-17 14:27:11,314 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 14:27:11,390 basehttp - Broken pipe from ('127.0.0.1', 56717)
+INFO 2024-11-17 14:27:13,334 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-17 14:27:13,368 basehttp - Broken pipe from ('127.0.0.1', 56714)
+INFO 2024-11-17 14:27:13,388 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-17 14:27:13,392 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-11-17 14:27:13,395 basehttp "GET /static/images/dashboardGrey.png HTTP/1.1" 200 464
+INFO 2024-11-17 14:27:13,400 basehttp "GET /static/images/workout_white.png HTTP/1.1" 200 583
+INFO 2024-11-17 14:27:13,400 basehttp "GET /static/css/workout.css HTTP/1.1" 200 14640
+INFO 2024-11-17 14:27:14,797 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-17 14:27:14,854 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7202
+INFO 2024-11-17 14:27:14,899 basehttp - Broken pipe from ('127.0.0.1', 56715)
+WARNING 2024-11-17 14:27:14,928 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 14:27:14,928 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5895
+INFO 2024-11-17 14:27:14,932 basehttp "GET /static/css/settings.css HTTP/1.1" 200 11839
+INFO 2024-11-17 14:27:14,942 basehttp "GET /static/images/settings/avatar%20settings.png HTTP/1.1" 200 3913
+INFO 2024-11-17 14:27:14,948 basehttp "GET /static/images/settings/bell.png HTTP/1.1" 200 2427
+INFO 2024-11-17 14:27:14,951 basehttp "GET /static/images/settings/setting2.png HTTP/1.1" 200 770
+INFO 2024-11-17 14:27:14,951 basehttp "GET /static/images/settings/AvatarB.png HTTP/1.1" 200 45747
+INFO 2024-11-17 14:27:14,959 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-17 14:27:14,968 basehttp "GET /static/images/settings/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-17 14:27:14,972 basehttp "GET /static/images/settings/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-17 14:27:14,978 basehttp "GET /static/images/settings/workout.png HTTP/1.1" 200 565
+INFO 2024-11-17 14:27:14,984 basehttp "GET /static/images/settings/Dp.png HTTP/1.1" 200 726
+INFO 2024-11-17 14:27:14,989 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-11-17 14:27:14,997 basehttp "GET /static/images/settings/Sched.png HTTP/1.1" 200 636
+INFO 2024-11-17 14:27:15,005 basehttp "GET /static/images/settings/Progress.png HTTP/1.1" 200 413
+INFO 2024-11-17 14:27:15,015 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-11-17 14:27:15,018 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-11-17 14:27:15,020 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 14:27:15,020 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-11-17 14:27:15,032 basehttp "GET /static/images/settings/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-17 14:27:16,658 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-17 14:27:16,700 basehttp - Broken pipe from ('127.0.0.1', 56713)
+INFO 2024-11-17 14:27:21,505 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 14:27:21,554 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 14:27:21,619 basehttp - Broken pipe from ('127.0.0.1', 56712)
+INFO 2024-11-17 14:27:21,621 basehttp "GET /static/css/strength.css HTTP/1.1" 200 13297
+INFO 2024-11-17 14:27:21,637 basehttp "GET /static/images/left-arrow%201.png HTTP/1.1" 200 727
+INFO 2024-11-17 14:27:21,648 basehttp "GET /static/images/Arrow%20right.png HTTP/1.1" 200 283
+INFO 2024-11-17 14:27:21,648 basehttp "GET /static/images/Track%20dot%202.png HTTP/1.1" 200 192
+INFO 2024-11-17 14:27:21,649 basehttp "GET /static/images/Arrow%20left%202.png HTTP/1.1" 200 213
+INFO 2024-11-17 14:27:21,667 basehttp "GET /static/images/icon.png HTTP/1.1" 200 652
+INFO 2024-11-17 14:27:21,705 basehttp "GET /static/images/Share.png HTTP/1.1" 200 534
+INFO 2024-11-17 14:27:21,709 basehttp "GET /static/images/check-circle.png HTTP/1.1" 200 820
+INFO 2024-11-17 14:27:21,728 basehttp "GET /static/images/heart.png HTTP/1.1" 200 616
+INFO 2024-11-17 14:27:30,485 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 14:27:36,729 basehttp - Broken pipe from ('127.0.0.1', 56716)
+INFO 2024-11-17 14:31:54,259 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18842
+INFO 2024-11-17 14:31:55,617 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 14:40:02,251 basehttp "GET /notifAll/ HTTP/1.1" 200 16344
+INFO 2024-11-17 14:41:43,721 basehttp "GET /notifAll/ HTTP/1.1" 200 16410
+INFO 2024-11-17 14:44:12,180 basehttp "GET /notifAll/ HTTP/1.1" 200 16411
+INFO 2024-11-17 14:44:34,523 basehttp "GET /notifAll/ HTTP/1.1" 200 16411
+INFO 2024-11-17 14:44:47,499 basehttp "GET /notifAll/ HTTP/1.1" 200 16411
+INFO 2024-11-17 14:44:54,174 basehttp "GET /notifAll/ HTTP/1.1" 200 16412
+INFO 2024-11-17 14:45:02,008 basehttp "GET /notifAll/ HTTP/1.1" 200 16412
+INFO 2024-11-17 14:45:11,538 basehttp "GET /notifAll/ HTTP/1.1" 200 16398
+INFO 2024-11-17 14:45:21,423 basehttp "GET /notifAll/ HTTP/1.1" 200 16398
+INFO 2024-11-17 14:45:26,198 basehttp "GET /notifAll/ HTTP/1.1" 200 16398
+INFO 2024-11-17 14:46:37,453 basehttp "GET /notifAll/ HTTP/1.1" 200 16601
+INFO 2024-11-17 14:49:33,170 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\Signup\models.py changed, reloading.
+INFO 2024-11-17 14:49:34,705 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 14:49:36,581 basehttp "GET /notifAll/ HTTP/1.1" 200 16509
+INFO 2024-11-17 14:51:35,639 basehttp "GET /notifAll/ HTTP/1.1" 200 16652
+INFO 2024-11-17 14:52:26,618 basehttp "GET /notifAll/ HTTP/1.1" 200 16690
+INFO 2024-11-17 14:53:09,261 basehttp "GET /notifAll/ HTTP/1.1" 200 16741
+INFO 2024-11-17 14:53:17,706 basehttp "GET /notifAll/ HTTP/1.1" 200 16741
+INFO 2024-11-17 14:53:30,883 basehttp "GET /notifAll/ HTTP/1.1" 200 16741
+INFO 2024-11-17 14:53:36,800 basehttp "GET /notifAll/ HTTP/1.1" 200 16741
+INFO 2024-11-17 14:53:41,761 basehttp "GET /notifAll/ HTTP/1.1" 200 16741
+INFO 2024-11-17 14:56:31,538 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 14:56:38,469 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 14:58:49,308 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-11-17 14:58:50,132 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 15:00:05,859 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-11-17 15:00:06,608 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 15:00:08,611 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 15:00:11,329 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12605
+INFO 2024-11-17 15:00:12,180 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-17 15:00:23,335 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 15:00:25,220 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12605
+ERROR 2024-11-17 15:00:27,800 log Internal Server Error: /notifAll/settings/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py", line 44, in settings
+    return render(request, 'settings.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'secondPage' not found. 'secondPage' is not a valid view function or pattern name.
+ERROR 2024-11-17 15:00:27,809 basehttp "GET /notifAll/settings/ HTTP/1.1" 500 123714
+INFO 2024-11-17 15:01:29,502 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7905
+INFO 2024-11-17 15:01:29,537 basehttp "GET /static/css/settings.css HTTP/1.1" 200 11839
+WARNING 2024-11-17 15:01:29,542 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:01:29,549 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:01:29,549 basehttp "GET /static/images/settings/setting2.png HTTP/1.1" 200 770
+INFO 2024-11-17 15:01:29,550 basehttp "GET /static/images/settings/avatar%20settings.png HTTP/1.1" 200 3913
+INFO 2024-11-17 15:01:29,550 basehttp "GET /static/images/settings/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-17 15:01:29,550 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-17 15:01:29,553 basehttp "GET /static/images/settings/AvatarB.png HTTP/1.1" 200 45747
+INFO 2024-11-17 15:01:29,553 basehttp "GET /static/images/settings/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-17 15:01:29,559 basehttp "GET /static/images/settings/workout.png HTTP/1.1" 200 565
+INFO 2024-11-17 15:01:29,560 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-11-17 15:01:29,562 basehttp "GET /static/images/settings/Dp.png HTTP/1.1" 200 726
+INFO 2024-11-17 15:01:29,562 basehttp "GET /static/images/settings/Sched.png HTTP/1.1" 200 636
+INFO 2024-11-17 15:01:29,565 basehttp "GET /static/images/settings/Progress.png HTTP/1.1" 200 413
+INFO 2024-11-17 15:01:29,567 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-11-17 15:01:29,568 basehttp "GET /static/images/settings/logoPurple.png HTTP/1.1" 200 3092
+INFO 2024-11-17 15:01:29,568 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-11-17 15:01:29,569 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 15:01:29,569 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-11-17 15:02:29,767 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7910
+WARNING 2024-11-17 15:02:29,787 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:02:29,788 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:02:30,624 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 7910
+WARNING 2024-11-17 15:02:30,639 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:02:30,640 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:02:54,890 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12605
+INFO 2024-11-17 15:03:33,296 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12669
+INFO 2024-11-17 15:03:37,924 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 15:03:38,927 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8065
+WARNING 2024-11-17 15:03:38,953 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:03:38,954 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:03:38,955 basehttp "GET /static/images/settings/bell.png HTTP/1.1" 200 2427
+INFO 2024-11-17 15:05:31,075 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8926
+WARNING 2024-11-17 15:05:31,096 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:05:31,096 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:05:34,807 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13530
+INFO 2024-11-17 15:05:42,142 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 15:05:45,037 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13530
+INFO 2024-11-17 15:06:05,934 basehttp "GET /notifAll/ HTTP/1.1" 200 16743
+INFO 2024-11-17 15:06:38,204 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8926
+WARNING 2024-11-17 15:06:38,240 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:06:38,240 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:06:46,822 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13530
+INFO 2024-11-17 15:07:06,951 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13597
+INFO 2024-11-17 15:07:57,606 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:08:25,056 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:08:29,411 basehttp "GET /notifAll/ HTTP/1.1" 200 16816
+INFO 2024-11-17 15:08:34,288 basehttp "GET /notifAll/ HTTP/1.1" 200 16816
+INFO 2024-11-17 15:10:05,365 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:10:09,294 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:10:11,572 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:10:12,669 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:10:17,517 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8995
+WARNING 2024-11-17 15:10:17,548 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:10:17,549 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:10:19,899 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:10:20,749 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-17 15:10:21,030 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:11:04,108 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:12:22,654 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:12:25,295 basehttp "GET /notifAll/ HTTP/1.1" 200 15955
+INFO 2024-11-17 15:13:07,659 basehttp "GET /notifAll/ HTTP/1.1" 200 16015
+INFO 2024-11-17 15:13:31,167 basehttp "GET /notifAll/ HTTP/1.1" 200 16816
+INFO 2024-11-17 15:14:20,493 basehttp "GET /notifAll/ HTTP/1.1" 200 17168
+INFO 2024-11-17 15:14:58,239 basehttp "GET /notifAll/ HTTP/1.1" 200 17168
+INFO 2024-11-17 15:15:42,869 basehttp "GET /notifAll/ HTTP/1.1" 200 17185
+INFO 2024-11-17 15:15:47,141 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8995
+WARNING 2024-11-17 15:15:47,166 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:15:47,167 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:15:57,332 basehttp "GET /notifAll/ HTTP/1.1" 200 17185
+INFO 2024-11-17 15:15:59,325 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:16:00,099 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-17 15:16:09,743 basehttp "GET /notifAll/ HTTP/1.1" 200 17185
+INFO 2024-11-17 15:16:48,199 basehttp "GET /notifAll/ HTTP/1.1" 200 17004
+INFO 2024-11-17 15:16:49,409 basehttp "GET /notifAll/ HTTP/1.1" 200 17004
+INFO 2024-11-17 15:16:49,642 basehttp "GET /notifAll/ HTTP/1.1" 200 17004
+INFO 2024-11-17 15:17:25,351 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 15:22:20,498 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 15:28:50,744 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 15:28:56,643 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8995
+WARNING 2024-11-17 15:28:56,671 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 15:28:56,673 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 15:29:03,467 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 15:29:21,060 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 15:29:28,953 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 15:29:28,961 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 15:29:28,995 basehttp "GET /static/css/strength.css HTTP/1.1" 200 13297
+INFO 2024-11-17 15:29:29,003 basehttp "GET /static/images/Arrow%20right.png HTTP/1.1" 200 283
+INFO 2024-11-17 15:29:29,003 basehttp "GET /static/images/Share.png HTTP/1.1" 200 534
+INFO 2024-11-17 15:29:29,005 basehttp "GET /static/images/Track%20dot%202.png HTTP/1.1" 200 192
+INFO 2024-11-17 15:29:29,005 basehttp "GET /static/images/Arrow%20left%202.png HTTP/1.1" 200 213
+INFO 2024-11-17 15:29:29,005 basehttp "GET /static/images/left-arrow%201.png HTTP/1.1" 200 727
+INFO 2024-11-17 15:29:29,005 basehttp "GET /static/images/icon.png HTTP/1.1" 200 652
+INFO 2024-11-17 15:29:29,010 basehttp "GET /static/images/heart.png HTTP/1.1" 200 616
+INFO 2024-11-17 15:29:29,010 basehttp "GET /static/images/check-circle.png HTTP/1.1" 200 820
+INFO 2024-11-17 15:37:23,772 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 15:37:26,095 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 15:38:17,881 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 15:39:23,128 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 16:19:14,650 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10325
+INFO 2024-11-17 16:24:39,065 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:24:45,019 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:25:37,740 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 16:26:00,671 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:30:24,452 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:36:18,806 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:36:44,347 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10332
+INFO 2024-11-17 16:36:57,546 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10332
+INFO 2024-11-17 16:37:08,963 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 16:37:18,528 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10075
+INFO 2024-11-17 16:37:27,637 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10325
+INFO 2024-11-17 16:37:34,391 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10363
+INFO 2024-11-17 16:37:37,986 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10363
+INFO 2024-11-17 16:37:53,880 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 16:37:55,539 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 16:37:56,011 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-11-17 16:37:56,011 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-11-17 16:37:56,021 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-11-17 16:37:56,025 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-17 16:37:56,027 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-11-17 16:37:56,036 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-11-17 16:37:56,041 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-11-17 16:37:56,046 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-17 16:37:56,047 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-17 16:37:56,048 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-11-17 16:37:56,048 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+INFO 2024-11-17 16:37:56,054 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-17 16:38:16,919 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 16:38:16,953 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 16:38:17,023 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-11-17 16:38:17,024 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-11-17 16:38:17,026 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-11-17 16:38:17,036 basehttp "GET /static/images/iconsax-linear-searchnormal.png HTTP/1.1" 200 721
+INFO 2024-11-17 16:38:17,036 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-11-17 16:38:17,043 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-11-17 16:38:17,043 basehttp "GET /static/images/dashbaord-2.png HTTP/1.1" 200 366
+INFO 2024-11-17 16:38:17,043 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-11-17 16:38:17,052 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-11-17 16:38:17,058 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 16:38:17,066 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-11-17 16:38:17,066 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-11-17 16:38:17,066 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-11-17 16:38:17,066 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-11-17 16:38:17,073 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 3092
+INFO 2024-11-17 16:38:17,086 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-11-17 16:38:17,086 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-11-17 16:38:17,093 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-11-17 16:38:17,096 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-11-17 16:38:17,108 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-11-17 16:38:17,108 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-11-17 16:38:17,113 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-11-17 16:38:17,116 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-11-17 16:38:17,121 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-11-17 16:38:17,124 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-11-17 16:38:17,135 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-11-17 16:38:17,139 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-11-17 16:38:17,139 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-11-17 16:38:17,139 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-11-17 16:38:17,139 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-11-17 16:38:20,267 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13599
+INFO 2024-11-17 16:38:21,851 basehttp "GET /notifAll/ HTTP/1.1" 200 17122
+INFO 2024-11-17 16:38:24,794 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8995
+WARNING 2024-11-17 16:38:24,882 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 16:38:24,883 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 16:38:27,445 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 16:38:48,512 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 16:38:48,532 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 16:38:54,519 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9001
+WARNING 2024-11-17 16:38:54,588 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+INFO 2024-11-17 16:38:54,588 basehttp - Broken pipe from ('127.0.0.1', 57756)
+WARNING 2024-11-17 16:38:54,591 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 16:38:58,137 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 16:38:58,884 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:39:04,627 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:39:04,643 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10363
+INFO 2024-11-17 16:39:14,244 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10324
+INFO 2024-11-17 16:39:19,593 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10325
+INFO 2024-11-17 16:39:48,576 basehttp - Broken pipe from ('127.0.0.1', 57758)
+INFO 2024-11-17 16:46:37,229 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\fitness\views.py changed, reloading.
+INFO 2024-11-17 16:46:39,150 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 16:46:39,567 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:46:39,681 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13606
+INFO 2024-11-17 16:48:59,410 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:49:05,045 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:49:05,147 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13815
+INFO 2024-11-17 16:51:13,228 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 16:51:15,470 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:51:20,244 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:51:20,260 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13815
+INFO 2024-11-17 16:52:38,330 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13815
+INFO 2024-11-17 16:52:39,880 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13815
+INFO 2024-11-17 16:54:13,770 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 16:54:15,591 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 16:54:22,719 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 16:54:22,733 basehttp - Broken pipe from ('127.0.0.1', 57887)
+INFO 2024-11-17 16:54:36,617 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 16:54:36,642 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 16:54:38,479 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:54:42,573 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:54:42,674 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13815
+INFO 2024-11-17 16:55:36,690 basehttp - Broken pipe from ('127.0.0.1', 57889)
+INFO 2024-11-17 16:57:33,241 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:57:39,379 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 16:57:39,488 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13605
+INFO 2024-11-17 16:58:55,698 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 16:59:08,289 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 16:59:23,305 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 17:00:06,819 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 17:00:15,697 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 17:00:15,711 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 17:01:45,274 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 17:12:17,423 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9020
+INFO 2024-11-17 17:12:23,032 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 17:14:11,033 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:20:33,521 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:20:34,655 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:20:48,022 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:20:52,322 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:20:59,587 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:00,561 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:09,886 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:10,889 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:26,393 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:37,172 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:45,742 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8940
+INFO 2024-11-17 17:22:52,102 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:07,306 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:08,432 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:08,667 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:14,504 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:47,799 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:48,581 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:48,793 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:49,256 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:49,466 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:23:49,696 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:24:00,359 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:24:49,622 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8935
+INFO 2024-11-17 17:25:02,516 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:25:45,566 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:26:12,177 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8935
+INFO 2024-11-17 17:26:12,218 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14640
+INFO 2024-11-17 17:28:03,529 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:28:26,816 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:28:27,827 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:28:28,077 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:28:28,297 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:28:28,501 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:29:28,397 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+INFO 2024-11-17 17:29:54,964 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6926
+INFO 2024-11-17 17:30:03,106 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 6925
+ERROR 2024-11-17 17:30:44,474 log Internal Server Error: /fitness/strengthTraining/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'fitness\\static\\css\\workout1.css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\fitness\views.py", line 6, in strength
+    return render(request, 'strength.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'fitness\static\css\workout1.css'. Did you forget to register or load this tag?
+ERROR 2024-11-17 17:30:44,493 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 500 163708
+INFO 2024-11-17 17:31:28,785 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8942
+WARNING 2024-11-17 17:31:28,859 basehttp "GET /static/fitness/css/workout1.css HTTP/1.1" 404 1886
+INFO 2024-11-17 17:31:49,832 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8942
+WARNING 2024-11-17 17:31:49,876 basehttp "GET /static/fitness/css/workout1.css HTTP/1.1" 404 1886
+INFO 2024-11-17 17:32:01,464 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:28,063 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:29,086 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:29,302 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:29,506 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:32,615 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 17:32:33,543 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 17:32:37,899 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 17:32:37,923 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:32:45,960 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8934
+INFO 2024-11-17 17:34:08,297 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:19,276 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:25,448 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:26,619 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:29,583 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:29,949 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:36,447 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:36,955 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:42,505 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:58,744 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:59,265 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:34:59,495 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:35:34,425 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:35:35,468 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:35:35,666 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:35:36,161 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:35:55,626 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8981
+INFO 2024-11-17 17:41:19,031 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:41:36,675 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:41:50,327 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:42:09,880 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:42:23,565 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:43:17,665 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:43:35,239 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+INFO 2024-11-17 17:43:43,766 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9698
+WARNING 2024-11-17 17:43:49,819 log Not Found: /favicon.ico
+WARNING 2024-11-17 17:43:49,821 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 17:47:02,142 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9756
+INFO 2024-11-17 17:47:55,008 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9756
+INFO 2024-11-17 17:48:03,268 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9756
+INFO 2024-11-17 17:49:00,275 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9756
+INFO 2024-11-17 17:49:48,300 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9756
+INFO 2024-11-17 17:50:47,134 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9782
+INFO 2024-11-17 17:50:53,844 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9782
+INFO 2024-11-17 17:51:06,514 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9783
+INFO 2024-11-17 17:51:14,756 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9782
+INFO 2024-11-17 17:51:26,055 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9782
+INFO 2024-11-17 17:51:32,513 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9782
+INFO 2024-11-17 17:51:49,605 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9792
+INFO 2024-11-17 17:53:01,242 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9824
+INFO 2024-11-17 17:53:10,062 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9824
+INFO 2024-11-17 17:53:36,546 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9843
+INFO 2024-11-17 17:53:51,002 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9843
+INFO 2024-11-17 17:54:05,153 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9837
+INFO 2024-11-17 17:55:48,431 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9844
+INFO 2024-11-17 17:55:59,123 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9844
+INFO 2024-11-17 17:58:39,624 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 11357
+WARNING 2024-11-17 17:58:54,226 log Not Found: /favicon.ico
+WARNING 2024-11-17 17:58:54,226 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:01:25,552 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12906
+WARNING 2024-11-17 18:01:30,057 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:01:30,058 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:03:37,212 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13432
+INFO 2024-11-17 18:03:39,199 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13432
+WARNING 2024-11-17 18:03:41,847 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:03:41,848 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:03:55,129 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13432
+INFO 2024-11-17 18:05:25,992 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13801
+WARNING 2024-11-17 18:05:30,517 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:05:30,518 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:06:32,530 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14106
+WARNING 2024-11-17 18:06:36,822 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:06:36,823 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:06:54,550 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 18:06:55,843 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 18:07:07,467 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 18:07:07,479 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 18:07:10,691 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 18:07:15,297 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 18:07:15,308 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14106
+WARNING 2024-11-17 18:07:18,109 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:07:18,110 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:08:07,507 basehttp - Broken pipe from ('127.0.0.1', 58672)
+INFO 2024-11-17 18:12:51,810 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14637
+INFO 2024-11-17 18:13:05,782 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14637
+WARNING 2024-11-17 18:13:07,908 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:13:07,909 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:13:16,180 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14637
+WARNING 2024-11-17 18:13:19,131 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:13:19,132 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:14:13,576 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15130
+WARNING 2024-11-17 18:14:16,408 log Not Found: /favicon.ico
+WARNING 2024-11-17 18:14:16,409 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 18:19:02,720 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15632
+INFO 2024-11-17 18:21:22,832 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15632
+INFO 2024-11-17 18:21:28,566 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15635
+INFO 2024-11-17 18:22:58,662 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15422
+INFO 2024-11-17 18:24:55,697 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15419
+INFO 2024-11-17 18:26:29,452 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15494
+INFO 2024-11-17 18:27:08,084 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:09,145 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:23,252 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:24,879 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:25,218 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:25,255 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:25,402 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:35,388 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:41,475 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:51,186 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:52,120 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:52,424 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:27:52,501 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:28:37,372 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:28:38,592 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:14,098 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:15,386 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:22,202 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:29,804 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:30,623 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:30,947 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:31,018 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:31,188 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:31,443 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:32,775 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:29:56,569 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:34:11,964 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14751
+INFO 2024-11-17 18:34:15,530 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14751
+INFO 2024-11-17 18:37:46,968 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14751
+INFO 2024-11-17 18:42:43,174 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14751
+INFO 2024-11-17 18:46:26,987 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13886
+INFO 2024-11-17 18:46:29,468 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13886
+INFO 2024-11-17 18:48:14,671 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14211
+INFO 2024-11-17 18:48:52,629 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15130
+INFO 2024-11-17 18:49:22,722 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15130
+INFO 2024-11-17 18:49:31,391 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15495
+INFO 2024-11-17 18:49:47,724 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:49:55,598 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:50:10,752 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:50:18,941 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15501
+WARNING 2024-11-17 18:50:18,963 basehttp "GET /static/.css/workout1.css HTTP/1.1" 404 1865
+INFO 2024-11-17 18:50:23,091 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:50:54,238 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:51:07,340 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:51:24,551 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:51:35,010 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:51:41,175 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:51:42,931 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:52:01,993 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:52:33,360 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 18:52:37,721 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 18:52:45,629 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 18:52:45,640 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:53:12,437 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15500
+INFO 2024-11-17 18:53:38,416 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 18:56:04,671 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 18:56:25,381 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 18:57:26,180 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 18:57:44,088 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9001
+WARNING 2024-11-17 18:57:44,133 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 18:57:44,134 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 18:57:46,561 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 18:57:53,886 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 18:57:53,895 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 18:58:03,321 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15554
+INFO 2024-11-17 18:58:35,271 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15554
+INFO 2024-11-17 18:59:54,021 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15554
+INFO 2024-11-17 19:00:56,598 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 19:02:07,585 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15553
+INFO 2024-11-17 19:03:43,684 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15605
+INFO 2024-11-17 19:04:32,447 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15654
+INFO 2024-11-17 19:05:18,021 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15654
+INFO 2024-11-17 19:12:04,862 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15654
+INFO 2024-11-17 19:12:32,779 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15651
+INFO 2024-11-17 19:19:25,998 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15651
+INFO 2024-11-17 19:20:29,724 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15647
+INFO 2024-11-17 19:20:55,691 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15647
+INFO 2024-11-17 19:22:56,899 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15647
+INFO 2024-11-17 19:24:24,795 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 19:24:33,626 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 19:24:46,434 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 19:24:46,447 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 19:24:48,643 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 19:24:52,704 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 19:24:52,750 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 15647
+INFO 2024-11-17 19:25:46,487 basehttp - Broken pipe from ('127.0.0.1', 59366)
+INFO 2024-11-17 19:25:48,428 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12694
+INFO 2024-11-17 19:25:49,197 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12694
+INFO 2024-11-17 19:26:39,569 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12694
+INFO 2024-11-17 19:26:48,131 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12694
+INFO 2024-11-17 19:28:18,553 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 8460
+INFO 2024-11-17 19:29:01,107 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:19,800 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:21,247 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:21,642 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:31,675 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:32,093 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:30:32,634 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:44:56,266 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 19:44:57,583 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 19:45:09,115 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 19:45:09,126 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 19:45:10,979 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 19:45:53,806 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 19:45:53,818 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 19:46:09,145 basehttp - Broken pipe from ('127.0.0.1', 59510)
+INFO 2024-11-17 19:51:24,834 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9083
+INFO 2024-11-17 20:00:42,700 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10827
+WARNING 2024-11-17 20:00:51,293 log Not Found: /favicon.ico
+WARNING 2024-11-17 20:00:51,294 basehttp "GET /favicon.ico HTTP/1.1" 404 4234
+INFO 2024-11-17 20:02:12,637 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10849
+INFO 2024-11-17 20:02:21,898 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10849
+INFO 2024-11-17 20:02:26,433 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10849
+INFO 2024-11-17 20:02:54,987 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10849
+INFO 2024-11-17 20:25:48,596 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12023
+INFO 2024-11-17 20:25:59,568 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 20:26:46,112 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 20:26:46,124 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 20:27:46,149 basehttp - Broken pipe from ('127.0.0.1', 59771)
+INFO 2024-11-17 20:34:37,639 basehttp "GET /notifAll/ HTTP/1.1" 200 17128
+INFO 2024-11-17 20:34:39,446 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13605
+INFO 2024-11-17 20:34:43,122 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 20:34:43,131 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12023
+INFO 2024-11-17 20:47:48,022 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12023
+INFO 2024-11-17 20:48:16,169 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 12137
+INFO 2024-11-17 21:47:53,551 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-11-17 21:47:55,165 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 21:59:53,769 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 22:00:07,788 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 22:00:07,808 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 22:00:11,704 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-17 22:00:13,542 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 22:00:14,963 basehttp "GET /notifAll/notification/ HTTP/1.1" 200 18844
+INFO 2024-11-17 22:00:15,024 basehttp "GET /static/images/Polygon%201.png HTTP/1.1" 200 337
+INFO 2024-11-17 22:00:15,024 basehttp "GET /static/images/3dots.png HTTP/1.1" 200 189
+INFO 2024-11-17 22:00:15,024 basehttp "GET /static/css/2ndP.css HTTP/1.1" 200 20474
+INFO 2024-11-17 22:00:16,169 basehttp "GET /notifAll/ HTTP/1.1" 200 14836
+INFO 2024-11-17 22:00:19,652 basehttp - Broken pipe from ('127.0.0.1', 60283)
+INFO 2024-11-17 22:07:39,563 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 22:08:06,815 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 22:08:19,503 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 22:08:19,582 basehttp "GET /notifAll/ HTTP/1.1" 200 16371
+INFO 2024-11-17 22:09:19,631 basehttp - Broken pipe from ('127.0.0.1', 60404)
+INFO 2024-11-17 22:10:52,433 basehttp "GET /notifAll/ HTTP/1.1" 200 16548
+INFO 2024-11-17 22:11:09,999 basehttp "GET /notifAll/ HTTP/1.1" 200 16548
+INFO 2024-11-17 22:11:19,916 basehttp "GET /notifAll/ HTTP/1.1" 200 16548
+INFO 2024-11-17 22:11:29,620 basehttp "GET /notifAll/ HTTP/1.1" 200 16548
+INFO 2024-11-17 22:11:36,011 basehttp "GET /notifAll/ HTTP/1.1" 200 16548
+INFO 2024-11-17 22:13:41,871 basehttp "GET /notifAll/ HTTP/1.1" 200 16839
+INFO 2024-11-17 22:14:22,697 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 11555
+INFO 2024-11-17 22:14:27,163 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 22:14:27,182 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+WARNING 2024-11-17 22:14:27,247 basehttp "GET /static/css/strength.css HTTP/1.1" 404 1862
+INFO 2024-11-17 22:14:47,926 basehttp "GET /notifAll/ HTTP/1.1" 200 16877
+INFO 2024-11-17 22:14:50,696 basehttp "GET /notifAll/ HTTP/1.1" 200 16877
+INFO 2024-11-17 22:16:23,212 basehttp "GET /notifAll/ HTTP/1.1" 200 16661
+INFO 2024-11-17 22:17:08,945 basehttp "GET /notifAll/ HTTP/1.1" 200 16710
+INFO 2024-11-17 22:17:55,326 basehttp "GET /notifAll/ HTTP/1.1" 200 16883
+INFO 2024-11-17 22:19:10,692 basehttp "GET /notifAll/ HTTP/1.1" 200 17001
+INFO 2024-11-17 22:19:56,174 basehttp "GET /notifAll/ HTTP/1.1" 200 17046
+INFO 2024-11-17 22:20:54,076 basehttp "GET /notifAll/ HTTP/1.1" 200 17197
+INFO 2024-11-17 22:23:17,975 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 22:30:45,013 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-11-17 22:30:46,758 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 22:37:39,543 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-11-17 22:37:41,251 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 22:37:44,796 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 22:37:55,749 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 22:37:55,821 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 22:37:59,108 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8205
+WARNING 2024-11-17 22:37:59,191 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:37:59,196 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:38:03,178 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12610
+INFO 2024-11-17 22:38:09,042 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 22:38:10,228 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8205
+WARNING 2024-11-17 22:38:10,294 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:38:10,296 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:38:54,032 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-11-17 22:38:55,781 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 22:39:03,741 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8372
+WARNING 2024-11-17 22:39:03,777 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:39:03,779 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:40:08,875 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 22:40:15,990 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 8372
+WARNING 2024-11-17 22:40:16,055 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:40:16,059 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:40:27,229 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9525
+WARNING 2024-11-17 22:40:27,286 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:40:27,292 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:41:04,680 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9661
+WARNING 2024-11-17 22:41:04,734 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:41:04,737 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:42:42,662 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9682
+WARNING 2024-11-17 22:42:42,699 log Not Found: /notifAll/settings/{'/static/images/settings/default-avatar.png' }
+WARNING 2024-11-17 22:42:42,704 basehttp "GET /notifAll/settings/%7B'/static/images/settings/default-avatar.png'%20%7D HTTP/1.1" 404 5621
+INFO 2024-11-17 22:43:25,722 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9745
+WARNING 2024-11-17 22:43:25,768 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:44:54,136 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9745
+WARNING 2024-11-17 22:44:54,185 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:18,664 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:18,721 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:26,212 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:26,262 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:32,567 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:32,611 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:38,258 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:38,347 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:40,907 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:40,964 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:45:41,088 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:45:41,127 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:46:00,689 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:46:00,732 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:46:04,091 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12610
+INFO 2024-11-17 22:46:11,660 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+WARNING 2024-11-17 22:46:11,732 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-17 22:46:14,537 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12610
+INFO 2024-11-17 22:47:34,524 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12662
+INFO 2024-11-17 22:48:57,946 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12662
+INFO 2024-11-17 22:49:01,717 basehttp "GET /notifAll/ HTTP/1.1" 200 17391
+INFO 2024-11-17 22:49:09,294 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 22:49:12,441 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12662
+INFO 2024-11-17 22:50:57,108 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 12626
+INFO 2024-11-17 22:51:50,443 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13880
+INFO 2024-11-17 22:52:06,380 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13880
+INFO 2024-11-17 22:52:15,043 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13880
+INFO 2024-11-17 22:52:15,361 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13880
+INFO 2024-11-17 22:52:15,659 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13880
+INFO 2024-11-17 22:53:03,104 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13881
+INFO 2024-11-17 22:53:09,411 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13881
+INFO 2024-11-17 22:54:00,771 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:10,121 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:12,524 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:12,720 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:12,886 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:17,227 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:17,489 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:24,240 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:38,036 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 22:54:45,974 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 22:54:45,990 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+WARNING 2024-11-17 22:54:46,061 basehttp "GET /static/css/strength.css HTTP/1.1" 404 1862
+INFO 2024-11-17 22:55:09,500 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+INFO 2024-11-17 22:55:20,304 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+INFO 2024-11-17 23:12:07,743 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9886
+INFO 2024-11-17 23:12:55,878 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13930
+INFO 2024-11-17 23:13:55,602 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 14146
+INFO 2024-11-17 23:14:08,815 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13930
+INFO 2024-11-17 23:15:46,147 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9806
+INFO 2024-11-17 23:15:57,930 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 13930
+INFO 2024-11-17 23:21:51,071 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9915
+INFO 2024-11-17 23:23:25,316 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9915
+INFO 2024-11-17 23:23:26,575 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9915
+INFO 2024-11-17 23:25:19,769 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9915
+INFO 2024-11-17 23:25:20,655 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9892
+INFO 2024-11-17 23:27:00,336 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:28:18,737 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:28:19,718 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:28:58,399 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:01,318 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:08,284 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:08,877 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:09,108 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:09,286 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:09,433 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:10,956 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:18,485 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:19,661 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9493
+INFO 2024-11-17 23:29:19,804 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9493
+INFO 2024-11-17 23:29:43,884 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:29:57,981 autoreload Watching for file changes with StatReloader
+INFO 2024-11-17 23:29:59,653 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-17 23:30:11,902 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-17 23:30:11,968 basehttp "GET /notifAll/ HTTP/1.1" 200 17339
+INFO 2024-11-17 23:30:14,745 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-17 23:30:22,766 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-17 23:30:22,782 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:30:59,755 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9512
+INFO 2024-11-17 23:31:12,025 basehttp - Broken pipe from ('127.0.0.1', 61183)
+INFO 2024-11-17 23:31:55,064 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9578
+INFO 2024-11-17 23:31:56,460 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9578
+INFO 2024-11-17 23:31:56,472 basehttp - Broken pipe from ('127.0.0.1', 61185)
+INFO 2024-11-17 23:32:10,284 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9513
+INFO 2024-11-17 23:32:10,289 basehttp - Broken pipe from ('127.0.0.1', 61203)
+INFO 2024-11-17 23:32:26,375 basehttp - Broken pipe from ('127.0.0.1', 61215)
+INFO 2024-11-17 23:32:26,657 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9513
+INFO 2024-11-17 23:32:27,621 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:32:27,630 basehttp - Broken pipe from ('127.0.0.1', 61220)
+INFO 2024-11-17 23:32:27,753 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:32:27,902 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9447
+INFO 2024-11-17 23:32:41,152 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
