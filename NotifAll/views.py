@@ -44,7 +44,7 @@ def login(request):
     return render(request, 'login.html')
 
 def settings(request):
-    return render(request, 'settings.html')
+    return redirect('notifAll:accountSettings')
 
 # @login_required
 # def homepage_view(request):

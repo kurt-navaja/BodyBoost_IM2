@@ -31,6 +31,8 @@
         border: 1px solid #888;
         width: 100%;
         font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
       }
       .close {
         color: #aaa;
@@ -56,6 +58,23 @@
       }
       .modal-content .user-name {
         font-weight: bold;
+      }
+      .button:hover, .button1:hover, .button2:hover, .button6:hover, .component:hover {
+        background-color: #e0e0e0; /* Change background color on hover */
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+      }
+      .button, .button6 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 12px 16px;
+        gap: 16px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #fff;
+        cursor: pointer;
       }
     </style>
 </head>
@@ -163,7 +182,7 @@
     </div>
     
     <div class="avatar-w-photo-parent">
-        <a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
+        <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
         <a href="javascript:void(0);" id="bell-icon"><img class="bell-1-icon" alt="" src="{% static 'images/bell-1.png'%}" id="bell1Icon"></a>
         <div class="badges">
             <div class="badge-label">3</div>
@@ -172,7 +191,7 @@
             <b class="welcome-back">Welcome Back!</b>
             <div class="good-morning">Good  Morning</div>
         </div>
-        <a href="{% url 'notifAll:settings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
+        <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
         
         <div class="iconsaxlinearsearchnormal-parent">
             <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/iconsax-linear-searchnormal.png'%}">
@@ -228,7 +247,7 @@
             <div class="overview">Help</div>
         </div>
         <a href="{% url 'login:login' %}">
-            <div class="button6">
+            <div class="button button6">
                 <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
                 <div class="overview">Logout</div>
             </div>
@@ -238,6 +257,7 @@
     <div id="myModal" class="modal" style="position: absolute; top: 50px; right: 50px;">
     <div class="modal-content">
         <h2>Notification</h2>
+        <hr>
         <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
         <hr>
         <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>

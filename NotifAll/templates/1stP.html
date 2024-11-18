@@ -25,6 +25,8 @@
         border: 1px solid #888;
         width: 100%;
         font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
       }
       .close {
         color: #aaa;
@@ -51,6 +53,16 @@
       .modal-content .user-name {
         font-weight: bold;
       }
+      .button:hover, .button-2:hover, .button-3:hover, .component:hover {
+        background-color: #e0e0e0; /* Change background color on hover */
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+      }
+      .side-bar a {
+        display: block;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -68,7 +80,7 @@
                 <div class="text-wrapper">Welcome Back!</div>
                 <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
               </div>
-              <a href="{% url 'notifAll:settings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
+              <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
               <div class="frame-2">
                 <img class="img" src="{% static '/images/iconsax-linear-searchnormal.png'%}" />
                 <div class="text-wrapper-2">Search</div>
@@ -367,6 +379,7 @@
           <div id="myModal" class="modal">
             <div class="modal-content">
               <h2>Notification</h2>
+              <hr>
               <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
               <hr>
               <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>

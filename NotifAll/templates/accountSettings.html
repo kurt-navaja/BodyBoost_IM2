@@ -166,6 +166,11 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
@@ -254,11 +259,11 @@
             </div>
             <div class="header-controls">
               <a href="/notifications">
-              <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
+                <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
               </a>
               <div class="mac-book-air1-badges"></div>
-              <a href="/settings">
-              <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <img class="iconsaxboldsetting2" alt="Settings" src="{% static 'images/settings/setting2.png' %}">
               </a>
             </div>
             <div class="mac-book-air1-frame251">
@@ -463,3 +468,4 @@
       </div>
     </div>
   </body>
+</html>

@@ -31,6 +31,8 @@
         border: 1px solid #888;
         width: 100%;
         font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
       }
       .close {
         color: #aaa;
@@ -86,7 +88,7 @@
     </div>
     
     <div class="avatar-w-photo-parent">
-        <a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
+        <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
         <a href="javascript:void(0);" id="bell-icon"><img class="bell-1-icon" alt="" src="{% static 'images/bell-1.png'%}" id="bell1Icon"></a>
         <div class="badges">
             <div class="badge-label">3</div>
@@ -95,7 +97,7 @@
             <b class="welcome-back">Welcome Back!</b>
             <div class="good-morning">Good  Morning</div>
         </div>
-        <a href="{% url 'notifAll:settings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
+        <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
         
         <div class="iconsaxlinearsearchnormal-parent">
             <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/iconsax-linear-searchnormal.png'%}">
@@ -161,6 +163,7 @@
     <div id="myModal" class="modal" style="position: absolute; top: 50px; right: 50px;">
     <div class="modal-content">
         <h2>Notification</h2>
+        <hr>
         <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
         <hr>
         <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>

@@ -18146,3 +18146,602 @@ INFO 2024-11-13 09:05:20,303 basehttp "GET /static/images/sneaker.png HTTP/1.1" 
 INFO 2024-11-13 09:06:00,170 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
 WARNING 2024-11-13 09:06:00,253 log Not Found: /mySchedule/style.css
 WARNING 2024-11-13 09:06:00,253 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 22:42:11,318 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 22:42:48,760 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 22:42:53,070 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-18 22:42:53,114 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,114 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,114 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,118 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,118 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,118 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,118 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,127 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,127 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,127 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,127 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:42:53,127 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 304 0
+WARNING 2024-11-18 22:42:53,573 log Not Found: /favicon.ico
+WARNING 2024-11-18 22:42:53,573 basehttp "GET /favicon.ico HTTP/1.1" 404 4388
+INFO 2024-11-18 22:43:05,780 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-18 22:43:05,793 basehttp "GET /notifAll/ HTTP/1.1" 200 17346
+INFO 2024-11-18 22:43:05,827 basehttp "GET /static/css/globals.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,827 basehttp "GET /static/css/styleguide.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,828 basehttp "GET /static/images/bell-1.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,830 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,836 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,837 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,837 basehttp "GET /static/images/iconsax-linear-searchnormal.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,837 basehttp "GET /static/images/dashbaord-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,840 basehttp "GET /static/images/workout-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,840 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,844 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,844 basehttp "GET /static/images/progres-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,845 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,847 basehttp "GET /static/images/goal-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,847 basehttp "GET /static/css/style.css HTTP/1.1" 200 23444
+INFO 2024-11-18 22:43:05,852 basehttp "GET /static/images/help-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,854 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,855 basehttp "GET /static/images/logout-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,855 basehttp "GET /static/images/group-11.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,857 basehttp "GET /static/images/group-6.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,858 basehttp "GET /static/images/logopurple.png HTTP/1.1" 200 25749
+INFO 2024-11-18 22:43:05,859 basehttp "GET /static/images/frame.svg HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,861 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,866 basehttp "GET /static/images/group-8.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,867 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,869 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,869 basehttp "GET /static/images/group-5.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,869 basehttp "GET /static/images/image-97.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,871 basehttp "GET /static/images/image-98.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,873 basehttp "GET /static/images/calories.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,874 basehttp "GET /static/images/burger-1.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,875 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:05,875 basehttp "GET /static/images/meat-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,108 basehttp "GET /notifAll/settings/ HTTP/1.1" 200 9811
+INFO 2024-11-18 22:43:12,137 basehttp "GET /static/css/settings.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,138 basehttp "GET /static/images/settings/setting2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,138 basehttp "GET /static/images/settings/avatar%20settings.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,138 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 304 0
+WARNING 2024-11-18 22:43:12,145 basehttp "GET /static/images/settings/default-avatar.png HTTP/1.1" 404 1916
+INFO 2024-11-18 22:43:12,147 basehttp "GET /static/images/settings/dashbaord-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,149 basehttp "GET /static/images/settings/AvatarB.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,149 basehttp "GET /static/images/settings/workout.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,151 basehttp "GET /static/images/settings/workout-bold-3.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,153 basehttp "GET /static/images/settings/Dp.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,154 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,155 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,156 basehttp "GET /static/images/settings/Progress.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,157 basehttp "GET /static/images/settings/Sched.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,160 basehttp "GET /static/images/settings/help.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,161 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,162 basehttp "GET /static/images/settings/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:12,162 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:15,208 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13929
+INFO 2024-11-18 22:43:15,237 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:15,238 basehttp "GET /static/images/workout_white.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:15,241 basehttp "GET /static/images/dashboardGrey.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:15,242 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-11-18 22:43:15,242 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 304 0
+INFO 2024-11-18 22:43:15,248 basehttp "GET /static/css/workout.css HTTP/1.1" 200 14640
+INFO 2024-11-18 22:43:19,034 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-18 22:43:19,047 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:43:19,076 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:44:05,825 basehttp - Broken pipe from ('127.0.0.1', 62571)
+INFO 2024-11-18 22:44:48,114 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:44:48,134 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:44:48,145 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:44:49,380 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:44:49,394 basehttp "GET /static/css/workout1.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:44:49,761 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:44:49,779 basehttp "GET /static/css/workout1.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:44:59,012 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:44:59,043 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:45:07,550 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:45:07,576 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:45:14,556 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:45:14,586 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:45:19,351 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:45:19,380 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:45:25,348 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9466
+INFO 2024-11-18 22:45:25,364 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:45:25,377 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 22:48:22,547 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-11-18 22:48:23,370 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 22:48:28,874 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-11-18 22:48:29,663 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 22:50:52,316 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-18 22:52:20,833 basehttp "POST / HTTP/1.1" 302 0
+ERROR 2024-11-18 22:52:21,065 log Internal Server Error: /notifAll/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py", line 7, in firstP
+    return render(request, '1stP.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'settings' not found. 'settings' is not a valid view function or pattern name.
+ERROR 2024-11-18 22:52:21,073 basehttp "GET /notifAll/ HTTP/1.1" 500 125760
+INFO 2024-11-18 22:52:52,409 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 22:52:52,434 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:52:57,360 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21810
+WARNING 2024-11-18 22:52:57,397 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:52:57,400 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:52:57,402 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-11-18 22:52:57,402 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-11-18 22:52:57,403 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22067
+INFO 2024-11-18 22:52:57,403 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-11-18 22:52:57,403 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:52:57,408 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-11-18 22:52:57,408 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 200 21396
+WARNING 2024-11-18 22:52:57,544 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+WARNING 2024-11-18 22:52:57,544 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-11-18 22:53:21,104 basehttp - Broken pipe from ('127.0.0.1', 62653)
+INFO 2024-11-18 22:56:12,629 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21810
+WARNING 2024-11-18 22:56:12,659 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 22:56:12,661 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:56:12,661 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+WARNING 2024-11-18 22:56:12,663 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:56:12,663 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:56:12,666 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 22:56:12,667 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:56:12,667 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:56:12,668 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+WARNING 2024-11-18 22:56:14,655 log Not Found: /notifications
+WARNING 2024-11-18 22:56:14,656 basehttp "GET /notifications HTTP/1.1" 404 4394
+WARNING 2024-11-18 22:56:33,284 log Not Found: /notifications
+WARNING 2024-11-18 22:56:33,284 basehttp "GET /notifications HTTP/1.1" 404 4394
+INFO 2024-11-18 22:56:37,781 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21810
+WARNING 2024-11-18 22:56:37,805 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:56:37,806 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+WARNING 2024-11-18 22:57:03,010 log Not Found: /notifications
+WARNING 2024-11-18 22:57:03,010 basehttp "GET /notifications HTTP/1.1" 404 4394
+INFO 2024-11-18 22:57:12,808 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21810
+WARNING 2024-11-18 22:57:12,835 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:12,836 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:57:29,162 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 22:57:29,181 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:57:37,904 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21810
+WARNING 2024-11-18 22:57:37,929 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:37,930 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:57:47,456 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:57:47,473 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:47,473 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:57:48,452 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:57:48,470 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:48,471 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:57:48,663 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:57:48,683 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:48,684 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:57:48,851 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:57:48,869 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:57:48,871 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:02,382 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:02,411 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 22:58:02,411 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,411 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,413 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,413 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,413 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+WARNING 2024-11-18 22:58:02,413 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:02,416 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,417 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 22:58:02,892 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:02,908 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:02,909 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:03,112 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:03,132 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:03,133 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:03,289 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:03,308 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:03,309 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:03,448 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:03,466 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:03,466 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:03,642 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:03,670 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:03,671 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:03,819 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 22:58:03,838 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 22:58:03,839 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 22:58:17,430 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
+WARNING 2024-11-18 22:58:17,459 log Not Found: /mySchedule/style.css
+WARNING 2024-11-18 22:58:17,462 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 22:58:17,462 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+INFO 2024-11-18 22:58:17,462 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+INFO 2024-11-18 22:58:17,462 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-11-18 22:58:17,463 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 17391
+INFO 2024-11-18 22:58:36,013 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
+WARNING 2024-11-18 22:58:36,032 log Not Found: /mySchedule/style.css
+WARNING 2024-11-18 22:58:36,032 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 22:58:38,348 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
+WARNING 2024-11-18 22:58:38,368 log Not Found: /mySchedule/style.css
+WARNING 2024-11-18 22:58:38,369 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 23:02:27,194 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:02:27,228 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 23:02:27,229 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:02:27,229 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:02:27,229 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:02:27,229 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+WARNING 2024-11-18 23:02:27,229 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:02:27,230 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 23:02:27,234 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:02:27,234 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:04:31,336 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:04:31,364 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:04:31,365 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:14:23,700 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:14:23,728 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:14:23,731 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:14:23,734 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,734 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,736 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,737 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,738 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,740 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:23,740 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+WARNING 2024-11-18 23:14:24,007 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+WARNING 2024-11-18 23:14:24,007 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-11-18 23:14:28,245 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
+WARNING 2024-11-18 23:14:28,271 log Not Found: /mySchedule/style.css
+INFO 2024-11-18 23:14:28,273 basehttp "GET /static/images/setting.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:28,273 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+WARNING 2024-11-18 23:14:28,273 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 23:14:28,273 basehttp "GET /static/images/sneaker.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:14:28,274 basehttp "GET /static/images/mental-health.png HTTP/1.1" 304 0
+WARNING 2024-11-18 23:15:15,151 log Not Found: /notifications
+WARNING 2024-11-18 23:15:15,151 basehttp "GET /notifications HTTP/1.1" 404 4394
+WARNING 2024-11-18 23:15:17,892 log Not Found: /settings
+WARNING 2024-11-18 23:15:17,893 basehttp "GET /settings HTTP/1.1" 404 4379
+WARNING 2024-11-18 23:15:33,982 log Not Found: /settings
+WARNING 2024-11-18 23:15:33,983 basehttp "GET /settings HTTP/1.1" 404 4379
+INFO 2024-11-18 23:15:38,119 basehttp "GET /mySchedule/ HTTP/1.1" 200 35703
+WARNING 2024-11-18 23:15:38,137 log Not Found: /mySchedule/style.css
+WARNING 2024-11-18 23:15:38,138 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4521
+INFO 2024-11-18 23:27:13,813 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:27:13,843 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 23:27:13,843 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:13,845 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:13,845 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:13,845 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:13,845 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+WARNING 2024-11-18 23:27:13,845 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:27:13,850 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:13,850 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+WARNING 2024-11-18 23:27:14,122 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+WARNING 2024-11-18 23:27:14,126 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-11-18 23:27:14,895 basehttp "GET /notifAll/ HTTP/1.1" 200 21637
+INFO 2024-11-18 23:27:14,929 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:27:42,177 basehttp "GET /notifAll/ HTTP/1.1" 200 21637
+INFO 2024-11-18 23:27:59,193 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 23:28:03,209 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 18227
+INFO 2024-11-18 23:28:16,224 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:29:26,567 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:29:26,592 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:29:26,592 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:30:34,619 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 23:30:35,480 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:30:36,849 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 23:30:37,777 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:30:38,613 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:30:43,082 basehttp "GET /notifAll/ HTTP/1.1" 200 17353
+INFO 2024-11-18 23:30:46,784 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:30:46,813 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:30:46,814 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:31:08,728 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:31:08,751 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:31:08,751 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:31:13,371 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:31:14,200 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:31:14,435 basehttp "GET /notifAll/ HTTP/1.1" 200 17534
+INFO 2024-11-18 23:31:31,436 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:31:35,393 basehttp "GET /notifAll/ HTTP/1.1" 200 17534
+INFO 2024-11-18 23:31:43,513 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:31:43,541 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:31:43,542 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:31:51,480 basehttp - Broken pipe from ('127.0.0.1', 62956)
+INFO 2024-11-18 23:33:21,976 basehttp "GET /notifAll/ HTTP/1.1" 200 17607
+INFO 2024-11-18 23:33:21,997 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:34:49,177 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:34:49,197 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:34:51,254 basehttp "GET /notifAll/ HTTP/1.1" 200 17607
+INFO 2024-11-18 23:34:52,726 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 13943
+INFO 2024-11-18 23:34:54,269 basehttp "GET /notifAll/ HTTP/1.1" 200 17607
+INFO 2024-11-18 23:35:03,810 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:35:12,754 basehttp - Broken pipe from ('127.0.0.1', 63000)
+INFO 2024-11-18 23:35:51,273 basehttp - Broken pipe from ('127.0.0.1', 63009)
+INFO 2024-11-18 23:36:29,888 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:36:44,563 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:36:54,310 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:36:54,338 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:36:54,342 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:36:54,344 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:36:54,345 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:36:54,345 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+INFO 2024-11-18 23:36:54,346 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 23:36:54,348 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:36:54,348 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:37:30,412 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:37:30,434 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:37:30,435 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:37:30,837 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:37:30,855 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:37:30,855 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:37:31,074 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:37:31,096 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:37:31,097 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+WARNING 2024-11-18 23:37:31,438 log Not Found: /notifications
+WARNING 2024-11-18 23:37:31,442 basehttp "GET /notifications HTTP/1.1" 404 4394
+INFO 2024-11-18 23:38:32,376 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:38:33,563 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21808
+WARNING 2024-11-18 23:38:33,593 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:38:33,593 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:38:33,593 basehttp "GET /static/images/setting.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:38:44,657 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21818
+WARNING 2024-11-18 23:38:44,675 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:38:44,676 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:41:46,184 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:41:46,201 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:41:46,202 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:41:46,206 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+WARNING 2024-11-18 23:41:46,309 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+WARNING 2024-11-18 23:41:46,312 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-11-18 23:41:47,015 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:41:47,036 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:41:47,037 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:41:47,247 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:41:47,267 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:41:47,267 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:41:47,419 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:41:47,438 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-18 23:41:47,439 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+WARNING 2024-11-18 23:41:56,760 log Not Found: /notifications
+WARNING 2024-11-18 23:41:56,760 basehttp "GET /notifications HTTP/1.1" 404 4394
+INFO 2024-11-18 23:41:59,000 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:41:59,020 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:45:04,970 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:45:05,955 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14290
+INFO 2024-11-18 23:45:09,395 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:45:46,540 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:45:47,688 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14290
+INFO 2024-11-18 23:46:00,841 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14306
+INFO 2024-11-18 23:46:54,889 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14582
+INFO 2024-11-18 23:48:16,313 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14582
+INFO 2024-11-18 23:48:16,332 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:48:25,873 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:48:25,895 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:48:28,581 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14582
+INFO 2024-11-18 23:48:29,883 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:48:52,046 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14582
+INFO 2024-11-18 23:48:52,834 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:50:20,295 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14589
+INFO 2024-11-18 23:50:21,026 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:50:28,226 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:50:31,201 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14589
+INFO 2024-11-18 23:50:32,695 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-18 23:50:41,541 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:50:41,581 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 23:50:41,585 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+WARNING 2024-11-18 23:50:41,586 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:50:41,586 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:50:41,590 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-18 23:50:41,590 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:50:41,591 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+INFO 2024-11-18 23:50:41,595 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22067
+WARNING 2024-11-18 23:50:41,855 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-11-18 23:50:41,855 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+INFO 2024-11-18 23:50:50,687 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14589
+INFO 2024-11-18 23:50:54,096 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:50:54,967 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+ERROR 2024-11-18 23:50:55,009 log Internal Server Error: /fitness/strengthTraining/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\fitness\views.py", line 6, in strength
+    return render(request, 'strength.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'settings' not found. 'settings' is not a valid view function or pattern name.
+ERROR 2024-11-18 23:50:55,017 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 500 123741
+ERROR 2024-11-18 23:51:26,681 log Internal Server Error: /fitness/strengthTraining/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\fitness\views.py", line 6, in strength
+    return render(request, 'strength.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'settings' not found. 'settings' is not a valid view function or pattern name.
+ERROR 2024-11-18 23:51:26,690 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 500 124202
+INFO 2024-11-18 23:51:39,397 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9480
+INFO 2024-11-18 23:51:39,411 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 14921
+INFO 2024-11-18 23:51:42,783 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-18 23:51:43,808 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-18 23:51:43,835 log Not Found: /notifAll/accountSettings/style.css
+INFO 2024-11-18 23:51:43,837 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+WARNING 2024-11-18 23:51:43,837 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-18 23:52:25,447 autoreload Watching for file changes with StatReloader
+INFO 2024-11-18 23:52:26,771 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-18 23:52:28,618 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-11-18 23:52:28,648 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 200 1083
+INFO 2024-11-18 23:52:28,649 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 200 1512
+INFO 2024-11-18 23:52:28,649 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 200 844
+INFO 2024-11-18 23:52:28,652 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 200 4949
+INFO 2024-11-18 23:52:28,656 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 200 15591
+INFO 2024-11-18 23:52:28,660 basehttp "GET /static/signupPage/css/signup.css HTTP/1.1" 200 9897
+INFO 2024-11-18 23:52:28,664 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 200 172
+INFO 2024-11-18 23:52:28,667 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 200 172
+INFO 2024-11-18 23:52:28,670 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 200 172
+INFO 2024-11-18 23:52:28,672 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 200 450
+INFO 2024-11-18 23:52:28,676 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 200 172
+INFO 2024-11-18 23:52:28,677 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 200 331
+INFO 2024-11-18 23:52:28,680 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 200 328
+INFO 2024-11-18 23:52:28,684 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 200 379
+INFO 2024-11-18 23:52:28,685 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 200 720
+INFO 2024-11-18 23:52:28,686 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 200 11199
+INFO 2024-11-18 23:52:28,687 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 200 299
+INFO 2024-11-18 23:52:29,272 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-18 23:52:30,146 basehttp - Broken pipe from ('127.0.0.1', 63188)
+INFO 2024-11-18 23:52:30,148 basehttp - Broken pipe from ('127.0.0.1', 63187)
+INFO 2024-11-18 23:52:30,150 basehttp - Broken pipe from ('127.0.0.1', 63191)
+INFO 2024-11-19 00:00:53,373 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 00:00:54,688 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-11-19 00:01:07,407 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-11-19 00:01:07,442 basehttp "GET /notifAll/ HTTP/1.1" 200 18514
+INFO 2024-11-19 00:01:07,475 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+WARNING 2024-11-19 00:01:07,487 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:01:07,497 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:01:07,497 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:01:32,285 basehttp "GET /notifAll/ HTTP/1.1" 200 17775
+INFO 2024-11-19 00:02:07,466 basehttp - Broken pipe from ('127.0.0.1', 63252)
+INFO 2024-11-19 00:02:14,405 basehttp "GET /notifAll/ HTTP/1.1" 200 17898
+INFO 2024-11-19 00:02:45,183 basehttp "GET /notifAll/ HTTP/1.1" 200 17917
+INFO 2024-11-19 00:03:26,867 basehttp "GET /notifAll/ HTTP/1.1" 200 18110
+INFO 2024-11-19 00:03:43,326 basehttp "GET /notifAll/ HTTP/1.1" 200 18110
+INFO 2024-11-19 00:03:53,418 basehttp "GET /notifAll/ HTTP/1.1" 200 17917
+INFO 2024-11-19 00:08:19,167 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 15502
+INFO 2024-11-19 00:08:19,199 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+WARNING 2024-11-19 00:08:19,212 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:08:19,212 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:08:19,219 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:08:20,009 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-19 00:11:17,235 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 15309
+WARNING 2024-11-19 00:11:17,272 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:11:17,275 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:11:17,275 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:11:23,787 basehttp "GET /notifAll/ HTTP/1.1" 200 18041
+INFO 2024-11-19 00:11:23,808 basehttp "GET /static/images/logopurple.png HTTP/1.1" 304 0
+INFO 2024-11-19 00:11:27,725 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 15309
+WARNING 2024-11-19 00:11:27,754 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:11:27,760 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:11:27,765 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:11:29,426 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-19 00:11:36,797 basehttp "GET /notifAll/ HTTP/1.1" 200 18041
+INFO 2024-11-19 00:11:38,980 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 15309
+WARNING 2024-11-19 00:11:39,007 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:11:39,019 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:11:39,020 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:11:39,783 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-19 00:12:04,003 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14589
+INFO 2024-11-19 00:12:04,809 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-11-19 00:16:25,621 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14712
+INFO 2024-11-19 00:16:42,638 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 14725
+INFO 2024-11-19 00:16:46,148 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 22025
+WARNING 2024-11-19 00:16:46,188 log Not Found: /notifAll/accountSettings/style.css
+WARNING 2024-11-19 00:16:46,190 basehttp "GET /notifAll/accountSettings/style.css HTTP/1.1" 404 5660
+INFO 2024-11-19 00:16:46,191 basehttp "GET /static/css/navStyle.css HTTP/1.1" 304 0
+INFO 2024-11-19 00:16:46,191 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-11-19 00:16:46,194 basehttp "GET /static/images/bell.png HTTP/1.1" 304 0
+INFO 2024-11-19 00:16:46,195 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 304 0
+INFO 2024-11-19 00:16:46,195 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 304 0
+INFO 2024-11-19 00:16:46,195 basehttp "GET /static/images/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 304 0
+WARNING 2024-11-19 00:16:46,413 basehttp "GET /static/css/public/external/tq_awoq2yfjef-5d6t-200h.png HTTP/1.1" 404 1955
+WARNING 2024-11-19 00:16:46,417 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-11-19 00:16:57,122 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-11-19 00:16:57,164 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 10241
+INFO 2024-11-19 00:16:57,192 basehttp "GET /static/css/workout1.css HTTP/1.1" 304 0
+WARNING 2024-11-19 00:16:57,204 basehttp "GET /static/images/workout-icon.png HTTP/1.1" 404 1883
+WARNING 2024-11-19 00:16:57,208 basehttp "GET /static/images/meal-icon.png HTTP/1.1" 404 1874
+WARNING 2024-11-19 00:16:57,209 basehttp "GET /static/images/motivation-icon.png HTTP/1.1" 404 1892
+INFO 2024-11-19 00:17:16,516 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9480
+INFO 2024-11-19 00:17:16,534 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 304 0
+INFO 2024-11-19 00:17:31,799 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9603
+INFO 2024-11-19 00:17:43,403 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9603
+INFO 2024-11-19 00:17:47,752 basehttp "GET /fitness/strengthTraining/ HTTP/1.1" 200 9616
+INFO 2024-11-19 00:17:53,178 basehttp "GET /notifAll/ HTTP/1.1" 200 17917

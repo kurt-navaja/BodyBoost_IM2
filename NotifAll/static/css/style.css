@@ -1192,3 +1192,13 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+.navaja-notification .button:hover,
+.navaja-notification .button-2:hover,
+.navaja-notification .button-3:hover,
+.navaja-notification .component:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
