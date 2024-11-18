@@ -1,0 +1,465 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Account Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="{% static '/css/accountSettings.css'%}" rel="stylesheet" />
+      <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
+
+      <div class="mac-book-air1-container">
+        <div class="mac-book-air1-mac-book-air1">
+          <!-- Header Section -->
+          <header class="mac-book-air1-frame5">
+            <div class="mac-book-air1-avatarwphoto1" style="cursor: pointer;" onclick="document.getElementById('avatar-upload').click();">
+              <img src="/static/images/avatar-w-photo.png" alt="Profile Picture" />
+            </div>
+            <input type="file" id="avatar-upload" style="display: none;" accept="image/*" />
+            <div class="mac-book-air1-greetings">
+              <span class="mac-book-air1-text10">Welcome Back!</span>
+              <span class="mac-book-air1-text11">Good Morning</span>
+            </div>
+            <div class="header-controls">
+              <a href="/notifications">
+              <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
+              </a>
+              <div class="mac-book-air1-badges"></div>
+              <a href="/settings">
+              <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
+              </a>
+            </div>
+            <div class="mac-book-air1-frame251">
+              <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+              <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+            </div>
+          </header>
+
+          <!-- Sidebar Navigation -->
+          <nav class="mac-book-air1-sidebar">
+            <div class="mac-book-air1-frame16">
+              <div class="mac-book-air1-frame15">
+                <!-- Logo -->
+                <div class="mac-book-air1-app-logo">
+                    <div class="mac-book-air1-frame812852">
+                      <a href="/" class="mac-book-air1-text13">BodyBoost</a>
+                    </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="mac-book-air1-frame12">
+                  <a href="{% url 'notifAll:firstP' %}">
+                    <button class="mac-book-air1-button1">
+                    <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
+                    <span class="mac-book-air1-text14">Overview</span>
+                  </button>
+                  </a>
+                  <button class="mac-book-air1-button2">
+                    <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
+                    <span class="mac-book-air1-text15">Workout</span>
+                  </button>
+                  <button class="mac-book-air1-button3">
+                    <img src="/static/images/diet-plan-2.png" alt="Diet Plan" class="mac-book-air1-diet-plan" />
+                    <span class="mac-book-air1-text16">Diet Plan</span>
+                  </button>
+                  <button class="mac-book-air1-button4">
+                    <img src="/static/images/settings/Goals.png" alt="Goals" class="mac-book-air1-goal" />
+                    <span class="mac-book-air1-text17">Goals</span>
+                  </button>
+                  <a href="{% url 'MySchedule:mySched' %}">
+                    <button class="mac-book-air1-button5">
+                      <img src="/static/images/schedule-2.png" alt="Schedule" class="mac-book-air1-schedule" />
+                      <span class="mac-book-air1-text18">My Schedule</span>
+                    </button>
+                  </a>
+                  <button class="mac-book-air1-button6">
+                    <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
+                    <span class="mac-book-air1-text19">Progress</span>
+                    <img src="/static/images/settings/rightArr.png" alt="Arrow" class="mac-book-air1-arrowdark" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+              <div class="mac-book-air1-component2">
+                <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
+                <span class="mac-book-air1-text20">Help</span>
+              </div>
+              <button class="mac-book-air1-button7">
+                <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
+                <span class="mac-book-air1-text21">Logout</span>
+              </button>
+            </div>
+          </nav>
+
+          <!-- Main Content - Account Settings -->
+          <main class="account-settings-content">
+            <div class="header-section">
+                <a href="javascript:history.back()">
+                <img src="/static/images/settings/LeftArrow.png" alt="Back" class="mac-book-air1-leftarrow1" />
+                </a>
+              <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" />
+              <h1 class="mac-book-air1-text27">Account Settings</h1>
+              <p class="mac-book-air1-text23">
+                Here you can edit public information about yourself.<br />
+                The changes will be displayed for other users within 5 minutes.
+              </p>
+            </div>
+
+            <!-- User Information Form -->
+            <section class="user-info-form">
+              <h2 class="mac-book-air1-text28">User Information</h2>
+
+              <!-- Profile Photo Section -->
+              <div class="profile-photo-section">
+                <span class="mac-book-air1-text30">Profile Photo</span>
+                <div class="mac-book-air1-avatarwphoto2" id="avatarBImage" style="cursor: pointer;">
+                  <img src="/static/images/tq_qxxcbxkzr7-mee-300h.png" alt="Profile Picture" />
+                </div>
+                <!-- Hidden File Input for Image Upload -->
+                <input type="file" id="avatarB-upload" style="display: none;" accept="image/*" />
+              </div>
+
+              <!-- Circle Icon -->
+              <img src="/static/images/circle17021-670l-200h.png" alt="circle17021" class="mac-book-air1-circle1" id="avatarBCircle" style="cursor: pointer;" />
+
+              <script>
+                // Trigger file upload when either the profile image or circle icon is clicked
+                const uploadTriggerElements = [document.getElementById("avatarBImage"), document.getElementById("avatarBCircle")];
+                
+                uploadTriggerElements.forEach(element => {
+                  element.addEventListener("click", function () {
+                    document.getElementById("avatarB-upload").click();
+                  });
+                });
+
+                // Display the selected image after uploading
+                document.getElementById("avatarB-upload").addEventListener("change", function(event) {
+                  const file = event.target.files[0];
+                  if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                      document.getElementById("avatarBImage").querySelector("img").src = e.target.result;
+                    };
+                    reader.readAsDataURL(file);
+                  }
+                });
+              </script>
+
+              <!-- Form Fields -->
+              <div class="form-fields">
+                <div class="field-group">
+                  <label class="mac-book-air1-text35">Full Name</label>
+                  <div class="name-fields">
+                    <!-- First Name Input Field -->
+                    <div class="field">
+                      <input type="text" class="mac-book-air1-text36 form-input" placeholder="First Name" style="width: 187px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -14px;" />
+                    </div>
+
+                    <!-- Last Name Input Field -->
+                    <div class="field">
+                      <input type="text" class="mac-book-air1-text42 form-input" placeholder="Last Name" style="width: 193px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -8px;" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="email-field-group">
+                <label class="mac-book-air1-text29">Email Address</label>
+                <input type="email" class="mac-book-air1-text22 form-input" placeholder="bodyboost22@email.com" style="width: 389px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-left: -13px;" />
+              </div>
+
+              <div class="field-group">
+                <label class="mac-book-air1-text34">Address</label>
+                <div class="address-fields">
+                  <!-- Country Input Field -->
+                  <input type="text" class="mac-book-air1-text37 form-input" placeholder="Country" style="width: 160px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-left: -13px;" />
+
+                  <!-- City Input Field -->
+                  <input type="text" class="mac-book-air1-text38 form-input" placeholder="City" style="width: 130px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -6px;" />
+
+                  <!-- ZIP Input Field -->
+                  <input type="text" class="mac-book-air1-text43 form-input" placeholder="ZIP" style="width: 84px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 5px; margin-left: 5px;" />
+
+                  <!-- Street Input Field -->
+                  <input type="text" class="mac-book-air1-text44 form-input" placeholder="Street" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -8px; margin-left: -13px;" />
+                </div>
+              </div>
+
+              <!-- Weight Input Field -->
+              <div class="field-group">
+                <label class="mac-book-air1-text32">Weight</label>
+                <input type="text" class="mac-book-air1-text39 form-input" placeholder="51kg" style="width: 145px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: 4px; margin-right: 10px; margin-left: -18px; margin-top: -11px;" />
+              </div>
+
+              <!-- Body Type Goal Select Field -->
+              <div class="field-group">
+                <label class="mac-book-air1-text31">Body Type Goal</label>
+                <select class="mac-book-air1-text45 form-input" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -15px;">
+                  <option value="" disabled selected>Select Body Type Goal</option>
+                  <option value="slim">Slim</option>
+                  <option value="toned">Toned</option>
+                  <option value="muscular">Muscular</option>
+                  <option value="bulky">Bulky</option>
+                  <option value="athletic">Athletic</option>
+                </select>
+              </div>
+
+            <!-- Training Intensity Select Field -->
+            <div class="field-group">
+              <label class="mac-book-air1-text33">Training Intensity</label>
+              <select class="mac-book-air1-text40 form-input" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
+                <option value="" disabled selected>Select Intensity</option>
+                <option value="0.3">Gentle (0.3kg / week)</option>
+                <option value="0.6">Light (0.6kg / week)</option>
+                <option value="0.7">Moderate (0.75kg / week)</option>
+                <option value="0.8">Aggressive (1kg / week)</option>
+                <option value="0.9">High Intensity (1.25kg / week)</option>
+              </select>
+              </div>
+
+
+                <!-- Save Button -->
+                <button class="mac-book-air1-next" type="button">
+                <span class="mac-book-air1-text46">Save</span>
+                </button>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>

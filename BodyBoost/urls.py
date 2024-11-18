@@ -8,4 +8,5 @@ urlpatterns = [
     path("signup/", include("Signup.urls", namespace='signup')),  # Dedicated URL for signup
     path('notifAll/', include('NotifAll.urls', namespace='notifAll')),
     path('fitness/', include('fitness.urls', namespace='fitness')),
+    path('mySchedule/', include('MySchedule.urls', namespace='mySchedule')),
 ]

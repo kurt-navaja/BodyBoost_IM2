@@ -12,4 +12,5 @@ urlpatterns = [
     path('save_workout/', views.save_workout_preferences, name='save_workout_preferences'),
     path('login/', views.login, name='login'),
     path('settings/', views.settings, name='settings'),
-]
+    path('accountSettings/', views.accountSettings, name='accountSettings'),
+] 

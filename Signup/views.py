@@ -51,7 +51,7 @@ def knowMore_view(request):
             user = form.save()
             logger.info(f"Additional information saved for user {user.email}")
             messages.success(request, 'Profile updated successfully!')
-            return redirect('login:login') #diri ilisdan
+            return redirect('signup:knowMoreSuccess')
         else:
             logger.error(f"KnowMore form validation failed. Errors: {form.errors}")
             return render(request, 'knowMore.html', {'form': form})
