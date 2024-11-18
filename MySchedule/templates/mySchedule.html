@@ -1,0 +1,774 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Account Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="{% static '/css/mySchedule.css'%}" rel="stylesheet" />
+      <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
+
+      <div class="mac-book-air1-container">
+        <div class="mac-book-air1-mac-book-air1">
+          <!-- Header Section -->
+          <header class="mac-book-air1-frame5">
+            <div class="mac-book-air1-avatarwphoto1" style="cursor: pointer;" onclick="document.getElementById('avatar-upload').click();">
+              <img src="/static/images/avatar-w-photo.png" alt="Profile Picture" />
+            </div>
+            <input type="file" id="avatar-upload" style="display: none;" accept="image/*" />
+            <div class="mac-book-air1-greetings">
+              <span class="mac-book-air1-text10">Welcome Back!</span>
+              <span class="mac-book-air1-text11">Good Morning</span>
+            </div>
+            <div class="header-controls">
+              <a href="/notifications">
+                <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
+              </a>
+              <div class="mac-book-air1-badges"></div>
+              <a href="/settings">
+                <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
+              </a>
+            </div>
+            <div class="mac-book-air1-frame251">
+              <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+              <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+            </div>
+          </header>
+
+          <!-- Sidebar Navigation -->
+          <nav class="mac-book-air1-sidebar">
+            <div class="mac-book-air1-frame16">
+              <div class="mac-book-air1-frame15">
+                <!-- Logo -->
+                <div class="mac-book-air1-app-logo">
+                  <div class="mac-book-air1-frame812852">
+                    <a href="/" class="mac-book-air1-text13">BodyBoost</a>
+                  </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="mac-book-air1-frame12">
+                  <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" />
+                  <button class="mac-book-air1-button1">
+                    <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
+                    <span class="mac-book-air1-text14">Overview</span>
+                  </button>
+                  <button class="mac-book-air1-button2">
+                    <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
+                    <span class="mac-book-air1-text15">Workout</span>
+                  </button>
+                  <button class="mac-book-air1-button3">
+                    <img src="/static/images/diet-plan-2.png" alt="Diet Plan" class="mac-book-air1-diet-plan" />
+                    <span class="mac-book-air1-text16">Diet Plan</span>
+                  </button>
+                  <button class="mac-book-air1-button4">
+                    <img src="/static/images/settings/Goals.png" alt="Goal" class="mac-book-air1-goal" />
+                    <span class="mac-book-air1-text17">Goals</span>
+                  </button>
+                  <a href="{% url 'MySchedule:mySched' %}">
+                    <button class="mac-book-air1-button5">
+                      <img src="/static/images/schedule-2.png" alt="Schedule" class="mac-book-air1-schedule" />
+                      <span class="mac-book-air1-text18">My Schedule</span>
+                    </button>
+                  </a>
+                  <button class="mac-book-air1-button6">
+                    <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
+                    <span class="mac-book-air1-text19">Progress</span>
+                    <img src="/static/images/arrow-dark.png" alt="Arrow" class="mac-book-air1-arrowdark" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+              <div class="mac-book-air1-component2">
+                <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
+                <span class="mac-book-air1-text20">Help</span>
+              </div>
+              <button class="mac-book-air1-button7">
+                <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
+                <span class="mac-book-air1-text21">Logout</span>
+              </button>
+            </div>
+          </nav>
+
+          <main>
+            {% block content %}
+            <div class="main-content-frame">
+              <div class="frame-header">
+                <div class="header-left">
+                  <a href="javascript:history.back()" class="back-button">
+                    <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+                  </a>
+                  <h1 class="frame-title">My Schedule</h1>
+                </div>
+                <p class="frame-description">
+                  Here you can view and manage your schedule.
+                  The changes will be displayed for other users within 5 minutes.
+                </p>
+              </div>
+
+              <div class="schedule-content">
+                <div class="schedule-grid">
+                  
+                  <!-- Calendar Section -->
+                  <div class="calendar-section">
+                    <div class="calendar-wrapper">
+                      <div class="calendar-header">
+                        <button class="calendar-nav-btn">&lt;</button>
+                        <h2 class="calendar-title">November 2024</h2>
+                        <button class="calendar-nav-btn">&gt;</button>
+                      </div>
+                      <div class="calendar-grid">
+                        <div class="calendar-weekdays">
+                          <span>Sun</span>
+                          <span>Mon</span>
+                          <span>Tue</span>
+                          <span>Wed</span>
+                          <span>Thu</span>
+                          <span>Fri</span>
+                          <span>Sat</span>
+                        </div>
+                        <div class="calendar-days">
+                          <div class="calendar-day-success"><span class="day-number">1</span></div>
+                          <div class="calendar-day"><span class="day-number">2</span></div>
+                          <div class="calendar-day-success"><span class="day-number">3</span></div>
+                          <div class="calendar-day-success"><span class="day-number">4</span></div>
+                          <div class="calendar-day-success"><span class="day-number">5</span></div>
+                          <div class="calendar-day"><span class="day-number">6</span></div>
+                          <div class="calendar-day-success"><span class="day-number">7</span></div>
+                          <div class="calendar-day"><span class="day-number">8</span></div>
+                          <div class="calendar-day-success"><span class="day-number">9</span></div>
+                          <div class="calendar-day-success"><span class="day-number">10</span></div>
+                          <div class="calendar-day"><span class="day-number">11</span></div>
+                          <div class="calendar-day-today"><span class="day-number">12</span></div>
+                          <div class="calendar-day"><span class="day-number">13</span></div>
+                          <div class="calendar-day"><span class="day-number">14</span></div>
+                          <div class="calendar-day"><span class="day-number">15</span></div>
+                          <div class="calendar-day"><span class="day-number">16</span></div>
+                          <div class="calendar-day"><span class="day-number">17</span></div>
+                          <div class="calendar-day"><span class="day-number">18</span></div>
+                          <div class="calendar-day"><span class="day-number">19</span></div>
+                          <div class="calendar-day"><span class="day-number">20</span></div>
+                          <div class="calendar-day"><span class="day-number">21</span></div>
+                          <div class="calendar-day"><span class="day-number">22</span></div>
+                          <div class="calendar-day"><span class="day-number">23</span></div>
+                          <div class="calendar-day"><span class="day-number">24</span></div>
+                          <div class="calendar-day"><span class="day-number">25</span></div>
+                          <div class="calendar-day"><span class="day-number">26</span></div>
+                          <div class="calendar-day"><span class="day-number">27</span></div>
+                          <div class="calendar-day"><span class="day-number">28</span></div>
+                          <div class="calendar-day"><span class="day-number">29</span></div>
+                          <div class="calendar-day"><span class="day-number">30</span></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="step-counter-wrapper">
+                      <div class="step-counter">
+                        <div class="step-counter-header">
+                          <img src="{% static '/images/sneaker.png' %}" alt="Steps" class="card-icon" style="opacity: 0.7; margin-left: 2px;">
+                          <h4>Daily Steps</h4>
+                        </div>
+                        <div class="step-counter-content">
+                          <div class="step-count">
+                            <span class="current-steps">8,426</span>
+                            <span class="step-goal">/ 10,000 steps</span>
+                          </div>
+                          <div class="progress-bar">
+                            <div class="progress-fill" style="width: 84.26%"></div>
+                          </div>
+                          <div class="step-stats">
+                            <div class="stat">
+                              <span class="stat-value">4.2</span>
+                              <span class="stat-label">km</span>
+                            </div>
+                            <div class="stat">
+                              <span class="stat-value">247</span>
+                              <span class="stat-label">cal</span>
+                            </div>
+                            <div class="stat">
+                              <span class="stat-value">1.1</span>
+                              <span class="stat-label">hours</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mood-meter-wrapper">
+                      <div class="mood-meter">
+                        <div class="mood-meter-header">
+                          <img src="{% static '/images/mental-health.png' %}" alt="Mood" class="card-icon" style="opacity: 0.7; margin-left: -1px;">
+                          <h4>Mood-O-Meter</h4>
+                        </div>
+                        <div class="mood-meter-content">
+                          <div class="mood-level">
+                            <span class="current-mood">Great</span>
+                            <span class="mood-time" style="margin-left: auto;">Updated 2h ago</span>
+                          </div>
+                          <div class="mood-slider-container">
+                            <input type="range" min="1" max="5" value="4" class="mood-slider" id="moodSlider">
+                            <div class="mood-labels">
+                              <span>😔</span>
+                              <span>😐</span>
+                              <span>🙂</span>
+                              <span>😊</span>
+                              <span>😁</span>
+                            </div>
+                          </div>
+                          <div class="mood-factors">
+                            <div class="mood-tag active">Energetic</div>
+                            <div class="mood-tag">Stressed</div>
+                            <div class="mood-tag active">Motivated</div>
+                            <div class="mood-tag">Tired</div>
+                            <div class="mood-tag">Anxious</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <style>
+                      /* Mood Meter Styles */
+                      .mood-meter-wrapper {
+                        background: white;
+                        border-radius: 12px;
+                        padding: 30px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+                        margin-top: -5px;
+                      }
+
+                      .mood-meter {
+                        margin-top: 0;
+                        padding-top: 0;
+                        border-top: none;
+                      }
+
+                      .mood-meter-header {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        margin-bottom: 16px;
+                      }
+
+                      .mood-meter-header h4 {
+                        color: #4F378A;
+                        font-family: 'Outfit', sans-serif;
+                        font-weight: 600;
+                        margin: 0;
+                      }
+
+                      .mood-meter-content {
+                        padding: 0 4px;
+                      }
+
+                      .mood-level {
+                        display: flex;
+                        align-items: baseline;
+                        gap: 8px;
+                        margin-bottom: 16px;
+                      }
+
+                      .current-mood {
+                        color: #4F378A;
+                        font-family: 'Outfit', sans-serif;
+                        font-size: 24px;
+                        font-weight: 600;
+                      }
+
+                      .mood-time {
+                        color: #64748B;
+                        font-family: 'Manrope', sans-serif;
+                        font-size: 10px;
+                      }
+
+                      .mood-slider-container {
+                        margin-bottom: 20px;
+                      }
+
+                      .mood-slider {
+                        width: 100%;
+                        height: 6px;
+                        -webkit-appearance: none;
+                        background: linear-gradient(to right, #4F378A, #FFD93D, #FF6B6B);
+                        border-radius: 3px;
+                        outline: none;
+                        margin-bottom: 10px;
+                      }
+
+                      .mood-slider::-webkit-slider-thumb {
+                        -webkit-appearance: none;
+                        appearance: none;
+                        width: 20px;
+                        height: 20px;
+                        background: white;
+                        border: 2px solid #4F378A;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                      }
+
+                      .mood-slider::-webkit-slider-thumb:hover {
+                        background: #4F378A;
+                      }
+
+                      .mood-labels {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0 5px;
+                        font-size: 18px;
+                      }
+
+                      .mood-factors {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 8px;
+                        margin-top: 16px;
+                      }
+
+                      .mood-tag {
+                        padding: 6px 12px;
+                        background-color: #F1F5F9;
+                        border-radius: 20px;
+                        font-family: 'Manrope', sans-serif;
+                        font-size: 14px;
+                        color: #64748B;
+                        cursor: pointer;
+                        transition: all 0.2s ease;
+                      }
+
+                      .mood-tag:hover {
+                        background-color: #E2E8F0;
+                      }
+
+                      .mood-tag.active {
+                        background-color: #4F378A;
+                        color: white;
+                      }
+
+                      @media (max-width: 768px) {
+                        .mood-meter-wrapper {
+                          margin-top: 16px;
+                        }
+
+                        .current-mood {
+                          font-size: 20px;
+                        }
+
+                        .mood-factors {
+                          gap: 6px;
+                        }
+
+                        .mood-tag {
+                          padding: 4px 10px;
+                          font-size: 12px;
+                        }
+                      }
+                    </style>
+
+                    <script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                        const moodSlider = document.getElementById('moodSlider');
+                        const currentMood = document.querySelector('.current-mood');
+
+                        const moods = ['Poor', 'Fair', 'Good', 'Great', 'Excellent'];
+
+                        moodSlider.addEventListener('input', function() {
+                          const moodIndex = parseInt(this.value) - 1;
+                          currentMood.textContent = moods[moodIndex];
+                        });
+
+                        // Toggle mood factors
+                        document.querySelectorAll('.mood-tag').forEach(tag => {
+                          tag.addEventListener('click', function() {
+                            this.classList.toggle('active');
+                          });
+                        });
+                      });
+                    </script>
+                  </div>
+
+                  <!-- Daily Schedule Section -->
+                  <div class="daily-schedule">
+                    <div class="schedule-header">
+                      <h3>Today's Schedule</h3>
+                      <span class="date">Tuesday, November 12</span>
+                    </div>
+
+                    <!-- Workout Card -->
+                    <div class="schedule-card workout-card">
+                      <div class="card-header">
+                        <img src="{% static 'images/workout-2.png' %}" alt="Workout" class="card-icon">
+                        <h4>Workouts</h4>
+                      </div>
+                      <div class="workout-list">
+                        <div class="workout-item">
+                          <span class="workout-time">05:30 AM</span>
+                          <div class="workout-details">
+                            <h5>Morning Cardio</h5>
+                            <p>30 min running - 300 calories</p>
+                          </div>
+                          <button class="workout-status">Complete</button>
+                        </div>
+                        <div class="workout-item">
+                          <span class="workout-time">06:00 AM</span>
+                          <div class="workout-details">
+                            <h5>Upper Body Strength</h5>
+                            <p>45 min weight training - 250 calories</p>
+                          </div>
+                          <button class="workout-status pending">Pending</button>
+                        </div>
+                        <div class="workout-item">
+                          <span class="workout-time">06:40 AM</span>
+                          <div class="workout-details">
+                            <h5>Core Workout</h5>
+                            <p>20 min abs circuit - 150 calories</p>
+                          </div>
+                          <button class="workout-status pending">Pending</button>
+                        </div>
+                        <div class="workout-item">
+                          <span class="workout-time">06:00 PM</span>
+                          <div class="workout-details">
+                            <h5>Yoga Session</h5>
+                            <p>45 min flexibility - 180 calories</p>
+                          </div>
+                          <button class="workout-status pending">Pending</button>
+                        </div>
+                        <div class="workout-item">
+                          <span class="workout-time">08:45 PM</span>
+                          <div class="workout-details">
+                            <h5>HIIT Training</h5>
+                            <p>25 min high intensity - 220 calories</p>
+                          </div>
+                          <button class="workout-status pending">Pending</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Meal Plan Card -->
+                    <div class="schedule-card meal-card">
+                      <div class="card-header">
+                        <img src="{% static 'images/diet-plan-2.png' %}" alt="Meals" class="card-icon">
+                        <h4>Meal Plan</h4>
+                      </div>
+                      <div class="meal-list">
+                        <div class="meal-item">
+                          <span class="meal-time">08:30 AM</span>
+                          <div class="meal-details">
+                            <h5>Breakfast</h5>
+                            <p>Oatmeal with berries - 320 cal</p>
+                          </div>
+                          <div class="meal-macros">
+                            <span>P: 15g</span>
+                            <span>C: 45g</span>
+                            <span>F: 8g</span>
+                          </div>
+                        </div>
+                        <div class="meal-item">
+                          <span class="meal-time">01:00 PM</span>
+                          <div class="meal-details">
+                            <h5>Lunch</h5>
+                            <p>Grilled chicken salad - 450 cal</p>
+                          </div>
+                          <div class="meal-macros">
+                            <span>P: 35g</span>
+                            <span>C: 25g</span>
+                            <span>F: 12g</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Progress Card -->
+                    <div class="schedule-card progress-card">
+                      <div class="card-header">
+                      <img src="{% static 'images/progres-2.png' %}" alt="Progress" class="card-icon">
+                      <h4>Daily Progress</h4>
+                      </div>
+                      <div class="progress-stats" style="display: flex; gap: 65px; margin-left: 40px;">
+                      <div class="stat-item">
+                        <div class="stat-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="75, 100"/>
+                        </svg>
+                        <div class="stat-number">1,200</div>
+                        </div>
+                        <span class="stat-label">Calorie Intake</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="50, 100"/>
+                        </svg>
+                        <div class="stat-number">4/8</div>
+                        </div>
+                        <span class="stat-label">Water (cups)</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="60, 100"/>
+                        </svg>
+                        <div class="stat-number">60g</div>
+                        </div>
+                        <span class="stat-label">Protein Intake</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="67, 100"/>
+                        </svg>
+                        <div class="stat-number">560</div>
+                        </div>
+                        <span class="stat-label">Calories Burned</span>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endblock %}
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

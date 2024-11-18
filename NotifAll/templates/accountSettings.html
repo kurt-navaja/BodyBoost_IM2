@@ -280,10 +280,12 @@
 
                 <!-- Navigation Menu -->
                 <div class="mac-book-air1-frame12">
-                  <button class="mac-book-air1-button1 {% if current_page == 'overview' %}active{% endif %}">
+                  <a href="{% url 'notifAll:firstP' %}">
+                    <button class="mac-book-air1-button1">
                     <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
                     <span class="mac-book-air1-text14">Overview</span>
                   </button>
+                  </a>
                   <button class="mac-book-air1-button2">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
@@ -296,10 +298,12 @@
                     <img src="/static/images/settings/Goals.png" alt="Goals" class="mac-book-air1-goal" />
                     <span class="mac-book-air1-text17">Goals</span>
                   </button>
-                  <button class="mac-book-air1-button5">
-                    <img src="/static/images/schedule-2.png" alt="Schedule" class="mac-book-air1-schedule" />
-                    <span class="mac-book-air1-text18">My Schedule</span>
-                  </button>
+                  <a href="{% url 'MySchedule:mySched' %}">
+                    <button class="mac-book-air1-button5">
+                      <img src="/static/images/schedule-2.png" alt="Schedule" class="mac-book-air1-schedule" />
+                      <span class="mac-book-air1-text18">My Schedule</span>
+                    </button>
+                  </a>
                   <button class="mac-book-air1-button6">
                     <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
                     <span class="mac-book-air1-text19">Progress</span>
