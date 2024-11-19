@@ -494,6 +494,8 @@ body {
 }
 .search {
     position: relative;
+    width: 100%; /* Match the width */
+    outline: none; /* Remove the outline */
 }
 .iconsaxlinearsearchnormal-parent {
     position: absolute;
@@ -561,19 +563,7 @@ body {
     position: relative;
     font-weight: 600;
 }
-.button, .button1, .button2, .button6 {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    gap: 16px;
-    cursor: pointer;
-    color: #625b71;
-}
+
 .frame-item {
     width: 192px;
     flex: 1;
@@ -583,11 +573,13 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 16px;
     font-size: 14px;
     color: #475569;
+    margin-left: -10px;
+    margin-right: 20px;
 }
 .app-logo-parent {
     align-self: stretch;
@@ -622,21 +614,23 @@ body {
     justify-content: flex-start;
     padding: 16px;
     gap: 16px;
+    font-size: 14px;
+    color: #475569;
 }
 .side-bar {
-    position: absolute;
-    top: -9px;
-    left: 7%;
+    position: fixed; /* Change to fixed to keep it in place */
+    top: 0; /* Align to the top */
+    left: 105px; /* Align to the left */
+    height: 100%; /* Full height */
+    width: 240px; /* Fixed width */
     box-shadow: 0px 12px 17px 2px rgba(0, 0, 0, 0.03), 0px 5px 22px 4px rgba(0, 0, 0, 0.02);
     background-color: #fff;
     border-right: 1px solid #e2e8f0;
     box-sizing: border-box;
-    width: 240px;
-    height: 841px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between; /* Ensure space between elements */
     padding: 24px;
     gap: 16px;
     font-size: 14px;
@@ -686,8 +680,21 @@ a:hover {
 }
 
 .button:hover, .button1:hover, .button2:hover, .button6:hover, .component:hover {
-    background-color: #e0e0e0; /* Change background color on hover */
+    background-color: #483d82; /* Change background color on hover */
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
     transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.button1, .button2, .button6 {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    right: 0;
 }

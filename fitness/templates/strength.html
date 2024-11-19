@@ -104,7 +104,20 @@
             <div class="search">Search</div>
         </div>
     </div>
-    <div class="side-bar">
+    
+    <div id="myModal" class="modal" style="position: absolute; top: 50px; right: 50px;">
+    <div class="modal-content">
+        <h2>Notification</h2>
+        <hr>
+        <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+        <hr>
+        <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+        <hr>
+        <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
+    </div>
+</div>
+
+    <div class="side-bar" style="left: 102px; top: 0;">
         <div class="frame-parent">
             <div class="app-logo-parent">
                 <div class="app-logo">
@@ -153,24 +166,12 @@
             <div class="overview">Help</div>
         </div>
         <a href="{% url 'login:login' %}">
-            <div class="button6">
+            <div class="button button6">
                 <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
                 <div class="overview">Logout</div>
             </div>
         </a>
     </div>
-
-    <div id="myModal" class="modal" style="position: absolute; top: 50px; right: 50px;">
-    <div class="modal-content">
-        <h2>Notification</h2>
-        <hr>
-        <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
-        <hr>
-        <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
-        <hr>
-        <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
-    </div>
-</div>
 
     <script>
 document.querySelector('form').addEventListener('submit', function(event) {

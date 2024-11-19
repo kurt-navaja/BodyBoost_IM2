@@ -159,13 +159,14 @@
 
 .navaja-notification .text-wrapper-2 {
   position: relative;
-  width: fit-content;
+  width: 100%; /* Match the width */
   font-family: "Manrope", Helvetica;
   font-weight: 400;
   color: var(--slate-500);
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+  outline: none; /* Remove the outline */
 }
 
 .navaja-notification .side-bar {
@@ -265,21 +266,6 @@
   align-self: stretch;
   width: 100%;
   flex-grow: 1;
-}
-
-.navaja-notification .button {
-  all: unset;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #483d82;
-  border-radius: 8px;
 }
 
 .navaja-notification .text-wrapper-3 {
@@ -1091,6 +1077,21 @@
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.navaja-notification .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #483d82;
+  border-radius: 8px;
 }
 
 .navaja-notification .text-wrapper-19 {

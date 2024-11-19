@@ -76,6 +76,10 @@
         background-color: #fff;
         cursor: pointer;
       }
+      .button1.active {
+        background-color: #483D82; /* Change background color when active */
+        color: #fff; /* Change text color to white */
+      }
     </style>
 </head>
 <body>
@@ -192,17 +196,12 @@
             <div class="good-morning">Good  Morning</div>
         </div>
         <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
-        
-        <div class="iconsaxlinearsearchnormal-parent">
-            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/iconsax-linear-searchnormal.png'%}">
-            <div class="search">Search</div>
-        </div>
     </div>
     <div class="side-bar">
         <div class="frame-parent">
             <div class="app-logo-parent">
                 <div class="app-logo">
-                    <div class="fitness-parent">
+                    <div class="fitness-parent">    
                         <div class="fitness">BodyBoost </div>
                         <img class="workout-bold-icon" alt="" src="{% static 'images/logoPurple.png'%}">
                     </div>
@@ -210,7 +209,7 @@
                 <div class="button-parent">
                     <a href="{% url 'notifAll:firstP' %}">
                         <div class="button" id="buttonContainer">
-                            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/dashboardGrey.png'%}">
+                            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/dashboard(1).png'%}">
                             <div class="overview">Overview</div>
                         </div>
                     </a>
@@ -237,21 +236,21 @@
                     </div>
                     <div class="frame-item">
                     </div>
+                    <div class="button2">
+                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/help-2.png'%}">
+                        <div class="overview">Help</div>
+                    </div>
+                    <a href="{% url 'login:login' %}">
+                        <div class="button button6">
+                            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
+                            <div class="overview">Logout</div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="frame-inner">
             </div>
         </div>
-        <div class="button2">
-            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/help-2.png'%}">
-            <div class="overview">Help</div>
-        </div>
-        <a href="{% url 'login:login' %}">
-            <div class="button button6">
-                <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
-                <div class="overview">Logout</div>
-            </div>
-        </a>
     </div>
 
     <div id="myModal" class="modal" style="position: absolute; top: 50px; right: 50px;">
@@ -333,6 +332,14 @@ radioGroups.forEach(group => {
             modal.style.display = "none";
         }
     }
+
+    document.querySelector('.button1').addEventListener('click', function() {
+        this.classList.add('active'); // Add active class on click
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('.button1').classList.add('active'); // Add active class on load
+    });
 </script>
 </body>
 </html>

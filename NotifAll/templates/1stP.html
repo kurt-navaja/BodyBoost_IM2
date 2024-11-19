@@ -54,15 +54,15 @@
         font-weight: bold;
       }
       .button:hover, .button-2:hover, .button-3:hover, .component:hover {
-        background-color: #e0e0e0; /* Change background color on hover */
         cursor: pointer;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        box-shadow: 0 4px 8px rgba(11, 47, 211, 0.1); /* Add subtle shadow */
         transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
       }
       .side-bar a {
         display: block;
         width: 100%;
       }
+      
     </style>
   </head>
   <body>
@@ -81,10 +81,6 @@
                 <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
               </div>
               <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
-              <div class="frame-2">
-                <img class="img" src="{% static '/images/iconsax-linear-searchnormal.png'%}" />
-                <div class="text-wrapper-2">Search</div>
-              </div>
             </div>
             <div class="side-bar">
               <div class="frame-3">
@@ -406,6 +402,11 @@
                 modal.style.display = "none";
               }
             }
+
+            document.querySelector('.button-2').addEventListener('click', function() {
+              this.classList.add('active'); // Add active class on click
+              window.location.href = "{% url 'notifAll:workout' %}"; // Redirect to workout page
+            });
           </script>
         </div>
       </div>
