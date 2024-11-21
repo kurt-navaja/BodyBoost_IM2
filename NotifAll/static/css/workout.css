@@ -698,3 +698,16 @@ a:hover {
     cursor: pointer;
     right: 0;
 }
+
+.button1, .button2, .button6 {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    right: 0;
+}
