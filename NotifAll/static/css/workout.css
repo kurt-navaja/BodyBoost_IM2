@@ -5,8 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8f8f8;
     font-family: 'Outfit', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .radio-label {
@@ -25,7 +25,6 @@ body {
     margin-top: 20px;
 }
 
-
 .next1 {
     background-color: #A0FFA0;
     padding: 10px 20px;
@@ -36,18 +35,17 @@ body {
     font-size: 16px;
 }
 
-
 .homepage-banner-mob-btg-with {
     position: absolute;
     top: 135px;
     left: 701px;
-    width: 579px;
-    height: 697px;
+    width: 730px;
+    height: 650px;
 }
 .logopurple-icon {
     position: absolute;
     top: 24px;
-    left: 178px;
+    left: 230px;
     width: 200px;
     height: 109px;
     object-fit: cover;
@@ -77,7 +75,7 @@ body {
 .describe-yourself {
     position: absolute;
     top: 144px;
-    left: calc(50% - 240px);
+    left: calc(50% - 220px);
     font-size: 30px;
     letter-spacing: -0.01em;
     display: inline-block;
@@ -229,7 +227,7 @@ body {
 .fitness-goal {
     position: absolute;
     top: 218px;
-    left: 306px;
+    left: 380px;
     width: 155px;
     height: 135px;
 }
@@ -303,7 +301,7 @@ body {
 .ellipse-parent {
     position: absolute;
     top: 402px;
-    left: 57px;
+    left: 100px;
     width: 187px;
     height: 134px;
 }
@@ -329,7 +327,7 @@ body {
 .preffered-workout {
     position: absolute;
     top: 402px;
-    left: 311px;
+    left: 370px;
     width: 212px;
     height: 135px;
 }
@@ -397,11 +395,11 @@ body {
 .logopurple-parent {
     position: absolute;
     top: 133px;
-    left: 233px;
+    left: 133px;
     box-shadow: 0px 4px 10.2px 3px rgba(0, 0, 0, 0.25);
     border-radius: 0px 120px 120px 0px;
     background-color: #f7f1f1;
-    width: 588px;
+    width: 670px;
     height: 699px;
     overflow: hidden;
 }
@@ -471,7 +469,7 @@ body {
 .greetings {
     position: absolute;
     top: 49px;
-    left: calc(50% - 359px);
+    left: 190px;
     width: 151px;
     height: 38px;
     font-size: 15px;
@@ -521,7 +519,7 @@ body {
     top: 0px;
     left: 7%;
     background-color: rgba(58, 46, 121, 0.93);
-    width: 1280px;
+    width: 100%;
     height: 135px;
     overflow: hidden;
     font-size: 11px;
@@ -577,7 +575,7 @@ body {
     justify-content: flex-start;
     gap: 16px;
     font-size: 14px;
-    color: #475569;
+    color: #000000;
     margin-left: -10px;
     margin-right: 20px;
 }
@@ -620,7 +618,7 @@ body {
 .side-bar {
     position: fixed; /* Change to fixed to keep it in place */
     top: 0; /* Align to the top */
-    left: 105px; /* Align to the left */
+    left: 0; /* Align to the left */
     height: 100%; /* Full height */
     width: 240px; /* Fixed width */
     box-shadow: 0px 12px 17px 2px rgba(0, 0, 0, 0.03), 0px 5px 22px 4px rgba(0, 0, 0, 0.02);
@@ -676,14 +674,26 @@ a:hover {
 }
 
 .clear:hover {
-    opacity: 0.7;          /* Change opacity on hover for feedback */
+    opacity: 1; /* Reset opacity to default */
 }
 
 .button:hover, .button1:hover, .button2:hover, .button6:hover, .component:hover {
-    background-color: #483d82; /* Change background color on hover */
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    background-color: inherit; /* Reset background color */
+    cursor: default; /* Reset cursor */
+    box-shadow: none; /* Remove shadow */
+    transition: none; /* Remove transition */
+}
+
+.button:hover::before, .button1:hover::before, .button2:hover::before, .button6:hover::before {
+    opacity: 0; /* Reset opacity */
+}
+
+.button:hover img, .button1:hover img, .button2:hover img, .button6:hover img {
+    transform: none; /* Reset transform */
+}
+
+.button:hover span, .button1:hover span, .button2:hover span, .button6:hover span {
+    color: inherit; /* Reset color */
 }
 
 .button1, .button2, .button6 {
@@ -710,4 +720,233 @@ a:hover {
     background-color: #fff;
     cursor: pointer;
     right: 0;
+    color: black;
+}
+.mac-book-air1-frame251 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    position: absolute;
+    top: 49px;
+    left: 350px;
+    width: 530px;
+    background-color: #f8fafb;
+    border-radius: 8px;
+    border: 1px solid var(--slate-100);
+}
+
+.mac-book-air1-search-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: "Manrope", Helvetica;
+    color: var(--slate-500);
+}
+
+.mac-book-air1-iconsax-linearsearchnormal {
+    width: 24px;
+    height: 24px;
+}
+
+.button, .button1, .button2, .button6 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    right: 0;
+}
+
+.button:hover, .button1:hover, .button2:hover, .button6:hover {
+    background: inherit; /* Reset background */
+    transform: none; /* Reset transform */
+}
+
+.button:hover::before, .button1:hover::before, .button2:hover::before, .button6:hover::before {
+    opacity: 0; /* Reset opacity */
+}
+
+.button:hover img, .button1:hover img, .button2:hover img, .button6:hover img {
+    transform: none; /* Reset transform */
+}
+
+.button:hover span, .button1:hover span, .button2:hover span, .button6:hover span {
+    color: inherit; /* Reset color */
+}
+
+.button.active, .button1.active, .button2.active, .button6.active {
+    background: rgba(108, 93, 211, 0.1);
+}
+
+.button.active span, .button1.active span, .button2.active span, .button6.active span {
+    color: #6C5DD3;
+    font-weight: 600;
+}
+
+/* Logout button specific styles */
+.button6:hover {
+    background: inherit; /* Reset background */
+}
+
+.button6:hover span {
+    color: inherit; /* Reset color */
+}
+
+/* Sidebar styles */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f8fafb;
+    padding: 16px;
+    border-right: 1px solid var(--slate-100);
+}
+
+.sidebar .frame-3 {
+    flex: 1;
+}
+
+.sidebar .frame-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .frame-7 {
+    flex: 1;
+}
+
+.sidebar .component {
+    margin-top: auto;
+}
+
+.sidebar .button,
+.sidebar .button1,
+.sidebar .button2,
+.sidebar .button6 {
+    width: 100%;
+    text-align: left;
+}
+
+.sidebar .button img,
+.sidebar .button1 img,
+.sidebar .button2 img,
+.sidebar .button6 img {
+    margin-right: 12px;
+}
+
+.sidebar .button span,
+.sidebar .button1 span,
+.sidebar .button2 span,
+.sidebar .button6 span {
+    color: #000000; /* Set font color to black */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sidebar .button:hover,
+.sidebar .button1:hover,
+.sidebar .button2:hover,
+.sidebar .button6:hover {
+    background: rgba(108, 93, 211, 0.1);
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+.sidebar .button:hover::before,
+.sidebar .button1:hover::before,
+.sidebar .button2:hover::before,
+.sidebar .button6:hover::before {
+    opacity: 1;
+}
+
+.sidebar .button:hover img,
+.sidebar .button1:hover img,
+.sidebar .button2:hover img,
+.sidebar .button6:hover img {
+    transform: scale(1.1);
+}
+
+.sidebar .button:hover span,
+.sidebar .button1:hover span,
+.sidebar .button2:hover span {
+    color: #6C5DD3;
+}
+
+.sidebar .button.active,
+.sidebar .button1.active,
+.sidebar .button2.active,
+.sidebar .button6.active {
+    background: rgba(108, 93, 211, 0.1);
+}
+
+.sidebar .button.active span,
+.sidebar .button1.active span,
+.sidebar .button2.active span,
+.sidebar .button6.active span {
+    color: #6C5DD3;
+    font-weight: 600;
+}
+
+.sidebar .button6:hover {
+    background: rgba(255, 59, 48, 0.1);
+    cursor: pointer;
+}
+
+.sidebar .button6:hover span {
+    color: #FF3B30;
+}
+
+.sidebar .button-3:hover {
+    background: rgba(255, 59, 48, 0.1);
+    cursor: pointer;
+}
+
+.sidebar .button-3:hover span {
+    color: #FF3B30;
+}
+
+.sidebar .button6:hover {
+    background: inherit; /* Reset background */
+    cursor: default; /* Reset cursor */
+}
+
+.sidebar .button6:hover span {
+    color: inherit; /* Reset color */
+}
+
+.sidebar .button-3:hover {
+    background: inherit; /* Reset background */
+    cursor: default; /* Reset cursor */
+}
+
+.sidebar .button-3:hover span {
+    color: inherit; /* Reset color */
+}
+
+.sidebar .button6:hover {
+    background: inherit; /* Reset background */
+}
+
+.sidebar .button6:hover span {
+    color: inherit; /* Reset color */
+}
+
+.sidebar .button-3:hover {
+    background: inherit; /* Reset background */
+}
+
+.sidebar .button-3:hover span {
+    color: inherit; /* Reset color */
+}
+
+.sidebar .button1 {
+    /* background-color: #483D82; */ /* Remove background color */
+    color: #000; /* Set font color to black */
 }
