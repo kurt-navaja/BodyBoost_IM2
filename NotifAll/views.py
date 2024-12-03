@@ -9,12 +9,9 @@ from django.views.decorators.http import require_http_methods
 import logging
 logger = logging.getLogger(__name__)
 
-
+@login_required
 def firstP(request):
-    return render(request, '1stP.html')
-
-# def secondP(request):
-#     return render(request, '2ndP.html')
+    return render(request, '1stP.html', {'request': request})
 
 @login_required
 def accountSettings(request):

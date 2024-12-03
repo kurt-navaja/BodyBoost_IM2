@@ -26350,3 +26350,1573 @@ WARNING 2024-12-03 16:16:54,375 basehttp "GET /static/css/public/external/tq_qxx
 WARNING 2024-12-03 16:16:54,480 log Not Found: /favicon.ico
 WARNING 2024-12-03 16:16:54,486 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
 INFO 2024-12-03 16:17:08,225 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:35,892 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:18:35,937 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 16:18:35,954 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:18:37,380 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:38,832 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:39,823 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:39,865 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:18:39,872 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:18:39,878 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:18:39,884 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:18:39,884 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:18:39,937 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:18:39,970 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:18:39,978 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:18:39,978 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:18:39,995 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:18:39,995 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:18:39,995 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:18:39,995 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:18:40,008 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:18:40,018 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:18:40,031 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:18:40,032 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:18:40,032 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:18:40,032 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:18:40,032 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+WARNING 2024-12-03 16:18:40,211 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:18:40,213 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:18:49,021 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:49,061 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:18:49,072 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:18:49,088 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:18:49,088 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:18:49,093 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:18:49,093 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:18:49,093 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:18:49,102 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:18:49,117 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:18:49,125 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:18:49,125 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:18:49,125 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:18:49,125 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:18:49,125 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:18:49,141 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:18:49,141 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:18:49,141 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:18:49,149 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:18:49,149 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-12-03 16:18:49,149 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:18:49,942 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:18:57,420 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:18:57,501 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:18:57,501 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:18:57,502 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23366
+INFO 2024-12-03 16:18:57,502 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:18:57,502 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:18:57,502 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:18:57,516 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:18:57,524 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:18:57,527 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 16:18:57,527 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:18:57,529 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:18:57,530 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:18:57,530 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+WARNING 2024-12-03 16:18:57,652 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:19:32,102 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:19:36,642 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:20:35,622 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:20:35,670 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 16:20:35,670 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-12-03 16:20:35,670 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:20:35,678 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+INFO 2024-12-03 16:20:48,040 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:21:50,761 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:25:30,447 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:25:30,503 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:25:30,503 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 16:25:30,518 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+INFO 2024-12-03 16:25:30,524 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+WARNING 2024-12-03 16:25:30,588 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:25:42,200 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:25:42,262 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:25:42,262 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:25:42,284 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:25:42,285 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:25:42,285 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:25:42,289 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:25:42,290 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:25:42,290 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:25:42,298 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:25:42,301 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:25:42,312 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:25:42,344 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:25:42,345 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:25:42,345 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:25:42,345 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:25:42,488 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:25:43,130 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:25:43,195 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:25:43,195 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:25:43,204 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:25:43,206 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:25:43,214 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:25:43,214 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:25:43,219 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:25:43,228 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:25:43,231 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:25:43,232 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:25:43,241 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:25:43,241 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:25:43,244 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:25:43,253 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:25:43,269 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:25:43,269 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:25:43,278 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:25:43,281 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:25:43,281 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:25:43,281 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:25:43,388 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 16:25:43,498 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:25:43,498 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:26:16,051 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:26:16,113 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:26:16,113 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:26:16,113 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:26:16,121 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:26:16,121 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:26:16,121 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:26:16,143 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:26:16,146 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:26:16,147 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:26:16,147 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:26:16,151 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:26:16,151 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:26:16,159 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:26:16,159 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:26:16,162 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:26:16,169 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:26:16,177 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:26:16,177 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:26:16,181 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:26:16,181 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:26:16,518 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 16:26:16,673 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:26:16,673 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:27:04,875 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:27:04,916 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+WARNING 2024-12-03 16:27:05,042 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:27:05,047 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:27:14,348 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:27:14,405 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:27:14,408 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:27:14,408 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:27:14,408 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:27:14,416 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:27:14,417 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:27:14,428 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:27:14,431 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:27:14,431 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:27:14,431 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:27:14,435 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:27:14,440 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:27:14,448 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-12-03 16:27:18,776 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:28:14,717 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:28:14,768 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:28:14,773 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-12-03 16:29:33,672 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:29:54,640 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:30:02,861 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-12-03 16:30:02,894 basehttp "GET /fitness/strengthTraining-beginner/ HTTP/1.1" 200 28052
+INFO 2024-12-03 16:30:02,951 basehttp "GET /static/css/workout1.css HTTP/1.1" 200 9569
+INFO 2024-12-03 16:30:02,973 basehttp "GET /static/gif/bodyweightSquats.gif HTTP/1.1" 200 401850
+INFO 2024-12-03 16:30:02,979 basehttp "GET /static/images/edit.png HTTP/1.1" 200 6417
+INFO 2024-12-03 16:30:02,988 basehttp "GET /static/gif/push%20ups.gif HTTP/1.1" 200 65423
+INFO 2024-12-03 16:30:03,001 basehttp "GET /static/gif/stepUps.gif HTTP/1.1" 200 116637
+INFO 2024-12-03 16:30:03,009 basehttp "GET /static/images/next.png HTTP/1.1" 200 18526
+INFO 2024-12-03 16:30:12,188 basehttp "GET /fitness/strengthTraining-beginner2/ HTTP/1.1" 200 25381
+INFO 2024-12-03 16:30:12,261 basehttp "GET /static/images/previous.png HTTP/1.1" 200 18856
+INFO 2024-12-03 16:30:12,320 basehttp "GET /static/gif/GobletSquats.gif HTTP/1.1" 200 1217662
+INFO 2024-12-03 16:30:12,350 basehttp "GET /static/gif/plank-up-down.gif HTTP/1.1" 200 2788765
+INFO 2024-12-03 16:30:12,387 basehttp "GET /static/gif/DBP%20light.gif HTTP/1.1" 200 2336199
+INFO 2024-12-03 16:30:19,028 basehttp "GET /fitness/strengthTraining-beginner/ HTTP/1.1" 200 28052
+INFO 2024-12-03 16:31:30,091 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:31:30,139 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:31:30,145 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:31:30,173 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:31:30,179 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:31:30,179 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:31:30,179 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:31:30,179 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:31:30,179 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:31:30,195 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:31:30,195 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:31:30,195 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:31:30,205 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:31:30,205 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:31:30,212 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:31:30,220 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:31:30,228 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:31:30,228 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-12-03 16:32:16,787 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:32:38,899 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:32:39,869 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:32:39,916 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:32:39,916 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:32:39,916 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:32:39,916 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:32:39,924 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:32:39,941 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:32:39,947 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:32:39,955 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:32:39,955 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:32:39,956 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:32:39,964 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:32:39,975 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:32:39,981 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:39,981 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:32:39,981 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:32:39,984 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:32:39,984 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:32:39,990 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:40,004 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:32:40,008 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:32:40,008 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:32:40,012 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:32:40,012 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:32:40,013 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:32:40,024 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:32:40,036 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:32:40,041 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:32:40,041 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:32:40,041 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:32:40,046 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:32:40,049 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:32:40,050 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:32:40,062 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:32:40,062 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:32:40,348 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:32:40,357 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:32:43,379 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:32:43,429 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:32:43,429 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:32:43,429 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:32:43,436 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:32:43,436 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:32:43,453 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:32:43,468 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:32:43,473 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:32:43,478 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:32:43,482 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:32:43,482 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:32:43,484 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:32:43,488 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:43,488 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:32:43,488 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:32:43,498 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:32:43,505 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:43,505 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:32:43,505 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:32:43,505 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:32:43,525 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:32:43,554 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:32:43,554 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:32:43,554 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:32:43,554 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:32:43,561 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:32:43,562 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:32:43,571 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-12-03 16:32:43,571 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+WARNING 2024-12-03 16:32:43,758 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:32:43,760 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:32:51,247 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:32:51,294 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:32:51,294 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:32:51,294 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:32:51,297 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:32:51,297 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:32:51,312 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:32:51,325 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:32:51,335 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:32:51,335 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:32:51,340 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:32:51,340 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:32:51,352 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:32:51,358 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:32:51,365 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:32:51,365 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:51,365 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:32:51,376 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:32:51,376 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:32:51,376 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:32:51,376 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:32:51,376 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:32:51,389 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:32:51,391 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:32:51,391 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:32:51,391 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:32:51,407 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:32:51,407 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:32:51,407 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:32:51,423 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:32:51,423 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:32:51,423 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:32:51,434 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:32:51,434 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:32:51,434 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:32:51,684 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:32:51,690 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:33:05,939 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:34:03,004 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-12-03 16:34:05,004 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:34:06,430 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:34:06,728 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:34:07,784 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:34:08,136 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:34:08,146 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:34:08,151 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:34:08,160 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:34:08,160 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:34:08,170 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:34:08,170 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:34:08,170 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:34:08,183 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:34:08,187 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:34:08,189 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:34:08,189 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:34:08,189 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:34:08,189 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:34:08,202 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:34:08,210 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:34:08,210 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:34:08,218 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:34:08,222 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:34:08,223 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:34:08,229 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:34:08,232 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:34:08,232 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:34:08,238 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:34:08,238 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:34:08,244 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:34:08,250 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:34:08,250 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:34:08,268 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:34:08,269 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:34:08,270 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:34:08,270 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:34:08,273 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:34:08,275 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:34:09,627 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:34:09,629 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:34:15,287 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:34:15,350 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:34:15,355 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:34:15,355 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:34:15,355 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:34:15,378 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:34:15,378 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:34:15,379 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:34:15,379 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:34:15,381 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:34:15,381 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:34:15,390 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:34:15,390 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:34:15,537 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:34:21,474 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+WARNING 2024-12-03 16:34:22,742 log Not Found: /notifications
+WARNING 2024-12-03 16:34:22,742 basehttp "GET /notifications HTTP/1.1" 404 4563
+INFO 2024-12-03 16:34:57,596 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:34:58,116 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:35:36,713 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:35:36,752 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:35:36,752 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:35:36,766 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-12-03 16:35:37,150 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:35:40,770 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:36:09,130 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-12-03 16:36:10,902 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:36:13,440 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:36:14,316 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:36:14,698 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:36:14,710 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:36:14,720 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:36:14,725 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:36:14,728 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:36:14,733 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:36:14,741 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:36:14,741 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:36:14,744 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:36:14,751 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:36:14,751 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:36:14,751 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:36:14,751 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:36:14,763 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:36:14,763 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:36:14,763 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:36:14,782 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:36:14,788 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:36:14,788 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:36:14,788 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:36:14,792 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:36:14,795 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:36:14,796 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:36:14,805 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:36:14,810 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:36:14,813 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:36:14,821 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:36:14,824 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:36:14,824 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:36:14,835 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:36:14,836 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:36:14,838 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:36:14,840 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:36:14,840 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:36:15,061 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:36:15,067 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:37:50,842 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\views.py changed, reloading.
+INFO 2024-12-03 16:37:52,559 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:38:59,961 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:39:02,899 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-12-03 16:39:03,359 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-12-03 16:39:03,359 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-12-03 16:39:03,396 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:39:03,403 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-12-03 16:39:03,405 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-12-03 16:39:03,408 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-12-03 16:39:03,419 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-12-03 16:39:03,419 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:39:03,420 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-12-03 16:39:03,425 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-12-03 16:39:03,425 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-12-03 16:39:03,425 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-12-03 16:39:15,872 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 16:39:15,965 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:39:16,029 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:39:16,034 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 16:39:19,694 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:39:19,765 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 16:39:19,765 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-12-03 16:39:19,765 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+WARNING 2024-12-03 16:39:19,854 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:40:16,035 basehttp - Broken pipe from ('127.0.0.1', 49843)
+INFO 2024-12-03 16:40:49,958 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\Login\views.py changed, reloading.
+INFO 2024-12-03 16:40:51,652 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:40:59,007 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:40:59,929 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:41:00,305 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:41:00,313 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:41:00,314 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:41:00,327 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:41:00,328 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:41:00,334 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:41:00,337 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:41:00,337 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:41:00,342 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:41:00,351 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:41:00,358 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:00,360 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:41:00,364 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:41:00,368 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:41:00,368 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:41:00,368 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:41:00,372 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:41:00,375 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:00,392 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:41:00,400 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:41:00,401 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:41:00,402 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:41:00,404 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:41:00,405 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:41:00,408 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:41:00,413 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:41:00,425 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:41:00,432 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:41:00,432 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:41:00,432 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:41:00,434 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:41:00,440 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:41:00,443 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:41:00,445 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:41:00,655 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:41:00,661 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:41:06,672 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:41:06,714 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:41:06,741 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:41:06,743 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:41:06,746 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:41:06,747 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:41:06,750 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:41:06,750 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:41:06,761 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:41:06,763 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:41:06,768 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:41:06,773 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:41:06,775 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:41:06,778 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:41:06,785 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:41:06,786 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:41:06,786 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:06,793 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:06,801 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:41:06,808 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:41:06,808 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:41:06,811 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:41:06,811 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:41:06,820 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:41:06,820 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:41:06,820 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:41:06,836 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:41:06,836 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:41:06,836 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:41:06,851 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:41:06,852 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:41:06,854 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:41:06,856 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:41:06,859 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:41:06,859 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-12-03 16:41:08,327 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:41:08,372 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:41:08,394 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:41:08,396 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:41:08,397 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:41:08,397 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:41:08,398 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:41:08,399 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:41:08,410 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:41:08,420 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:41:08,424 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:41:08,424 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:41:08,424 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:41:08,424 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:41:08,434 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:08,434 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:41:08,442 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:41:08,457 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:41:08,458 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:41:08,458 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:41:08,458 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:41:08,458 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:41:08,466 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:41:08,466 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:41:08,466 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:41:08,484 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:41:08,492 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:41:08,492 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:41:08,492 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:41:08,500 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:41:08,500 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:41:08,509 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:41:08,524 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:41:08,526 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-12-03 16:41:08,526 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+WARNING 2024-12-03 16:41:08,682 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:41:08,689 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:41:17,655 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:41:17,715 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:41:17,718 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:41:17,718 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-12-03 16:41:18,030 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:42:23,151 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25772
+INFO 2024-12-03 16:42:24,794 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:42:25,233 basehttp "GET /notifAll/ HTTP/1.1" 200 28514
+INFO 2024-12-03 16:43:38,798 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:43:38,879 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:43:38,879 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:43:38,884 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:43:38,884 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:43:38,884 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:43:38,898 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:43:38,900 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:43:38,900 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:43:38,900 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:43:38,900 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:43:38,900 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:43:38,905 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:43:39,404 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:43:50,989 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:43:57,589 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21722
+INFO 2024-12-03 16:44:08,637 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:44:11,288 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21726
+INFO 2024-12-03 16:44:11,359 basehttp "GET /media/profile_photos/profile_photo_5iUPm5y.jpg HTTP/1.1" 200 16227
+INFO 2024-12-03 16:44:11,364 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:44:11,364 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:44:11,364 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:44:11,364 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:44:11,364 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:44:11,382 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:44:11,384 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:44:11,392 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:44:11,392 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:44:11,392 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:44:11,392 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:44:11,402 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:44:11,409 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:44:11,409 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:44:11,409 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:44:11,418 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:44:11,418 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:44:11,434 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:44:11,441 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:44:11,560 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 16:44:11,750 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:44:11,758 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:44:32,098 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-12-03 16:44:32,149 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-12-03 16:44:32,167 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-12-03 16:44:32,167 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-12-03 16:44:32,168 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-12-03 16:44:32,168 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-12-03 16:44:32,168 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:32,179 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-12-03 16:44:32,186 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:32,190 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-12-03 16:44:32,192 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-12-03 16:44:32,195 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-12-03 16:44:32,195 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-12-03 16:44:34,960 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-12-03 16:44:35,023 basehttp "GET /static/signupPage/images/google24348-flt9-200h.png HTTP/1.1" 200 1512
+INFO 2024-12-03 16:44:35,023 basehttp "GET /static/signupPage/images/apple14347-51f9-200h.png HTTP/1.1" 200 844
+INFO 2024-12-03 16:44:35,026 basehttp "GET /static/signupPage/images/facebook114346-cf5s-200h.png HTTP/1.1" 200 1083
+INFO 2024-12-03 16:44:35,033 basehttp "GET /static/signupPage/images/logopurple4350-j51-200h.png HTTP/1.1" 200 4949
+INFO 2024-12-03 16:44:35,039 basehttp "GET /static/signupPage/images/line14351-6xxa.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:35,039 basehttp "GET /static/signupPage/images/line24352-m40f.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:35,040 basehttp "GET /static/signupPage/images/line34665-n3z.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:35,048 basehttp "GET /static/signupPage/css/style.css HTTP/1.1" 200 15591
+INFO 2024-12-03 16:44:35,053 basehttp "GET /static/signupPage/images/line44668-vvds.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:44:35,055 basehttp "GET /static/signupPage/css/signup.css HTTP/1.1" 200 9897
+INFO 2024-12-03 16:44:35,064 basehttp "GET /static/signupPage/images/account14357-oc4e-200h.png HTTP/1.1" 200 450
+INFO 2024-12-03 16:44:35,068 basehttp "GET /static/signupPage/images/padlock11493-4v2-200h.png HTTP/1.1" 200 331
+INFO 2024-12-03 16:44:35,072 basehttp "GET /static/signupPage/images/phonecall1482-9h4-200h.png HTTP/1.1" 200 379
+INFO 2024-12-03 16:44:35,072 basehttp "GET /static/signupPage/images/padlock24666-70j-200h.png HTTP/1.1" 200 328
+INFO 2024-12-03 16:44:35,072 basehttp "GET /static/signupPage/images/rectangle24358-mj5o-200h.png HTTP/1.1" 200 720
+INFO 2024-12-03 16:44:35,080 basehttp "GET /static/signupPage/images/screenshot20240828at100419pmremovebgpreview14361-zif-200h.png HTTP/1.1" 200 11199
+INFO 2024-12-03 16:44:35,081 basehttp "GET /static/signupPage/images/rectangle34362-p04m-200h.png HTTP/1.1" 200 299
+INFO 2024-12-03 16:45:04,398 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['jAt7pHDatCZQX52d10ga6UnXSRuNZSJ80tqkq8IFnsEHyNbsVUTpZa28tp2U0NE3'], 'email': ['kurtnavaja123@gmail.com'], 'password1': ['admin1234'], 'password2': ['admin1234'], 'phone_number': ['09158409094']}>
+ERROR 2024-12-03 16:45:04,533 views Form validation failed. Errors: <ul class="errorlist"><li>password2<ul class="errorlist"><li>This password is too common.</li></ul></li></ul>
+INFO 2024-12-03 16:45:04,542 basehttp "POST /signup/signup/ HTTP/1.1" 200 11796
+INFO 2024-12-03 16:45:04,555 basehttp - Broken pipe from ('127.0.0.1', 49860)
+INFO 2024-12-03 16:45:14,024 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['LULrfai7LmpyMNQrKgu0GczdpBz4TEe3sNIEgBnCFc4pnvZGEa7fzseo097bUz9Y'], 'email': ['kurtnavaja123@gmail.com'], 'password1': ['Kbn012303?'], 'password2': ['Kbn012303?'], 'phone_number': ['09158409094']}>
+INFO 2024-12-03 16:45:15,328 views User kurtnavaja123@gmail.com saved to the database.
+INFO 2024-12-03 16:45:15,358 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-12-03 16:45:15,404 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-12-03 16:45:15,417 basehttp - Broken pipe from ('127.0.0.1', 49888)
+INFO 2024-12-03 16:45:15,458 basehttp "GET /static/signupPage/images/left-arrow1.png HTTP/1.1" 200 856
+INFO 2024-12-03 16:45:15,468 basehttp "GET /static/signupPage/css/authenticationSuccess.css HTTP/1.1" 200 9410
+INFO 2024-12-03 16:45:17,904 views Existing user profile found for user kurtnavaja123@gmail.com
+INFO 2024-12-03 16:45:17,984 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-12-03 16:45:18,049 basehttp "GET /static/signupPage/images/ellipse285370-cj3o-200h.png HTTP/1.1" 200 312
+INFO 2024-12-03 16:45:18,055 basehttp "GET /static/signupPage/images/rectangle55379-wfnj-200h.png HTTP/1.1" 200 114
+INFO 2024-12-03 16:45:18,063 basehttp "GET /static/signupPage/css/knowMore.css HTTP/1.1" 200 15532
+INFO 2024-12-03 16:45:23,902 basehttp "GET /static/signupPage/images/radio-button%20(1).png HTTP/1.1" 200 12112
+INFO 2024-12-03 16:45:34,988 basehttp - Broken pipe from ('127.0.0.1', 49898)
+INFO 2024-12-03 16:45:38,718 basehttp "GET /static/signupPage/images/check-box.png HTTP/1.1" 200 4748
+INFO 2024-12-03 16:45:40,896 views Existing user profile found for user kurtnavaja123@gmail.com
+INFO 2024-12-03 16:45:40,907 views Additional information saved for user kurtnavaja123@gmail.com
+INFO 2024-12-03 16:45:40,918 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+INFO 2024-12-03 16:45:40,967 basehttp "GET /signup/knowMoreSuccess/ HTTP/1.1" 200 8049
+INFO 2024-12-03 16:45:41,050 basehttp "GET /static/signupPage/css/knowMoreSuccess.css HTTP/1.1" 200 9410
+INFO 2024-12-03 16:45:42,613 basehttp "GET /notifAll/ HTTP/1.1" 200 28517
+INFO 2024-12-03 16:45:42,686 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 16:45:42,688 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:45:50,426 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21704
+INFO 2024-12-03 16:46:03,802 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:46:05,323 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:46:07,008 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21693
+INFO 2024-12-03 16:46:07,076 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:46:07,077 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:46:07,083 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:46:07,085 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:46:07,091 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:46:07,101 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:46:07,102 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:46:07,102 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 200 58321
+INFO 2024-12-03 16:46:07,115 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:46:07,120 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:46:07,125 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:46:07,125 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:46:07,136 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:46:07,140 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:46:07,140 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:46:07,148 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:46:07,157 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:46:07,157 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:46:07,166 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:46:07,166 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 16:46:07,262 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 16:46:07,465 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:46:07,465 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:46:18,023 basehttp - Broken pipe from ('127.0.0.1', 49890)
+INFO 2024-12-03 16:46:40,997 basehttp - Broken pipe from ('127.0.0.1', 49865)
+INFO 2024-12-03 16:46:42,661 basehttp - Broken pipe from ('127.0.0.1', 49904)
+ERROR 2024-12-03 16:47:36,415 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:47:36,432 basehttp "GET /admin/ HTTP/1.1" 500 96521
+INFO 2024-12-03 16:48:54,988 basehttp "GET /notifAll/ HTTP/1.1" 200 28495
+INFO 2024-12-03 16:48:55,036 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:49:09,895 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\BodyBoost\urls.py changed, reloading.
+INFO 2024-12-03 16:49:11,663 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-03 16:49:14,859 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:14,879 basehttp "GET /admin/ HTTP/1.1" 500 96521
+INFO 2024-12-03 16:49:48,486 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-12-03 16:49:50,134 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-03 16:49:51,714 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:51,736 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:49:52,621 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:52,642 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:49:52,879 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:52,902 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:49:53,047 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:53,071 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:49:53,221 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:53,237 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:49:54,297 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:49:54,308 basehttp "GET /admin/ HTTP/1.1" 500 96786
+WARNING 2024-12-03 16:49:54,519 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:49:54,519 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 16:50:01,847 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:50:01,854 basehttp "GET /admin/ HTTP/1.1" 500 96786
+WARNING 2024-12-03 16:50:02,084 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:50:02,088 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 16:50:51,902 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:50:51,924 basehttp "GET /admin/ HTTP/1.1" 500 96658
+ERROR 2024-12-03 16:50:55,399 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:50:55,411 basehttp "GET /admin/ HTTP/1.1" 500 96658
+INFO 2024-12-03 16:51:23,207 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\urls.py changed, reloading.
+INFO 2024-12-03 16:51:24,774 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:52:44,133 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\admin.py changed, reloading.
+INFO 2024-12-03 16:52:45,877 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:53:00,857 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\NotifAll\admin.py changed, reloading.
+INFO 2024-12-03 16:53:02,361 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:53:03,232 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21693
+INFO 2024-12-03 16:53:03,654 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:53:03,762 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:53:03,769 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:53:03,770 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:53:03,773 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 200 58321
+INFO 2024-12-03 16:53:03,773 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:53:03,782 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:53:03,783 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:53:03,787 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:53:03,797 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:53:03,798 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:53:03,799 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+WARNING 2024-12-03 16:53:04,072 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 16:53:04,084 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 16:53:04,086 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:53:04,093 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:04,097 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:53:04,097 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:53:04,110 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:53:04,115 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:04,118 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 16:53:05,844 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21693
+INFO 2024-12-03 16:53:09,319 basehttp "GET /notifAll/ HTTP/1.1" 200 28495
+INFO 2024-12-03 16:53:09,393 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:53:09,394 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:53:09,400 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:53:09,400 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:53:09,403 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:53:09,404 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:53:09,404 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:53:09,411 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:53:09,422 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:53:09,422 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:53:09,435 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:53:09,435 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:09,438 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:53:09,438 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:53:09,443 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:53:09,449 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:53:09,453 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:53:09,453 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:53:09,453 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:53:09,460 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:53:09,460 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:53:09,471 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:53:09,478 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:53:09,482 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:53:09,483 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:53:09,489 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+INFO 2024-12-03 16:53:12,485 basehttp "GET /notifAll/ HTTP/1.1" 200 28495
+INFO 2024-12-03 16:53:13,275 basehttp "GET /notifAll/ HTTP/1.1" 200 28495
+INFO 2024-12-03 16:53:13,330 basehttp "GET /static/css/globals.css HTTP/1.1" 200 573
+INFO 2024-12-03 16:53:13,349 basehttp "GET /static/css/styleguide.css HTTP/1.1" 200 2789
+INFO 2024-12-03 16:53:13,356 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:53:13,358 basehttp "GET /static/images/bell-1.png HTTP/1.1" 200 2427
+INFO 2024-12-03 16:53:13,363 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 200 58321
+INFO 2024-12-03 16:53:13,364 basehttp "GET /static/images/iconsax-bold-setting2.png HTTP/1.1" 200 770
+INFO 2024-12-03 16:53:13,366 basehttp "GET /static/css/style.css HTTP/1.1" 200 26604
+INFO 2024-12-03 16:53:13,368 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 16:53:13,371 basehttp "GET /static/images/workout-bold-3.png HTTP/1.1" 200 146
+INFO 2024-12-03 16:53:13,379 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:53:13,379 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:53:13,389 basehttp "GET /static/images/goal-2.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:53:13,398 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:13,401 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:53:13,401 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:53:13,408 basehttp "GET /static/images/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:13,408 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:53:13,411 basehttp "GET /static/images/help-2.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:53:13,417 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:53:13,417 basehttp "GET /static/images/group-11.png HTTP/1.1" 200 456
+INFO 2024-12-03 16:53:13,425 basehttp "GET /static/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png HTTP/1.1" 200 84593
+INFO 2024-12-03 16:53:13,425 basehttp "GET /static/images/group-6.png HTTP/1.1" 200 32553
+INFO 2024-12-03 16:53:13,429 basehttp "GET /static/images/frame.svg HTTP/1.1" 200 1468
+INFO 2024-12-03 16:53:13,429 basehttp "GET /static/images/group-6-1.png HTTP/1.1" 200 32593
+INFO 2024-12-03 16:53:13,437 basehttp "GET /static/images/group-8.png HTTP/1.1" 200 879
+INFO 2024-12-03 16:53:13,437 basehttp "GET /static/images/group-5.png HTTP/1.1" 200 27864
+INFO 2024-12-03 16:53:13,445 basehttp "GET /static/images/arrow-dark-5.svg HTTP/1.1" 200 245
+INFO 2024-12-03 16:53:13,454 basehttp "GET /static/images/image-97.png HTTP/1.1" 200 5236
+INFO 2024-12-03 16:53:13,455 basehttp "GET /static/images/group-107-1.png HTTP/1.1" 200 5369
+INFO 2024-12-03 16:53:13,460 basehttp "GET /static/images/image-98.png HTTP/1.1" 200 6026
+INFO 2024-12-03 16:53:13,471 basehttp "GET /static/images/calories.png HTTP/1.1" 200 1076
+INFO 2024-12-03 16:53:13,471 basehttp "GET /static/images/burger-1.png HTTP/1.1" 200 4204
+INFO 2024-12-03 16:53:13,474 basehttp "GET /static/images/buritto-1.png HTTP/1.1" 200 3629
+INFO 2024-12-03 16:53:13,474 basehttp "GET /static/images/meat-2.png HTTP/1.1" 200 3061
+WARNING 2024-12-03 16:53:13,673 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:53:13,673 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:53:16,111 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21693
+INFO 2024-12-03 16:53:21,515 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 16:53:28,676 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:53:32,794 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:53:35,848 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:53:37,619 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:53:37,689 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 16:53:37,689 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 23367
+INFO 2024-12-03 16:53:37,697 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 4185
+INFO 2024-12-03 16:53:37,697 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 16:53:37,699 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 200 58321
+INFO 2024-12-03 16:53:37,699 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 16:53:37,713 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 16:53:37,720 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4454
+INFO 2024-12-03 16:53:37,728 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 16:53:37,731 basehttp "GET /static/js/message.js HTTP/1.1" 200 2454
+INFO 2024-12-03 16:53:37,733 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 16:53:37,733 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 16:53:37,733 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 16:53:37,747 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:37,771 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 16:53:37,771 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 16:53:37,771 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 16:53:37,788 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 16:53:37,788 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 16:53:37,788 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+WARNING 2024-12-03 16:53:37,869 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 16:53:37,988 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:53:37,990 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 16:53:49,865 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:53:53,556 basehttp "GET / HTTP/1.1" 200 10987
+INFO 2024-12-03 16:53:53,613 basehttp "GET /static/loginPage/css/login.css HTTP/1.1" 200 7914
+INFO 2024-12-03 16:53:53,631 basehttp "GET /static/loginPage/images/google21329-u3ug-200h.png HTTP/1.1" 200 1512
+INFO 2024-12-03 16:53:53,633 basehttp "GET /static/loginPage/images/account11317-fo1r-200h.png HTTP/1.1" 200 451
+INFO 2024-12-03 16:53:53,634 basehttp "GET /static/loginPage/images/apple11328-lh7k-200h.png HTTP/1.1" 200 844
+INFO 2024-12-03 16:53:53,639 basehttp "GET /static/loginPage/images/facebook111326-lv3f-200h.png HTTP/1.1" 200 1083
+INFO 2024-12-03 16:53:53,639 basehttp "GET /static/loginPage/images/logopurple1334-xx9k-200h.png HTTP/1.1" 200 4949
+INFO 2024-12-03 16:53:53,646 basehttp "GET /static/loginPage/images/line11312-6ae.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:53:53,647 basehttp "GET /static/loginPage/images/line21314-biuw.svg HTTP/1.1" 200 172
+INFO 2024-12-03 16:53:53,654 basehttp "GET /static/loginPage/images/padlock11315-20sp-200h.png HTTP/1.1" 200 349
+INFO 2024-12-03 16:53:53,658 basehttp "GET /static/loginPage/images/rectangle21319-q36m-200h.png HTTP/1.1" 200 584
+INFO 2024-12-03 16:53:53,659 basehttp "GET /static/loginPage/images/rectangle34135-lzwh-200h.png HTTP/1.1" 200 299
+INFO 2024-12-03 16:53:53,659 basehttp "GET /static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png HTTP/1.1" 200 11199
+INFO 2024-12-03 16:54:05,421 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 16:54:05,442 basehttp "GET /notifAll/ HTTP/1.1" 200 28507
+INFO 2024-12-03 16:54:10,747 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25784
+INFO 2024-12-03 16:54:10,819 basehttp "GET /static/css/workout.css HTTP/1.1" 200 11424
+INFO 2024-12-03 16:54:10,825 basehttp "GET /static/images/avatar-w-photo.png HTTP/1.1" 200 3913
+INFO 2024-12-03 16:54:10,826 basehttp "GET /static/images/logoPurpleB.png HTTP/1.1" 200 22404
+INFO 2024-12-03 16:54:14,062 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:54:15,278 basehttp "GET /mySchedule/ HTTP/1.1" 200 28947
+INFO 2024-12-03 16:54:15,357 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+INFO 2024-12-03 16:54:15,360 basehttp "GET /static/js/workout-status.js HTTP/1.1" 200 1346
+INFO 2024-12-03 16:54:15,361 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 20478
+INFO 2024-12-03 16:54:15,361 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+INFO 2024-12-03 16:54:15,361 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 200 606
+WARNING 2024-12-03 16:54:17,027 log Not Found: /notifications
+WARNING 2024-12-03 16:54:17,027 basehttp "GET /notifications HTTP/1.1" 404 4563
+INFO 2024-12-03 16:54:22,228 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21687
+INFO 2024-12-03 16:54:22,284 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 16:54:30,708 basehttp "GET /notifAll/ HTTP/1.1" 200 28507
+INFO 2024-12-03 16:55:56,761 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:56:01,209 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-12-03 16:56:15,291 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 16:56:15,316 basehttp "GET /notifAll/ HTTP/1.1" 200 28507
+INFO 2024-12-03 16:56:15,385 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 304 0
+ERROR 2024-12-03 16:56:30,618 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:56:30,631 basehttp "GET /admin/ HTTP/1.1" 500 96521
+INFO 2024-12-03 16:56:47,922 basehttp "GET / HTTP/1.1" 200 10789
+ERROR 2024-12-03 16:56:54,779 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 16:56:54,788 basehttp "GET /admin/ HTTP/1.1" 500 96521
+INFO 2024-12-03 16:57:15,368 basehttp - Broken pipe from ('127.0.0.1', 50062)
+INFO 2024-12-03 16:57:54,823 basehttp - Broken pipe from ('127.0.0.1', 50063)
+INFO 2024-12-03 16:59:12,321 autoreload C:\Users\Kurt Bryan C. Navaja\Documents\GitHub\BodyBoost_IM2\BodyBoost\urls.py changed, reloading.
+INFO 2024-12-03 16:59:14,104 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 17:22:01,835 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 17:22:03,494 basehttp "GET / HTTP/1.1" 200 10789
+WARNING 2024-12-03 17:22:04,171 log Not Found: /favicon.ico
+WARNING 2024-12-03 17:22:04,173 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 17:22:18,090 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 17:22:18,104 basehttp "GET /notifAll/ HTTP/1.1" 200 28507
+INFO 2024-12-03 17:22:18,142 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 17:22:18,142 basehttp "GET /media/profile_photos/PP.jpg HTTP/1.1" 304 0
+INFO 2024-12-03 17:22:25,220 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-12-03 17:22:25,345 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3689
+INFO 2024-12-03 17:22:25,392 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-12-03 17:22:25,395 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-12-03 17:22:25,399 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-12-03 17:22:25,401 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-12-03 17:22:25,402 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-12-03 17:22:25,416 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-12-03 17:22:25,425 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-12-03 17:22:37,310 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-12-03 17:22:37,358 basehttp "GET /admin/ HTTP/1.1" 200 6151
+INFO 2024-12-03 17:22:37,384 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-12-03 17:22:37,402 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-12-03 17:22:37,402 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-12-03 17:22:41,131 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 23334
+INFO 2024-12-03 17:22:41,157 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-12-03 17:22:41,164 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-12-03 17:22:41,183 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-12-03 17:22:41,186 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-12-03 17:22:41,189 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:22:41,193 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-12-03 17:22:41,204 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-12-03 17:22:41,209 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-12-03 17:22:41,212 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-12-03 17:22:41,219 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-12-03 17:22:41,222 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-12-03 17:22:41,223 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-12-03 17:22:41,243 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-03 17:22:41,290 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-12-03 17:22:41,320 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-12-03 17:22:41,320 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-12-03 17:22:41,322 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-12-03 17:23:18,129 basehttp - Broken pipe from ('127.0.0.1', 50312)
+INFO 2024-12-03 17:24:18,375 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 23334
+INFO 2024-12-03 17:24:18,396 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:24:37,464 basehttp "POST /admin/Signup/customuser/ HTTP/1.1" 200 11548
+INFO 2024-12-03 17:24:37,498 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+ERROR 2024-12-03 17:24:42,209 log Internal Server Error: /admin/Signup/customuser/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 2058, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1666, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\actions.py", line 48, in delete_selected
+    modeladmin.log_deletions(request, queryset)
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1017, in log_deletions
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\models.py", line 101, in log_actions
+    return self.model.objects.bulk_create(log_entry_list)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 815, in bulk_create
+    with transaction.atomic(using=self.db, savepoint=False):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+ERROR 2024-12-03 17:24:42,227 basehttp "POST /admin/Signup/customuser/ HTTP/1.1" 500 185662
+ERROR 2024-12-03 17:24:50,316 log Internal Server Error: /admin/Signup/customuser/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 2058, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1666, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\actions.py", line 48, in delete_selected
+    modeladmin.log_deletions(request, queryset)
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1017, in log_deletions
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\models.py", line 101, in log_actions
+    return self.model.objects.bulk_create(log_entry_list)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 815, in bulk_create
+    with transaction.atomic(using=self.db, savepoint=False):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+ERROR 2024-12-03 17:24:50,320 basehttp "POST /admin/Signup/customuser/ HTTP/1.1" 500 185662
+INFO 2024-12-03 17:24:56,995 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 23334
+INFO 2024-12-03 17:25:00,117 basehttp "POST /admin/Signup/customuser/ HTTP/1.1" 200 11548
+INFO 2024-12-03 17:25:03,308 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 23334
+INFO 2024-12-03 17:25:03,335 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:13,217 basehttp "GET /admin/Signup/customuser/?q=joe HTTP/1.1" 200 11521
+INFO 2024-12-03 17:25:13,242 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:20,026 basehttp "POST /admin/Signup/customuser/?q=joe HTTP/1.1" 200 7702
+ERROR 2024-12-03 17:25:23,090 log Internal Server Error: /admin/Signup/customuser/
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 2058, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1666, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\actions.py", line 48, in delete_selected
+    modeladmin.log_deletions(request, queryset)
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\options.py", line 1017, in log_deletions
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\admin\models.py", line 101, in log_actions
+    return self.model.objects.bulk_create(log_entry_list)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 815, in bulk_create
+    with transaction.atomic(using=self.db, savepoint=False):
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 327, in commit
+    self._commit()
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 302, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Kurt Bryan C. Navaja\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\backends\base\base.py", line 303, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+ERROR 2024-12-03 17:25:23,109 basehttp "POST /admin/Signup/customuser/?q=joe HTTP/1.1" 500 175166
+INFO 2024-12-03 17:25:37,063 basehttp "GET /admin/Signup/customuser/?q=joe HTTP/1.1" 200 11521
+INFO 2024-12-03 17:25:47,009 basehttp "GET /admin/Signup/customuser/?_facets=True&q=joe HTTP/1.1" 200 11837
+INFO 2024-12-03 17:25:47,032 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:47,058 basehttp "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+INFO 2024-12-03 17:25:52,679 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 23334
+INFO 2024-12-03 17:25:52,709 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:57,025 basehttp "GET /admin/Signup/customuser/?o=-1 HTTP/1.1" 200 24219
+INFO 2024-12-03 17:25:57,057 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:57,992 basehttp "GET /admin/Signup/customuser/?o=1 HTTP/1.1" 200 24180
+INFO 2024-12-03 17:25:58,016 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:25:59,394 basehttp "GET /admin/Signup/customuser/?o=-1 HTTP/1.1" 200 24219
+INFO 2024-12-03 17:25:59,416 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 17:26:00,508 basehttp "GET /admin/Signup/customuser/?o=1 HTTP/1.1" 200 24180
+INFO 2024-12-03 17:26:00,535 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
