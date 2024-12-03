@@ -40917,3 +40917,720 @@ INFO 2024-12-03 05:30:49,279 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 
 WARNING 2024-12-03 05:30:49,332 log Not Found: /media/static/images/profile_photo.png
 WARNING 2024-12-03 05:30:49,333 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
 WARNING 2024-12-03 05:30:49,908 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:33:55,976 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+WARNING 2024-12-03 05:33:56,051 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:33:56,051 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:33:56,513 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:33:56,513 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:33:56,530 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:33:58,395 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+WARNING 2024-12-03 05:33:58,430 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:33:58,431 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:33:58,432 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:33:58,432 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:33:58,433 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:33:58,433 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:33:58,433 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:33:58,457 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:33:58,457 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:33:58,458 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:33:58,458 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:33:58,459 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:33:58,460 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:33:58,461 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:33:58,462 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:33:58,462 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:33:58,462 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:33:58,463 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:33:58,463 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:33:58,607 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:33:58,607 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:33:58,612 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:33:58,790 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:33:58,791 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:35:37,550 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+INFO 2024-12-03 05:35:37,619 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:35:37,622 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:35:37,623 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:35:37,624 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:35:37,625 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:35:37,625 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:35:37,626 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:35:37,628 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:35:37,628 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:35:37,628 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:35:37,629 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:35:37,630 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:35:37,631 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:35:37,631 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:35:37,631 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:35:37,631 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:35:37,632 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:35:37,633 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:35:37,634 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:35:38,129 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:35:38,130 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:35:38,152 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:35:38,615 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:35:38,615 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:36:24,463 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+WARNING 2024-12-03 05:36:24,557 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:36:24,558 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:36:24,572 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:36:24,572 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:36:25,011 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:37:19,040 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+WARNING 2024-12-03 05:37:19,101 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:37:19,101 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:37:19,576 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:37:19,577 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:37:19,592 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:37:45,763 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 05:37:49,211 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+WARNING 2024-12-03 05:37:49,293 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:37:49,293 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:38:35,205 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 05:38:36,832 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:38:36,893 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:38:36,893 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:39:40,784 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30669
+WARNING 2024-12-03 05:39:40,857 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:39:40,858 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:40:38,727 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30669
+WARNING 2024-12-03 05:40:38,805 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:40:38,805 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:40:39,263 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:40:39,264 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:40:39,282 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:42:36,339 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:42:36,389 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:42:36,390 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:42:36,401 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:42:36,401 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:42:36,402 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:42:36,402 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:42:36,403 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:42:36,404 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:42:36,406 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:42:36,406 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:42:36,407 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:42:36,408 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:42:36,408 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:42:36,409 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:42:36,410 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:42:36,410 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:42:36,411 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:42:36,412 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:42:36,412 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:42:36,968 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:42:36,968 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:42:36,982 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:42:37,438 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:42:37,438 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:43:34,117 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:43:34,190 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:43:34,191 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:43:34,193 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:43:34,194 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:43:34,194 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:43:34,196 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:43:34,196 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:43:34,197 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:43:34,198 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:43:34,199 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:43:34,200 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:43:34,200 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:43:34,200 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:43:34,203 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:43:34,203 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:43:34,203 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 05:43:34,204 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:43:34,205 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:43:34,205 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+WARNING 2024-12-03 05:43:34,719 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:43:34,720 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:43:34,736 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:43:35,194 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:43:35,195 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:45:10,868 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/BodyBoost/settings.py changed, reloading.
+INFO 2024-12-03 05:45:11,621 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 05:45:18,734 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:45:18,800 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:45:18,801 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:45:18,807 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:45:18,808 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:45:18,809 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:45:18,809 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:45:18,811 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:45:18,812 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:45:18,813 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:45:18,814 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:45:18,815 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:45:18,815 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:45:18,816 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:45:18,817 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:45:18,817 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:45:18,818 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:45:18,818 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:45:18,819 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:45:18,821 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:45:19,314 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:45:19,315 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:45:19,328 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:45:19,807 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:45:19,807 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:45:43,426 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:45:43,495 log Not Found: /media/static/images/profile_photo.png
+INFO 2024-12-03 05:45:43,496 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:45:43,496 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:45:43,498 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:45:43,498 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:45:43,499 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:45:43,499 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:45:43,500 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:45:43,501 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:45:43,502 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:45:43,503 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:45:43,503 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:45:43,504 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:45:43,505 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:45:43,505 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:45:43,505 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:45:43,506 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:45:43,506 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 05:45:43,507 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+WARNING 2024-12-03 05:45:44,023 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:45:44,024 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:45:44,033 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:45:44,513 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:45:44,514 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:46:59,788 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:46:59,834 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:46:59,835 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:46:59,835 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:46:59,836 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:46:59,836 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:46:59,837 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:46:59,837 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:46:59,856 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:46:59,856 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:46:59,857 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:46:59,857 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:46:59,858 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:46:59,858 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:46:59,861 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:46:59,862 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:46:59,862 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:46:59,862 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:46:59,863 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:46:59,863 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:47:00,364 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:47:00,366 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:47:00,382 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:47:00,851 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:47:00,851 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:47:22,857 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:47:22,897 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:47:22,897 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:47:24,005 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:47:24,029 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:47:24,029 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:51:05,110 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:51:05,175 log Not Found: /media/static/images/profile_photo.png
+INFO 2024-12-03 05:51:05,176 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:51:05,176 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:51:05,176 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:51:05,177 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:51:05,177 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:51:05,178 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:51:05,181 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:51:05,183 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:51:05,183 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:51:05,184 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:51:05,184 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:51:05,184 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:51:05,186 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:51:05,188 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:51:05,188 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:51:05,188 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:51:05,189 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:51:05,190 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:51:05,699 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:51:05,700 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:51:05,715 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:51:06,198 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:51:06,198 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:53:09,651 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:53:09,722 log Not Found: /media/static/images/profile_photo.png
+INFO 2024-12-03 05:53:09,722 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:53:09,723 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:53:09,724 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:53:09,724 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:53:09,725 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:53:09,727 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:53:09,729 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:53:09,729 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:53:09,730 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:53:09,731 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:53:09,731 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:53:09,732 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:53:09,732 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:53:09,732 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:53:09,733 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:53:09,734 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:53:09,734 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 05:53:09,735 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+WARNING 2024-12-03 05:53:10,250 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:53:10,250 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:53:10,261 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:53:10,726 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:53:10,727 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:53:59,372 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:53:59,483 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:53:59,487 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:53:59,884 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:53:59,884 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:53:59,899 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:55:40,162 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30687
+WARNING 2024-12-03 05:55:40,256 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:55:40,257 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:55:40,677 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:55:40,677 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:55:40,694 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 05:55:42,159 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30687
+WARNING 2024-12-03 05:55:42,200 log Not Found: /media/static/images/profile_photo.png
+INFO 2024-12-03 05:55:42,201 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:55:42,202 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:55:42,202 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:55:42,203 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:55:42,226 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:55:42,228 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:55:42,230 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:55:42,231 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:55:42,234 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:55:42,235 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:55:42,237 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:55:42,238 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:55:42,240 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:55:42,241 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:55:42,241 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:55:42,242 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:55:42,242 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+INFO 2024-12-03 05:55:42,243 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+WARNING 2024-12-03 05:55:42,348 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:55:42,348 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:55:42,355 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:55:42,529 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:42,529 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:55:48,693 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30687
+INFO 2024-12-03 05:55:48,744 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:55:48,755 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:55:48,756 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:55:48,757 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:55:48,757 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:55:48,783 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:55:48,785 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:55:48,786 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:55:48,788 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:55:48,789 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:55:48,790 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:55:48,792 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:55:48,793 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:55:48,793 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:55:48,794 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:55:48,798 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:55:48,799 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:55:48,799 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:55:48,801 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:55:49,336 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:55:49,336 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:55:49,345 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:55:49,935 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:49,935 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 05:55:50,091 log Internal Server Error: /notifAll/accountSettings/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/NotifAll/views.py", line 24, in accountSettings
+    return render(request, 'accountSettings.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'adkjf' from ''notifAll:accountSettings'adkjf'
+ERROR 2024-12-03 05:55:50,096 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 500 179787
+ERROR 2024-12-03 05:55:50,244 log Internal Server Error: /notifAll/accountSettings/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/NotifAll/views.py", line 24, in accountSettings
+    return render(request, 'accountSettings.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'adkjf' from ''notifAll:accountSettings'adkjf'
+WARNING 2024-12-03 05:55:50,246 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:50,247 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 05:55:50,248 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 500 179787
+WARNING 2024-12-03 05:55:50,350 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:50,350 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 05:55:50,410 log Internal Server Error: /notifAll/accountSettings/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/NotifAll/views.py", line 24, in accountSettings
+    return render(request, 'accountSettings.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'adkjf' from ''notifAll:accountSettings'adkjf'
+ERROR 2024-12-03 05:55:50,411 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 500 179787
+WARNING 2024-12-03 05:55:50,513 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:50,513 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+ERROR 2024-12-03 05:55:50,556 log Internal Server Error: /notifAll/accountSettings/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/Documents/GitHub/BodyBoost_IM2/NotifAll/views.py", line 24, in accountSettings
+    return render(request, 'accountSettings.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/backends/django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 518, in parse
+    raise self.error(token, e)
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/template/base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: 'adkjf' from ''notifAll:accountSettings'adkjf'
+ERROR 2024-12-03 05:55:50,557 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 500 179787
+WARNING 2024-12-03 05:55:50,653 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:55:50,653 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:56:47,500 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+INFO 2024-12-03 05:56:47,585 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+WARNING 2024-12-03 05:56:47,588 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:56:47,589 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:56:47,589 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:56:47,589 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:56:47,590 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:56:47,590 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:56:47,590 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:56:47,593 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:56:47,594 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:56:47,594 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:56:47,596 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:56:47,596 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:56:47,597 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:56:47,597 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:56:47,597 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:56:47,597 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:56:47,598 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:56:47,599 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:56:48,236 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:56:48,237 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:56:48,252 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:56:48,699 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:56:48,700 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:57:30,956 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30530
+INFO 2024-12-03 05:57:31,022 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:57:31,022 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:57:31,024 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:57:31,024 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:57:31,024 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+WARNING 2024-12-03 05:57:31,027 basehttp "GET /static/images/profile_photo1.png HTTP/1.1" 404 1889
+INFO 2024-12-03 05:57:31,028 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:57:31,030 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:57:31,030 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:57:31,031 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:57:31,031 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:57:31,031 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:57:31,032 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:57:31,033 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:57:31,033 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:57:31,033 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+WARNING 2024-12-03 05:57:31,036 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:31,037 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:57:31,037 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:57:31,037 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:57:31,590 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:57:32,034 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:57:32,035 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:57:39,563 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+INFO 2024-12-03 05:57:39,603 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+WARNING 2024-12-03 05:57:39,617 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:39,617 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:57:39,617 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:57:39,617 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:57:39,629 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:57:39,630 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:57:39,631 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:57:39,631 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:57:39,631 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:57:39,631 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:57:39,634 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:57:39,634 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:57:39,634 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:57:39,634 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:57:39,634 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:57:39,635 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:57:39,637 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:57:39,637 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:57:40,218 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:40,218 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:57:40,231 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:57:40,630 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:57:40,631 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:57:42,197 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+WARNING 2024-12-03 05:57:42,220 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:42,220 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:57:46,305 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:46,306 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+WARNING 2024-12-03 05:57:49,661 log Not Found: /media/static/images/profile_photo.png
+WARNING 2024-12-03 05:57:49,661 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 404 4879
+INFO 2024-12-03 05:58:51,950 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 05:58:55,331 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30663
+INFO 2024-12-03 05:58:55,379 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 05:58:55,379 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 05:58:55,380 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 05:58:55,380 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 05:58:55,392 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 05:58:55,393 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 05:58:55,393 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 05:58:55,393 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 05:58:55,393 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 05:58:55,395 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 05:58:55,396 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 05:58:55,397 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 05:58:55,397 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 05:58:55,397 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:58:55,398 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 05:58:55,399 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 05:58:55,399 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 05:58:55,399 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 05:58:56,024 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 05:58:56,457 log Not Found: /favicon.ico
+WARNING 2024-12-03 05:58:56,458 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 05:59:14,955 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 05:59:16,805 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 05:59:18,235 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30691
+INFO 2024-12-03 05:59:18,261 basehttp "GET /media/profile_photos/4EE65BB5-B19B-46D4-8D47-6B4FC3BFFD1F_1_105_c.jpeg HTTP/1.1" 200 154218
+INFO 2024-12-03 05:59:24,491 basehttp "GET /mySchedule/ HTTP/1.1" 200 35296
+WARNING 2024-12-03 05:59:24,560 log Not Found: /mySchedule/style.css
+WARNING 2024-12-03 05:59:24,568 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4690
+INFO 2024-12-03 05:59:24,569 basehttp "GET /media/profile_photos/4EE65BB5-B19B-46D4-8D47-6B4FC3BFFD1F_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 05:59:24,569 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 304 0
+INFO 2024-12-03 05:59:24,569 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+INFO 2024-12-03 05:59:24,572 basehttp "GET /static/js/workout-status.js HTTP/1.1" 304 0
+INFO 2024-12-03 05:59:31,493 basehttp "GET / HTTP/1.1" 200 10987
+INFO 2024-12-03 05:59:34,444 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-12-03 05:59:34,450 basehttp - Broken pipe from ('127.0.0.1', 61345)
+INFO 2024-12-03 05:59:47,284 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['AfdptjW7Q70tAin33KKVekfWgHAbDFApMSTipPkhEYDlybgJJQ2r6Bomi9mmtQUT'], 'email': ['asaphbacaltos28@gmail.com'], 'password1': ['Asaph795573!'], 'password2': ['Asaph795573!'], 'phone_number': ['09682231595']}>
+INFO 2024-12-03 05:59:47,552 views User asaphbacaltos28@gmail.com saved to the database.
+INFO 2024-12-03 05:59:47,557 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-12-03 05:59:47,572 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-12-03 05:59:47,592 basehttp - Broken pipe from ('127.0.0.1', 61359)
+INFO 2024-12-03 05:59:48,936 views Existing user profile found for user asaphbacaltos28@gmail.com
+INFO 2024-12-03 05:59:48,951 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-12-03 05:59:49,008 basehttp - Broken pipe from ('127.0.0.1', 61367)
+INFO 2024-12-03 06:00:01,885 views Existing user profile found for user asaphbacaltos28@gmail.com
+INFO 2024-12-03 06:00:01,892 views Additional information saved for user asaphbacaltos28@gmail.com
+INFO 2024-12-03 06:00:01,896 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+INFO 2024-12-03 06:00:01,909 basehttp "GET /signup/knowMoreSuccess/ HTTP/1.1" 200 8049
+INFO 2024-12-03 06:00:01,926 basehttp - Broken pipe from ('127.0.0.1', 61382)
+INFO 2024-12-03 06:00:03,353 basehttp "GET /notifAll/ HTTP/1.1" 200 15091
+INFO 2024-12-03 06:00:03,366 basehttp - Broken pipe from ('127.0.0.1', 61385)
+INFO 2024-12-03 06:00:03,398 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 06:00:04,787 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30617
+INFO 2024-12-03 06:00:31,075 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:00:33,902 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:00:37,450 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 30730
+INFO 2024-12-03 06:00:37,488 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 200 287238
+INFO 2024-12-03 06:00:41,686 basehttp "GET /mySchedule/ HTTP/1.1" 200 35296
+INFO 2024-12-03 06:00:41,710 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 304 0
+WARNING 2024-12-03 06:00:41,717 log Not Found: /mySchedule/style.css
+WARNING 2024-12-03 06:00:41,717 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4690
