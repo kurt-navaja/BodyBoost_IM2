@@ -235,7 +235,6 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="{% static '/css/mySchedule.css'%}" rel="stylesheet" />
       <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
@@ -244,9 +243,17 @@
         <div class="mac-book-air1-mac-book-air1">
           <!-- Header Section -->
           <header class="mac-book-air1-frame5">
-            <div class="mac-book-air1-avatarwphoto1" style="cursor: pointer;" onclick="document.getElementById('avatar-upload').click();">
-              <img src="/static/images/avatar-w-photo.png" alt="Profile Picture" />
-            </div>
+            <a href="{% url 'notifAll:accountSettings' %}">
+              {% if user.profile_photo %}
+                  <img src="{{ user.profile_photo.url }}" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% else %}
+                  <img src="/static/images/profile_photo.png" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% endif %}
+            </a>
             <input type="file" id="avatar-upload" style="display: none;" accept="image/*" />
             <div class="mac-book-air1-greetings">
               <span class="mac-book-air1-text10">Welcome Back!</span>
@@ -280,11 +287,16 @@
 
                 <!-- Navigation Menu -->
                 <div class="mac-book-air1-frame12">
-                  <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" />
-                  <button class="mac-book-air1-button1">
+                  <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" /> 
+
+                  <button 
+                    class="mac-book-air1-button1"
+                    data-href="{% url 'notifAll:firstP' %}"
+                    onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
-                    <span class="mac-book-air1-text14">Overview</span>
+                    <span class="mac-book-air1-text14">Overview</span>  
                   </button>
+
                   <button class="mac-book-air1-button2">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
@@ -318,13 +330,17 @@
                 <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
                 <span class="mac-book-air1-text20">Help</span>
               </div>
-              <button class="mac-book-air1-button7">
-                <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
-                <span class="mac-book-air1-text21">Logout</span>
-              </button>
+                <a href="{% url 'login:login' %}">
+                <button class="mac-book-air1-button7">
+                  <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
+                  <span class="mac-book-air1-text21">Logout</span>
+                </button>
+                </a>
             </div>
           </nav>
 
+
+          <!-- Main Content -->
           <main>
             {% block content %}
             <div class="main-content-frame">
@@ -336,8 +352,8 @@
                   <h1 class="frame-title">My Schedule</h1>
                 </div>
                 <p class="frame-description">
-                  Here you can view and manage your schedule.
-                  The changes will be displayed for other users within 5 minutes.
+                  Here you can view and manage your schedule here.
+                  Complete the tasks to stay on track with your fitness goals.
                 </p>
               </div>
 
@@ -349,7 +365,7 @@
                     <div class="calendar-wrapper">
                       <div class="calendar-header">
                         <button class="calendar-nav-btn">&lt;</button>
-                        <h2 class="calendar-title">November 2024</h2>
+                        <h2 class="calendar-title">December 2024</h2>
                         <button class="calendar-nav-btn">&gt;</button>
                       </div>
                       <div class="calendar-grid">
@@ -374,14 +390,14 @@
                           <div class="calendar-day-success"><span class="day-number">9</span></div>
                           <div class="calendar-day-success"><span class="day-number">10</span></div>
                           <div class="calendar-day"><span class="day-number">11</span></div>
-                          <div class="calendar-day-today"><span class="day-number">12</span></div>
+                          <div class="calendar-day-success"><span class="day-number">12</span></div>
                           <div class="calendar-day"><span class="day-number">13</span></div>
-                          <div class="calendar-day"><span class="day-number">14</span></div>
-                          <div class="calendar-day"><span class="day-number">15</span></div>
+                          <div class="calendar-day-success"><span class="day-number">14</span></div>
+                          <div class="calendar-day-success"><span class="day-number">15</span></div>
                           <div class="calendar-day"><span class="day-number">16</span></div>
                           <div class="calendar-day"><span class="day-number">17</span></div>
-                          <div class="calendar-day"><span class="day-number">18</span></div>
-                          <div class="calendar-day"><span class="day-number">19</span></div>
+                          <div class="calendar-day-success"><span class="day-number">18</span></div>
+                          <div class="calendar-day-today"><span class="day-number">19</span></div>
                           <div class="calendar-day"><span class="day-number">20</span></div>
                           <div class="calendar-day"><span class="day-number">21</span></div>
                           <div class="calendar-day"><span class="day-number">22</span></div>
@@ -460,172 +476,23 @@
                       </div>
                     </div>
 
-                    <style>
-                      /* Mood Meter Styles */
-                      .mood-meter-wrapper {
-                        background: white;
-                        border-radius: 12px;
-                        padding: 30px;
-                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-                        margin-top: -5px;
-                      }
-
-                      .mood-meter {
-                        margin-top: 0;
-                        padding-top: 0;
-                        border-top: none;
-                      }
-
-                      .mood-meter-header {
-                        display: flex;
-                        align-items: center;
-                        gap: 12px;
-                        margin-bottom: 16px;
-                      }
-
-                      .mood-meter-header h4 {
-                        color: #4F378A;
-                        font-family: 'Outfit', sans-serif;
-                        font-weight: 600;
-                        margin: 0;
-                      }
-
-                      .mood-meter-content {
-                        padding: 0 4px;
-                      }
-
-                      .mood-level {
-                        display: flex;
-                        align-items: baseline;
-                        gap: 8px;
-                        margin-bottom: 16px;
-                      }
-
-                      .current-mood {
-                        color: #4F378A;
-                        font-family: 'Outfit', sans-serif;
-                        font-size: 24px;
-                        font-weight: 600;
-                      }
-
-                      .mood-time {
-                        color: #64748B;
-                        font-family: 'Manrope', sans-serif;
-                        font-size: 10px;
-                      }
-
-                      .mood-slider-container {
-                        margin-bottom: 20px;
-                      }
-
-                      .mood-slider {
-                        width: 100%;
-                        height: 6px;
-                        -webkit-appearance: none;
-                        background: linear-gradient(to right, #4F378A, #FFD93D, #FF6B6B);
-                        border-radius: 3px;
-                        outline: none;
-                        margin-bottom: 10px;
-                      }
-
-                      .mood-slider::-webkit-slider-thumb {
-                        -webkit-appearance: none;
-                        appearance: none;
-                        width: 20px;
-                        height: 20px;
-                        background: white;
-                        border: 2px solid #4F378A;
-                        border-radius: 50%;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                      }
-
-                      .mood-slider::-webkit-slider-thumb:hover {
-                        background: #4F378A;
-                      }
-
-                      .mood-labels {
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 0 5px;
-                        font-size: 18px;
-                      }
-
-                      .mood-factors {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 8px;
-                        margin-top: 16px;
-                      }
-
-                      .mood-tag {
-                        padding: 6px 12px;
-                        background-color: #F1F5F9;
-                        border-radius: 20px;
-                        font-family: 'Manrope', sans-serif;
-                        font-size: 14px;
-                        color: #64748B;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                      }
-
-                      .mood-tag:hover {
-                        background-color: #E2E8F0;
-                      }
-
-                      .mood-tag.active {
-                        background-color: #4F378A;
-                        color: white;
-                      }
-
-                      @media (max-width: 768px) {
-                        .mood-meter-wrapper {
-                          margin-top: 16px;
-                        }
-
-                        .current-mood {
-                          font-size: 20px;
-                        }
-
-                        .mood-factors {
-                          gap: 6px;
-                        }
-
-                        .mood-tag {
-                          padding: 4px 10px;
-                          font-size: 12px;
-                        }
-                      }
-                    </style>
-
-                    <script>
-                      document.addEventListener('DOMContentLoaded', function() {
-                        const moodSlider = document.getElementById('moodSlider');
-                        const currentMood = document.querySelector('.current-mood');
-
-                        const moods = ['Poor', 'Fair', 'Good', 'Great', 'Excellent'];
-
-                        moodSlider.addEventListener('input', function() {
-                          const moodIndex = parseInt(this.value) - 1;
-                          currentMood.textContent = moods[moodIndex];
-                        });
-
-                        // Toggle mood factors
-                        document.querySelectorAll('.mood-tag').forEach(tag => {
-                          tag.addEventListener('click', function() {
-                            this.classList.toggle('active');
-                          });
-                        });
-                      });
-                    </script>
+                    <script src="/static/js/mood-meter.js"></script>
                   </div>
 
                   <!-- Daily Schedule Section -->
                   <div class="daily-schedule">
                     <div class="schedule-header">
-                      <h3>Today's Schedule</h3>
-                      <span class="date">Tuesday, November 12</span>
+                      <h3>Today's Recommendeds</h3>
+                      <span class="date"></span>
                     </div>
+                    <script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                        const dateElement = document.querySelector('.date');
+                        const today = new Date();
+                        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                        dateElement.textContent = today.toLocaleDateString('en-US', options);
+                      });
+                    </script>
 
                     <!-- Workout Card -->
                     <div class="schedule-card workout-card">
@@ -634,48 +501,24 @@
                         <h4>Workouts</h4>
                       </div>
                       <div class="workout-list">
+                        {% for workout in personalized_workouts %}
                         <div class="workout-item">
-                          <span class="workout-time">05:30 AM</span>
-                          <div class="workout-details">
-                            <h5>Morning Cardio</h5>
-                            <p>30 min running - 300 calories</p>
-                          </div>
-                          <button class="workout-status">Complete</button>
+                            <span class="workout-time">{{ workout.start_time|default:"TBD" }}</span>
+                            <div class="workout-details">
+                                <h5>{{ workout.workout_type.name }}</h5>
+                                <p>{{ workout.duration }} min {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories</p>
+                            </div>
+                            <button class="workout-status pending">Pending</button>
                         </div>
-                        <div class="workout-item">
-                          <span class="workout-time">06:00 AM</span>
-                          <div class="workout-details">
-                            <h5>Upper Body Strength</h5>
-                            <p>45 min weight training - 250 calories</p>
-                          </div>
-                          <button class="workout-status pending">Pending</button>
+                        {% empty %}
+                        <div class="no-workouts">
+                            <p>No personalized workouts found. Please update your profile.</p>
                         </div>
-                        <div class="workout-item">
-                          <span class="workout-time">06:40 AM</span>
-                          <div class="workout-details">
-                            <h5>Core Workout</h5>
-                            <p>20 min abs circuit - 150 calories</p>
-                          </div>
-                          <button class="workout-status pending">Pending</button>
-                        </div>
-                        <div class="workout-item">
-                          <span class="workout-time">06:00 PM</span>
-                          <div class="workout-details">
-                            <h5>Yoga Session</h5>
-                            <p>45 min flexibility - 180 calories</p>
-                          </div>
-                          <button class="workout-status pending">Pending</button>
-                        </div>
-                        <div class="workout-item">
-                          <span class="workout-time">08:45 PM</span>
-                          <div class="workout-details">
-                            <h5>HIIT Training</h5>
-                            <p>25 min high intensity - 220 calories</p>
-                          </div>
-                          <button class="workout-status pending">Pending</button>
-                        </div>
+                        {% endfor %}
                       </div>
                     </div>
+                      
+                      <script src="/static/js/workout-status.js"></script>
 
                     <!-- Meal Plan Card -->
                     <div class="schedule-card meal-card">

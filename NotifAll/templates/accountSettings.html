@@ -171,6 +171,11 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
@@ -182,26 +187,6 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -240,7 +225,6 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="{% static '/css/accountSettings.css'%}" rel="stylesheet" />
       <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
@@ -249,9 +233,17 @@
         <div class="mac-book-air1-mac-book-air1">
           <!-- Header Section -->
           <header class="mac-book-air1-frame5">
-            <div class="mac-book-air1-avatarwphoto1" style="cursor: pointer;" onclick="document.getElementById('avatar-upload').click();">
-              <img src="/static/images/avatar-w-photo.png" alt="Profile Picture" />
-            </div>
+            <a href="{% url 'notifAll:accountSettings' %}">
+              {% if user.profile_photo %}
+                  <img src="{{ user.profile_photo.url }}" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% else %}
+                  <img src="{% static 'images/profile_photo1.png' %}" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% endif %}
+          </a>
             <input type="file" id="avatar-upload" style="display: none;" accept="image/*" />
             <div class="mac-book-air1-greetings">
               <span class="mac-book-air1-text10">Welcome Back!</span>
@@ -259,10 +251,11 @@
             </div>
             <div class="header-controls">
               <a href="/notifications">
-                <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
+              <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
               </a>
-              <a href="{% url 'notifAll:accountSettings' %}">
-                <img class="iconsaxboldsetting2" alt="Settings" src="{% static 'images/settings/setting2.png' %}">
+              <div class="mac-book-air1-badges"></div>
+              <a href="/settings">
+              <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
               </a>
             </div>
             <div class="mac-book-air1-frame251">
@@ -284,12 +277,14 @@
 
                 <!-- Navigation Menu -->
                 <div class="mac-book-air1-frame12">
-                  <a href="{% url 'notifAll:firstP' %}">
-                    <button class="mac-book-air1-button1">
-                    <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
-                    <span class="mac-book-air1-text14">Overview</span>
+                  <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" />
+                  <button 
+                      class="mac-book-air1-button1" 
+                      data-href="{% url 'notifAll:firstP' %}"
+                      onclick="window.location.href=this.getAttribute('data-href')">
+                      <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
+                      <span class="mac-book-air1-text14">Overview</span>
                   </button>
-                  </a>
                   <button class="mac-book-air1-button2">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
@@ -323,117 +318,119 @@
                 <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
                 <span class="mac-book-air1-text20">Help</span>
               </div>
-              <button class="mac-book-air1-button7">
-                <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
-                <span class="mac-book-air1-text21">Logout</span>
-              </button>
+                <a href="{% url 'login:login' %}">
+                <button class="mac-book-air1-button7">
+                  <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
+                  <span class="mac-book-air1-text21">Logout</span>
+                </button>
+                </a>
             </div>
           </nav>
 
           <!-- Main Content - Account Settings -->
-          <main class="account-settings-content">
-            <div class="header-section">
-                <a href="javascript:history.back()">
-                <img src="/static/images/settings/LeftArrow.png" alt="Back" class="mac-book-air1-leftarrow1" />
-                </a>
-              <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" />
-              <h1 class="mac-book-air1-text27">Account Settings</h1>
-              <p class="mac-book-air1-text23">
-                Here you can edit public information about yourself.<br />
-                The changes will be displayed for other users within 5 minutes.
-              </p>
-            </div>
+          <main>
+            {% block content %}
+            <div class="main-content-frame">
+              <div class="frame-header">
+                <div class="header-left">
+                  <a href="javascript:history.back()" class="back-button">
+                    <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+                  </a>
+                  <h1 class="frame-title">Account Settings</h1>
+                </div>
+                <p class="frame-description">
+                  Here you can view and manage your account.
+                  The changes will be displayed for other users within a minute.
+                </p>
+              </div>
 
             <!-- User Information Form -->
             <section class="user-info-form">
-              <h2 class="mac-book-air1-text28">User Information</h2>
+              <h3 class="mac-book-air1-text28">User Information</h3>
 
-              <!-- Profile Photo Section -->
+
+              <!-- Form Fields -->
+              <div class="form-fields-name">
+                <div class="field-group-name">
+                  <label class="mac-book-air1-text35">Full Name</label>
+                  <div class="name-fields">
+                    <form method="POST" enctype="multipart/form-data" action="{% url 'notifAll:accountSettings' %}">
+                      {% csrf_token %}
+                      <!-- Profile Photo Section -->
               <div class="profile-photo-section">
                 <span class="mac-book-air1-text30">Profile Photo</span>
                 <div class="mac-book-air1-avatarwphoto2" id="avatarBImage" style="cursor: pointer;">
-                  <img src="/static/images/tq_qxxcbxkzr7-mee-300h.png" alt="Profile Picture" />
+                  {% if user.profile_photo %}
+                      <img src="{{ user.profile_photo.url }}" alt="Profile Picture" />
+                  {% else %}
+                      <img src="/static/images/profile_photo1.png" alt="Profile Picture" />
+                  {% endif %}
                 </div>
                 <!-- Hidden File Input for Image Upload -->
-                <input type="file" id="avatarB-upload" style="display: none;" accept="image/*" />
+                <input type="file" id="avatarB-upload" name="profile_photo" style="display: none;" accept="image/*" />
               </div>
 
               <!-- Circle Icon -->
               <img src="/static/images/circle17021-670l-200h.png" alt="circle17021" class="mac-book-air1-circle1" id="avatarBCircle" style="cursor: pointer;" />
 
-              <script>
-                // Trigger file upload when either the profile image or circle icon is clicked
-                const uploadTriggerElements = [document.getElementById("avatarBImage"), document.getElementById("avatarBCircle")];
-                
-                uploadTriggerElements.forEach(element => {
-                  element.addEventListener("click", function () {
-                    document.getElementById("avatarB-upload").click();
-                  });
-                });
-
-                // Display the selected image after uploading
-                document.getElementById("avatarB-upload").addEventListener("change", function(event) {
-                  const file = event.target.files[0];
-                  if (file) {
-                    const reader = new FileReader();
-                    reader.onload = function(e) {
-                      document.getElementById("avatarBImage").querySelector("img").src = e.target.result;
-                    };
-                    reader.readAsDataURL(file);
-                  }
-                });
-              </script>
-
-              <!-- Form Fields -->
-              <div class="form-fields">
-                <div class="field-group">
-                  <label class="mac-book-air1-text35">Full Name</label>
-                  <div class="name-fields">
+              <script src="/static/js/profilepic.js"></script>
                     <!-- First Name Input Field -->
                     <div class="field">
-                      <input type="text" class="mac-book-air1-text36 form-input" placeholder="First Name" style="width: 187px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -14px;" />
+                      <input type="text" name="first_name" class="mac-book-air1-text36 form-input" placeholder="{{ user.first_name|default:'First Name' }}" style="width: 187px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -14px;" />
                     </div>
 
                     <!-- Last Name Input Field -->
                     <div class="field">
-                      <input type="text" class="mac-book-air1-text42 form-input" placeholder="Last Name" style="width: 193px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -8px;" />
+                      <input type="text" name="last_name" class="mac-book-air1-text42 form-input" placeholder="{{ user.last_name|default:'Last Name' }}" style="width: 193px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -8px;" />
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="email-field-group">
+                <div class="email-field-group">
                 <label class="mac-book-air1-text29">Email Address</label>
-                <input type="email" class="mac-book-air1-text22 form-input" placeholder="bodyboost22@email.com" style="width: 389px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-left: -13px;" />
-              </div>
+                <input type="email"
+                      name="email"
+                     class="mac-book-air1-text22 form-input" 
+                     value="{{ user.email }}"
+                     readonly 
+                     style="width: 389px; 
+                        padding: 8px 12px; 
+                        border: 1px solid #939393; 
+                        border-radius: 6px; 
+                        font-size: 16px; 
+                        margin-top: -11px; 
+                        margin-left: -13px; 
+                        background-color: #f4f4f4; /* Optional: add a grayed-out appearance */
+                        cursor: not-allowed;" />
 
-              <div class="field-group">
+                <div class="field-group"></div>
                 <label class="mac-book-air1-text34">Address</label>
                 <div class="address-fields">
                   <!-- Country Input Field -->
-                  <input type="text" class="mac-book-air1-text37 form-input" placeholder="Country" style="width: 160px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-left: -13px;" />
+                  <input type="text" name="country" class="mac-book-air1-text37 form-input" placeholder="{{ user.country|default:'Country' }}" style="width: 160px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-left: -13px;" />
 
                   <!-- City Input Field -->
-                  <input type="text" class="mac-book-air1-text38 form-input" placeholder="City" style="width: 130px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -6px;" />
+                  <input type="text" name="city" class="mac-book-air1-text38 form-input" placeholder="{{ user.city|default:'City' }}" style="width: 130px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -6px;" />
 
                   <!-- ZIP Input Field -->
-                  <input type="text" class="mac-book-air1-text43 form-input" placeholder="ZIP" style="width: 84px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 5px; margin-left: 5px;" />
+                  <input type="text" name="zip" class="mac-book-air1-text43 form-input" placeholder="{{ user.zip_code|default:'ZIP' }}" style="width: 84px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 5px; margin-left: 5px;" />
 
                   <!-- Street Input Field -->
-                  <input type="text" class="mac-book-air1-text44 form-input" placeholder="Street" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -8px; margin-left: -13px;" />
+                  <input type="text" name="street" class="mac-book-air1-text44 form-input" placeholder="{{ user.street|default:'Street' }}" style="width: 389px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -8px; margin-left: -13px;" />
                 </div>
-              </div>
+                </div>
 
               <!-- Weight Input Field -->
               <div class="field-group">
-                <label class="mac-book-air1-text32">Weight</label>
-                <input type="text" class="mac-book-air1-text39 form-input" placeholder="51kg" style="width: 145px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: 4px; margin-right: 10px; margin-left: -18px; margin-top: -11px;" />
+                <label class="mac-book-air1-text32">Weight(kg)</label>
+                <input type="text" name="weight" class="mac-book-air1-text39 form-input" placeholder="{{ user.weight }}" style="width: 145px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: 4px; margin-right: 10px; margin-left: -18px; margin-top: -11px;" />
               </div>
 
               <!-- Body Type Goal Select Field -->
               <div class="field-group">
                 <label class="mac-book-air1-text31">Body Type Goal</label>
-                <select class="mac-book-air1-text45 form-input" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -15px;">
+                <select class="mac-book-air1-text45 form-input" name="body_goal" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -15px;">
                   <option value="" disabled selected>Select Body Type Goal</option>
                   <option value="slim">Slim</option>
                   <option value="toned">Toned</option>
@@ -446,7 +443,7 @@
             <!-- Training Intensity Select Field -->
             <div class="field-group">
               <label class="mac-book-air1-text33">Training Intensity</label>
-              <select class="mac-book-air1-text40 form-input" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
+              <select class="mac-book-air1-text40 form-input" name="intensity" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
                 <option value="" disabled selected>Select Intensity</option>
                 <option value="0.3">Gentle (0.3kg / week)</option>
                 <option value="0.6">Light (0.6kg / week)</option>
@@ -458,13 +455,17 @@
 
 
                 <!-- Save Button -->
-                <button class="mac-book-air1-next" type="button">
-                <span class="mac-book-air1-text46">Save</span>
-                </button>
+                <div class="save-button">
+                  <button class="mac-book-air1-next" type="submit">
+                    <span class="mac-book-air1-text46">Save</span>
+                  </button>
+                </div>
+              </form>
             </section>
           </main>
         </div>
+        {% endblock %}
       </div>
     </div>
-  </body>
-</html>
+    <script src="/static/js/message.js"></script>
+</body>

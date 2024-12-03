@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     "Login",
     "NotifAll",
     "fitness",
-    "MySchedule",
+    "MySchedule.apps.MyScheduleConfig",  # Use the full path to the app config
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -121,6 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = "static/"
+STATICFILES_DIRS = [
+    BASE_DIR / 'NotifAll' / 'static',  # Add this line
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -174,3 +177,7 @@ logger = logging.getLogger(__name__)
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 logger.info(f"Message storage backend: {MESSAGE_STORAGE}")
+
+# Media files configuration
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
