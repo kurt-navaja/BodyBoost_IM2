@@ -26074,3 +26074,19 @@ INFO 2024-12-03 15:15:20,207 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 2
 INFO 2024-12-03 15:15:22,162 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25790
 INFO 2024-12-03 15:15:23,182 basehttp "GET /notifAll/ HTTP/1.1" 200 28275
 INFO 2024-12-03 15:16:08,197 basehttp - Broken pipe from ('127.0.0.1', 65384)
+INFO 2024-12-03 16:00:55,628 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 16:00:57,682 basehttp "GET / HTTP/1.1" 200 10789
+WARNING 2024-12-03 16:01:00,244 log Not Found: /favicon.ico
+WARNING 2024-12-03 16:01:00,244 basehttp "GET /favicon.ico HTTP/1.1" 404 4388
+INFO 2024-12-03 16:01:09,452 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 16:01:09,481 basehttp "GET /notifAll/ HTTP/1.1" 200 28275
+INFO 2024-12-03 16:01:24,969 basehttp "GET /notifAll/workout/ HTTP/1.1" 200 25790
+INFO 2024-12-03 16:01:25,950 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:01:31,884 basehttp "POST /notifAll/save_workout/ HTTP/1.1" 302 0
+INFO 2024-12-03 16:01:31,913 basehttp "GET /fitness/strengthTraining-advanced/ HTTP/1.1" 200 25890
+INFO 2024-12-03 16:01:34,109 basehttp "GET /fitness/strengthTraining-advanced2/ HTTP/1.1" 200 25399
+INFO 2024-12-03 16:01:34,514 basehttp "GET /static/video/workout.mp4 HTTP/1.1" 200 26561845
+INFO 2024-12-03 16:01:35,001 basehttp "GET /fitness/strengthTraining-advanced/ HTTP/1.1" 200 25890
+INFO 2024-12-03 16:01:36,832 basehttp "GET /notifAll/ HTTP/1.1" 200 28275
+INFO 2024-12-03 16:02:09,559 basehttp - Broken pipe from ('127.0.0.1', 49393)
+INFO 2024-12-03 16:02:36,854 basehttp - Broken pipe from ('127.0.0.1', 49397)
