@@ -235,7 +235,6 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
       <link href="{% static '/css/mySchedule.css'%}" rel="stylesheet" />
       <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
@@ -340,6 +339,8 @@
             </div>
           </nav>
 
+
+          <!-- Main Content -->
           <main>
             {% block content %}
             <div class="main-content-frame">
@@ -475,151 +476,13 @@
                       </div>
                     </div>
 
-                    <style>
-                      /* Mood Meter Styles */
-                      .mood-meter-wrapper {
-                        background: white;
-                        border-radius: 12px;
-                        padding: 30px;
-                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-                        margin-top: -5px;
-                      }
-
-                      .mood-meter {
-                        margin-top: 0;
-                        padding-top: 0;
-                        border-top: none;
-                      }
-
-                      .mood-meter-header {
-                        display: flex;
-                        align-items: center;
-                        gap: 12px;
-                        margin-bottom: 16px;
-                      }
-
-                      .mood-meter-header h4 {
-                        color: #4F378A;
-                        font-family: 'Outfit', sans-serif;
-                        font-weight: 600;
-                        margin: 0;
-                      }
-
-                      .mood-meter-content {
-                        padding: 0 4px;
-                      }
-
-                      .mood-level {
-                        display: flex;
-                        align-items: baseline;
-                        gap: 8px;
-                        margin-bottom: 16px;
-                      }
-
-                      .current-mood {
-                        color: #4F378A;
-                        font-family: 'Outfit', sans-serif;
-                        font-size: 24px;
-                        font-weight: 600;
-                      }
-
-                      .mood-time {
-                        color: #64748B;
-                        font-family: 'Manrope', sans-serif;
-                        font-size: 10px;
-                      }
-
-                      .mood-slider-container {
-                        margin-bottom: 20px;
-                      }
-
-                      .mood-slider {
-                        width: 100%;
-                        height: 6px;
-                        -webkit-appearance: none;
-                        background: linear-gradient(to right, #4F378A, #FFD93D, #FF6B6B);
-                        border-radius: 3px;
-                        outline: none;
-                        margin-bottom: 10px;
-                      }
-
-                      .mood-slider::-webkit-slider-thumb {
-                        -webkit-appearance: none;
-                        appearance: none;
-                        width: 20px;
-                        height: 20px;
-                        background: white;
-                        border: 2px solid #4F378A;
-                        border-radius: 50%;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                      }
-
-                      .mood-slider::-webkit-slider-thumb:hover {
-                        background: #4F378A;
-                      }
-
-                      .mood-labels {
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 0 5px;
-                        font-size: 18px;
-                      }
-
-                      .mood-factors {
-                        display: flex;
-                        flex-wrap: wrap;
-                        gap: 8px;
-                        margin-top: 16px;
-                      }
-
-                      .mood-tag {
-                        padding: 6px 12px;
-                        background-color: #F1F5F9;
-                        border-radius: 20px;
-                        font-family: 'Manrope', sans-serif;
-                        font-size: 14px;
-                        color: #64748B;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                      }
-
-                      .mood-tag:hover {
-                        background-color: #E2E8F0;
-                      }
-
-                      .mood-tag.active {
-                        background-color: #4F378A;
-                        color: white;
-                      }
-
-                      @media (max-width: 768px) {
-                        .mood-meter-wrapper {
-                          margin-top: 16px;
-                        }
-
-                        .current-mood {
-                          font-size: 20px;
-                        }
-
-                        .mood-factors {
-                          gap: 6px;
-                        }
-
-                        .mood-tag {
-                          padding: 4px 10px;
-                          font-size: 12px;
-                        }
-                      }
-                    </style>
-
                     <script src="/static/js/mood-meter.js"></script>
                   </div>
 
                   <!-- Daily Schedule Section -->
                   <div class="daily-schedule">
                     <div class="schedule-header">
-                      <h3>Today's Schedule</h3>
+                      <h3>Today's Recommendeds</h3>
                       <span class="date"></span>
                     </div>
                     <script>
@@ -654,46 +517,6 @@
                         {% endfor %}
                       </div>
                     </div>
-
-                    <style>
-                      /* Workout Status Button Styles */
-                      .workout-status {
-                        padding: 6px 12px;
-                        border-radius: 20px;
-                        font-family: 'Manrope', sans-serif;
-                        font-size: 14px;
-                        border: none;
-                        cursor: pointer;
-                        transition: all 0.2s ease;
-                        min-width: 100px;
-                      }
-                      
-                      .workout-status.complete {
-                        background-color: #4F378A;
-                        color: white;
-                      }
-                      
-                      .workout-status.pending {
-                        background-color: #F1F5F9;
-                        color: #64748B;
-                      }
-                      
-                      .workout-status:hover {
-                        transform: translateY(-1px);
-                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                      }
-                      
-                      /* Optional: Add animation */
-                      @keyframes statusChange {
-                        0% { transform: scale(0.95); }
-                        50% { transform: scale(1.05); }
-                        100% { transform: scale(1); }
-                      }
-                      
-                      .workout-status.animating {
-                        animation: statusChange 0.3s ease;
-                      }
-                      </style>
                       
                       <script src="/static/js/workout-status.js"></script>
 

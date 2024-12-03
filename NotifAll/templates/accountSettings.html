@@ -373,110 +373,7 @@
               <!-- Circle Icon -->
               <img src="/static/images/circle17021-670l-200h.png" alt="circle17021" class="mac-book-air1-circle1" id="avatarBCircle" style="cursor: pointer;" />
 
-              <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    const form = document.querySelector('form');
-                    const avatarUpload = document.getElementById('avatarB-upload');
-                    const avatarImage = document.getElementById('avatarBImage').querySelector('img');
-                    const uploadTriggerElements = [
-                        document.getElementById("avatarBImage"), 
-                        document.getElementById("avatarBCircle")
-                    ];
-
-                    // Trigger file upload when either the profile image or circle icon is clicked
-                    uploadTriggerElements.forEach(element => {
-                        element.addEventListener("click", function () {
-                            avatarUpload.click();
-                        });
-                    });
-
-                    avatarUpload.addEventListener('change', function(event) {
-                        const file = event.target.files[0];
-                        if (file) {
-                            const reader = new FileReader();
-                            
-                            reader.onload = function(e) {
-                                // Create an off-screen image to get dimensions
-                                const img = new Image();
-                                img.onload = function() {
-                                    // Create a canvas to crop and resize the image
-                                    const canvas = document.createElement('canvas');
-                                    const ctx = canvas.getContext('2d');
-                                    
-                                    // Set canvas to the desired output size (match your circular frame)
-                                    const targetSize = 207; 
-                                    canvas.width = targetSize;
-                                    canvas.height = targetSize;
-                                    
-                                    // Calculate scaling and cropping
-                                    const aspectRatio = img.width / img.height;
-                                    let sourceWidth, sourceHeight, sourceX, sourceY;
-                                    
-                                    if (aspectRatio > 1) {
-                                        // Landscape image
-                                        sourceHeight = img.height;
-                                        sourceWidth = sourceHeight;
-                                        sourceX = (img.width - sourceHeight) / 2;
-                                        sourceY = 0;
-                                    } else {
-                                        // Portrait image
-                                        sourceWidth = img.width;
-                                        sourceHeight = sourceWidth;
-                                        sourceX = 0;
-                                        sourceY = (img.height - sourceWidth) / 2;
-                                    }
-                                    
-                                    // Draw the cropped and scaled image
-                                    ctx.drawImage(
-                                        img, 
-                                        sourceX, sourceY, sourceWidth, sourceHeight, 
-                                        0, 0, targetSize, targetSize 
-                                    );
-                                    
-                                    // Convert canvas to blob and append to form
-                                    canvas.toBlob(function(blob) {
-                                      // Create a new FormData object and append the blob
-                                      const formData = new FormData(form);
-                                      formData.append('profile_photo', blob, 'profile_photo.jpg');
-                                      
-                                      // Optional: If you want to send the image immediately
-                                      fetch(form.action, {
-                                        method: 'POST',
-                                        body: formData,
-                                        headers: {
-                                          'X-Requested-With': 'XMLHttpRequest',
-                                          'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
-                                        }
-                                      })
-                                        .then(response => response.json())
-                                        .then(data => {
-                                            if (data.status === 'success') {
-                                                console.log('Profile photo uploaded successfully');
-                                                // Optionally update UI or show success message
-                                            } else {
-                                                console.error('Error uploading profile photo');
-                                                // Optionally show error message
-                                            }
-                                        })
-                                        .catch(error => {
-                                            console.error('Error:', error);
-                                        });
-                                    }, 'image/jpeg');
-                                    
-                                    // Set the canvas image as the new avatar
-                                    avatarImage.src = canvas.toDataURL('image/jpeg');
-                                };
-                                
-                                // Set the source of the image for processing
-                                img.src = e.target.result;
-                            };
-                            
-                            // Read the uploaded file
-                            reader.readAsDataURL(file);
-                        }
-                    });
-                });
-                </script>
+              <script src="/static/js/profilepic.js"></script>
                     <!-- First Name Input Field -->
                     <div class="field">
                       <input type="text" name="first_name" class="mac-book-air1-text36 form-input" placeholder="{{ user.first_name|default:'First Name' }}" style="width: 187px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -9px; margin-left: -14px;" />
@@ -548,11 +445,11 @@
               <label class="mac-book-air1-text33">Training Intensity</label>
               <select class="mac-book-air1-text40 form-input" name="intensity" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
                 <option value="" disabled selected>Select Intensity</option>
-                <option value="Gentle">Gentle (0.3kg / week)</option>
-                <option value="Light">Light (0.6kg / week)</option>
-                <option value="Moderate">Moderate (0.75kg / week)</option>
-                <option value="Aggressive">Aggressive (1kg / week)</option>
-                <option value="High Intensity">High Intensity (1.25kg / week)</option>
+                <option value="0.3">Gentle (0.3kg / week)</option>
+                <option value="0.6">Light (0.6kg / week)</option>
+                <option value="0.7">Moderate (0.75kg / week)</option>
+                <option value="0.8">Aggressive (1kg / week)</option>
+                <option value="0.9">High Intensity (1.25kg / week)</option>
               </select>
               </div>
 
@@ -570,77 +467,5 @@
         {% endblock %}
       </div>
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const saveButton = document.querySelector('.mac-book-air1-next');
-        const form = document.querySelector('form');
-
-        const createMessageContainer = () => {
-            const container = document.createElement('div');
-            container.style.position = 'fixed';
-            container.style.top = '150px';
-            container.style.left = '52%';
-            container.style.transform = 'translateX(-50%)';
-            container.style.padding = '10px';
-            container.style.borderRadius = '8px';
-            container.style.zIndex = '1000';
-            container.style.color = 'white';
-            container.style.fontWeight = 'bold';
-            container.style.display = 'none';
-            document.body.appendChild(container);
-            return container;
-        };
-
-        const messageContainer = createMessageContainer();
-
-        const showMessage = (message, isSuccess) => {
-            messageContainer.textContent = message;
-            messageContainer.style.backgroundColor = isSuccess ? '#4CAF50' : '#F44336';
-            messageContainer.style.display = 'block';
-            
-            setTimeout(() => {
-                messageContainer.style.display = 'none';
-            }, 5000);
-        };
-
-        saveButton.addEventListener('click', function(e) {
-            e.preventDefault();
-
-            const formData = new FormData(form);
-
-            fetch(form.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'X-Requested-With': 'XMLHttpRequest',
-                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
-                }
-            })
-            .then(response => {
-                // Always try to parse as JSON
-                return response.json().then(data => {
-                    return { status: response.ok, data: data };
-                }).catch(() => {
-                    return { 
-                        status: false, 
-                        data: { message: 'Unable to parse server response' } 
-                    };
-                });
-            })
-            .then(({ status, data }) => {
-                if (status) {
-                    // Success case
-                    showMessage(data.message || 'Account settings saved successfully!', true);
-                } else {
-                    // Error case
-                    showMessage(data.message || 'An error occurred while saving settings', false);
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                showMessage('An unexpected error occurred', false);
-            });
-        });
-    });
-  </script>
+    <script src="/static/js/message.js"></script>
 </body>

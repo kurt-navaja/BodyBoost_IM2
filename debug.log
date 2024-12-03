@@ -41634,3 +41634,217 @@ INFO 2024-12-03 06:00:41,686 basehttp "GET /mySchedule/ HTTP/1.1" 200 35296
 INFO 2024-12-03 06:00:41,710 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 304 0
 WARNING 2024-12-03 06:00:41,717 log Not Found: /mySchedule/style.css
 WARNING 2024-12-03 06:00:41,717 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4690
+INFO 2024-12-03 06:08:08,941 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 27982
+INFO 2024-12-03 06:08:09,017 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 06:08:09,023 basehttp "GET /static/js/message.js HTTP/1.1" 200 2384
+WARNING 2024-12-03 06:08:09,471 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 06:08:10,673 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 27982
+INFO 2024-12-03 06:08:10,710 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 06:08:10,711 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 06:08:10,712 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 06:08:10,713 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 200 287238
+INFO 2024-12-03 06:08:10,724 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 06:08:10,734 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 06:08:10,735 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 06:08:10,736 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 06:08:10,737 basehttp "GET /static/js/message.js HTTP/1.1" 200 2384
+INFO 2024-12-03 06:08:10,739 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 06:08:10,739 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 06:08:10,739 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 06:08:10,740 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 06:08:10,741 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:08:10,741 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 06:08:10,741 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 06:08:10,742 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:08:10,742 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 06:08:10,742 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 06:08:10,896 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 06:08:11,064 log Not Found: /favicon.ico
+WARNING 2024-12-03 06:08:11,064 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 06:08:12,667 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:09:07,802 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21808
+INFO 2024-12-03 06:09:07,870 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 06:09:07,871 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:09:07,871 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4353
+WARNING 2024-12-03 06:09:08,313 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 06:09:09,827 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21808
+INFO 2024-12-03 06:09:09,850 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 06:09:09,850 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 06:09:09,851 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 200 22261
+INFO 2024-12-03 06:09:09,853 basehttp "GET /media/profile_photos/4F729BC9-7599-4F83-B917-C1F7C3E215A1_1_105_c.jpeg HTTP/1.1" 200 287238
+INFO 2024-12-03 06:09:09,885 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 06:09:09,886 basehttp "GET /static/js/message.js HTTP/1.1" 200 2384
+INFO 2024-12-03 06:09:09,886 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 06:09:09,886 basehttp "GET /static/js/profilepic.js HTTP/1.1" 200 4353
+INFO 2024-12-03 06:09:09,886 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 06:09:09,887 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 06:09:09,889 basehttp "GET /static/images/settings/rightArr.png HTTP/1.1" 200 294
+INFO 2024-12-03 06:09:09,890 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 06:09:09,890 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:09:09,891 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 06:09:09,891 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 06:09:09,892 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 06:09:09,892 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 06:09:09,893 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:09:09,893 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 06:09:09,893 basehttp "GET /static/images/circle17021-670l-200h.png HTTP/1.1" 200 468
+WARNING 2024-12-03 06:09:10,027 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+WARNING 2024-12-03 06:09:10,195 log Not Found: /favicon.ico
+WARNING 2024-12-03 06:09:10,196 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 06:09:15,978 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:09:18,429 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:09:19,912 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21808
+INFO 2024-12-03 06:09:19,932 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:09:19,933 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 200 155509
+INFO 2024-12-03 06:11:08,837 basehttp "GET /mySchedule/ HTTP/1.1" 200 30595
+WARNING 2024-12-03 06:11:08,921 log Not Found: /mySchedule/style.css
+INFO 2024-12-03 06:11:08,922 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 304 0
+WARNING 2024-12-03 06:11:08,923 basehttp "GET /mySchedule/style.css HTTP/1.1" 404 4690
+INFO 2024-12-03 06:11:29,046 basehttp "GET /mySchedule/ HTTP/1.1" 200 30546
+INFO 2024-12-03 06:11:29,119 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 06:11:29,119 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 06:11:29,120 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 06:11:29,120 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 18627
+INFO 2024-12-03 06:11:29,121 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 06:11:29,124 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 06:11:29,124 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 06:11:29,124 basehttp "GET /static/js/workout-status.js HTTP/1.1" 200 1309
+INFO 2024-12-03 06:11:29,124 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 200 155509
+INFO 2024-12-03 06:11:29,125 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 06:11:29,127 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 200 589
+INFO 2024-12-03 06:11:29,128 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:11:29,128 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 06:11:29,128 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 06:11:29,128 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 06:11:29,129 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 06:11:29,129 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 06:11:29,131 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 06:11:29,132 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:11:29,132 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+INFO 2024-12-03 06:11:29,133 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+WARNING 2024-12-03 06:11:30,125 log Not Found: /favicon.ico
+WARNING 2024-12-03 06:11:30,126 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 06:11:33,998 basehttp "GET /mySchedule/ HTTP/1.1" 200 30546
+INFO 2024-12-03 06:11:34,022 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 06:11:34,023 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 06:11:34,023 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 18627
+INFO 2024-12-03 06:11:34,024 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 200 155509
+INFO 2024-12-03 06:11:34,052 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 06:11:34,053 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 06:11:34,053 basehttp "GET /static/js/workout-status.js HTTP/1.1" 200 1309
+INFO 2024-12-03 06:11:34,054 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 200 589
+INFO 2024-12-03 06:11:34,054 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 06:11:34,056 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 06:11:34,057 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 06:11:34,058 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 06:11:34,058 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 06:11:34,058 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:11:34,059 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 06:11:34,060 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 06:11:34,060 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 06:11:34,061 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:11:34,061 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 06:11:34,062 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+INFO 2024-12-03 06:11:34,062 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+WARNING 2024-12-03 06:11:35,108 log Not Found: /favicon.ico
+WARNING 2024-12-03 06:11:35,108 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 06:12:55,361 basehttp "GET /mySchedule/ HTTP/1.1" 200 28953
+INFO 2024-12-03 06:12:55,438 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 06:12:55,438 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 19347
+INFO 2024-12-03 06:12:57,298 basehttp "GET /mySchedule/ HTTP/1.1" 200 28953
+INFO 2024-12-03 06:12:57,318 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 06:12:57,318 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 06:12:57,319 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 19347
+INFO 2024-12-03 06:12:57,320 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 200 155509
+INFO 2024-12-03 06:12:57,337 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 06:12:57,339 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 06:12:57,340 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 06:12:57,342 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 200 589
+INFO 2024-12-03 06:12:57,342 basehttp "GET /static/js/workout-status.js HTTP/1.1" 200 1309
+INFO 2024-12-03 06:12:57,342 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 06:12:57,343 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 06:12:57,344 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 06:12:57,345 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 06:12:57,346 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:12:57,346 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 06:12:57,346 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 06:12:57,347 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 06:12:57,347 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 06:12:57,349 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 06:12:57,349 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+INFO 2024-12-03 06:12:57,349 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+WARNING 2024-12-03 06:12:57,675 log Not Found: /favicon.ico
+WARNING 2024-12-03 06:12:57,675 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 06:42:28,568 basehttp "GET /mySchedule/ HTTP/1.1" 200 28986
+INFO 2024-12-03 06:42:28,648 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 06:42:28,649 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+INFO 2024-12-03 06:42:28,651 basehttp "GET /static/js/workout-status.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:42:28,651 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:42:30,666 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21780
+INFO 2024-12-03 06:42:30,714 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:42:30,727 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+WARNING 2024-12-03 06:42:30,743 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 06:42:35,609 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 06:42:36,672 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21780
+INFO 2024-12-03 06:42:38,120 basehttp "GET /mySchedule/ HTTP/1.1" 200 28986
+INFO 2024-12-03 06:56:57,222 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21780
+INFO 2024-12-03 06:56:57,303 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 06:56:57,303 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:56:57,304 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-12-03 06:56:57,307 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+INFO 2024-12-03 06:57:07,797 basehttp "GET /mySchedule/ HTTP/1.1" 200 28986
+INFO 2024-12-03 06:57:07,826 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+INFO 2024-12-03 07:05:12,020 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 07:05:16,294 basehttp "GET / HTTP/1.1" 200 10987
+INFO 2024-12-03 07:05:19,841 basehttp "GET /signup/signup/ HTTP/1.1" 200 11150
+INFO 2024-12-03 07:05:30,486 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['q5hXVwuudDPOaQtJUiAQ109d3En7BzqvyH16SRpBgJdjRUuMsbtfjh2YHlfG9z5V'], 'email': ['asaphbacaltos@gmail.com'], 'password1': ['Asaph795573!'], 'password2': ['Asaph795573!'], 'phone_number': ['09682231595']}>
+ERROR 2024-12-03 07:05:30,524 views Form validation failed. Errors: <ul class="errorlist"><li>email<ul class="errorlist"><li>This email is already in use.</li></ul></li></ul>
+INFO 2024-12-03 07:05:30,525 basehttp "POST /signup/signup/ HTTP/1.1" 200 11778
+INFO 2024-12-03 07:05:30,534 basehttp - Broken pipe from ('127.0.0.1', 63481)
+INFO 2024-12-03 07:05:40,967 views POST data received: <QueryDict: {'csrfmiddlewaretoken': ['ElPfK2NG2QEac0sCXMLdcKTAEkjjchRaMXzoHnIN5W2FT4tFvFECu1Mli1bSKhwA'], 'email': ['asaphbacaltos29@gmail.com'], 'password1': ['Asaph795573!'], 'password2': ['Asaph795573!'], 'phone_number': ['09682231595']}>
+INFO 2024-12-03 07:05:41,125 views User asaphbacaltos29@gmail.com saved to the database.
+INFO 2024-12-03 07:05:41,131 basehttp "POST /signup/signup/ HTTP/1.1" 302 0
+INFO 2024-12-03 07:05:41,137 basehttp "GET /signup/authenticationSuccess/ HTTP/1.1" 200 8061
+INFO 2024-12-03 07:05:41,142 basehttp - Broken pipe from ('127.0.0.1', 63485)
+INFO 2024-12-03 07:05:42,891 views Existing user profile found for user asaphbacaltos29@gmail.com
+INFO 2024-12-03 07:05:42,899 basehttp "GET /signup/knowMore/ HTTP/1.1" 200 20388
+INFO 2024-12-03 07:05:54,475 views Existing user profile found for user asaphbacaltos29@gmail.com
+INFO 2024-12-03 07:05:54,480 views Additional information saved for user asaphbacaltos29@gmail.com
+INFO 2024-12-03 07:05:54,485 basehttp "POST /signup/knowMore/ HTTP/1.1" 302 0
+INFO 2024-12-03 07:05:54,490 basehttp "GET /signup/knowMoreSuccess/ HTTP/1.1" 200 8049
+INFO 2024-12-03 07:05:55,758 basehttp "GET /notifAll/ HTTP/1.1" 200 15091
+INFO 2024-12-03 07:05:55,789 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 07:05:57,559 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21705
+INFO 2024-12-03 07:05:57,590 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 07:05:57,590 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+WARNING 2024-12-03 07:05:57,664 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 07:06:00,395 basehttp "GET /mySchedule/ HTTP/1.1" 200 28953
+INFO 2024-12-03 07:06:00,423 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+INFO 2024-12-03 07:06:19,861 basehttp - Broken pipe from ('127.0.0.1', 63476)
+INFO 2024-12-03 07:06:42,919 basehttp - Broken pipe from ('127.0.0.1', 63487)
+INFO 2024-12-03 07:06:54,523 basehttp - Broken pipe from ('127.0.0.1', 63489)
+INFO 2024-12-03 07:06:55,777 basehttp - Broken pipe from ('127.0.0.1', 63491)
+INFO 2024-12-03 07:19:37,426 basehttp "GET /mySchedule/ HTTP/1.1" 200 28957
+INFO 2024-12-03 07:19:37,526 basehttp "GET /static/css/navStyle.css HTTP/1.1" 200 3968
+INFO 2024-12-03 07:19:37,529 basehttp "GET /static/images/bell.png HTTP/1.1" 200 4802
+INFO 2024-12-03 07:19:37,530 basehttp "GET /static/images/setting.png HTTP/1.1" 200 6052
+INFO 2024-12-03 07:19:37,530 basehttp "GET /static/images/settings/searchnormal.png HTTP/1.1" 200 721
+INFO 2024-12-03 07:19:37,531 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 200 19347
+INFO 2024-12-03 07:19:37,531 basehttp "GET /static/images/logoPurple.png HTTP/1.1" 200 25749
+INFO 2024-12-03 07:19:37,532 basehttp "GET /media/static/images/profile_photo.png HTTP/1.1" 200 64285
+INFO 2024-12-03 07:19:37,532 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 200 589
+INFO 2024-12-03 07:19:37,535 basehttp "GET /static/js/workout-status.js HTTP/1.1" 200 1309
+INFO 2024-12-03 07:19:37,535 basehttp "GET /static/images/schedule-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 07:19:37,535 basehttp "GET /static/images/settings/Goals.png HTTP/1.1" 200 812
+INFO 2024-12-03 07:19:37,537 basehttp "GET /static/images/dashboard(1).png HTTP/1.1" 200 1438
+INFO 2024-12-03 07:19:37,537 basehttp "GET /static/images/workout-2.png HTTP/1.1" 200 565
+INFO 2024-12-03 07:19:37,537 basehttp "GET /static/images/diet-plan-2.png HTTP/1.1" 200 726
+INFO 2024-12-03 07:19:37,538 basehttp "GET /static/images/progres-2.png HTTP/1.1" 200 413
+INFO 2024-12-03 07:19:37,541 basehttp "GET /static/images/arrow-dark.png HTTP/1.1" 200 294
+INFO 2024-12-03 07:19:37,544 basehttp "GET /static/images/settings/help.png HTTP/1.1" 200 769
+INFO 2024-12-03 07:19:37,545 basehttp "GET /static/images/mental-health.png HTTP/1.1" 200 2759
+INFO 2024-12-03 07:19:37,546 basehttp "GET /static/images/settings/logout-2.png HTTP/1.1" 200 636
+INFO 2024-12-03 07:19:37,546 basehttp "GET /static/images/settings/LeftArrow.png HTTP/1.1" 200 859
+INFO 2024-12-03 07:19:37,546 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
+WARNING 2024-12-03 07:19:37,929 log Not Found: /favicon.ico
+WARNING 2024-12-03 07:19:37,929 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
