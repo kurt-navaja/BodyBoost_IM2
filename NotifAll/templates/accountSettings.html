@@ -285,7 +285,10 @@
                       <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
                       <span class="mac-book-air1-text14">Overview</span>
                   </button>
-                  <button class="mac-book-air1-button2">
+                  <button 
+                    class="mac-book-air1-button2"
+                    data-href="{% url 'notifAll:workout' %}"
+                    onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
                   </button>
