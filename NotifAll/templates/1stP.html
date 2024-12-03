@@ -13,7 +13,18 @@
         <div class="overlap">
           <div class="overlap-group">
             <div class="frame">
-              <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" src="{% static '/images/avatar-w-photo.png'%}" /></a>
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <img class="avatar-w-photo" src="{% static '/images/profile_photo.png'%}" />
+                {% if user.profile_photo %}
+                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture"
+                    class="avatar-w-photo" 
+                    style="cursor: pointer;"/>
+                {% else %}
+                    <img src="/static/images/profile_photo.png" alt="Profile Picture"
+                    class="avatar-w-photo" 
+                    style="cursor: pointer;"/>
+                {% endif %}
+              </a>
               <div class="div">
                 <a href="{% url 'notifAll:secondPage' %}"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
                 <div class="badges"><div class="badge-label">3</div></div>

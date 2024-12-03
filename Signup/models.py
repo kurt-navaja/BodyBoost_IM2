@@ -31,6 +31,30 @@ class CustomUser(AbstractBaseUser):
     weight = models.FloatField(blank=True, null=True)
     height = models.FloatField(blank=True, null=True)
     age = models.IntegerField(blank=True, null=True)
+    profile_photo = models.ImageField(
+        upload_to='profile_photos/', 
+        null=True, 
+        blank=True, 
+        default='static/images/profile_photo.png'
+    )
+    country = models.CharField(max_length=100, blank=True)
+    city = models.CharField(max_length=100, blank=True)
+    street = models.CharField(max_length=200, blank=True)
+    zip_code = models.CharField(max_length=20, blank=True)
+    INTENSITY_CHOICES = [
+        ('0.3', 'Gentle (0.3kg / week)'),
+        ('0.6', 'Light (0.6kg / week)'),
+        ('0.7', 'Moderate (0.75kg / week)'),
+        ('0.8', 'Aggressive (1kg / week)'),
+        ('0.9', 'High Intensity (1.25kg / week)')
+    ]
+    
+    intensity = models.CharField(
+        max_length=10, 
+        choices=INTENSITY_CHOICES, 
+        blank=True, 
+        null=True
+    )
     
     GENDER_CHOICES = [
         ('male', 'Male'),
