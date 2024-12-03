@@ -482,7 +482,7 @@
                   <!-- Daily Schedule Section -->
                   <div class="daily-schedule">
                     <div class="schedule-header">
-                      <h3>Today's Recommendeds</h3>
+                      <h3>Today's Recommendations</h3>
                       <span class="date"></span>
                     </div>
                     <script>
@@ -495,34 +495,37 @@
                     </script>
 
                   <!-- Workout Card -->
-<div class="schedule-card workout-card">
-  <div class="card-header">
-    <img src="{% static 'images/workout-2.png' %}" alt="Workout" class="card-icon">
-    <h4>Personalized Workouts</h4>
-  </div>
-  <div class="workout-list">
-    {% for workout in personalized_workouts %}
-    <div class="workout-item">
-      <span class="workout-time">
-        {% if forloop.first %}05:30 AM
-        {% elif forloop.second %}06:00 AM
-        {% elif forloop.third %}06:40 AM
-        {% else %}06:00 PM
-        {% endif %}
-      </span>
-      <div class="workout-details">
-        <h5>{{ workout.workout_type.name }}</h5>
-        <p>{{ workout.duration }} min {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories</p>
-      </div>
-      <button class="workout-status pending">Pending</button>
-    </div>
-    {% empty %}
-    <div class="no-workouts">
-      <p>No personalized workouts found. Please update your profile.</p>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+                  <div class="schedule-card workout-card">
+                    <div class="card-header">
+                      <img src="{% static 'images/workout-2.png' %}" alt="Workout" class="card-icon">
+                      <h4>Recommended Workouts</h4>
+                    </div>
+                    <div class="workout-list">
+                      {% if personalized_workouts %}
+                        {% for workout in personalized_workouts %}
+                          <div class="workout-item">
+                            <span class="workout-time">
+                              {% if forloop.first %}05:30 AM
+                              {% elif forloop.second %}06:00 AM
+                              {% elif forloop.third %}06:40 AM
+                              {% else %}06:00 PM
+                              {% endif %}
+                            </span>
+                            <div class="workout-details">
+                              <h5>{{ workout.workout_type.name }}</h5>
+                              <p>{{ workout.duration }} min | {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories</p>
+                            </div>
+                            <button class="workout-status pending">Pending</button>
+                          </div>
+                        {% endfor %}
+                      {% else %}
+                        <div class="no-workouts">
+                          <p>No workouts found for your profile. Please complete your profile settings.</p>
+                          <a href="{% url 'notifAll:accountSettings' %}" class="btn btn-primary">Update Profile</a>
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
                       
                       <script src="/static/js/workout-status.js"></script>
 
