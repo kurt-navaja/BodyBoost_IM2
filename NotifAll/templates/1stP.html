@@ -6,6 +6,452 @@
     <link rel="stylesheet" href="{% static '/css/globals.css'%}" />
     <link rel="stylesheet" href="{% static '/css/styleguide.css'%}" />
     <link rel="stylesheet" href="{% static '/css/style.css'%}" />
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 68%;
+        top: 13%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 30px; /* Increased padding for a more formal layout */
+        border: 1px solid #888;
+        width: 100%;
+        font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .modal-content h2 {
+        margin-top: 0;
+        font-size: 28px; /* Increased font size */
+        font-weight: bold; /* Ensure the font weight is set */
+        color: #333; /* Ensure the color is set */
+      }
+      .modal-content p {
+        margin: 20px 0; /* Increased margin for gap between texts */
+        font-size: 18px; /* Increased font size */
+      }
+      .modal-content .user-name {
+        font-weight: bold;
+      }
+      .button:hover, .button-2:hover, .button-3:hover, .component:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(11, 47, 211, 0.1); /* Add subtle shadow */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+      }
+      .side-bar a {
+        display: block;
+        width: 100%;
+      }
+      .navaja-notification {
+        position: absolute;
+        width: 100%; /* Ensure parent element has a defined width */
+        height: 135px;
+        top: 0;
+        left: 7px;
+        background-color: #3a2e79ed;
+      }
+      .mac-book-air1-frame251 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        position: absolute;
+        top: 49px;
+        left: 450px;
+        width: 537px;
+        background-color: #f8fafb;
+        border-radius: 8px;
+        border: 1px solid var(--slate-100);
+      }
+      .mac-book-air1-search-input {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        font-family: "Manrope", Helvetica;
+        color: var(--slate-500);
+      }
+      .mac-book-air1-iconsax-linearsearchnormal {
+        width: 24px;
+        height: 24px;
+      }
+      .mac-book-air1-frame12 button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-frame12 button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-frame12 button::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-frame12 button span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Active state styles */
+      .mac-book-air1-frame12 button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+
+      .mac-book-air1-frame12 button.active::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+
+      /* Progress button specific styles (with arrow) */
+      .mac-book-air1-button6 {
+        position: relative;
+      }
+
+      .mac-book-air1-button6 .mac-book-air1-arrowdark {
+        position: absolute;
+        right: 10px;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+      }
+
+      .mac-book-air1-button6:hover .mac-book-air1-arrowdark {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      /* Sidebar Footer Styles */
+      .sidebar-footer {
+        margin-top: auto;
+        padding: 24px;
+      }
+
+      /* Help button styles */
+      .mac-book-air1-component2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-component2:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-component2::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-component2 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-component2 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Logout button styles */
+      .mac-book-air1-button7 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        margin-left: -24px;
+      }
+
+      .mac-book-air1-button7:hover {
+        background: rgba(255, 59, 48, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-button7::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #ec1c1c;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-button7 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-button7 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover span {
+        color: #FF3B30;
+      }
+
+      .mac-book-air1-sidebar-footer button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+      }
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: #f8fafb;
+        padding: 16px;
+        border-right: 1px solid var(--slate-100);
+      }
+      .sidebar .frame-3 {
+        flex: 1;
+      }
+      .sidebar .frame-6 {
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar .frame-7 {
+        flex: 1;
+      }
+      .sidebar .component {
+        margin-top: auto;
+      }
+      .sidebar .button,
+      .sidebar .button-2,
+      .sidebar .button-3 {
+        width: 100%;
+        text-align: left;
+      }
+      .sidebar .button img,
+      .sidebar .button-2 img,
+      .sidebar .button-3 img {
+        margin-right: 12px;
+      }
+      .sidebar .button span,
+      .sidebar .button-2 span,
+      .sidebar .button-3 span {
+        color: #000000; /* Change font color to black */
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .sidebar .button:hover,
+      .sidebar .button-2:hover,
+      .sidebar .button-3:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before,
+      .sidebar .button-2:hover::before,
+      .sidebar .button-3:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img,
+      .sidebar .button-2:hover img,
+      .sidebar .button-3:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span,
+      .sidebar .button-2:hover span,
+      .sidebar .button-3:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active,
+      .sidebar .button-2.active,
+      .sidebar .button-3.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span,
+      .sidebar .button-2.active span,
+      .sidebar .button-3.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .sidebar .button-3:hover {
+        background: rgba(255, 59, 48, 0.1);
+      }
+      .sidebar .button-3:hover span {
+        color: #FF3B30;
+      }
+      .sidebar .button {
+        background-color: transparent; /* Remove background color */
+      }
+      .sidebar .button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .navaja-notification {
+        justify-content: flex-start; /* Align content to the start */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-wrapper {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-group {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-wrapper {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-group {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .frame {
+        position: relative; /* Adjust positioning */
+        width: 100%; /* Set width to 100% */
+        left: 0; /* Align to the left */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+        /* ...existing code... */
+      }
+    </style>
   </head>
   <body>
     <div class="navaja-notification">
@@ -26,20 +472,20 @@
                 {% endif %}
               </a>
               <div class="div">
-                <a href="{% url 'notifAll:secondPage' %}"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
+                <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
                 <div class="badges"><div class="badge-label">3</div></div>
+              </div>
+              <div class="mac-book-air1-frame251">
+                <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+                <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
               </div>
               <div class="greetings">
                 <div class="text-wrapper">Welcome Back!</div>
                 <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
               </div>
-              <a href="{% url 'notifAll:settings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
-              <div class="frame-2">
-                <img class="img" src="{% static '/images/iconsax-linear-searchnormal.png'%}" />
-                <div class="text-wrapper-2">Search</div>
-              </div>
+              <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
             </div>
-            <div class="side-bar">
+            <div class="side-bar sidebar">
               <div class="frame-3">
                 <div class="frame-4">
                   <div class="app-logo">
@@ -49,58 +495,54 @@
                     </div>
                   </div>
                   <div class="frame-6">
-                    <button class="button">
-                      <img class="img" src="{% static '/images/dashbaord-2.png'%}" />
-                      <div class="text-wrapper-3">Overview</div>
+                    <button class="button mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/dashboard(1).png'%}" />
+                      <span class="text-wrapper-3">Overview</span>
                     </button>
-                    <a href="{% url 'notifAll:workout' %}"><button class="button-2">
+                    <a href="{% url 'notifAll:workout' %}"><button class="button-2 mac-book-air1-frame12">
                       <img class="img" src="{% static '/images/workout-2.png'%}" />
-                      <div class="overview">Workout</div>
+                      <span class="overview">Workout</span>
                     </button></a>
-                    <button class="button-2">
+                    <button class="button-2 mac-book-air1-frame12">
                       <img class="img" src="{% static '/images/diet-plan-2.png'%}" />
-                      <div class="overview">Diet Plan</div>
+                      <span class="overview">Diet Plan</span>
                     </button>
-                    <button class="button-2">
+                    <button class="button-2 mac-book-air1-frame12">
                       <img class="img" src="{% static '/images/goal-2.png'%}" />
-                      <div class="overview">Goals</div>
+                      <span class="overview">Goals</span>
                     </button>
-                    <button class="button-2">
+                    <a href="{% url 'mySchedule:mySched' %}"><button class="button-2 mac-book-air1-frame12">
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
-                      <div class="overview">My Schedule</div>
-                    </button>
-                    <button class="button-2">
+                      <span class="overview">My Schedule</span>
+                    </button></a>
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
-                      <div class="overview">Progress</div>
-                      <img class="img" src="{% static '/images/arrow-dark.png'%}" />
+                      <span class="overview">Progress</span>
+                      <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
                     </button>
                     <div class="frame-7"></div>
                   </div>
                 </div>
                 <div class="frame-8"></div>
               </div>
-              <div class="component">
+              <div class="component mac-book-air1-component2">
                 <img class="img" src="{% static '/images/help-2.png'%}" />
-                <div class="overview">Help</div>
+                <span class="overview">Help</span>
               </div>
               <a href="{% url 'login:login' %}">
-                <button class="button-3">
+                <button class="button-3 mac-book-air1-button7">
                   <img class="img" src="{% static '/images/logout-2.png'%}" />
-                  <div class="overview">Logout</div>
+                  <span class="overview">Logout</span>
                 </button>
               </a>
             </div>
-            <img class="logo-purple" src="{% static '/images/logopurple.png'%}" />
+            <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
           </div>
           <div class="overlap-group-wrapper">
             <div class="overlap-2">
               <img class="anastasia-hisel" src="{% static '/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png'%}" />
               <div class="rectangle"></div>
               <div class="group">
-                <div class="overlap-group-2">
-                  <div class="ellipse"></div>
-                  <div class="ellipse-2"></div>
-                </div>
               </div>
               <div class="frame-9">
                 <div class="text-wrapper-4">Track Your Daily Activities</div>
@@ -329,6 +771,42 @@
               </div>
             </div>
           </div>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <h2>Notification</h2>
+              <hr>
+              <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+              <hr>
+              <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+              <hr>
+              <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
+            </div>
+          </div>
+          <script>
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("bell-icon");
+            var badge = document.querySelector(".badge-label");
+
+            btn.onclick = function() {
+              if (modal.style.display === "block") {
+                modal.style.display = "none";
+              } else {
+                modal.style.display = "block";
+                badge.style.display = "none"; // Hide the badge when the modal is opened
+              }
+            }
+
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+
+            document.querySelector('.button-2').addEventListener('click', function() {
+              this.classList.add('active'); // Add active class on click
+              window.location.href = "{% url 'notifAll:workout' %}"; // Redirect to workout page
+            });
+          </script>
         </div>
       </div>
     </div>

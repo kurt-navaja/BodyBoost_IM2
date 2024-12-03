@@ -1,244 +1,723 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html>
-<head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	<link rel="stylesheet"  href="{% static '/css/workout.css'%}" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" />
-  	
-</head>
-<body>
-  	
-    <div class="navaja-exercise-library-with">
-        <div class="homepage-banner-mob-btg-with"> 
-            <video controls autoplay muted loop width="100%">
-                <source src="{% static 'video/workout.mp4' %}" type="video/mp4">
-            </video>
-        </div>
-        <div class="logopurple-parent">
-            <img class="logopurple-icon" alt="" src="{% static 'images/logoPurpleB.png'%}">
-            <div class="frame-child"></div>
-            <b class="sign-up" id="signUpText">Sign Up!</b>
-            <b class="describe-yourself">Describe yourself</b>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static '/css/globals.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/styleguide.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/style.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/workout.css'%}" />
     
-            <form method="POST" action="{% url 'notifAll:save_workout_preferences' %}">
-                {% csrf_token %}
-            
-                <!-- Body Type -->
-                <div class="bodytype">
-                    <div class="body-type">Body Type</div>
-                    <label class="radio-label">
-                        <input type="radio" name="bodyType" value="slim">
-                        <span>Slim</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="bodyType" value="muscular">
-                        <span>Muscular</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="bodyType" value="large">
-                        <span>Large</span>
-                    </label>
-                    <button type="button" class="clear" onclick="clearSelection('bodyType')" style="display: none;">Clear Answer</button>
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 68%;
+        top: 13%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 30px; /* Increased padding for a more formal layout */
+        border: 1px solid #888;
+        width: 100%;
+        font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .modal-content h2 {
+        margin-top: 0;
+        font-size: 28px; /* Increased font size */
+        font-weight: bold; /* Ensure the font weight is set */
+        color: #333; /* Ensure the color is set */
+      }
+      .modal-content p {
+        margin: 20px 0; /* Increased margin for gap between texts */
+        font-size: 18px; /* Increased font size */
+      }
+      .modal-content .user-name {
+        font-weight: bold;
+      }
+      .button:hover, .button-2:hover, .button-3:hover, .component:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(11, 47, 211, 0.1); /* Add subtle shadow */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+      }
+      .side-bar a {
+        display: block;
+        width: 100%;
+      }
+      .navaja-notification {
+        position: absolute;
+        width: 100%; /* Ensure parent element has a defined width */
+        height: 135px;
+        top: 0;
+        left: 7px;
+        background-color: #3a2e79ed;
+      }
+      .mac-book-air1-frame251 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        position: absolute;
+        top: 49px;
+        left: 450px;
+        width: 537px;
+        background-color: #f8fafb;
+        border-radius: 8px;
+        border: 1px solid var(--slate-100);
+      }
+      .mac-book-air1-search-input {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        font-family: "Manrope", Helvetica;
+        color: var(--slate-500);
+      }
+      .mac-book-air1-iconsax-linearsearchnormal {
+        width: 24px;
+        height: 24px;
+      }
+      .mac-book-air1-frame12 button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-frame12 button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-frame12 button::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-frame12 button span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Active state styles */
+      .mac-book-air1-frame12 button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+
+      .mac-book-air1-frame12 button.active::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+
+      /* Progress button specific styles (with arrow) */
+      .mac-book-air1-button6 {
+        position: relative;
+      }
+
+      .mac-book-air1-button6 .mac-book-air1-arrowdark {
+        position: absolute;
+        right: 10px;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+      }
+
+      .mac-book-air1-button6:hover .mac-book-air1-arrowdark {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      /* Sidebar Footer Styles */
+      .sidebar-footer {
+        margin-top: auto;
+        padding: 24px;
+      }
+
+      /* Help button styles */
+      .mac-book-air1-component2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-component2:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-component2::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-component2 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-component2 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Logout button styles */
+      .mac-book-air1-button7 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        margin-left: -24px;
+      }
+
+      .mac-book-air1-button7:hover {
+        background: rgba(255, 59, 48, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-button7::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #ec1c1c;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-button7 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-button7 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover span {
+        color: #FF3B30;
+      }
+
+      .mac-book-air1-sidebar-footer button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+      }
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: #f8fafb;
+        padding: 16px;
+        border-right: 1px solid var(--slate-100);
+      }
+      .sidebar .frame-3 {
+        flex: 1;
+      }
+      .sidebar .frame-6 {
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar .frame-7 {
+        flex: 1;
+      }
+      .sidebar .component {
+        margin-top: auto;
+      }
+      .sidebar .button,
+      .sidebar .button-2,
+      .sidebar .button-3 {
+        width: 100%;
+        text-align: left;
+      }
+      .sidebar .button img,
+      .sidebar .button-2 img,
+      .sidebar .button-3 img {
+        margin-right: 12px;
+      }
+      .sidebar .button span,
+      .sidebar .button-2 span,
+      .sidebar .button-3 span {
+        color: #000000; /* Change font color to black */
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .sidebar .button:hover,
+      .sidebar .button-2:hover,
+      .sidebar .button-3:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before,
+      .sidebar .button-2:hover::before,
+      .sidebar .button-3:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img,
+      .sidebar .button-2:hover img,
+      .sidebar .button-3:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span,
+      .sidebar .button-2:hover span,
+      .sidebar .button-3:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active,
+      .sidebar .button-2.active,
+      .sidebar .button-3.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span,
+      .sidebar .button-2.active span,
+      .sidebar .button-3.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .sidebar .button-3:hover {
+        background: rgba(255, 59, 48, 0.1);
+      }
+      .sidebar .button-3:hover span {
+        color: #FF3B30;
+      }
+      .sidebar .button {
+        background-color: transparent; /* Remove background color */
+      }
+      .sidebar .button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .navaja-notification {
+        justify-content: flex-start; /* Align content to the start */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-wrapper {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-group {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-wrapper {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-group {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .frame {
+        position: relative; /* Adjust positioning */
+        width: 100%; /* Set width to 100% */
+        left: 0; /* Align to the left */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+        /* ...existing code... */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navaja-notification">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="homepage-banner-mob-btg-with"> 
+              <video controls autoplay muted loop width="100%">
+                  <source src="{% static 'video/workout.mp4' %}" type="video/mp4">
+              </video>
+          </div>
+            <div class="frame">
+              <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" src="{% static '/images/avatar-w-photo.png'%}" /></a>
+              <div class="div">
+                <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
+                <div class="badges"><div class="badge-label">3</div></div>
+              </div>
+              <div class="mac-book-air1-frame251">
+                <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+                <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+              </div>
+              <div class="greetings">
+                <div class="text-wrapper">Welcome Back!</div>
+                <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
+              </div>
+              <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
+            </div>
+            <div class="side-bar sidebar">
+              <div class="frame-3">
+                <div class="frame-4">
+                  <div class="app-logo">
+                    <div class="frame-5">
+                      <div class="fitness">BodyBoost</div>
+                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                    </div>
+                  </div>
+                  <div class="frame-6">
+                    <a href="{% url 'notifAll:firstP' %}"><button class="button mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/dashboard(1).png'%}" />
+                      <span class="text-wrapper-3">Overview</span>
+                    </button></a>
+                    <a href="{% url 'notifAll:workout' %}"><button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/workout-2.png'%}" />
+                      <span class="overview">Workout</span>
+                    </button></a>
+                    <button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/diet-plan-2.png'%}" />
+                      <span class="overview">Diet Plan</span>
+                    </button>
+                    <button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/goal-2.png'%}" />
+                      <span class="overview">Goals</span>
+                    </button>
+                    <a href="{% url 'mySchedule:mySched' %}"><button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/schedule-2.png'%}" />
+                      <span class="overview">My Schedule</span>
+                    </button></a>
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                      <img class="img" src="{% static '/images/progres-2.png'%}" />
+                      <span class="overview">Progress</span>
+                      <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
+                    </button>
+                    <div class="frame-7"></div>
+                  </div>
                 </div>
-            
-                <!-- Fitness Goal -->
-                <div class="fitness-goal">
+                <div class="frame-8"></div>
+              </div>
+              <div class="component mac-book-air1-component2">
+                <img class="img" src="{% static '/images/help-2.png'%}" />
+                <span class="overview">Help</span>
+              </div>
+              <a href="{% url 'login:login' %}">
+                <button class="button-3 mac-book-air1-button7">
+                  <img class="img" src="{% static '/images/logout-2.png'%}" />
+                  <span class="overview">Logout</span>
+                </button>
+              </a>
+            </div>
+              <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
+          </div>
+
+            <div class="logopurple-parent">
+              <img class="logopurple-icon" alt="" src="{% static 'images/logoPurpleB.png'%}">
+              <div class="frame-child"></div>
+              <b class="sign-up" id="signUpText">Sign Up!</b>
+              <b class="describe-yourself">Describe yourself</b>
+      
+              <form method="POST" action="{% url 'notifAll:save_workout_preferences' %}">
+                  {% csrf_token %}
+              
+                  <!-- Body Type -->
+                  <div class="bodytype">
+                      <div class="body-type">Body Type</div>
+                      <label class="radio-label">
+                          <input type="radio" name="bodyType" value="slim">
+                          <span>Slim</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="bodyType" value="muscular">
+                          <span>Muscular</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="bodyType" value="large">
+                          <span>Large</span>
+                      </label>
+                      <button type="button" class="clear" onclick="clearSelection('bodyType')" style="display: none;">Clear Answer</button>
+                  </div>
+              
+                  <!-- Fitness Goal -->
+                  <div class="fitness-goal">
                     <div class="fitness-goal1">Fitness Goal</div>
                     <label class="radio-label">
-                        <input type="radio" name="fitnessGoal" value="build-muscle">
-                        <span>Build Muscle</span>
+                      <input type="radio" name="fitnessGoal" value="build-muscle">
+                      <span>Build Muscle</span>
                     </label>
                     <label class="radio-label">
-                        <input type="radio" name="fitnessGoal" value="lose-weight">
-                        <span>Lose Weight</span>
+                      <input type="radio" name="fitnessGoal" value="lose-weight">
+                      <span>Lose Weight</span>
                     </label>
                     <label class="radio-label">
-                        <input type="radio" name="fitnessGoal" value="maintain-fitness">
-                        <span>Maintain Fitness</span>
+                      <input type="radio" name="fitnessGoal" value="maintain-fitness">
+                      <span>Maintain Fitness</span>
                     </label>
                     <button type="button" class="clear" onclick="clearSelection('fitnessGoal')" style="display: none;">Clear Answer</button>
-                </div>
-            
-                <!-- Current Fitness Level -->
-                <div class="ellipse-parent">
-                    <div class="current-fitness-level">Current Fitness Level</div>
-                    <label class="radio-label">
-                        <input type="radio" name="fitnessLevel" value="beginner">
-                        <span>Beginner</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="fitnessLevel" value="intermediate">
-                        <span>Intermediate</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="fitnessLevel" value="advanced">
-                        <span>Advanced</span>
-                    </label>
-                    <button type="button" class="clear" onclick="clearSelection('fitnessLevel')" style="display: none;">Clear Answer</button>
-                </div>
-            
-                <!-- Preferred Workout Style -->
-                <div class="preffered-workout">
-                    <div class="preferred-workout-style">Preferred Workout Style</div>
-                    <label class="radio-label">
-                        <input type="radio" name="workoutStyle" value="strength-training">
-                        <span>Strength Training</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="workoutStyle" value="cardio">
-                        <span>Cardio</span>
-                    </label>
-                    <label class="radio-label">
-                        <input type="radio" name="workoutStyle" value="flexibility-yoga">
-                        <span>Flexibility/Yoga</span>
-                    </label>
-                    <button type="button" class="clear" onclick="clearSelection('workoutStyle')" style="display: none;">Clear Answer</button>
-                </div>
-            
-                <!-- Health Concerns (Text Input) -->
-                <div class="health-concerns">
-                    <div class="health-concerns1">Health Concerns</div>
-                    <input type="text" id="healthConcernsInput" name="healthConcerns" placeholder="e.g., back pain, knee issues" style="width: 100%;">
-                </div>
-            
-                <!-- Next Button -->
-                <div class="next" id="nextContainer">
-                    <button type="submit" class="next1">Next</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    
-    <div class="avatar-w-photo-parent">
-        <a href="{% url 'notifAll:settings' %}"><img class="avatar-w-photo" alt="" src="{% static 'images/avatar-w-photo.png'%}"></a>
-        
-        <a href="{% url 'notifAll:secondPage'%}"><img class="bell-1-icon" alt="" src="{% static 'images/bell-1.png'%}" id="bell1Icon"></a>
-        
-        <div class="badges">
-            <div class="badge-label">3</div>
-        </div>
-        <div class="greetings">
-            <b class="welcome-back">Welcome Back!</b>
-            <div class="good-morning">Good  Morning</div>
-        </div>
-        <a href="{% url 'notifAll:settings' %}"><img class="iconsaxboldsetting2" alt="" src="{% static 'images/iconsax-bold-setting2.png'%}"></a>
-        
-        <div class="iconsaxlinearsearchnormal-parent">
-            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/iconsax-linear-searchnormal.png'%}">
-            <div class="search">Search</div>
-        </div>
-    </div>
-    <div class="side-bar">
-        <div class="frame-parent">
-            <div class="app-logo-parent">
-                <div class="app-logo">
-                    <div class="fitness-parent">
-                        <div class="fitness">BodyBoost </div>
-                        <img class="workout-bold-icon" alt="" src="{% static 'images/logoPurple.png'%}">
-                    </div>
-                </div>
-                <div class="button-parent">
-                    <a href="{% url 'notifAll:firstP' %}">
-                        <div class="button" id="buttonContainer">
-                            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/dashboardGrey.png'%}">
-                            <div class="overview">Overview</div>
-                        </div>
-                    </a>
-                    <div class="button1">
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/workout_white.png'%}">
-                        <div class="overview">Workout</div>
-                    </div>
-                    <div class="button2">
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/diet-plan-2.png'%}">
-                        <div class="overview">Diet Plan</div>
-                    </div>
-                    <div class="button2">
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/goal-2.png'%}">
-                        <div class="overview">Goals</div>
-                    </div>
-                    <div class="button2">
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/schedule-2.png'%}">
-                        <div class="overview">My Schedule</div>
-                    </div>
-                    <div class="button2">
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/progres-2.png'%}">
-                        <div class="overview">Progress</div>
-                        <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/arrow-dark.png'%}">
-                    </div>
-                    <div class="frame-item">
-                    </div>
-                </div>
+                  </div>
+              
+                  <!-- Current Fitness Level -->
+                  <div class="ellipse-parent">
+                      <div class="current-fitness-level">Current Fitness Level</div>
+                      <label class="radio-label">
+                          <input type="radio" name="fitnessLevel" value="beginner">
+                          <span>Beginner</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="fitnessLevel" value="intermediate">
+                          <span>Intermediate</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="fitnessLevel" value="advanced">
+                          <span>Advanced</span>
+                      </label>
+                      <button type="button" class="clear" onclick="clearSelection('fitnessLevel')" style="display: none;">Clear Answer</button>
+                  </div>
+              
+                  <!-- Preferred Workout Style -->
+                  <div class="preffered-workout">
+                      <div class="preferred-workout-style">Preferred Workout Style</div>
+                      <label class="radio-label">
+                          <input type="radio" name="workoutStyle" value="strength-training">
+                          <span>Strength Training</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="workoutStyle" value="cardio">
+                          <span>Cardio</span>
+                      </label>
+                      <label class="radio-label">
+                          <input type="radio" name="workoutStyle" value="flexibility-yoga">
+                          <span>Flexibility/Yoga</span>
+                      </label>
+                      <button type="button" class="clear" onclick="clearSelection('workoutStyle')" style="display: none;">Clear Answer</button>
+                  </div>
+              
+                  <!-- Health Concerns (Text Input) -->
+                  <div class="health-concerns">
+                      <div class="health-concerns1">Health Concerns</div>
+                      <input type="text" id="healthConcernsInput" name="healthConcerns" placeholder="e.g., back pain, knee issues" style="width: 100%;">
+                  </div>
+              
+                  <!-- Next Button -->
+                  <div class="next" id="nextContainer">
+                      <button type="submit" class="next1">Next</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <h2>Notification</h2>
+              <hr>
+              <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+              <hr>
+              <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+              <hr>
+              <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
             </div>
-            <div class="frame-inner">
-            </div>
+          </div>
+          <script>
+            document.querySelector('form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent form submission for validation
+            
+                // Check for empty fields except health concerns
+                const bodyType = document.querySelector('input[name="bodyType"]:checked');
+                const fitnessGoal = document.querySelector('input[name="fitnessGoal"]:checked');
+                const fitnessLevel = document.querySelector('input[name="fitnessLevel"]:checked');
+                const workoutStyle = document.querySelector('input[name="workoutStyle"]:checked');
+            
+                if (!bodyType || !fitnessGoal || !fitnessLevel || !workoutStyle) {
+                    alert('Please fill out all fields except health concerns.');
+                    return;
+                }
+            
+                // If all validations pass, submit the form
+                this.submit();
+            });
+            
+            function clearSelection(name) {
+                const radios = document.querySelectorAll(`input[name="${name}"]`);
+                radios.forEach(function(radio) {
+                    radio.checked = false; // Uncheck each radio button in the group
+                });
+                updateClearButtons(); // Update clear button visibility
+            }
+            
+            function updateClearButtons() {
+                const fields = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
+                fields.forEach(function(field) {
+                    const radios = document.querySelectorAll(`input[name="${field}"]`);
+                    const clearButton = document.querySelector(`.clear[onclick*="${field}"]`);
+                    if (Array.from(radios).some(radio => radio.checked)) {
+                        clearButton.style.display = 'inline'; // Show the button if any radio is checked
+                    } else {
+                        clearButton.style.display = 'none'; // Hide the button if none are checked
+                    }
+                });
+            }
+            
+            // Add event listeners to radio buttons
+            const radioGroups = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
+            radioGroups.forEach(group => {
+                const radios = document.querySelectorAll(`input[name="${group}"]`);
+                radios.forEach(radio => {
+                    radio.addEventListener('change', updateClearButtons); // Update clear buttons on change
+                });
+            });
+            
+                var modal = document.getElementById("myModal");
+                var btn = document.getElementById("bell-icon");
+                var badge = document.querySelector(".badge-label");
+            
+                btn.onclick = function() {
+                    if (modal.style.display === "block") {
+                        modal.style.display = "none";
+                    } else {
+                        modal.style.display = "block";
+                        badge.style.display = "none"; // Hide the badge when the modal is opened
+                    }
+                }
+            
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            
+                document.querySelector('.button1').addEventListener('click', function() {
+                    this.classList.add('active'); // Add active class on click
+                });
+            
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.querySelector('.button1').classList.add('active'); // Add active class on load
+                });
+            </script>
         </div>
-        <div class="button2">
-            <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/help-2.png'%}">
-            <div class="overview">Help</div>
-        </div>
-        <a href="{% url 'login:login' %}">
-            <div class="button6">
-                <img class="iconsaxlinearsearchnormal" alt="" src="{% static 'images/logout-2.png'%}">
-                <div class="overview">Logout</div>
-            </div>
-        </a>
+      </div>
     </div>
-
-    <script>
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission for validation
-
-    // Check for empty fields except health concerns
-    const bodyType = document.querySelector('input[name="bodyType"]:checked');
-    const fitnessGoal = document.querySelector('input[name="fitnessGoal"]:checked');
-    const fitnessLevel = document.querySelector('input[name="fitnessLevel"]:checked');
-    const workoutStyle = document.querySelector('input[name="workoutStyle"]:checked');
-
-    if (!bodyType || !fitnessGoal || !fitnessLevel || !workoutStyle) {
-        alert('Please fill out all fields except health concerns.');
-        return;
-    }
-
-    // If all validations pass, submit the form
-    this.submit();
-});
-
-function clearSelection(name) {
-    const radios = document.querySelectorAll(`input[name="${name}"]`);
-    radios.forEach(function(radio) {
-        radio.checked = false; // Uncheck each radio button in the group
-    });
-    updateClearButtons(); // Update clear button visibility
-}
-
-function updateClearButtons() {
-    const fields = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
-    fields.forEach(function(field) {
-        const radios = document.querySelectorAll(`input[name="${field}"]`);
-        const clearButton = document.querySelector(`.clear[onclick*="${field}"]`);
-        if (Array.from(radios).some(radio => radio.checked)) {
-            clearButton.style.display = 'inline'; // Show the button if any radio is checked
-        } else {
-            clearButton.style.display = 'none'; // Hide the button if none are checked
-        }
-    });
-}
-
-// Add event listeners to radio buttons
-const radioGroups = ['bodyType', 'fitnessGoal', 'fitnessLevel', 'workoutStyle'];
-radioGroups.forEach(group => {
-    const radios = document.querySelectorAll(`input[name="${group}"]`);
-    radios.forEach(radio => {
-        radio.addEventListener('change', updateClearButtons); // Update clear buttons on change
-    });
-});
-
-    </script>
-</body>
+  </body>
 </html>

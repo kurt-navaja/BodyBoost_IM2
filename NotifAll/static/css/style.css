@@ -1,37 +1,40 @@
 .navaja-notification {
+  justify-content: flex-start; /* Align content to the start */
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   width: 100%;
 }
 
 .navaja-notification .overlap-wrapper {
+  margin-left: 0; /* Remove centering margin */
   background-color: #ffffff;
   overflow: hidden;
-  width: 1280px;
-  height: 832px;
+  width: 100%; /* Adjust width to 100% */
+  height: 100vh; /* Full viewport height */
 }
 
 .navaja-notification .overlap {
+  margin-left: 0; /* Remove centering margin */
   position: relative;
-  width: 1287px;
-  height: 841px;
+  width: 100%; /* Adjust width to 100% */
+  height: 100vh; /* Full viewport height */
   top: -9px;
   left: -7px;
 }
 
 .navaja-notification .overlap-group {
+  margin-left: 0; /* Remove centering margin */
   position: absolute;
-  width: 1287px;
-  height: 841px;
+  width: 100%; /* Adjust width to 100% */
+  height: 100vh; /* Full viewport height */
   top: 0;
   left: 0;
 }
 
 .navaja-notification .frame {
   position: absolute;
-  width: 1280px;
+  width: 100%; /* Adjust width to 100% */
   height: 135px;
   top: 9px;
   left: 7px;
@@ -159,20 +162,21 @@
 
 .navaja-notification .text-wrapper-2 {
   position: relative;
-  width: fit-content;
+  width: 100%; /* Match the width */
   font-family: "Manrope", Helvetica;
   font-weight: 400;
   color: var(--slate-500);
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+  outline: none; /* Remove the outline */
 }
 
 .navaja-notification .side-bar {
   display: flex;
   flex-direction: column;
   width: 240px;
-  height: 841px;
+  height: 100vh;
   align-items: flex-start;
   gap: 16px;
   padding: 24px;
@@ -267,21 +271,6 @@
   flex-grow: 1;
 }
 
-.navaja-notification .button {
-  all: unset;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #483d82;
-  border-radius: 8px;
-}
-
 .navaja-notification .text-wrapper-3 {
   position: relative;
   flex: 1;
@@ -365,8 +354,8 @@
 
 .navaja-notification .logo-purple {
   position: absolute;
-  width: 56px;
-  height: 31px;
+  width: 45px;
+  height: 25px;
   top: 37px;
   left: 148px;
   object-fit: cover;
@@ -374,7 +363,7 @@
 
 .navaja-notification .overlap-group-wrapper {
   position: absolute;
-  width: 684px;
+  width: 800px;
   height: 160px;
   top: 161px;
   left: 256px;
@@ -386,7 +375,7 @@
   position: relative;
   width: 823px;
   height: 204px;
-  left: -37px;
+  left: -20px;
 }
 
 .navaja-notification .anastasia-hisel {
@@ -406,14 +395,6 @@
   left: 37px;
   border-radius: 12px;
   background: linear-gradient(180deg, rgb(72, 61, 130) 41.72%, rgba(12, 174.8, 234, 0.03) 100%);
-}
-
-.navaja-notification .group {
-  position: absolute;
-  width: 134px;
-  height: 134px;
-  top: 70px;
-  left: 0;
 }
 
 .navaja-notification .overlap-group-2 {
@@ -477,13 +458,13 @@
 
 .navaja-notification .frame-10 {
   display: flex;
-  width: 684px;
+  width: 100%; /* Adjust width to 100% */
   height: 169px;
   align-items: flex-start;
   gap: 16px;
   position: absolute;
   top: 340px;
-  left: 256px;
+  left: 270px; /* Adjust left to 0 */
 }
 
 .navaja-notification .div-wrapper {
@@ -647,7 +628,8 @@
   gap: 24px;
   position: absolute;
   top: 164px;
-  left: 952px;
+  left: 1100px; /* Adjust left to 0 */
+  
 }
 
 .navaja-notification .frame-18 {
@@ -876,7 +858,8 @@
   gap: 24px;
   position: absolute;
   top: 596px;
-  left: 952px;
+  left: 1100px; /* Adjust left to 0 */
+  width: 100%; /* Adjust width to 100% */
 }
 
 .navaja-notification .frame-32 {
@@ -891,12 +874,12 @@
 .navaja-notification .frame-33 {
   display: flex;
   flex-direction: column;
-  width: 692px;
+  
   align-items: flex-start;
   gap: 16px;
   position: absolute;
   top: 605px;
-  left: 241px;
+  left: 270px; /* Adjust left to 0 */
 }
 
 .navaja-notification .frame-34 {
@@ -1093,6 +1076,21 @@
   line-height: normal;
 }
 
+.navaja-notification .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #483d82;
+  border-radius: 8px;
+}
+
 .navaja-notification .text-wrapper-19 {
   flex: 1;
   color: var(--slate-600);
@@ -1191,4 +1189,110 @@
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.navaja-notification .button:hover,
+.navaja-notification .button-2:hover,
+.navaja-notification .button-3:hover,
+.navaja-notification .component:hover {
+  background: rgba(108, 93, 211, 0.1);
+  transform: translateX(5px);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.navaja-notification .button::before,
+.navaja-notification .button-2::before,
+.navaja-notification .button-3::before,
+.navaja-notification .component::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #6C5DD3;
+  border-radius: 0 4px 4px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navaja-notification .button:hover::before,
+.navaja-notification .button-2:hover::before,
+.navaja-notification .button-3:hover::before,
+.navaja-notification .component:hover::before {
+  opacity: 1;
+}
+
+.navaja-notification .button img,
+.navaja-notification .button-2 img,
+.navaja-notification .button-3 img,
+.navaja-notification .component img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  transition: transform 0.3s ease;
+}
+
+.navaja-notification .button:hover img,
+.navaja-notification .button-2:hover img,
+.navaja-notification .button-3:hover img,
+.navaja-notification .component:hover img {
+  transform: scale(1.1);
+}
+
+.navaja-notification .button span,
+.navaja-notification .button-2 span,
+.navaja-notification .button-3 span,
+.navaja-notification .component span {
+  color: #000000; /* Change font color to black */
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navaja-notification .button:hover span,
+.navaja-notification .button-2:hover span,
+.navaja-notification .button-3:hover span,
+.navaja-notification .component:hover span {
+  color: #6C5DD3;
+}
+
+.mac-book-air1-frame251 {
+  gap: 8px;
+  top: 49px;
+  left: 450px;
+  width: 537px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 245, 249, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(248, 250, 251, 1);
+}
+
+.mac-book-air1-search-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: "Manrope", Helvetica;
+  color: var(--slate-500);
+}
+
+.mac-book-air1-iconsax-linearsearchnormal {
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar {
+  left: 0; /* Set left to 0 */
+  width: 100%; /* Make sidebar occupy the whole screen */
+  height: 100vh; /* Full viewport height */
+  /* ...existing code... */
 }
