@@ -4,9 +4,7 @@ from .models import WorkoutPlan, WorkoutType
 from Signup.models import CustomUser
 
 def get_personalized_workouts(user):
-    # Filter workouts based on user's weight, gender, and body goal
-    
-     # Map intensity to difficulty levels
+    # Map intensity to difficulty levels
     intensity_to_difficulty = {
         '0.3': ['Light'],
         '0.6': ['Light', 'Moderate'],
@@ -17,14 +15,13 @@ def get_personalized_workouts(user):
     
     difficulty_levels = intensity_to_difficulty.get(user.intensity, ['Moderate'])
 
-    
     personalized_workouts = WorkoutPlan.objects.filter(
         recommended_weight_range_min__lte=user.weight,
         recommended_weight_range_max__gte=user.weight,
         body_goal=user.body_goal,
         gender=user.gender,
         workout_type__difficulty_level__in=difficulty_levels
-    ).order_by('?')[:5]  # Randomly select 5 workouts
+    ).order_by('?')[:4]  # Randomly select 4 workouts
     
     return personalized_workouts
 

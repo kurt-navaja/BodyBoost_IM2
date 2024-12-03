@@ -41848,3 +41848,118 @@ INFO 2024-12-03 07:19:37,546 basehttp "GET /static/images/settings/LeftArrow.png
 INFO 2024-12-03 07:19:37,546 basehttp "GET /static/images/sneaker.png HTTP/1.1" 200 1855
 WARNING 2024-12-03 07:19:37,929 log Not Found: /favicon.ico
 WARNING 2024-12-03 07:19:37,929 basehttp "GET /favicon.ico HTTP/1.1" 404 4557
+INFO 2024-12-03 08:40:50,810 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:42:02,198 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 08:42:02,546 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:49:37,941 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:49:41,422 basehttp "GET /mySchedule/ HTTP/1.1" 200 28747
+INFO 2024-12-03 08:49:41,494 basehttp "GET /media/profile_photos/4A2353E4-B428-473C-8FE9-6C6D03DA7104_1_105_c_Ak3526K.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 08:49:41,501 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
+INFO 2024-12-03 08:49:41,505 basehttp "GET /static/js/mood-meter.js HTTP/1.1" 304 0
+INFO 2024-12-03 08:49:41,506 basehttp "GET /static/js/workout-status.js HTTP/1.1" 304 0
+ERROR 2024-12-03 08:51:32,637 log Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 260, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 229, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 202, in has_permission
+    return request.user.is_active and request.user.is_staff
+                                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/asaphb/BodyBoost/environment/lib/python3.11/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CustomUser' object has no attribute 'is_staff'
+ERROR 2024-12-03 08:51:32,641 basehttp "GET /admin/ HTTP/1.1" 500 93184
+INFO 2024-12-03 08:52:44,242 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 08:52:44,625 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:53:17,238 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 08:53:17,540 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:53:28,784 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 08:53:29,170 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:56:03,409 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:56:50,235 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/admin.py changed, reloading.
+INFO 2024-12-03 08:56:50,681 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:57:09,460 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:58:08,477 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 08:58:08,809 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 08:59:55,251 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:02:32,878 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/admin.py changed, reloading.
+INFO 2024-12-03 09:02:33,250 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:03:14,030 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 09:03:14,300 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:03:36,652 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 09:03:36,907 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:04:17,509 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 09:04:17,852 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:04:26,047 autoreload /Users/asaphb/Documents/GitHub/BodyBoost_IM2/Signup/models.py changed, reloading.
+INFO 2024-12-03 09:04:26,316 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:04:49,200 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 09:04:52,955 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-12-03 09:04:52,980 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3691
+INFO 2024-12-03 09:04:53,058 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-12-03 09:04:53,060 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-12-03 09:04:53,061 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-12-03 09:04:53,062 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-12-03 09:04:53,062 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-12-03 09:04:53,062 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-12-03 09:04:53,065 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-12-03 09:05:20,324 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-12-03 09:05:20,344 basehttp "GET /admin/ HTTP/1.1" 200 6161
+INFO 2024-12-03 09:05:20,394 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-12-03 09:05:20,400 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-12-03 09:05:20,402 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-12-03 09:05:24,633 basehttp "GET /admin/Signup/customuser/ HTTP/1.1" 200 29024
+INFO 2024-12-03 09:05:24,663 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-12-03 09:05:24,664 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-12-03 09:05:24,665 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-12-03 09:05:24,665 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-12-03 09:05:24,666 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-12-03 09:05:24,667 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 09:05:24,677 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-12-03 09:05:24,678 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-12-03 09:05:24,678 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-12-03 09:05:24,679 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-12-03 09:05:24,688 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-12-03 09:05:24,689 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-12-03 09:05:24,692 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-12-03 09:05:24,700 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-12-03 09:05:24,710 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-12-03 09:05:24,710 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-12-03 09:05:24,711 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-12-03 09:05:30,378 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 7779
+INFO 2024-12-03 09:05:30,405 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-03 09:06:49,700 basehttp "GET / HTTP/1.1" 200 10789
+INFO 2024-12-03 09:06:58,080 basehttp "POST / HTTP/1.1" 302 0
+INFO 2024-12-03 09:06:58,088 basehttp "GET /notifAll/ HTTP/1.1" 200 28538
+INFO 2024-12-03 09:06:58,166 basehttp "GET /media/profile_photos/48E0CB91-AD76-4BDF-A4A3-F61232E05ED8_1_105_c.jpeg HTTP/1.1" 304 0
+INFO 2024-12-03 09:06:58,167 basehttp "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2024-12-03 09:06:58,169 basehttp "GET /static/images/profile_photo.png HTTP/1.1" 304 0
+INFO 2024-12-03 09:07:07,374 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21934
+INFO 2024-12-03 09:07:07,410 basehttp "GET /static/css/accountSettings.css HTTP/1.1" 304 0
+INFO 2024-12-03 09:07:07,411 basehttp "GET /static/js/profilepic.js HTTP/1.1" 304 0
+INFO 2024-12-03 09:07:07,412 basehttp "GET /static/js/message.js HTTP/1.1" 304 0
+WARNING 2024-12-03 09:07:07,577 basehttp "GET /static/css/public/external/tq_qxxcbxkzr7-mee-300h.png HTTP/1.1" 404 1952
+INFO 2024-12-03 09:07:12,168 basehttp "POST /notifAll/accountSettings/ HTTP/1.1" 200 73
+INFO 2024-12-03 09:07:14,806 basehttp "GET /notifAll/ HTTP/1.1" 200 28547
+INFO 2024-12-03 09:07:22,227 basehttp "GET /notifAll/accountSettings/ HTTP/1.1" 200 21972
+INFO 2024-12-03 09:07:22,306 basehttp - Broken pipe from ('127.0.0.1', 49792)
+INFO 2024-12-03 09:07:30,889 basehttp "GET /mySchedule/ HTTP/1.1" 200 28739
+INFO 2024-12-03 09:07:30,914 basehttp "GET /static/css/mySchedule.css HTTP/1.1" 304 0
