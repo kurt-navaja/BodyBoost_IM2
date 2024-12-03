@@ -30,13 +30,28 @@ def save_workout_preferences(request):
         request.session['workout_style'] = workout_style
         request.session['health_concerns'] = health_concerns
 
-        # Redirect based on the workout style selected
+        # Redirect based on the workout style and fitness level selected
         if workout_style == 'strength-training':
-            return redirect('fitness:strength')
+            if fitness_level == 'beginner':
+                return redirect('fitness:strength_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('fitness:strength_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('fitness:strength_advanced')
         elif workout_style == 'cardio':
-            return redirect('cardio_page')
+            if fitness_level == 'beginner':
+                return redirect('fitness:cardio_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('fitness:cardio_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('fitness:cardio_advanced')
         elif workout_style == 'flexibility-yoga':
-            return redirect('flexibility_yoga_page')
+            if fitness_level == 'beginner':
+                return redirect('flexibility_yoga_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('flexibility_yoga_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('flexibility_yoga_advanced')
 
     return HttpResponse("Form submission error")
 

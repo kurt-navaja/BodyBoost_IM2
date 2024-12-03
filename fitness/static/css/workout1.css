@@ -5,30 +5,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8f8f8;
     font-family: 'Outfit', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-
-.radio-label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.radio-label input[type="radio"] {
-    margin-right: 10px;
-    transform: scale(1.5); /* Increases the size of the radio buttons to be more visually prominent */
-}
-
-.bodytype, .fitness-goal, .ellipse-parent, .preffered-workout, .health-concerns {
-    margin-bottom: 20px; /* Adds spacing between each section */
-    margin-top: 20px;
-}
-
 
 .next1 {
     background-color: #A0FFA0;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 20px;
     color: #fff;
     text-align: center;
@@ -36,23 +19,23 @@ body {
     font-size: 16px;
 }
 
-
 .homepage-banner-mob-btg-with {
     position: absolute;
-    top: 135px;
-    left: 701px;
-    width: 579px;
-    height: 697px;
-    overflow: hidden; /* Ensure the video is not hidden */
+    top: 143px;
+    left: 52%;
+    width: 738px;
+    height: 400px; /* Reduced height */
 }
+
 .logopurple-icon {
     position: absolute;
     top: 24px;
-    left: 178px;
+    left: 230px;
     width: 200px;
     height: 109px;
     object-fit: cover;
 }
+
 .frame-child {
     position: absolute;
     top: 733px;
@@ -63,6 +46,7 @@ body {
     width: 262px;
     height: 50px;
 }
+
 .sign-up {
     position: absolute;
     top: 744px;
@@ -75,10 +59,11 @@ body {
     height: 30px;
     cursor: pointer;
 }
+
 .describe-yourself {
     position: absolute;
-    top: 20px; /* Adjusted top position */
-    left: calc(50% - 240px);
+    top: 144px;
+    left: calc(50% - 220px);
     font-size: 30px;
     letter-spacing: -0.01em;
     display: inline-block;
@@ -87,252 +72,9 @@ body {
     width: 448px;
     height: 51px;
     opacity: 0.8;
-}
-.bodytype-child {
-    position: absolute;
-    top: 78px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.body-type {
-    position: absolute;
-    top: -40px;
-    left: 0px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 103px;
-    height: 33px;
-}
-.slim {
-    position: absolute;
-    top: 41px;
-    left: 42px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 39px;
-    height: 23px;
-}
-.muscular {
-    position: absolute;
-    top: 77px;
-    left: 42px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 72px;
-    height: 23px;
-}
-.bodytype-item {
-    position: absolute;
-    top: 114px;
-    left: 58px; /* Updated left position */
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.large {
-    position: absolute;
-    top: 113px;
-    left: 42px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 72px;
-    height: 23px;
-}
-.fill-radio-icon {
-    position: absolute;
-    top: 42px;
-    left: 58px; /* Updated left position */
-    width: 21px;
-    height: 21px;
-}
-.bodytype {
-    position: absolute;
-    top: 217px;
-    left: 121px;
-    width: 114px;
-    height: 136px;
-}
-.fitness-goal-child {
-    position: absolute;
-    top: 77px;
-    left: 58px; /* Updated left position */
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.fitness-goal1 {
-    position: absolute;
-    top: -40px;
-    left: 0px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 116px;
-    height: 33px;
-}
-.build-muscle {
-    position: absolute;
-    top: 40px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 96px;
-    height: 23px;
-}
-.lose-weight {
-    position: absolute;
-    top: 76px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 96px;
-    height: 23px;
-}
-.fitness-goal-item {
-    position: absolute;
-    top: 113px;
-    left: 58px; /* Updated left position */
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.maintain-fitness {
-    position: absolute;
-    top: 112px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 116px;
-    height: 23px;
-}
-.fill-radio-icon1 {
-    position: absolute;
-    top: 41px;
-    left: 58px; /* Updated left position */
-    width: 21px;
-    height: 21px;
-}
-.fitness-goal {
-    position: absolute;
-    top: 218px;
-    left: 306px;
-    width: 155px;
-    height: 135px;
-}
-.group-child {
-    position: absolute;
-    top: 76px;
-    left: 58px; /* Updated left position */
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.current-fitness-level {
-    position: absolute;
-    top: -30px;
-    left: 0px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 187px;
-    height: 33px;
+    font-weight: bold; /* Added bold */
 }
 
-.beginner {
-    position: absolute;
-    top: 39px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 96px;
-    height: 23px;
-}
-.intermediate {
-    position: absolute;
-    top: 75px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 96px;
-    height: 23px;
-}
-.group-item {
-    position: absolute;
-    top: 112px;
-    left: 58px; /* Updated left position */
-    border-radius: 50%;
-    background-color: #fff;
-    border: 1px solid #7b6868;
-    box-sizing: border-box;
-    width: 21px;
-    height: 21px;
-}
-.advance {
-    position: absolute;
-    top: 111px;
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 116px;
-    height: 23px;
-}
-.fill-radio-icon2 {
-    position: absolute;
-    top: 40px;
-    left: 58px; /* Updated left position */
-    width: 21px;
-    height: 21px;
-}
-.ellipse-parent {
-    position: absolute;
-    top: 402px;
-    left: 57px;
-    width: 187px;
-    height: 134px;
-}
-.preferred-workout-style {
-    position: absolute;
-    top: -30px;
-    left: 0px;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 212px;
-    height: 33px;
-}
-.strength-training {
-    position: absolute;
-    top: 10px; /* Reduced margin-top to 10px */
-    left: 39px;
-    letter-spacing: -0.01em;
-    display: inline-block;
-    width: 129px;
-    height: 23px;
-}
-.preffered-workout {
-    position: absolute;
-    top: 402px;
-    left: 311px;
-    width: 212px;
-    height: 135px;
-}
 .health-concerns1 {
     position: absolute;
     top: -30px;
@@ -342,6 +84,7 @@ body {
     width: 153px;
     height: 26px;
 }
+
 .div {
     position: absolute;
     top: 20px;
@@ -353,6 +96,7 @@ body {
     width: 249px;
     height: 30px;
 }
+
 .health-concerns {
     position: absolute;
     top: 568px;
@@ -375,11 +119,12 @@ body {
 
 .next1 {
     position: absolute;
-    top: 2px;
+    top: -10px;
     left: calc(50% - 38.95px);
     display: inline-block;
     cursor: pointer;
 }
+
 .next {
     position: absolute;
     display: flex;
@@ -396,15 +141,51 @@ body {
 
 .logopurple-parent {
     position: absolute;
-    top: 133px;
-    left: 235px;
+    top: 144px;
+    left: 240px;
     box-shadow: 0px 4px 10.2px 3px rgba(0, 0, 0, 0.25);
     border-radius: 0px 120px 120px 0px;
     background-color: #f7f1f1;
-    width: 600px;
+    width: 670px;
     height: 699px;
     overflow: hidden;
 }
+
+.logopurple-parent h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #3a2e79;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logopurple-parent .w1S {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
+.logopurple-parent .w2S {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
+.logopurple-parent .w3S {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
 .avatar-w-photo {
     position: absolute;
     top: 50px;
@@ -413,6 +194,7 @@ body {
     width: 40px;
     height: 40px;
 }
+
 .bell-1-icon {
     position: absolute;
     top: 55px;
@@ -422,6 +204,7 @@ body {
     object-fit: cover;
     cursor: pointer;
 }
+
 .badge-label {
     flex: 1;
     position: relative;
@@ -429,6 +212,7 @@ body {
     line-height: 16px;
     font-weight: 500;
 }
+
 .badges {
     position: absolute;
     top: 49px;
@@ -446,6 +230,7 @@ body {
     max-width: 34px;
     text-align: center;
 }
+
 .welcome-back {
     position: absolute;
     top: 17.94px;
@@ -456,6 +241,7 @@ body {
     height: 20.1px;
     opacity: 0.89;
 }
+
 .good-morning {
     position: absolute;
     top: 0px;
@@ -468,15 +254,17 @@ body {
     width: 112.2px;
     height: 16.9px;
 }
+
 .greetings {
     position: absolute;
     top: 49px;
-    left: calc(50% - 359px);
+    left: 190px;
     width: 151px;
     height: 38px;
     font-size: 15px;
     font-family: Outfit;
 }
+
 .iconsaxboldsetting2 {
     position: absolute;
     top: 53px;
@@ -485,6 +273,7 @@ body {
     height: 35px;
     overflow: hidden;
 }
+
 .iconsaxlinearsearchnormal {
     width: 24px;
     position: relative;
@@ -492,9 +281,13 @@ body {
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .search {
     position: relative;
+    width: 100%; /* Match the width */
+    outline: none; /* Remove the outline */
 }
+
 .iconsaxlinearsearchnormal-parent {
     position: absolute;
     top: 49px;
@@ -514,23 +307,26 @@ body {
     color: #64748b;
     font-family: Manrope;
 }
+
 .avatar-w-photo-parent {
     position: absolute;
     top: 0px;
     left: 7%;
     background-color: rgba(58, 46, 121, 0.93);
-    width: 1280px;
+    width: 100%;
     height: 135px;
     overflow: hidden;
     font-size: 11px;
     color: #fff;
     font-family: Roboto;
 }
+
 .fitness {
     position: relative;
     line-height: 22px;
     font-weight: 800;
 }
+
 .workout-bold-icon {
     width: 50px;
     position: relative;
@@ -538,6 +334,7 @@ body {
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .fitness-parent {
     align-self: stretch;
     display: flex;
@@ -546,6 +343,7 @@ body {
     justify-content: center;
     gap: 16px;
 }
+
 .app-logo {
     align-self: stretch;
     background-color: #fff;
@@ -556,62 +354,32 @@ body {
     justify-content: center;
     padding: 8px 8px 24px;
 }
+
 .overview {
     flex: 1;
     position: relative;
     font-weight: 600;
 }
-.button {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    gap: 16px;
-    cursor: pointer;
-    color: #625b71;
-}
-.button1 {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #483d82;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    gap: 16px;
-    color: #fff;
-}
-.button2 {
-    align-self: stretch;
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 12px 16px;
-    gap: 16px;
-}
+
 .frame-item {
     width: 192px;
     flex: 1;
 }
+
 .button-parent {
     align-self: stretch;
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 16px;
     font-size: 14px;
-    color: #475569;
+    color: #000000;
+    margin-left: -10px;
+    margin-right: 20px;
 }
+
 .app-logo-parent {
     align-self: stretch;
     flex: 1;
@@ -621,10 +389,12 @@ body {
     justify-content: flex-start;
     gap: 24px;
 }
+
 .frame-inner {
     width: 192px;
     height: 0px;
 }
+
 .frame-parent {
     align-self: stretch;
     flex: 1;
@@ -635,6 +405,7 @@ body {
     font-size: 18px;
     color: #4f378a;
 }
+
 .button6 {
     align-self: stretch;
     background-color: #fff;
@@ -645,26 +416,10 @@ body {
     justify-content: flex-start;
     padding: 16px;
     gap: 16px;
-}
-.side-bar {
-    position: fixed; /* Ensure the sidebar is fixed */
-    left: 58px; /* Set the left position */
-    height: 100%; /* Full height */
-    width: 240px; /* Fixed width */
-    box-shadow: 0px 12px 17px 2px rgba(0, 0, 0, 0.03), 0px 5px 22px 4px rgba(0, 0, 0, 0.02);
-    background-color: #fff;
-    border-right: 1px solid #e2e8f0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 24px;
-    gap: 16px;
     font-size: 14px;
     color: #475569;
-    font-family: Manrope;
 }
+
 .logopurple-icon1 {
     position: absolute;
     top: 28px;
@@ -673,6 +428,7 @@ body {
     height: 23px;
     object-fit: cover;
 }
+
 .navaja-exercise-library-with {
     width: 100%;
     position: relative;
@@ -690,27 +446,59 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 a:hover {
     text-decoration: none; /* Prevents underline on hover */
 }
 
-.clear {
-    background: transparent; /* Make the background transparent */
-    border: none;           /* Remove the border */
-    color: #007BFF;         /* Set text color (optional, change to your preference) */
-    cursor: pointer;        /* Change cursor to pointer on hover */
-    font-size: 14px;       /* Adjust font size as needed */
-    text-decoration: underline; /* Underline text for visibility */
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 100px;
 }
 
-.clear:hover {
-    opacity: 0.7;          /* Change opacity on hover for feedback */
+.timer-wrapper {
+  position: relative;
 }
 
-.youtube-videos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 50px; /* Adjusted margin-top */
+#timer1, #timer2, #timer3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  background: none;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#startPauseBtn1, #resetBtn1, #startPauseBtn2, #resetBtn2, #startPauseBtn3, #resetBtn3 {
+  padding: 10px 20px;
+  background-color: #6C5DD3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#startPauseBtn1:hover, #resetBtn1:hover, #startPauseBtn2:hover, #resetBtn2:hover, #startPauseBtn3:hover, #resetBtn3:hover {
+  background-color: #574bbd;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
 }
