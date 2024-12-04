@@ -513,7 +513,11 @@
                             </span>
                             <div class="workout-details">
                               <h5>{{ workout.workout_type.name }}</h5>
-                              <p>{{ workout.duration }} min | {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories</p>
+                              <p>{{ workout.duration }} min | {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories | 
+                                <span class="workout-intensity intensity-{{ workout.workout_type.difficulty_level|lower }}">
+                                    {{ workout.workout_type.difficulty_level }}
+                                </span>
+                            </p>
                             </div>
                             <button class="workout-status pending">Pending</button>
                           </div>
@@ -571,7 +575,7 @@
                       </div>
                       <div class="progress-stats" style="display: flex; gap: 65px; margin-left: 40px;">
                       <div class="stat-item">
-                        <div class="stat-circle">
+                        <div class="stat-circle-intake">
                         <svg viewBox="0 0 36 36" class="circular-chart">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="75, 100"/>
@@ -581,7 +585,7 @@
                         <span class="stat-label">Calorie Intake</span>
                       </div>
                       <div class="stat-item">
-                        <div class="stat-circle">
+                        <div class="stat-circle-water">
                         <svg viewBox="0 0 36 36" class="circular-chart">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="50, 100"/>
@@ -591,7 +595,7 @@
                         <span class="stat-label">Water (cups)</span>
                       </div>
                       <div class="stat-item">
-                        <div class="stat-circle">
+                        <div class="stat-circle-protein">
                         <svg viewBox="0 0 36 36" class="circular-chart">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="60, 100"/>
@@ -601,7 +605,7 @@
                         <span class="stat-label">Protein Intake</span>
                       </div>
                       <div class="stat-item">
-                        <div class="stat-circle">
+                        <div class="stat-circle-burned">
                         <svg viewBox="0 0 36 36" class="circular-chart">
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
                           <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="67, 100"/>

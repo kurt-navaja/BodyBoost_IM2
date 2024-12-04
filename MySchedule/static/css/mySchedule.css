@@ -297,6 +297,7 @@
   border-style: solid;
   border-width: 1px 0 0;
   background-color: rgba(255, 255, 255, 1);
+  margin-bottom: -25px;
 }
 
 .mac-book-air1-component2 {
@@ -510,7 +511,7 @@
 .calendar-day-success {
   border-radius: 50%;
   cursor: pointer;
-  color: rgb(0, 248, 99);
+  color: #00f863;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -782,7 +783,10 @@
   gap: 8px;
 }
 
-.stat-circle {
+.stat-circle-intake,
+.stat-circle-burned,
+.stat-circle-protein,
+.stat-circle-water {
   position: relative;
   width: 100px;
   height: 100px;
@@ -1129,4 +1133,34 @@
 
 .workout-status.animating {
   animation: statusChange 0.3s ease;
+}
+
+/* Add this to your existing CSS */
+.workout-intensity {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.workout-intensity.intensity-light {
+  background-color: #E6F2FF;
+  color: #1E40AF;
+}
+
+.workout-intensity.intensity-moderate {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.workout-intensity.intensity-high {
+  background-color: #FEE2E2;
+  color: #9B1C1C;
+}
+
+.workout-intensity.intensity-extreme {
+  background-color: #5a5555;
+  color: #e0e3e5;
 }

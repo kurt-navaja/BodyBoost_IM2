@@ -434,12 +434,16 @@
               <div class="field-group">
                 <label class="mac-book-air1-text31">Body Type Goal</label>
                 <select class="mac-book-air1-text45 form-input" name="body_goal" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -15px;">
-                  <option value="" disabled selected>Select Body Type Goal</option>
-                  <option value="victoria-secret-thin">Victoria Secret Thin</option>
-                  <option value="slim">Slim</option>
-                  <option value="athletic">Athletic</option>
-                  <option value="muscular">Muscular</option>
-                  <option value="sumo-wrestler">Sumo Wrestler</option>
+                  {% if user.body_goal %}
+                    <option value="{{ user.body_goal }}" selected>{{ user.body_goal|title }}</option>
+                  {% else %}
+                    <option value="" disabled selected>Select Body Type Goal</option>
+                  {% endif %}
+                  {% if user.body_goal != 'victoria-secret-thin' %}<option value="victoria-secret-thin">Victoria Secret Thin</option>{% endif %}
+                  {% if user.body_goal != 'slim' %}<option value="slim">Slim</option>{% endif %}
+                  {% if user.body_goal != 'athletic' %}<option value="athletic">Athletic</option>{% endif %}
+                  {% if user.body_goal != 'muscular' %}<option value="muscular">Muscular</option>{% endif %}
+                  {% if user.body_goal != 'sumo-wrestler' %}<option value="sumo-wrestler">Sumo Wrestler</option>{% endif %}
                 </select>
               </div>
 
@@ -447,14 +451,18 @@
             <div class="field-group">
               <label class="mac-book-air1-text33">Training Intensity</label>
               <select class="mac-book-air1-text40 form-input" name="intensity" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
-                <option value="" disabled selected>Select Intensity</option>
-                <option value="Gentle">Gentle (0.3kg / week)</option>
-                <option value="Light">Light (0.6kg / week)</option>
-                <option value="Moderate">Moderate (0.75kg / week)</option>
-                <option value="Aggressive">Aggressive (1kg / week)</option>
-                <option value="High Intensity">High Intensity (1.25kg / week)</option>
+                {% if user.intensity %}
+                  <option value="{{ user.intensity }}" selected>{{ user.intensity }}</option>
+                {% else %}
+                  <option value="" disabled selected>Select Intensity</option>
+                {% endif %}
+                {% if user.intensity != 'Gentle' %}<option value="Gentle">Gentle (0.3kg / week)</option>{% endif %}
+                {% if user.intensity != 'Light' %}<option value="Light">Light (0.6kg / week)</option>{% endif %}
+                {% if user.intensity != 'Moderate' %}<option value="Moderate">Moderate (0.75kg / week)</option>{% endif %}
+                {% if user.intensity != 'Aggressive' %}<option value="Aggressive">Aggressive (1kg / week)</option>{% endif %}
+                {% if user.intensity != 'High Intensity' %}<option value="High Intensity">High Intensity (1.25kg / week)</option>{% endif %}
               </select>
-              </div>
+            </div>
 
 
                 <!-- Save Button -->

@@ -1,9 +1,9 @@
 from pyexpat.errors import messages
-from django.shortcuts import render, redirect
-from django.http import HttpResponse, JsonResponse
-from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect # type: ignore
+from django.http import HttpResponse, JsonResponse # type: ignore
+from django.contrib.auth.decorators import login_required # type: ignore
 from Signup.models import CustomUser  # Import your custom user model
-from django.views.decorators.http import require_http_methods
+from django.views.decorators.http import require_http_methods # type: ignore
 
 
 import logging
@@ -28,8 +28,22 @@ def accountSettings(request):
         
         try:
             user = request.user
-            user.first_name = request.POST.get('first_name', user.first_name)
-            user.last_name = request.POST.get('last_name', user.last_name)
+            
+            # Get the form inputs
+            first_name_input = request.POST.get('first_name', '').strip()
+            last_name_input = request.POST.get('last_name', '').strip()
+            
+            # Update first name
+            if first_name_input:
+                # If input field is not empty, use the input
+                user.first_name = first_name_input
+            # If input is empty, keep the existing first name (do nothing)
+            
+            # Update last name
+            if last_name_input:
+                # If input field is not empty, use the input
+                user.last_name = last_name_input
+            # If input is empty, keep the existing last name (do nothing)
             
             weight = request.POST.get('weight')
             if weight:
