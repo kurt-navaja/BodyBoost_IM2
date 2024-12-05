@@ -119,7 +119,12 @@ def mySched(request):
     user = request.user
     personalized_workouts = get_personalized_workouts(user)
     
+    # Create a list of times to match the number of workouts
+    workout_times = ["05:30 AM", "06:00 AM", "06:40 AM", "06:10 PM", "06:45 PM"]
+    workout_times = workout_times[:len(personalized_workouts)]
+    
     context = {
-        'personalized_workouts': personalized_workouts
+        'personalized_workouts': personalized_workouts,
+        'workout_times': workout_times
     }
     return render(request, 'mySchedule.html', context)

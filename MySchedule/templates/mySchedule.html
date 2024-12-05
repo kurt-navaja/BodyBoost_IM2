@@ -1,4 +1,5 @@
 {% load static %}
+{% load custom_filters %}
 
 <!DOCTYPE html>
 <html lang="english">
@@ -505,11 +506,7 @@
                         {% for workout in personalized_workouts %}
                           <div class="workout-item">
                             <span class="workout-time">
-                              {% if forloop.first %}05:30 AM
-                              {% elif forloop.second %}06:00 AM
-                              {% elif forloop.third %}06:40 AM
-                              {% else %}06:00 PM
-                              {% endif %}
+                              {{ workout_times|index:forloop.counter0 }}
                             </span>
                             <div class="workout-details">
                               <h5>{{ workout.workout_type.name }}</h5>
