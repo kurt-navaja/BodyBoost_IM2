@@ -466,7 +466,15 @@
               </video>
           </div>
             <div class="frame">
-              <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" src="{% static '/images/avatar-w-photo.png'%}" /></a>
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <div class="avatar-container">
+                  {% if user.profile_photo %}
+                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% else %}
+                    <img src="{% static 'images/profile_photo1.png' %}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% endif %}
+                </div>
+              </a>
               <div class="div">
                 <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
                 <div class="badges"><div class="badge-label">3</div></div>
@@ -487,7 +495,8 @@
                   <div class="app-logo">
                     <div class="frame-5">
                       <div class="fitness">BodyBoost</div>
-                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                      <img class="workout-bold" src="{% static 'images/workout-bold-3.png' %}" alt="BodyBoost Logo" />
+                      <img class="logo-purple" src="{% static 'images/logoPurple.png' %}" alt="Logo Purple" />
                     </div>
                   </div>
                   <div class="frame-6">
@@ -532,10 +541,12 @@
                 </button>
               </a>
             </div>
-              <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
           </div>
 
             <div class="logopurple-parent">
+              <a href="javascript:history.back()" class="back-button">
+                <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+              </a>
               <img class="logopurple-icon" alt="" src="{% static 'images/logoPurpleB.png'%}">
               <div class="frame-child"></div>
               <b class="sign-up" id="signUpText">Sign Up!</b>

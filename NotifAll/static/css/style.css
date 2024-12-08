@@ -42,12 +42,15 @@
 }
 
 .navaja-notification .avatar-w-photo {
+  border-radius: 50%;
   position: absolute;
   width: 40px;
   height: 40px;
   top: 50px;
   left: 1161px;
   object-fit: cover;
+  overflow: hidden;
+  border: 2px solid rgba(255, 254, 254, 0.937);
 }
 
 .navaja-notification .div {
@@ -356,9 +359,9 @@
   position: absolute;
   width: 45px;
   height: 25px;
-  top: 37px;
-  left: 148px;
+  left: 120px;
   object-fit: cover;
+  display: block; /* Ensure the logo is displayed */
 }
 
 .navaja-notification .overlap-group-wrapper {
@@ -1295,4 +1298,21 @@
   width: 100%; /* Make sidebar occupy the whole screen */
   height: 100vh; /* Full viewport height */
   /* ...existing code... */
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.back-button:hover {
+  background-color: rgba(79, 55, 138, 0.1);
 }

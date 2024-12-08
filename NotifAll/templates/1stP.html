@@ -460,16 +460,13 @@
           <div class="overlap-group">
             <div class="frame">
               <a href="{% url 'notifAll:accountSettings' %}">
-                <img class="avatar-w-photo" src="{% static '/images/profile_photo.png'%}" />
-                {% if user.profile_photo %}
-                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture"
-                    class="avatar-w-photo" 
-                    style="cursor: pointer;"/>
-                {% else %}
-                    <img src="/static/images/profile_photo.png" alt="Profile Picture"
-                    class="avatar-w-photo" 
-                    style="cursor: pointer;"/>
-                {% endif %}
+                <div class="avatar-container">
+                  {% if user.profile_photo %}
+                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% else %}
+                    <img src="{% static 'images/profile_photo1.png' %}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% endif %}
+                </div>
               </a>
               <div class="div">
                 <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
@@ -491,7 +488,8 @@
                   <div class="app-logo">
                     <div class="frame-5">
                       <div class="fitness">BodyBoost</div>
-                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                      <img class="workout-bold" src="{% static 'images/workout-bold-3.png' %}" alt="BodyBoost Logo" />
+                      <img class="logo-purple" src="{% static '/images/logopurple.png' %}" />
                     </div>
                   </div>
                   <div class="frame-6">
@@ -536,7 +534,6 @@
                 </button>
               </a>
             </div>
-            <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
           </div>
           <div class="overlap-group-wrapper">
             <div class="overlap-2">

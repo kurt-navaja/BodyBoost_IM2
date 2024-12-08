@@ -118,11 +118,11 @@ def save_workout_preferences(request):
                 return redirect('fitness:cardio_advanced')
         elif workout_style == 'flexibility-yoga':
             if fitness_level == 'beginner':
-                return redirect('flexibility_yoga_beginner')
+                return redirect('fitness:yoga_beginner')
             elif fitness_level == 'intermediate':
-                return redirect('flexibility_yoga_intermediate')
+                return redirect('fitness:yoga_intermediate')
             elif fitness_level == 'advanced':
-                return redirect('flexibility_yoga_advanced')
+                return redirect('fitness:yoga_advanced')
 
     return HttpResponse("Form submission error")
 
