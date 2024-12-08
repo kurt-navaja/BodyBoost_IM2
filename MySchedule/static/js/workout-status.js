@@ -1,7 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   const statusButtons = document.querySelectorAll('.workout-status');
   const caloriesStatCircle = document.querySelector('.stat-circle-burned');
+  const calorieIntakeCircle = document.querySelector('.stat-circle-intake');
+  const waterIntakeCircle = document.querySelector('.stat-circle-water');
+  const proteinIntakeCircle = document.querySelector('.stat-circle-protein');
+
   const maxCalories = 1000;
+  const maxCaloriesIntake = 2000;
+  const maxWaterCups = 8;
+  const maxProtein = 65;
 
   if (!caloriesStatCircle) {
     console.error('Could not find calories stat circle');
@@ -10,6 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const caloriesNumber = caloriesStatCircle.querySelector('.stat-number');
   const caloriesSvgPath = caloriesStatCircle.querySelector('path:last-child');
+
+  [caloriesSvgPath].forEach(path => {
+    path.style.transition = 'stroke-dasharray 0.5s ease-in-out';
+  });
   
   // Initialize total calories burned, starting from localStorage
   let totalCaloriesBurned = parseInt(localStorage.getItem('totalCaloriesBurned') || '0');
@@ -78,6 +89,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     caloriesSvgPath.setAttribute('stroke-dasharray', dashArrayValue);
     
+    requestAnimationFrame(() => {
+      caloriesSvgPath.setAttribute('stroke-dasharray', `${progressPercentage}, 100`);
+    });
+    
     // Set initial color based on calories
     updateCaloriesNumberColor();
   }
@@ -138,6 +153,51 @@ document.addEventListener('DOMContentLoaded', function() {
           caloriesSvgPath.setAttribute('stroke-dasharray', dashArrayValue);
         }
       }
+      checkDailyGoalsCompletion();
     });
   });
 });
+
+function checkDailyGoalsCompletion() {
+  const totalCaloriesBurned = parseInt(caloriesNumber.textContent);
+  const totalCaloriesIntake = parseInt(calorieIntakeCircle.querySelector('.stat-number').textContent);
+  const currentWaterCups = parseInt(waterIntakeCircle.querySelector('.stat-number').textContent.split('/')[0]);
+  const totalProteinIntake = parseInt(proteinIntakeCircle.querySelector('.stat-number').textContent);
+
+  const isCaloriesBurnedGoalMet = totalCaloriesBurned >= maxCalories;
+  const isCalorieIntakeGoalMet = totalCaloriesIntake >= maxCaloriesIntake;
+  const isWaterGoalMet = currentWaterCups >= maxWaterCups;
+  const isProteinGoalMet = totalProteinIntake >= maxProtein;
+
+  if (isCaloriesBurnedGoalMet && isCalorieIntakeGoalMet && isWaterGoalMet && isProteinGoalMet) {
+    // All goals met, mark the current date as completed
+    markCurrentDateAsCompleted();
+  }
+}
+
+function markCurrentDateAsCompleted() {
+  const currentDate = new Date();
+  const formattedDate = `${currentDate.getFullYear()}-${(currentDate.getMonth() + 1).toString().padStart(2, '0')}-${currentDate.getDate().toString().padStart(2, '0')}`;
+  
+  fetch('/mySchedule/mark-completed/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: `date=${formattedDate}`
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.status === 'success') {
+      // Update the current date in the calendar to have success class
+      const currentDayElement = document.querySelector('.calendar-day-today');
+      if (currentDayElement) {
+        currentDayElement.classList.remove('calendar-day-today');
+        currentDayElement.classList.add('calendar-day-today-success');
+      }
+    }
+  })
+  .catch(error => {
+    console.error('Error marking date as completed:', error);
+  });
+}

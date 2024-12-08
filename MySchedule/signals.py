@@ -2,7 +2,7 @@ from django.db.models.signals import post_save # type: ignore
 from django.dispatch import receiver # type: ignore
 from django.db import transaction # type: ignore
 from Signup.models import CustomUser
-from .models import WorkoutPlan, WorkoutType, WorkoutSelectionLog
+from .models import WorkoutPlan, WorkoutType, WorkoutSelectionLog, MealPlan, MealSelectionLog, MealType
 
 @receiver(post_save, sender=CustomUser)
 def create_user_workouts(sender, instance, created, **kwargs):
@@ -1078,3 +1078,333 @@ def initialize_workouts_for_user(user):
 
     if not created_workouts:
         print(f"CRITICAL: No workouts were created for user {user.first_name}")
+        
+        
+        
+@receiver(post_save, sender=CustomUser)
+def create_user_meals(sender, instance, created, **kwargs):
+    with transaction.atomic():
+        # Delete existing meal plans
+        MealPlan.objects.filter(user=instance).delete()
+        MealSelectionLog.objects.filter(user=instance).delete()
+        
+        # Initialize new meals
+        initialize_meals_for_user(instance)
+        
+def initialize_meals_for_user(user):
+    # Meal mappings based on body goals
+    meal_mappings = {
+        'victoria-secret-thin': [
+            {
+                'name': 'Light Protein Breakfast',
+                'category': 'Breakfast',
+                'target_nutrients': 'Low Calorie, High Protein',
+                'calories_range_min': 250,
+                'calories_range_max': 350,
+                'proteins': 15,
+                'carbs': 30,
+                'fats': 8,
+                'body_goal': 'victoria-secret-thin'
+            },
+            {
+                'name': 'Green Salad with Grilled Chicken',
+                'category': 'Lunch',
+                'target_nutrients': 'Low Calorie, Moderate Protein',
+                'calories_range_min': 300,
+                'calories_range_max': 450,
+                'proteins': 25,
+                'carbs': 20,
+                'fats': 12,
+                'body_goal': 'victoria-secret-thin'
+            },
+            {
+                'name': 'Vegetable Stir Fry',
+                'category': 'Dinner',
+                'target_nutrients': 'Low Calorie, High Fiber',
+                'calories_range_min': 300,
+                'calories_range_max': 400,
+                'proteins': 20,
+                'carbs': 25,
+                'fats': 10,
+                'body_goal': 'victoria-secret-thin'
+            },
+            {
+                'name': 'Greek Yogurt with Berries',
+                'category': 'Snacks',
+                'target_nutrients': 'Low Calorie, Moderate Protein',
+                'calories_range_min': 150,
+                'calories_range_max': 200,
+                'proteins': 10,
+                'carbs': 15,
+                'fats': 5,
+                'body_goal': 'victoria-secret-thin'
+            },
+            {
+                'name': 'Detox Green Tea',
+                'category': 'Drinks',
+                'target_nutrients': 'Zero Calorie, Antioxidant',
+                'calories_range_min': 0,
+                'calories_range_max': 10,
+                'proteins': 0,
+                'carbs': 0,
+                'fats': 0,
+                'body_goal': 'victoria-secret-thin'
+            },
+        ],
+        'slim': [
+            {
+                'name': 'Avocado Toast with Egg',
+                'category': 'Breakfast',
+                'target_nutrients': 'Moderate Calorie, Balanced',
+                'calories_range_min': 300,
+                'calories_range_max': 400,
+                'proteins': 12,
+                'carbs': 40,
+                'fats': 15,
+                'body_goal': 'slim'
+            },
+            {
+                'name': 'Quinoa Bowl with Veggies',
+                'category': 'Lunch',
+                'target_nutrients': 'Balanced Calorie, High Fiber',
+                'calories_range_min': 400,
+                'calories_range_max': 500,
+                'proteins': 20,
+                'carbs': 50,
+                'fats': 15,
+                'body_goal': 'slim'
+            },
+            {
+                'name': 'Grilled Salmon with Asparagus',
+                'category': 'Dinner',
+                'target_nutrients': 'Moderate Calorie, Omega-3 Rich',
+                'calories_range_min': 400,
+                'calories_range_max': 500,
+                'proteins': 35,
+                'carbs': 10,
+                'fats': 20,
+                'body_goal': 'slim'
+            },
+            {
+                'name': 'Nuts and Dried Fruits',
+                'category': 'Snacks',
+                'target_nutrients': 'Moderate Calorie, Healthy Fats',
+                'calories_range_min': 200,
+                'calories_range_max': 300,
+                'proteins': 6,
+                'carbs': 20,
+                'fats': 15,
+                'body_goal': 'slim'
+            },
+            {
+                'name': 'Smoothie with Almond Milk',
+                'category': 'Drinks',
+                'target_nutrients': 'Low Calorie, Nutrient-Dense',
+                'calories_range_min': 100,
+                'calories_range_max': 150,
+                'proteins': 5,
+                'carbs': 20,
+                'fats': 3,
+                'body_goal': 'slim'
+            },
+        ],
+                'athletic': [
+            {
+                'name': 'Oats with Peanut Butter and Banana',
+                'category': 'Breakfast',
+                'target_nutrients': 'High Calorie, High Protein',
+                'calories_range_min': 400,
+                'calories_range_max': 500,
+                'proteins': 20,
+                'carbs': 60,
+                'fats': 15,
+                'body_goal': 'athletic'
+            },
+            {
+                'name': 'Chicken Caesar Salad Wrap',
+                'category': 'Lunch',
+                'target_nutrients': 'Balanced Calorie, Protein-Rich',
+                'calories_range_min': 450,
+                'calories_range_max': 550,
+                'proteins': 30,
+                'carbs': 35,
+                'fats': 15,
+                'body_goal': 'athletic'
+            },
+            {
+                'name': 'Grilled Steak with Sweet Potato',
+                'category': 'Dinner',
+                'target_nutrients': 'High Calorie, High Protein',
+                'calories_range_min': 500,
+                'calories_range_max': 600,
+                'proteins': 40,
+                'carbs': 50,
+                'fats': 20,
+                'body_goal': 'athletic'
+            },
+            {
+                'name': 'Protein Bar',
+                'category': 'Snacks',
+                'target_nutrients': 'Moderate Calorie, High Protein',
+                'calories_range_min': 200,
+                'calories_range_max': 300,
+                'proteins': 20,
+                'carbs': 25,
+                'fats': 8,
+                'body_goal': 'athletic'
+            },
+            {
+                'name': 'Electrolyte Sports Drink',
+                'category': 'Drinks',
+                'target_nutrients': 'Low Calorie, Electrolyte-Rich',
+                'calories_range_min': 50,
+                'calories_range_max': 100,
+                'proteins': 0,
+                'carbs': 20,
+                'fats': 0,
+                'body_goal': 'athletic'
+            },
+        ],
+                'muscular': [
+            {
+                'name': 'Egg White Omelette with Whole Grain Toast',
+                'category': 'Breakfast',
+                'target_nutrients': 'High Protein, Moderate Carb',
+                'calories_range_min': 500,
+                'calories_range_max': 600,
+                'proteins': 35,
+                'carbs': 45,
+                'fats': 10,
+                'body_goal': 'muscular'
+            },
+            {
+                'name': 'Grilled Chicken Breast with Brown Rice and Broccoli',
+                'category': 'Lunch',
+                'target_nutrients': 'High Calorie, High Protein',
+                'calories_range_min': 550,
+                'calories_range_max': 700,
+                'proteins': 50,
+                'carbs': 60,
+                'fats': 15,
+                'body_goal': 'muscular'
+            },
+            {
+                'name': 'Beef Stir Fry with Quinoa',
+                'category': 'Dinner',
+                'target_nutrients': 'High Calorie, Balanced',
+                'calories_range_min': 600,
+                'calories_range_max': 750,
+                'proteins': 45,
+                'carbs': 50,
+                'fats': 20,
+                'body_goal': 'muscular'
+            },
+            {
+                'name': 'Cottage Cheese and Fruit',
+                'category': 'Snacks',
+                'target_nutrients': 'Moderate Calorie, High Protein',
+                'calories_range_min': 200,
+                'calories_range_max': 300,
+                'proteins': 25,
+                'carbs': 15,
+                'fats': 5,
+                'body_goal': 'muscular'
+            },
+            {
+                'name': 'Post-Workout Protein Shake',
+                'category': 'Drinks',
+                'target_nutrients': 'High Protein, Low Fat',
+                'calories_range_min': 150,
+                'calories_range_max': 250,
+                'proteins': 30,
+                'carbs': 15,
+                'fats': 2,
+                'body_goal': 'muscular'
+            },
+        ],
+                'sumo-wrestler': [
+            {
+                'name': 'Full Japanese Breakfast',
+                'category': 'Breakfast',
+                'target_nutrients': 'High Calorie, Balanced Nutrients',
+                'calories_range_min': 800,
+                'calories_range_max': 1000,
+                'proteins': 40,
+                'carbs': 100,
+                'fats': 30,
+                'body_goal': 'sumo-wrestler'
+            },
+            {
+                'name': 'Rice Bowl with Pork Belly and Pickled Vegetables',
+                'category': 'Lunch',
+                'target_nutrients': 'Very High Calorie, Rich in Carbs',
+                'calories_range_min': 1000,
+                'calories_range_max': 1200,
+                'proteins': 50,
+                'carbs': 150,
+                'fats': 40,
+                'body_goal': 'sumo-wrestler'
+            },
+            {
+                'name': 'Hot Pot with Beef, Tofu, and Udon',
+                'category': 'Dinner',
+                'target_nutrients': 'Very High Calorie, Protein-Rich',
+                'calories_range_min': 1200,
+                'calories_range_max': 1500,
+                'proteins': 60,
+                'carbs': 100,
+                'fats': 50,
+                'body_goal': 'sumo-wrestler'
+            },
+            {
+                'name': 'Fried Tempura and Rice',
+                'category': 'Snacks',
+                'target_nutrients': 'High Calorie, Rich in Fats',
+                'calories_range_min': 500,
+                'calories_range_max': 700,
+                'proteins': 15,
+                'carbs': 60,
+                'fats': 20,
+                'body_goal': 'sumo-wrestler'
+            },
+            {
+                'name': 'Sweetened Soy Milk',
+                'category': 'Drinks',
+                'target_nutrients': 'High Calorie, Balanced',
+                'calories_range_min': 200,
+                'calories_range_max': 300,
+                'proteins': 10,
+                'carbs': 25,
+                'fats': 10,
+                'body_goal': 'sumo-wrestler'
+            },
+        ],
+    }
+
+    # Select meal types for the specific body goal
+    body_goal_meals = meal_mappings.get(user.body_goal.lower(), [])
+    
+    for meal_data in body_goal_meals:
+        # Create MealType
+        meal_type, _ = MealType.objects.get_or_create(
+            name=meal_data['name'],
+            defaults={
+                'category': meal_data['category'],
+                'target_nutrients': meal_data['target_nutrients'],
+                'calories_range_min': meal_data['calories_range_min'],
+                'calories_range_max': meal_data['calories_range_max'],
+                'body_goal': meal_data['body_goal']
+            }
+        )
+        
+        # Create MealPlan
+        MealPlan.objects.create(
+            user=user,
+            meal_type=meal_type,
+            proteins=meal_data['proteins'],
+            carbs=meal_data['carbs'],
+            fats=meal_data['fats'],
+            total_calories=meal_data['calories_range_max'],
+            body_goal=user.body_goal.lower()
+        )
+

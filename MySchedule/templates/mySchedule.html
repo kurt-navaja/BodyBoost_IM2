@@ -363,56 +363,7 @@
                   
                   <!-- Calendar Section -->
                   <div class="calendar-section">
-                    <div class="calendar-wrapper">
-                      <div class="calendar-header">
-                        <button class="calendar-nav-btn">&lt;</button>
-                        <h2 class="calendar-title">December 2024</h2>
-                        <button class="calendar-nav-btn">&gt;</button>
-                      </div>
-                      <div class="calendar-grid">
-                        <div class="calendar-weekdays">
-                          <span>Sun</span>
-                          <span>Mon</span>
-                          <span>Tue</span>
-                          <span>Wed</span>
-                          <span>Thu</span>
-                          <span>Fri</span>
-                          <span>Sat</span>
-                        </div>
-                        <div class="calendar-days">
-                          <div class="calendar-day-success"><span class="day-number">1</span></div>
-                          <div class="calendar-day"><span class="day-number">2</span></div>
-                          <div class="calendar-day-success"><span class="day-number">3</span></div>
-                          <div class="calendar-day-success"><span class="day-number">4</span></div>
-                          <div class="calendar-day-success"><span class="day-number">5</span></div>
-                          <div class="calendar-day"><span class="day-number">6</span></div>
-                          <div class="calendar-day-success"><span class="day-number">7</span></div>
-                          <div class="calendar-day"><span class="day-number">8</span></div>
-                          <div class="calendar-day-success"><span class="day-number">9</span></div>
-                          <div class="calendar-day-success"><span class="day-number">10</span></div>
-                          <div class="calendar-day"><span class="day-number">11</span></div>
-                          <div class="calendar-day-success"><span class="day-number">12</span></div>
-                          <div class="calendar-day"><span class="day-number">13</span></div>
-                          <div class="calendar-day-success"><span class="day-number">14</span></div>
-                          <div class="calendar-day-success"><span class="day-number">15</span></div>
-                          <div class="calendar-day"><span class="day-number">16</span></div>
-                          <div class="calendar-day"><span class="day-number">17</span></div>
-                          <div class="calendar-day-success"><span class="day-number">18</span></div>
-                          <div class="calendar-day-today"><span class="day-number">19</span></div>
-                          <div class="calendar-day"><span class="day-number">20</span></div>
-                          <div class="calendar-day"><span class="day-number">21</span></div>
-                          <div class="calendar-day"><span class="day-number">22</span></div>
-                          <div class="calendar-day"><span class="day-number">23</span></div>
-                          <div class="calendar-day"><span class="day-number">24</span></div>
-                          <div class="calendar-day"><span class="day-number">25</span></div>
-                          <div class="calendar-day"><span class="day-number">26</span></div>
-                          <div class="calendar-day"><span class="day-number">27</span></div>
-                          <div class="calendar-day"><span class="day-number">28</span></div>
-                          <div class="calendar-day"><span class="day-number">29</span></div>
-                          <div class="calendar-day"><span class="day-number">30</span></div>
-                        </div>
-                      </div>
-                    </div>
+                    {% include "_calendar.html" %}
 
                     <div class="step-counter-wrapper">
                       <div class="step-counter">
@@ -530,39 +481,37 @@
                       
                       <script src="/static/js/workout-status.js"></script>
 
-                    <!-- Meal Plan Card -->
-                    <div class="schedule-card meal-card">
-                      <div class="card-header">
-                        <img src="{% static 'images/diet-plan-2.png' %}" alt="Meals" class="card-icon">
-                        <h4>Meal Plan</h4>
-                      </div>
-                      <div class="meal-list">
-                        <div class="meal-item">
-                          <span class="meal-time">08:30 AM</span>
-                          <div class="meal-details">
-                            <h5>Breakfast</h5>
-                            <p>Oatmeal with berries - 320 cal</p>
-                          </div>
-                          <div class="meal-macros">
-                            <span>P: 15g</span>
-                            <span>C: 45g</span>
-                            <span>F: 8g</span>
-                          </div>
+                      <div class="schedule-card meal-card">
+                        <div class="card-header">
+                          <img src="{% static 'images/diet-plan-2.png' %}" alt="Meals" class="card-icon">
+                          <h4>Meal Plan</h4>
                         </div>
-                        <div class="meal-item">
-                          <span class="meal-time">01:00 PM</span>
-                          <div class="meal-details">
-                            <h5>Lunch</h5>
-                            <p>Grilled chicken salad - 450 cal</p>
-                          </div>
-                          <div class="meal-macros">
-                            <span>P: 35g</span>
-                            <span>C: 25g</span>
-                            <span>F: 12g</span>
-                          </div>
+                        <div class="meal-list">
+                          {% if personalized_meals %}
+                            {% for meal in personalized_meals %}
+                              <div class="meal-item">
+                                <span class="meal-time">{{ meal.meal_type.category }}</span>
+                                <div class="meal-details">
+                                  <h5>{{ meal.meal_type.name }}</h5>
+                                  <p>{{ meal.total_calories }} cal | {{ meal.meal_type.target_nutrients }}</p>
+                                </div>
+                                <div class="meal-macros">
+                                  <span>P: {{ meal.proteins }}g</span>
+                                  <span>C: {{ meal.carbs }}g</span>
+                                  <span>F: {{ meal.fats }}g</span>
+                                </div>
+                              </div>
+                            {% endfor %}
+                          {% else %}
+                            <div class="no-meals">
+                              <p>No meal plan found. Please complete your profile settings.</p>
+                              <a href="{% url 'notifAll:accountSettings' %}" class="btn btn-primary">Update Profile</a>
+                            </div>
+                          {% endif %}
                         </div>
                       </div>
-                    </div>
+
+                      <script src="/static/js/meal-status.js"></script>
 
                     <!-- Progress Card -->
                     <div class="schedule-card progress-card">
@@ -620,6 +569,56 @@
             </div>
             {% endblock %}
           </main>
+          <script>
+           document.addEventListener('DOMContentLoaded', function() {
+  const calendarDays = document.querySelectorAll('.calendar-day, .calendar-day-today, .calendar-day-success');
+  
+  calendarDays.forEach(dayElement => {
+    dayElement.addEventListener('click', function() {
+      const dayNumber = this.querySelector('.day-number').textContent;
+      const currentMonth = document.querySelector('.calendar-title').textContent;
+      const [month, year] = currentMonth.split(' ');
+      
+      const monthNames = [
+        'January', 'February', 'March', 'April', 'May', 'June', 
+        'July', 'August', 'September', 'October', 'November', 'December'
+      ];
+      
+      const monthIndex = monthNames.indexOf(month) + 1;
+      const formattedDate = `${year}-${monthIndex.toString().padStart(2, '0')}-${dayNumber.padStart(2, '0')}`;
+      
+      // Determine the action based on current class
+      const isCurrentlyCompleted = this.classList.contains('calendar-day-success');
+      const actionUrl = isCurrentlyCompleted ? '/mySchedule/unmark-completed/' : '/mySchedule/mark-completed/';
+      
+      fetch(actionUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `date=${formattedDate}`
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.status === 'success') {
+          // Toggle between completed and normal state
+          if (isCurrentlyCompleted) {
+            this.classList.remove('calendar-day-success');
+            this.classList.add(this.dataset.today === 'true' ? 'calendar-day-today' : 'calendar-day');
+          } else {
+            // Remove any existing special classes
+            this.classList.remove('calendar-day', 'calendar-day-today');
+            this.classList.add('calendar-day-success');
+          }
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    });
+  });
+});
+          </script>
         </div>
       </div>
     </div>
