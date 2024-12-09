@@ -13,6 +13,9 @@ logger = logging.getLogger(__name__)
 def firstP(request):
     return render(request, '1stP.html', {'request': request})
 
+def progress(request):
+    return render(request, 'progress.html')
+
 @login_required
 def accountSettings(request):
     if request.method == 'GET':

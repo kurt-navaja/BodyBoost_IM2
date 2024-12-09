@@ -451,6 +451,120 @@
         box-sizing: border-box; /* Include padding and border in the element's total width */
         /* ...existing code... */
       }
+      /* Add styles for the progress summary */
+      .progress-summary {
+        margin: 20px;
+        padding: 20px;
+        background-color: #f8fafb;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+      }
+      .progress-summary h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .progress-summary .progress-item {
+        margin-bottom: 15px;
+      }
+      .progress-summary .progress-item:last-child {
+        margin-bottom: 0;
+      }
+      .progress-summary .progress-label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .progress-summary .progress-bar-container {
+        width: 100%;
+        background-color: black;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      .progress-summary .progress-bar {
+        height: 20px;
+        background-color: #4caf50;
+        border-radius: 5px;
+        width: 0%;
+        min-width: 5%;
+      }
+      .content-wrapper {
+        position: absolute;
+        top: 240px;
+        margin-left: 260px; /* Adjust margin to place content below the top bar */
+      }
+      .progress-summary {
+        flex: 1;
+        margin-left: 20px; /* Adjust margin to place content beside the sidebar */
+        padding: 30px;
+        background-color: #3a2e79ed;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+      }
+      .progress-summary h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+      .progress-summary .progress-item {
+        margin-bottom: 15px;
+      }
+      .progress-summary .progress-item:last-child {
+        margin-bottom: 0;
+      }
+      .progress-summary .progress-label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .progress-summary .progress-bar-container {
+        width: 100%;
+        background-color: black;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+      .progress-summary .progress-bar {
+        height: 20px;
+        background-color: #4caf50;
+        border-radius: 5px;
+        width: 0%;
+        min-width: 5%;
+      }
+      .progress-container {
+        display: flex;
+        width: 122%;
+        gap: 10px;
+      }
+      .back-button {
+        position: absolute;
+        top: 150px;
+        left: 230px;
+        cursor: pointer;
+      }
+      .frame-title {
+        position: absolute;
+        font-family: 'Outfit', sans-serif;
+        top: 175px;
+        left: 350px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #3a2e79ed;
+        font-weight: bolder;
+      }
+      .frame-description {
+        position: absolute;
+        font-family: 'Outfit', sans-serif;
+        top: 210px;
+        left: 350px;
+        font-size: 18px;
+        color: #6f6e76ed;
+        margin-bottom: 10px;
+        margin-top: 5px;
+      }
     </style>
   </head>
   <body>
@@ -513,11 +627,11 @@
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
                       <span class="overview">My Schedule</span>
                     </button></a>
-                    <a href="{% url 'notifAll:progress' %}"><button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
                       <span class="overview">Progress</span>
                       <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
-                    </button></a>
+                    </button>
                     <div class="frame-7"></div>
                   </div>
                 </div>
@@ -534,240 +648,85 @@
                 </button>
               </a>
             </div>
-          
-          <div class="overlap-group-wrapper">
-            <div class="overlap-2">
-              <img class="anastasia-hisel" src="{% static '/images/anastasia-hisel-tpivpdqgc20-unsplash-2.png'%}" />
-              <div class="rectangle"></div>
-              <div class="group">
-              </div>
-              <div class="frame-9">
-                <div class="text-wrapper-4">Track Your Daily Activities</div>
-                <p class="imagine-waking-up">
-                  Imagine waking up each morning knowing exactly what needs to be<br> done, with a clear sense of purpose.
-                  By tracking your daily activities,<br> you&#39;re not just jotting down tasks; you&#39;re taking control
-                  of your time,<br> energy, and future. Every step you take, no matter how small, brings you<br> closer to your
-                  goals.
-                </p>
-              </div>
-            </div>
           </div>
-          <div class="frame-10">
-            <div class="div-wrapper">
-              <div class="overlap-group-3">
-                <div class="frame-11">
-                  <div class="group-wrapper"><img class="group-2" src="{% static '/images/group-11.png'%}" /></div>
-                  <div class="frame-12">
-                    <div class="text-wrapper-5">Workout</div>
-                    <div class="text-wrapper-6">4 hrs</div>
-                  </div>
+        </div>
+      </div>
+            <a href="javascript:history.back()" class="back-button">
+              <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+            </a>
+            <h1 class="frame-title">Progress</h1>
+          <p class="frame-description">
+            Here, you can view and track your progress for each completed workout. Keep up the good work!
+          </p>
+        <div class="content-wrapper">
+          <div class="progress-container">
+            <div class="progress-summary">
+              <h2>Strength Progress</h2>
+              <div class="progress-item">
+                <div class="progress-label">Beginner Progress</div>
+                <div class="progress-bar-container">
+                  <div id="beginnerProgressBar" class="progress-bar"></div>
                 </div>
-                <img class="group-3" src="{% static '/images/group-6.png'%}" />
+              </div>
+              <div class="progress-item">
+                <div class="progress-label">Intermediate Progress</div>
+                <div class="progress-bar-container">
+                  <div id="intermediateProgressBar" class="progress-bar"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-label">Advanced Progress</div>
+                <div class="progress-bar-container">
+                  <div id="advancedProgressBar" class="progress-bar"></div>
+                </div>
               </div>
             </div>
-            <div class="frame-13">
-              <div class="overlap-group-3">
-                <div class="frame-11">
-                  <div class="frame-wrapper"><img class="frame-14" src="{% static '/images/frame.svg'%}" /></div>
-                  <div class="frame-12">
-                    <div class="text-wrapper-5">Steps</div>
-                    <div class="text-wrapper-6">4 hrs</div>
-                  </div>
+            <div class="progress-summary">
+              <h2>Cardio Progress</h2>
+              <div class="progress-item">
+                <div class="progress-label">Beginner Progress</div>
+                <div class="progress-bar-container">
+                  <div id="cardioBeginnerProgressBar" class="progress-bar"></div>
                 </div>
-                <img class="group-3" src="{% static '/images/group-6-1.png'%}" />
+              </div>
+              <div class="progress-item">
+                <div class="progress-label">Intermediate Progress</div>
+                <div class="progress-bar-container">
+                  <div id="cardioIntermediateProgressBar" class="progress-bar"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-label">Advanced Progress</div>
+                <div class="progress-bar-container">
+                  <div id="cardioAdvancedProgressBar" class="progress-bar"></div>
+                </div>
               </div>
             </div>
-            <div class="frame-15">
-              <div class="overlap-3">
-                <div class="frame-16">
-                  <div class="img-wrapper"><img class="group-4" src="{% static '/images/group-8.png'%}" /></div>
-                  <div class="frame-12">
-                    <div class="text-wrapper-5">Calories</div>
-                    <div class="text-wrapper-6">1800 kcl</div>
-                  </div>
-                </div>
-                <img class="group-5" src="{% static '/images/group-5.png'%}" />
-              </div>
-            </div>
-          </div>
-          <div class="frame-17">
-            <div class="frame-18">
-              <div class="text-wrapper-7">My Schedule</div>
-              <div class="frame-19">
-                <div class="text-wrapper-8">View All</div>
-                <img class="img" src="{% static '/images/arrow-dark-5.svg'%}" />
-              </div>
-            </div>
-            <div class="frame-20">
-              <div class="frame-21">
-                <div class="frame-22">
-                  <div class="text-wrapper-9">Monday</div>
-                  <div class="frame-23">
-                    <div class="frame-24">
-                      <div class="frame-25">
-                        <img class="group-6" src="{% static '/images/group-107-1.png'%}" />
-                        <div class="frame-26">
-                          <div class="text-wrapper-10">Stretch</div>
-                          <div class="text-wrapper-11">At 08:00</div>
-                        </div>
-                      </div>
-                      <div class="frame-27"><div class="text-wrapper-12">20 Pieces</div></div>
-                    </div>
-                  </div>
+            <div class="progress-summary">
+              <h2>Flexibility/Yoga Progress</h2>
+              <div class="progress-item">
+                <div class="progress-label">Beginner Progress</div>
+                <div class="progress-bar-container">
+                  <div id="flexibilityBeginnerProgressBar" class="progress-bar"></div>
                 </div>
               </div>
-              <div class="frame-21">
-                <div class="frame-22">
-                  <div class="text-wrapper-9">Tuesday</div>
-                  <div class="frame-23">
-                    <div class="frame-24">
-                      <div class="frame-25">
-                        <img class="image" src="{% static '/images/image-97.png'%}" />
-                        <div class="frame-28">
-                          <div class="text-wrapper-10">Back Stretch</div>
-                          <div class="text-wrapper-11">At 08:00</div>
-                        </div>
-                      </div>
-                      <div class="frame-29"><div class="text-wrapper-12">10 Round</div></div>
-                    </div>
-                  </div>
+              <div class="progress-item">
+                <div class="progress-label">Intermediate Progress</div>
+                <div class="progress-bar-container">
+                  <div id="flexibilityIntermediateProgressBar" class="progress-bar"></div>
                 </div>
               </div>
-              <div class="frame-21">
-                <div class="frame-22">
-                  <div class="text-wrapper-9">Wednesday</div>
-                  <div class="frame-23">
-                    <div class="frame-24">
-                      <div class="frame-25">
-                        <img class="image-2" src="{% static '/images/image-98.png'%}" />
-                        <div class="frame-30">
-                          <div class="text-wrapper-10">Yoga</div>
-                          <div class="text-wrapper-11">At 08:00</div>
-                        </div>
-                      </div>
-                      <div class="frame-29"><div class="text-wrapper-12">20 min</div></div>
-                    </div>
-                  </div>
+              <div class="progress-item">
+                <div class="progress-label">Advanced Progress</div>
+                <div class="progress-bar-container">
+                  <div id="flexibilityAdvancedProgressBar" class="progress-bar"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="frame-31">
-            <div class="frame-18">
-              <div class="text-wrapper-7">Goals</div>
-              <div class="frame-19">
-                <div class="text-wrapper-8">View All</div>
-                <img class="img" src="{% static '/images/arrow-dark-5.svg'%}" />
-              </div>
-            </div>
-            <div class="frame-20">
-              <div class="frame-20">
-                <div class="frame-21">
-                  <div class="frame-22">
-                    <div class="frame-23">
-                      <div class="frame-24">
-                        <div class="frame-25">
-                          <div class="frame-32">
-                            <div class="text-wrapper-10">Running on Track</div>
-                            <p class="text-wrapper-11">Saturday, April 14 | 08:00 AM</p>
-                          </div>
-                        </div>
-                        <div class="frame-29"><div class="text-wrapper-12">04 Rounds</div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="frame-20">
-                <div class="frame-21">
-                  <div class="frame-22">
-                    <div class="frame-23">
-                      <div class="frame-24">
-                        <div class="frame-25">
-                          <div class="frame-32">
-                            <div class="text-wrapper-10">Push Up</div>
-                            <p class="text-wrapper-11">Sunday, April 15 | 08:00 AM</p>
-                          </div>
-                        </div>
-                        <div class="frame-29"><div class="text-wrapper-12">50 Pieces</div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="frame-33">
-            <div class="frame-34">
-              <div class="frame-35"><div class="text-wrapper-13">Food</div></div>
-              <div class="frame-36"><div class="text-wrapper-13">Meal</div></div>
-              <div class="calories-wrapper"><img class="calories" src="{% static '/images/calories.png'%}" /></div>
-              <div class="frame-37"><div class="text-wrapper-14">Priorities</div></div>
-              <div class="frame-37"><div class="text-wrapper-13">Carbs</div></div>
-            </div>
-            <div class="frame-22">
-              <div class="frame-38">
-                <div class="frame-39">
-                  <div class="frame-40">
-                    <div class="buritto"><img class="img-2" src="{% static '/images/buritto-1.png'%}" /></div>
-                    <div class="text-wrapper-15">Burrito</div>
-                  </div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-17">Receiving</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-18">01:00 AM</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
-                </div>
-              </div>
-              <div class="frame-38">
-                <div class="frame-39">
-                  <div class="frame-40">
-                    <div class="burger"><img class="img-2" src="{% static '/images/burger-1.png'%}" /></div>
-                    <div class="text-wrapper-20">Burger</div>
-                  </div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-21">Receiving</div></div>
-                </div>
-                <div class="frame-42">
-                  <div class="frame-43"><div class="text-wrapper-17">01:00 AM</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
-                </div>
-              </div>
-              <div class="frame-44">
-                <div class="frame-39">
-                  <div class="frame-40">
-                    <div class="burger"><img class="img-2" src="{% static '/images/meat-2.png'%}" /></div>
-                    <div class="text-wrapper-20">Pizza Burger</div>
-                  </div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-16">Pizza Burger</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-17">Receiving</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-22">01:00 AM</div></div>
-                </div>
-                <div class="frame-41">
-                  <div class="frame-5"><div class="text-wrapper-19">20 gm</div></div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+
+        <!-- Modal -->
           <div id="myModal" class="modal">
             <div class="modal-content">
               <h2>Notification</h2>
@@ -807,5 +766,47 @@
         </div>
       </div>
     </div>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        function updateOverallProgress(progressBarId, progress) {
+          var progressBar = document.getElementById(progressBarId);
+          progressBar.style.width = progress + '%';
+        }
+
+        // Fetch progress data from local storage
+        var progress = JSON.parse(localStorage.getItem('strengthProgress')) || {
+          beginner: 0,
+          intermediate: 0,
+          advanced: 0
+        };
+
+        updateOverallProgress('beginnerProgressBar', progress.beginner);
+        updateOverallProgress('intermediateProgressBar', progress.intermediate);
+        updateOverallProgress('advancedProgressBar', progress.advanced);
+
+        // Fetch cardio progress data from local storage
+        var cardioProgress = JSON.parse(localStorage.getItem('cardioProgress')) || {
+          beginner: 0,
+          intermediate: 0,
+          advanced: 0
+        };
+
+        updateOverallProgress('cardioBeginnerProgressBar', cardioProgress.beginner);
+        updateOverallProgress('cardioIntermediateProgressBar', cardioProgress.intermediate);
+        updateOverallProgress('cardioAdvancedProgressBar', cardioProgress.advanced);
+
+        // Fetch flexibility/yoga progress data from local storage
+        var flexibilityProgress = JSON.parse(localStorage.getItem('flexibilityProgress')) || {
+          beginner: 0,
+          intermediate: 0,
+          advanced: 0
+        };
+
+        updateOverallProgress('flexibilityBeginnerProgressBar', flexibilityProgress.beginner);
+        updateOverallProgress('flexibilityIntermediateProgressBar', flexibilityProgress.intermediate);
+        updateOverallProgress('flexibilityAdvancedProgressBar', flexibilityProgress.advanced);
+      });
+    </script>
   </body>
 </html>

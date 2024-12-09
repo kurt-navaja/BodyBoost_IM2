@@ -297,7 +297,7 @@
                     <span class="mac-book-air1-text14">Overview</span>  
                   </button>
 
-                  <button class="mac-book-air1-button2">
+                  <button class="mac-book-air1-button2" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
                   </button>
@@ -315,7 +315,7 @@
                       <span class="mac-book-air1-text18">My Schedule</span>
                     </button>
                   </a>
-                  <button class="mac-book-air1-button6">
+                  <button class="mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
                     <span class="mac-book-air1-text19">Progress</span>
                     <img src="/static/images/arrow-dark.png" alt="Arrow" class="mac-book-air1-arrowdark" />

@@ -594,7 +594,7 @@
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
                       <span class="overview">My Schedule</span>
                     </button></a>
-                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
                       <span class="overview">Progress</span>
                       <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
@@ -727,13 +727,36 @@
                   }
                 }
             
-                setProgress(progress.timer1, "progressBar1", "progressPercentage1", 300); // 2 minutes
-                setProgress(progress.timer2, "progressBar2", "progressPercentage2", 240);  // 1.5 minutes
-                setProgress(progress.timer3, "progressBar3", "progressPercentage3", 180); // 1.75 minutes
-                setProgress(progress.timer4, "progressBar4", "progressPercentage4", 300); // 2.5 minutes
-                setProgress(progress.timer5, "progressBar5", "progressPercentage5", 180);  // 1.5 minutes
-                setProgress(progress.timer6, "progressBar6", "progressPercentage6", 240); // 1.75 minutes
+                setProgress(progress.timer1, "progressBar1", "progressPercentage1", 300); // 5 minutes
+                setProgress(progress.timer2, "progressBar2", "progressPercentage2", 240);  // 4 minutes
+                setProgress(progress.timer3, "progressBar3", "progressPercentage3", 180); // 3 minutes
+                setProgress(progress.timer4, "progressBar4", "progressPercentage4", 300); // 5 minutes
+                setProgress(progress.timer5, "progressBar5", "progressPercentage5", 180);  // 3 minutes
+                setProgress(progress.timer6, "progressBar6", "progressPercentage6", 240); // 4 minutes
+                
+                // Calculate and store advanced progress
+                var totalExercises = 6;
+                var completedExercises = 0;
+                for (var i = 1; i <= totalExercises; i++) {
+                  var progressBar = document.getElementById('progressBar' + i);
+                  if (progressBar.style.width === '100%') {
+                    completedExercises++;
+                  }
+                }
+                var advancedProgress = (completedExercises / totalExercises) * 100;
+                var strengthProgress = JSON.parse(localStorage.getItem('strengthProgress')) || {};
+                strengthProgress.advanced = advancedProgress;
+                localStorage.setItem('strengthProgress', JSON.stringify(strengthProgress));
               });
+
+              function resetProgress() {
+                localStorage.setItem('strengthProgress', JSON.stringify({
+                  beginner: 0,
+                  intermediate: 0,
+                  advanced: 0
+                }));
+                location.reload(); // Reload the page to update the progress bars
+              }
             </script>
         </div>
       </div>

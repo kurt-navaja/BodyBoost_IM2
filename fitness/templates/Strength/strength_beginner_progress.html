@@ -594,7 +594,7 @@
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
                       <span class="overview">My Schedule</span>
                     </button></a>
-                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
                       <span class="overview">Progress</span>
                       <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
@@ -716,7 +716,7 @@
             
               document.addEventListener('DOMContentLoaded', function() {
                 var progress = JSON.parse(localStorage.getItem('progress')) || {};
-            
+
                 function setProgress(timerValue, progressBarId, progressPercentageId, totalTime) {
                   if (timerValue) {
                     var timeParts = timerValue.split(':');
@@ -733,7 +733,30 @@
                 setProgress(progress.timer4, "progressBar4", "progressPercentage4", 60);
                 setProgress(progress.timer5, "progressBar5", "progressPercentage5", 30);
                 setProgress(progress.timer6, "progressBar6", "progressPercentage6", 120);
+
+                // Calculate and store beginner progress
+                var totalExercises = 6;
+                var completedExercises = 0;
+                for (var i = 1; i <= totalExercises; i++) {
+                  var progressBar = document.getElementById('progressBar' + i);
+                  if (progressBar.style.width === '100%') {
+                    completedExercises++;
+                  }
+                }
+                var beginnerProgress = (completedExercises / totalExercises) * 100;
+                var strengthProgress = JSON.parse(localStorage.getItem('strengthProgress')) || {};
+                strengthProgress.beginner = beginnerProgress;
+                localStorage.setItem('strengthProgress', JSON.stringify(strengthProgress));
               });
+
+              function resetProgress() {
+                localStorage.setItem('strengthProgress', JSON.stringify({
+                  beginner: 0,
+                  intermediate: 0,
+                  advanced: 0
+                }));
+                location.reload(); // Reload the page to update the progress bars
+              }
             </script>
         </div>
       </div>

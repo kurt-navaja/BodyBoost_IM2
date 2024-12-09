@@ -594,7 +594,7 @@
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
                       <span class="overview">My Schedule</span>
                     </button></a>
-                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
                       <span class="overview">Progress</span>
                       <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
@@ -733,7 +733,30 @@
                 setProgress(progress.timer4, "progressBar4", "progressPercentage4", 300); 
                 setProgress(progress.timer5, "progressBar5", "progressPercentage5", 300);  
                 setProgress(progress.timer6, "progressBar6", "progressPercentage6", 300); 
+            
+                // Calculate and store advanced progress
+                var totalExercises = 6;
+                var completedExercises = 0;
+                for (var i = 1; i <= totalExercises; i++) {
+                  var progressBar = document.getElementById('progressBar' + i);
+                  if (progressBar.style.width === '100%') {
+                    completedExercises++;
+                  }
+                }
+                var advancedProgress = (completedExercises / totalExercises) * 100;
+                var cardioProgress = JSON.parse(localStorage.getItem('cardioProgress')) || {};
+                cardioProgress.advanced = advancedProgress;
+                localStorage.setItem('cardioProgress', JSON.stringify(cardioProgress));
               });
+            
+              function resetProgress() {
+                localStorage.setItem('cardioProgress', JSON.stringify({
+                  beginner: 0,
+                  intermediate: 0,
+                  advanced: 0
+                }));
+                location.reload(); // Reload the page to update the progress bars
+              }
             </script>
         </div>
       </div>

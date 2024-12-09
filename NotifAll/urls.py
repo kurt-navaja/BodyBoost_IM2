@@ -13,4 +13,5 @@ urlpatterns = [
     path('save_workout/', views.save_workout_preferences, name='save_workout_preferences'),
     path('login/', views.login, name='login'),
     path('accountSettings/', views.accountSettings, name='accountSettings'),
+    path('progress/', views.progress, name='progress'),
 ]
