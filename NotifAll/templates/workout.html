@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Workout</title>
+    <link rel="icon" href="{% static 'images/logoPurpleB.png' %}">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="{% static '/css/globals.css'%}" />
     <link rel="stylesheet" href="{% static '/css/styleguide.css'%}" />
@@ -466,7 +468,15 @@
               </video>
           </div>
             <div class="frame">
-              <a href="{% url 'notifAll:accountSettings' %}"><img class="avatar-w-photo" src="{% static '/images/avatar-w-photo.png'%}" /></a>
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <div class="avatar-container">
+                  {% if user.profile_photo %}
+                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% else %}
+                    <img src="{% static 'images/profile_photo1.png' %}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% endif %}
+                </div>
+              </a>
               <div class="div">
                 <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
                 <div class="badges"><div class="badge-label">3</div></div>
@@ -487,7 +497,8 @@
                   <div class="app-logo">
                     <div class="frame-5">
                       <div class="fitness">BodyBoost</div>
-                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                      <img class="workout-bold" src="{% static 'images/workout-bold-3.png' %}" alt="BodyBoost Logo" />
+                      <img class="logo-purple" src="{% static 'images/logoPurple.png' %}" alt="Logo Purple" />
                     </div>
                   </div>
                   <div class="frame-6">
@@ -511,11 +522,11 @@
                       <img class="img" src="{% static '/images/schedule-2.png'%}" />
                       <span class="overview">My Schedule</span>
                     </button></a>
-                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
+                    <a href="{% url 'notifAll:progress' %}"><button class="button-2 mac-book-air1-frame12 mac-book-air1-button6">
                       <img class="img" src="{% static '/images/progres-2.png'%}" />
                       <span class="overview">Progress</span>
                       <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
-                    </button>
+                    </button></a>
                     <div class="frame-7"></div>
                   </div>
                 </div>
@@ -532,10 +543,12 @@
                 </button>
               </a>
             </div>
-              <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
           </div>
 
             <div class="logopurple-parent">
+              <a href="javascript:history.back()" class="back-button">
+                <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+              </a>
               <img class="logopurple-icon" alt="" src="{% static 'images/logoPurpleB.png'%}">
               <div class="frame-child"></div>
               <b class="sign-up" id="signUpText">Sign Up!</b>
@@ -651,7 +664,7 @@
                 const workoutStyle = document.querySelector('input[name="workoutStyle"]:checked');
             
                 if (!bodyType || !fitnessGoal || !fitnessLevel || !workoutStyle) {
-                    alert('Please fill out all fields except health concerns.');
+                    alert('Form Validation Error\n\nPlease fill out all fields except health concerns.');
                     return;
                 }
             

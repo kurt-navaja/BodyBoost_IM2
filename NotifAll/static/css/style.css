@@ -42,12 +42,15 @@
 }
 
 .navaja-notification .avatar-w-photo {
+  border-radius: 50%;
   position: absolute;
   width: 40px;
   height: 40px;
   top: 50px;
   left: 1161px;
   object-fit: cover;
+  overflow: hidden;
+  border: 2px solid rgba(255, 254, 254, 0.937);
 }
 
 .navaja-notification .div {
@@ -356,9 +359,9 @@
   position: absolute;
   width: 45px;
   height: 25px;
-  top: 37px;
-  left: 148px;
+  left: 120px;
   object-fit: cover;
+  display: block; /* Ensure the logo is displayed */
 }
 
 .navaja-notification .overlap-group-wrapper {
@@ -474,6 +477,11 @@
   background-color: var(--cyan-500);
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.div-wrapper:hover {
+  background-color: #0096c7;
 }
 
 .navaja-notification .overlap-group-3 {
@@ -555,6 +563,11 @@
   background-color: #37f44a;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.frame-13:hover {
+  background-color: #058c42;
 }
 
 .navaja-notification .frame-wrapper {
@@ -577,7 +590,13 @@
   position: relative;
   width: 149px;
   height: 168px;
+  border-radius: 8px;
   margin-right: -0.33px;
+  cursor: pointer;
+}
+
+.frame-15 .overlap-3:hover {
+  background-color: #ff9500;
 }
 
 .navaja-notification .overlap-3 {
@@ -670,6 +689,13 @@
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+  cursor: pointer;
+}
+
+.text-wrapper-8:hover {
+  color: #6C5DD3; /* Change text color on hover */
+  text-decoration: underline; /* Add underline on hover */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
 }
 
 .navaja-notification .frame-20 {
@@ -1295,4 +1321,21 @@
   width: 100%; /* Make sidebar occupy the whole screen */
   height: 100vh; /* Full viewport height */
   /* ...existing code... */
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.back-button:hover {
+  background-color: rgba(79, 55, 138, 0.1);
 }

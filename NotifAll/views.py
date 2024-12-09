@@ -9,12 +9,12 @@ from django.views.decorators.http import require_http_methods # type: ignore
 import logging
 logger = logging.getLogger(__name__)
 
-
+@login_required
 def firstP(request):
-    return render(request, '1stP.html')
+    return render(request, '1stP.html', {'request': request})
 
-# def secondP(request):
-#     return render(request, '2ndP.html')
+def progress(request):
+    return render(request, 'progress.html')
 
 @login_required
 def accountSettings(request):
@@ -135,11 +135,11 @@ def save_workout_preferences(request):
                 return redirect('fitness:cardio_advanced')
         elif workout_style == 'flexibility-yoga':
             if fitness_level == 'beginner':
-                return redirect('flexibility_yoga_beginner')
+                return redirect('fitness:yoga_beginner')
             elif fitness_level == 'intermediate':
-                return redirect('flexibility_yoga_intermediate')
+                return redirect('fitness:yoga_intermediate')
             elif fitness_level == 'advanced':
-                return redirect('flexibility_yoga_advanced')
+                return redirect('fitness:yoga_advanced')
 
     return HttpResponse("Form submission error")
 

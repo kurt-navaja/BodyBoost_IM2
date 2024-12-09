@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>Account Settings</title>
+    <title>My Schedule</title>
+    <link rel="icon" href="{% static 'images/logoPurpleB.png' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -58,6 +59,11 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
       data-tag="font"
     />
     <link
@@ -234,6 +240,54 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 68%;
+        top: 13%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 30px; /* Increased padding for a more formal layout */
+        border: 1px solid #888;
+        width: 100%;
+        font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .modal-content h2 {
+        margin-top: 0;
+        font-size: 28px; /* Increased font size */
+        font-weight: bold; /* Ensure the font weight is set */
+        color: #333; /* Ensure the color is set */
+      }
+      .modal-content p {
+        margin: 20px 0; /* Increased margin for gap between texts */
+        font-size: 18px; /* Increased font size */
+      }
+      .modal-content .user-name {
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <div>
@@ -261,11 +315,13 @@
               <span class="mac-book-air1-text11">Good Morning</span>
             </div>
             <div class="header-controls">
-              <a href="/notifications">
-                <img src="/static/images/bell.png" alt="Notifications" class="mac-book-air1-bell1" />
+              <a href="javascript:void(0);" id="bell-icon">
+                <img src="{% static '/images/bell-1.png' %}" alt="Notifications" class="mac-book-air1-bell1" />
               </a>
-              <div class="mac-book-air1-badges"></div>
-              <a href="/settings">
+              <div class="mac-book-air1-badges">
+                <div class="badge-label">3</div>
+              </div>
+              <a href="{% url 'notifAll:accountSettings' %}">
                 <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
               </a>
             </div>
@@ -298,7 +354,7 @@
                     <span class="mac-book-air1-text14">Overview</span>  
                   </button>
 
-                  <button class="mac-book-air1-button2">
+                  <button class="mac-book-air1-button2" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
                   </button>
@@ -316,7 +372,7 @@
                       <span class="mac-book-air1-text18">My Schedule</span>
                     </button>
                   </a>
-                  <button class="mac-book-air1-button6">
+                  <button class="mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
                     <span class="mac-book-air1-text19">Progress</span>
                     <img src="/static/images/arrow-dark.png" alt="Arrow" class="mac-book-air1-arrowdark" />
@@ -635,5 +691,36 @@
         </div>
       </div>
     </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h2>Notification</h2>
+        <hr>
+        <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+        <hr>
+        <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+        <hr>
+        <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
+      </div>
+    </div>
+    <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("bell-icon");
+      var badge = document.querySelector(".badge-label");
+
+      btn.onclick = function() {
+        if (modal.style.display === "block") {
+          modal.style.display = "none";
+        } else {
+          modal.style.display = "block";
+          badge.style.display = "none"; // Hide the badge when the modal is opened
+        }
+      }
+
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
