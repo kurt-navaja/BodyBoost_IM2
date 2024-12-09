@@ -297,6 +297,7 @@
   border-style: solid;
   border-width: 1px 0 0;
   background-color: rgba(255, 255, 255, 1);
+  margin-bottom: -25px;
 }
 
 .mac-book-air1-component2 {
@@ -503,14 +504,40 @@
   cursor: pointer;
 }
 
-.calendar-day-today .day-number {
+.calendar-day-today-success {
+  background-color: #00f863;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calendar-day-today .calendar-day-today-success .day-number {
   color: white;
+}
+
+.calendar-day-today {
+  background-color: #4F378A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.calendar-day-today-success {
+  background-color: #00f863;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
 }
 
 .calendar-day-success {
   border-radius: 50%;
   cursor: pointer;
-  color: rgb(0, 248, 99);
+  color: #00f863;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,16 +568,6 @@
 
 .calendar-day:hover {
   background-color: rgba(79, 55, 138, 0.1);
-}
-
-.calendar-day-today {
-  background-color: #4F378A;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  transition: background-color 0.3s;
 }
 
 .calendar-day.has-workout {
@@ -754,6 +771,48 @@
   color: #64748B;
 }
 
+/* Meal List Container */
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  max-height: calc(195px - 60px); /* Adjust based on your card header height */
+  padding-right: 8px; /* Add padding for scrollbar space */
+  padding-left: 6px;
+  
+  /* Hide scrollbar by default */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4F378A transparent; /* Firefox */
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #4F378A;
+    border-radius: 20px;
+    border: transparent;
+  }
+}
+
+/* Meal Items */
+.meal-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #F8FAFC;
+  margin-right: 2px; /* Prevent items from touching scrollbar */
+}
+
 /* Meal Macros */
 .meal-macros {
   display: flex;
@@ -782,7 +841,10 @@
   gap: 8px;
 }
 
-.stat-circle {
+.stat-circle-intake,
+.stat-circle-burned,
+.stat-circle-protein,
+.stat-circle-water {
   position: relative;
   width: 100px;
   height: 100px;
@@ -1129,4 +1191,60 @@
 
 .workout-status.animating {
   animation: statusChange 0.3s ease;
+}
+
+.workout-intensity {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.workout-intensity.intensity-light {
+  background-color: #E6F2FF;
+  color: #1E40AF;
+}
+
+.workout-intensity.intensity-moderate {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.workout-intensity.intensity-high {
+  background-color: #FEE2E2;
+  color: #9B1C1C;
+}
+
+.workout-intensity.intensity-extreme {
+  background-color: #5a5555;
+  color: #e0e3e5;
+}
+
+/* Existing styles remain the same, adding these new styles */
+.meal-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.meal-item:hover {
+  background-color: #F1E5FF; /* Light purple hover state */
+  transform: scale(1.02); /* Slight scale up on hover */
+}
+
+.meal-item.selected {
+  background-color: #4F378A; /* Deep purple selected state */
+  color: white;
+}
+
+.meal-item.selected .meal-time,
+.meal-item.selected .meal-details h5,
+.meal-item.selected .meal-details p {
+  color: white;
+}
+
+.meal-item.selected .meal-macros span {
+  background-color: #00a2ff; /* Slightly lighter purple for macros */
+  color: white;
 }

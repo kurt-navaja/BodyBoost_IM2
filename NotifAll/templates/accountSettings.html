@@ -208,6 +208,31 @@
     />
     <link
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
@@ -319,7 +344,10 @@
                       <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
                       <span class="mac-book-air1-text14">Overview</span>
                   </button>
-                  <button class="mac-book-air1-button2" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
+                  <button 
+                    class="mac-book-air1-button2"
+                    data-href="{% url 'notifAll:workout' %}"
+                    onclick="window.location.href=this.getAttribute('data-href')">
                     <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
                     <span class="mac-book-air1-text15">Workout</span>
                   </button>
@@ -465,12 +493,16 @@
               <div class="field-group">
                 <label class="mac-book-air1-text31">Body Type Goal</label>
                 <select class="mac-book-air1-text45 form-input" name="body_goal" style="width: 391px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 10px; margin-left: -15px;">
-                  <option value="" disabled selected>Select Body Type Goal</option>
-                  <option value="slim">Slim</option>
-                  <option value="toned">Toned</option>
-                  <option value="muscular">Muscular</option>
-                  <option value="bulky">Bulky</option>
-                  <option value="athletic">Athletic</option>
+                  {% if user.body_goal %}
+                    <option value="{{ user.body_goal }}" selected>{{ user.body_goal|title }}</option>
+                  {% else %}
+                    <option value="" disabled selected>Select Body Type Goal</option>
+                  {% endif %}
+                  {% if user.body_goal != 'victoria-secret-thin' %}<option value="victoria-secret-thin">Victoria Secret Thin</option>{% endif %}
+                  {% if user.body_goal != 'slim' %}<option value="slim">Slim</option>{% endif %}
+                  {% if user.body_goal != 'athletic' %}<option value="athletic">Athletic</option>{% endif %}
+                  {% if user.body_goal != 'muscular' %}<option value="muscular">Muscular</option>{% endif %}
+                  {% if user.body_goal != 'sumo-wrestler' %}<option value="sumo-wrestler">Sumo Wrestler</option>{% endif %}
                 </select>
               </div>
 
@@ -478,14 +510,18 @@
             <div class="field-group">
               <label class="mac-book-air1-text33">Training Intensity</label>
               <select class="mac-book-air1-text40 form-input" name="intensity" style="width: 227px; padding: 8px 12px; border: 1px solid #939393; border-radius: 6px; font-size: 16px; margin-top: -11px; margin-right: 3px; margin-left: -25px;">
-                <option value="" disabled selected>Select Intensity</option>
-                <option value="0.3 ">Gentle (0.3kg / week)</option>
-                <option value="0.6">Light (0.6kg / week)</option>
-                <option value="0.7">Moderate (0.75kg / week)</option>
-                <option value="0.8">Aggressive (1kg / week)</option>
-                <option value="0.9">High Intensity (1.25kg / week)</option>
+                {% if user.intensity %}
+                  <option value="{{ user.intensity }}" selected>{{ user.intensity }}</option>
+                {% else %}
+                  <option value="" disabled selected>Select Intensity</option>
+                {% endif %}
+                {% if user.intensity != 'Gentle' %}<option value="Gentle">Gentle (0.3kg / week)</option>{% endif %}
+                {% if user.intensity != 'Light' %}<option value="Light">Light (0.6kg / week)</option>{% endif %}
+                {% if user.intensity != 'Moderate' %}<option value="Moderate">Moderate (0.75kg / week)</option>{% endif %}
+                {% if user.intensity != 'Aggressive' %}<option value="Aggressive">Aggressive (1kg / week)</option>{% endif %}
+                {% if user.intensity != 'High Intensity' %}<option value="High Intensity">High Intensity (1.25kg / week)</option>{% endif %}
               </select>
-              </div>
+            </div>
 
 
                 <!-- Save Button -->

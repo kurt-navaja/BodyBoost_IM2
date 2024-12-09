@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     "Login",
     "NotifAll",
     "fitness",
-    "MySchedule.apps.MyScheduleConfig",  # Use the full path to the app config
+    "MySchedule",  # Use the full path to the app config
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
