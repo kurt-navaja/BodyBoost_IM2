@@ -57,7 +57,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About BodyBoost</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -81,20 +81,21 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About BodyBoost
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](Login/static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png) 
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+In this day and age, there are a lot of individuals out there who have decided to make a change and improve their lives through exercise and diet! Unfortunately, this process does not come easily and may be quite discouraging for newbies without the proper guide. BodyBoost is here to make sure that you get the proper nutrition and push to help you achieve the best version of yourself. Whether you're inexperienced or someone that can bench 200 kgs! BodyBoost is here to get you all set!
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* Get real-time updates on your calories burned and earned
+* Personalized exercise suggestions that would adapt to your preferred body goal
+* Different types of intensities that would be recorded every day
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Let's Get Started!
 
-Use the `BLANK_README.md` to get started.
+Signup to BodyBoost today and embark on a journey towards a healthier, stronger, and more confident you.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
