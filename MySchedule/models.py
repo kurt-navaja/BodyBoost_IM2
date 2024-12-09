@@ -90,3 +90,16 @@ class CompletedDay(models.Model):
         
     def __str__(self):
         return f"{self.user.username} - {self.date}"
+    
+class MoodEntry(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    mood_level = models.CharField(max_length=20)  # Poor, Fair, Good, Great, Excellent
+    mood_factors = models.JSONField(default=list)  # Store selected mood factors
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-timestamp']
+        verbose_name_plural = "Mood Entries"
+
+    def __str__(self):
+        return f"{self.user.username}'s mood on {self.timestamp}: {self.mood_level}"

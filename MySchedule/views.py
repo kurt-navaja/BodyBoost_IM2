@@ -4,7 +4,7 @@ from django.db import transaction, models # type: ignore
 from django.db.models import Case, When, Value, IntegerField # type: ignore
 from .models import WorkoutPlan, WorkoutSelectionLog, MealPlan, MealSelectionLog
 from .signals import initialize_workouts_for_user, initialize_meals_for_user
-from .models import CompletedDay
+from .models import CompletedDay, MoodEntry
 import json
 import calendar
 from datetime import date, timedelta, datetime
@@ -12,6 +12,7 @@ from datetime import date, timedelta, datetime
 from django.http import JsonResponse # type: ignore
 from django.views.decorators.http import require_POST # type: ignore
 from django.views.decorators.csrf import csrf_exempt # type: ignore
+from django.contrib.auth.decorators import login_required # type: ignore
 
 
 def get_personalized_workouts(user):
@@ -135,6 +136,14 @@ def mySched(request):
     month = int(month) if month else timezone.now().month
     year = int(year) if year else timezone.now().year
     
+    # Get calendar context for specified month/year, passing the user
+    calendar_context = get_calendar_context(user, year, month)
+    
+    # Debug prints
+    print("Prev Month:", calendar_context['prev_month'])
+    print("Next Month:", calendar_context['next_month'])
+    print("Current Month:", calendar_context['current_month'])
+    
     # Get personalized workouts and meals
     personalized_workouts = get_personalized_workouts(user)
     
@@ -151,7 +160,9 @@ def mySched(request):
         'personalized_meals': get_personalized_meals(user),
         # Add calendar context to existing context
         'current_month': calendar_context['current_month'],
-        'calendar_days': calendar_context['calendar_days']
+        'calendar_days': calendar_context['calendar_days'],
+        'prev_month': calendar_context['prev_month'],
+        'next_month': calendar_context['next_month']
     }
     return render(request, 'mySchedule.html', context)
 
@@ -221,11 +232,27 @@ def get_personalized_meals(user):
     return personalized_meals
 
 def get_calendar_context(user, year=None, month=None):
-    # If no year/month provided, use current
+     # If no year/month provided, use current
     if year is None:
         year = timezone.now().year
     if month is None:
         month = timezone.now().month
+        
+    # Previous and next month navigation
+    if month > 1:
+        prev_month = month - 1
+        prev_year = year
+    else:
+        prev_month = 12
+        prev_year = year - 1
+    
+    if month < 12:
+        next_month = month + 1
+        next_year = year
+    else:
+        next_month = 1
+        next_year = year + 1
+    
     
     # Create calendar object
     cal = calendar.monthcalendar(year, month)
@@ -240,7 +267,9 @@ def get_calendar_context(user, year=None, month=None):
                 current_date = date(year, month, day)
                 calendar_days.append({
                     'day': day,
-                    'is_today': current_date == today,
+                    'is_today': (current_date.year == today.year and 
+                                 current_date.month == today.month and 
+                                 current_date.day == today.day),
                     'is_completed': check_day_completed(user, current_date)
                 })
     
@@ -291,3 +320,39 @@ def unmark_day_completed(request):
         return JsonResponse({'status': 'success'})
     except Exception as e:
         return JsonResponse({'status': 'error', 'message': str(e)}, status=400)
+    
+@login_required
+def save_mood_entry(request):
+    if request.method == 'POST':
+        try:
+            # Parse JSON data
+            data = json.loads(request.body)
+            mood_level = data.get('mood_level')
+            mood_factors = data.get('mood_factors', [])
+
+            # Create mood entry
+            mood_entry = MoodEntry.objects.create(
+                user=request.user,
+                mood_level=mood_level,
+                mood_factors=mood_factors
+            )
+
+            return JsonResponse({
+                'status': 'success', 
+                'message': 'Mood entry saved successfully',
+                'id': mood_entry.id
+            })
+        except json.JSONDecodeError:
+            return JsonResponse({
+                'status': 'error', 
+                'message': 'Invalid JSON'
+            }, status=400)
+        except Exception as e:
+            return JsonResponse({
+                'status': 'error', 
+                'message': str(e)
+            }, status=400)
+    return JsonResponse({'status': 'error', 'message': 'Invalid request'}, status=400)
+
+def help_page(request):
+    return render(request, 'helpPage.html')

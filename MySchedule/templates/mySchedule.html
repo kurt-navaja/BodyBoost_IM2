@@ -327,10 +327,12 @@
 
             <!-- Sidebar Footer -->
             <div class="sidebar-footer">
-              <div class="mac-book-air1-component2">
-                <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
-                <span class="mac-book-air1-text20">Help</span>
-              </div>
+              <div class="mac-book-air1-component2"
+    data-href="{% url 'MySchedule:help' %}"
+    onclick="window.location.href=this.getAttribute('data-href')">
+    <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
+    <span class="mac-book-air1-text20">Help</span>
+</div>
                 <a href="{% url 'login:login' %}">
                 <button class="mac-book-air1-button7">
                   <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
@@ -418,11 +420,12 @@
                             </div>
                           </div>
                           <div class="mood-factors">
-                            <div class="mood-tag active">Energetic</div>
+                            <div class="mood-tag">Energetic</div>
                             <div class="mood-tag">Stressed</div>
-                            <div class="mood-tag active">Motivated</div>
+                            <div class="mood-tag">Motivated</div>
                             <div class="mood-tag">Tired</div>
                             <div class="mood-tag">Anxious</div>
+                            <div class="mood-tag">Confident</div>
                           </div>
                         </div>
                       </div>
@@ -569,55 +572,65 @@
             </div>
             {% endblock %}
           </main>
-          <script>
-           document.addEventListener('DOMContentLoaded', function() {
-  const calendarDays = document.querySelectorAll('.calendar-day, .calendar-day-today, .calendar-day-success');
-  
-  calendarDays.forEach(dayElement => {
-    dayElement.addEventListener('click', function() {
-      const dayNumber = this.querySelector('.day-number').textContent;
-      const currentMonth = document.querySelector('.calendar-title').textContent;
-      const [month, year] = currentMonth.split(' ');
-      
-      const monthNames = [
-        'January', 'February', 'March', 'April', 'May', 'June', 
-        'July', 'August', 'September', 'October', 'November', 'December'
-      ];
-      
-      const monthIndex = monthNames.indexOf(month) + 1;
-      const formattedDate = `${year}-${monthIndex.toString().padStart(2, '0')}-${dayNumber.padStart(2, '0')}`;
-      
-      // Determine the action based on current class
-      const isCurrentlyCompleted = this.classList.contains('calendar-day-success');
-      const actionUrl = isCurrentlyCompleted ? '/mySchedule/unmark-completed/' : '/mySchedule/mark-completed/';
-      
-      fetch(actionUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `date=${formattedDate}`
-      })
-      .then(response => response.json())
-      .then(data => {
-        if (data.status === 'success') {
-          // Toggle between completed and normal state
-          if (isCurrentlyCompleted) {
-            this.classList.remove('calendar-day-success');
-            this.classList.add(this.dataset.today === 'true' ? 'calendar-day-today' : 'calendar-day');
-          } else {
-            // Remove any existing special classes
-            this.classList.remove('calendar-day', 'calendar-day-today');
-            this.classList.add('calendar-day-success');
-          }
-        }
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-    });
-  });
-});
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const calendarDays = document.querySelectorAll('.calendar-day, .calendar-day-today, .calendar-day-success');
+              const navigationButtons = document.querySelectorAll('.calendar-nav-btn');
+
+              navigationButtons.forEach(button => {
+                  button.addEventListener('click', function() {
+                      const year = this.getAttribute('data-year');
+                      const month = this.getAttribute('data-month');
+                      
+                      // Redirect to the same page with new month/year parameters
+                      window.location.href = `/mySchedule/schedule/?year=${year}&month=${month}`;
+                  });
+              });
+              calendarDays.forEach(dayElement => {
+                dayElement.addEventListener('click', function() {
+                  const dayNumber = this.querySelector('.day-number').textContent;
+                  const currentMonth = document.querySelector('.calendar-title').textContent;
+                  const [month, year] = currentMonth.split(' ');
+                  
+                  const monthNames = [
+                    'January', 'February', 'March', 'April', 'May', 'June', 
+                    'July', 'August', 'September', 'October', 'November', 'December'
+                  ];
+                  
+                  const monthIndex = monthNames.indexOf(month) + 1;
+                  const formattedDate = `${year}-${monthIndex.toString().padStart(2, '0')}-${dayNumber.padStart(2, '0')}`;
+                  
+                  // Determine the action based on current class
+                  const isCurrentlyCompleted = this.classList.contains('calendar-day-success');
+                  const actionUrl = isCurrentlyCompleted ? '/mySchedule/unmark-completed/' : '/mySchedule/mark-completed/';
+                  
+                  fetch(actionUrl, {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: `date=${formattedDate}`
+                  })
+                  .then(response => response.json())
+                  .then(data => {
+                    if (data.status === 'success') {
+                      // Toggle between completed and normal state
+                      if (isCurrentlyCompleted) {
+                        this.classList.remove('calendar-day-success');
+                        this.classList.add(this.dataset.today === 'true' ? 'calendar-day-today' : 'calendar-day');
+                      } else {
+                        // Remove any existing special classes
+                        this.classList.remove('calendar-day', 'calendar-day-today');
+                        this.classList.add('calendar-day-success');
+                      }
+                    }
+                  })
+                  .catch(error => {
+                    console.error('Error:', error);
+                  });
+                });
+              });
+            });
           </script>
         </div>
       </div>
