@@ -1,0 +1,515 @@
+body {
+    margin: 0;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.next1 {
+    background-color: #A0FFA0;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.homepage-banner-mob-btg-with {
+    position: absolute;
+    top: 143px;
+    left: 52%;
+    width: 738px;
+    height: 400px; /* Reduced height */
+}
+
+.logopurple-icon {
+    position: absolute;
+    top: 24px;
+    left: 230px;
+    width: 200px;
+    height: 109px;
+    object-fit: cover;
+}
+
+.frame-child {
+    position: absolute;
+    top: 733px;
+    left: 178px;
+    box-shadow: 0px 4px 4px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #7cfc90;
+    width: 262px;
+    height: 50px;
+}
+
+.sign-up {
+    position: absolute;
+    top: 744px;
+    left: calc(50% - 202px);
+    font-size: 21px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 287px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.describe-yourself {
+    position: absolute;
+    top: 144px;
+    left: calc(50% - 220px);
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    color: #3a2e79;
+    text-align: center;
+    width: 448px;
+    height: 51px;
+    opacity: 0.8;
+    font-weight: bold; /* Added bold */
+}
+
+.health-concerns1 {
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    width: 153px;
+    height: 26px;
+}
+
+.div {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    letter-spacing: -0.01em;
+    font-family: Oswald;
+    color: rgba(58, 71, 80, 0.8);
+    display: inline-block;
+    width: 249px;
+    height: 30px;
+}
+
+.health-concerns {
+    position: absolute;
+    top: 568px;
+    left: 57px;
+    width: 249px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.next-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #7cfc90;
+    width: 160px;
+    height: 40px;
+}
+
+.next1 {
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 38.95px);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    display: flex;
+    top: 577px;
+    left: 355px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.logopurple-parent {
+    position: absolute;
+    top: 144px;
+    left: 240px;
+    box-shadow: 0px 4px 10.2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 120px 120px 0px;
+    background-color: #f7f1f1;
+    width: 670px;
+    height: 699px;
+    overflow: hidden;
+}
+
+.logopurple-parent h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #3a2e79;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logopurple-parent .w1S {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
+.logopurple-parent .w2S {
+    position: absolute;
+    top: 280px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
+.logopurple-parent .w3S {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: #f7f1f1;
+}
+
+.avatar-w-photo {
+    position: absolute;
+    top: 50px;
+    left: 1161px;
+    border-radius: 999px;
+    width: 40px;
+    height: 40px;
+}
+
+.bell-1-icon {
+    position: absolute;
+    top: 55px;
+    left: 1035px;
+    width: 34px;
+    height: 32.9px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.badge-label {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.badges {
+    position: absolute;
+    top: 49px;
+    left: 1056px;
+    border-radius: 100px;
+    background-color: #b3261e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 4px;
+    box-sizing: border-box;
+    min-width: 16px;
+    max-width: 34px;
+    text-align: center;
+}
+
+.welcome-back {
+    position: absolute;
+    top: 17.94px;
+    left: calc(50% - 75.5px);
+    letter-spacing: -0.01em;
+    display: inline-block;
+    width: 151px;
+    height: 20.1px;
+    opacity: 0.89;
+}
+
+.good-morning {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 75.5px);
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    font-weight: 200;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 112.2px;
+    height: 16.9px;
+}
+
+.greetings {
+    position: absolute;
+    top: 49px;
+    left: 190px;
+    width: 151px;
+    height: 38px;
+    font-size: 15px;
+    font-family: Outfit;
+}
+
+.iconsaxboldsetting2 {
+    position: absolute;
+    top: 53px;
+    left: 1097px;
+    width: 36px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.iconsaxlinearsearchnormal {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search {
+    position: relative;
+    width: 100%; /* Match the width */
+    outline: none; /* Remove the outline */
+}
+
+.iconsaxlinearsearchnormal-parent {
+    position: absolute;
+    top: 49px;
+    left: 450px;
+    border-radius: 8px;
+    background-color: #f8fafb;
+    border: 1px solid #f1f5f9;
+    box-sizing: border-box;
+    width: 537px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 8px;
+    font-size: 14px;
+    color: #64748b;
+    font-family: Manrope;
+}
+
+.avatar-w-photo-parent {
+    position: absolute;
+    top: 0px;
+    left: 7%;
+    background-color: rgba(58, 46, 121, 0.93);
+    width: 100%;
+    height: 135px;
+    overflow: hidden;
+    font-size: 11px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.fitness {
+    position: relative;
+    line-height: 22px;
+    font-weight: 800;
+}
+
+.workout-bold-icon {
+    width: 50px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.fitness-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.app-logo {
+    align-self: stretch;
+    background-color: #fff;
+    border-bottom: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 8px 24px;
+}
+
+.overview {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+}
+
+.frame-item {
+    width: 192px;
+    flex: 1;
+}
+
+.button-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+    color: #000000;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.app-logo-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.frame-inner {
+    width: 192px;
+    height: 0px;
+}
+
+.frame-parent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 18px;
+    color: #4f378a;
+}
+
+.button6 {
+    align-self: stretch;
+    background-color: #fff;
+    border-top: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    gap: 16px;
+    font-size: 14px;
+    color: #475569;
+}
+
+.logopurple-icon1 {
+    position: absolute;
+    top: 28px;
+    left: 255px;
+    width: 48px;
+    height: 23px;
+    object-fit: cover;
+}
+
+.navaja-exercise-library-with {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #3a4750;
+    font-family: Outfit;
+    margin-left: 7%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none; /* Prevents underline on hover */
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.timer-wrapper {
+  position: relative;
+}
+
+#timer1, #timer2, #timer3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  background: none;
+}
+
+#timer4, #timer5, #timer6 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background: none;
+  }
+
+.edit-icon {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#startPauseBtn1, #resetBtn1, #startPauseBtn2, #resetBtn2, #startPauseBtn3, #resetBtn3 {
+  padding: 10px 20px;
+  background-color: #6C5DD3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#startPauseBtn1:hover, #resetBtn1:hover, #startPauseBtn2:hover, #resetBtn2:hover, #startPauseBtn3:hover, #resetBtn3:hover {
+  background-color: #574bbd;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}

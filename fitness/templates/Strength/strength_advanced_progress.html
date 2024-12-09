@@ -1,0 +1,767 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Advanced Progress</title>
+    <link rel="icon" href="{% static 'images/logoPurpleB.png' %}">
+    <link rel="stylesheet" href="{% static '/css/globals.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/styleguide.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/style.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/workout1.css'%}" />
+    <script src="https://cdn.jsdelivr.net/npm/easytimer.js@4.4.0/dist/easytimer.min.js"></script>
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 68%;
+        top: 13%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 30px; /* Increased padding for a more formal layout */
+        border: 1px solid #888;
+        width: 100%;
+        font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .modal-content h2 {
+        margin-top: 0;
+        font-size: 28px; /* Increased font size */
+        font-weight: bold; /* Ensure the font weight is set */
+        color: #333; /* Ensure the color is set */
+      }
+      .modal-content p {
+        margin: 20px 0; /* Increased margin for gap between texts */
+        font-size: 18px; /* Increased font size */
+      }
+      .modal-content .user-name {
+        font-weight: bold;
+      }
+      .button:hover, .button-2:hover, .button-3:hover, .component:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(11, 47, 211, 0.1); /* Add subtle shadow */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+      }
+      .side-bar a {
+        display: block;
+        width: 100%;
+      }
+      .navaja-notification {
+        position: absolute;
+        width: 100%; /* Ensure parent element has a defined width */
+        height: 135px;
+        top: 0;
+        left: 7px;
+        background-color: #3a2e79ed;
+      }
+      .mac-book-air1-frame251 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        position: absolute;
+        top: 49px;
+        left: 450px;
+        width: 537px;
+        background-color: #f8fafb;
+        border-radius: 8px;
+        border: 1px solid var(--slate-100);
+      }
+      .mac-book-air1-search-input {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        font-family: "Manrope", Helvetica;
+        color: var(--slate-500);
+      }
+      .mac-book-air1-iconsax-linearsearchnormal {
+        width: 24px;
+        height: 24px;
+      }
+      .mac-book-air1-frame12 button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-frame12 button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-frame12 button::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-frame12 button span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-frame12 button:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Active state styles */
+      .mac-book-air1-frame12 button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+
+      .mac-book-air1-frame12 button.active::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-frame12 button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+
+      /* Progress button specific styles (with arrow) */
+      .mac-book-air1-button6 {
+        position: relative;
+      }
+
+      .mac-book-air1-button6 .mac-book-air1-arrowdark {
+        position: absolute;
+        right: 10px;
+        opacity: 0;
+        transform: translateX(-10px);
+        transition: all 0.3s ease;
+      }
+
+      .mac-book-air1-button6:hover .mac-book-air1-arrowdark {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      /* Sidebar Footer Styles */
+      .sidebar-footer {
+        margin-top: auto;
+        padding: 24px;
+      }
+
+      /* Help button styles */
+      .mac-book-air1-component2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .mac-book-air1-component2:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-component2::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #6C5DD3;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-component2 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-component2 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-component2:hover span {
+        color: #6C5DD3;
+      }
+
+      /* Logout button styles */
+      .mac-book-air1-button7 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 12px 25px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        margin-left: -24px;
+      }
+
+      .mac-book-air1-button7:hover {
+        background: rgba(255, 59, 48, 0.1);
+        transform: translateX(5px);
+      }
+
+      .mac-book-air1-button7::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        background: #ec1c1c;
+        border-radius: 0 4px 4px 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover::before {
+        opacity: 1;
+      }
+
+      .mac-book-air1-button7 img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        transition: transform 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover img {
+        transform: scale(1.1);
+      }
+
+      .mac-book-air1-button7 span {
+        color: #1A1A1A;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.3s ease;
+      }
+
+      .mac-book-air1-button7:hover span {
+        color: #FF3B30;
+      }
+
+      .mac-book-air1-sidebar-footer button {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        border: none;
+        background: transparent;
+        margin: 4px 0;
+      }
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: #f8fafb;
+        padding: 16px;
+        border-right: 1px solid var(--slate-100);
+        z-index: 1;
+      }
+      .sidebar .frame-3 {
+        flex: 1;
+      }
+      .sidebar .frame-6 {
+        display: flex;
+        flex-direction: column;
+      }
+      .sidebar .frame-7 {
+        flex: 1;
+      }
+      .sidebar .component {
+        margin-top: auto;
+      }
+      .sidebar .button,
+      .sidebar .button-2,
+      .sidebar .button-3 {
+        width: 100%;
+        text-align: left;
+      }
+      .sidebar .button img,
+      .sidebar .button-2 img,
+      .sidebar .button-3 img {
+        margin-right: 12px;
+      }
+      .sidebar .button span,
+      .sidebar .button-2 span,
+      .sidebar .button-3 span {
+        color: #000000; /* Change font color to black */
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .sidebar .button:hover,
+      .sidebar .button-2:hover,
+      .sidebar .button-3:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before,
+      .sidebar .button-2:hover::before,
+      .sidebar .button-3:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img,
+      .sidebar .button-2:hover img,
+      .sidebar .button-3:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span,
+      .sidebar .button-2:hover span,
+      .sidebar .button-3:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active,
+      .sidebar .button-2.active,
+      .sidebar .button-3.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span,
+      .sidebar .button-2.active span,
+      .sidebar .button-3.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .sidebar .button-3:hover {
+        background: rgba(255, 59, 48, 0.1);
+      }
+      .sidebar .button-3:hover span {
+        color: #FF3B30;
+      }
+      .sidebar .button {
+        background-color: transparent; /* Remove background color */
+      }
+      .sidebar .button:hover {
+        background: rgba(108, 93, 211, 0.1);
+        transform: translateX(5px);
+      }
+      .sidebar .button:hover::before {
+        opacity: 1;
+      }
+      .sidebar .button:hover img {
+        transform: scale(1.1);
+      }
+      .sidebar .button:hover span {
+        color: #6C5DD3;
+      }
+      .sidebar .button.active {
+        background: rgba(108, 93, 211, 0.1);
+      }
+      .sidebar .button.active span {
+        color: #6C5DD3;
+        font-weight: 600;
+      }
+      .navaja-notification {
+        justify-content: flex-start; /* Align content to the start */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-wrapper {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification .overlap-group {
+        margin-left: 0; /* Remove centering margin */
+        /* ...existing code... */
+      }
+      .navaja-notification {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-wrapper {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .overlap-group {
+        width: 100%; /* Ensure parent element has a defined width */
+        /* ...existing code... */
+      }
+      .frame {
+        position: relative; /* Adjust positioning */
+        width: 100%; /* Set width to 100% */
+        left: 0; /* Align to the left */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+        /* ...existing code... */
+      }
+      /* Add styles for the next page content */
+      .next-page-content {
+        display: none;
+      }
+      /* Add styles for the next page icon */
+      .next-page-icon {
+        cursor: pointer;
+        width: 28px;
+        height: 28px;
+        transition: transform 0.3s ease;
+        margin-left: 600px;
+        top: -500px;
+      }
+      .next-page-icon:hover {
+        transform: scale(1.1);
+      }
+      .containerW1, .containerW2, .containerW3, .containerW4, .containerW5, .containerW6 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 30px;
+      }
+      .logopurple-parent h2{
+        margin-bottom: 40px;
+      }
+      .timer-label {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .set-modal {
+        display: none;
+        position: fixed;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        background-color: #fff;
+        border: 1px solid #888;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        text-align: center;
+      }
+      .set-modal button {
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .set-modal .yes-btn {
+        background-color: #4CAF50;
+        color: white;
+      }
+      .set-modal .no-btn {
+        background-color: #f44336;
+        color: white;
+      }
+      .progress-bar-container {
+        width: 95%;
+        background-color: #f3f3f3;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+      .progress-bar {
+        height: 20px;
+        background-color: #4caf50;
+        border-radius: 5px;
+        width: 0%;
+        min-width: 5%; /* Ensure the progress bar is visible even if empty */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navaja-notification">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="homepage-banner-mob-btg-with"> 
+              <video controls autoplay muted loop width="100%">
+                  <source src="{% static 'video/workout.mp4' %}" type="video/mp4">
+              </video>
+          </div>
+            <div class="frame">
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <div class="avatar-container">
+                  {% if user.profile_photo %}
+                    <img src="{{ user.profile_photo.url }}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% else %}
+                    <img src="{% static 'images/profile_photo1.png' %}" alt="Profile Picture" class="avatar-w-photo" style="cursor: pointer;" />
+                  {% endif %}
+                </div>
+              </a>
+              <div class="div">
+                <a href="javascript:void(0);" id="bell-icon"> <img class="bell" src="{% static '/images/bell-1.png'%}" /> </a>
+                <div class="badges"><div class="badge-label">3</div></div>
+              </div>
+              <div class="mac-book-air1-frame251">
+                <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+                <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+              </div>
+              <div class="greetings">
+                <div class="text-wrapper">Welcome Back!</div>
+                <div class="good-morning">Good&nbsp;&nbsp;Morning</div>
+              </div>
+              <a href="{% url 'notifAll:accountSettings' %}"><img class="iconsax-bold" src="{% static '/images/iconsax-bold-setting2.png'%}" /> </a>
+            </div>
+            <div class="side-bar sidebar">
+              <div class="frame-3">
+                <div class="frame-4">
+                  <div class="app-logo">
+                    <div class="frame-5">
+                      <div class="fitness">BodyBoost</div>
+                      <img class="workout-bold" src="{% static '/images/workout-bold-3.png'%}" />
+                      <img class="logo-purple" src="{% static 'images/logoPurple.png' %}" alt="Logo Purple" />
+                    </div>
+                  </div>
+                  <div class="frame-6">
+                    <a href="{% url 'notifAll:firstP' %}"><button class="button mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/dashboard(1).png'%}" />
+                      <span class="text-wrapper-3">Overview</span>
+                    </button></a>
+                    <a href="{% url 'notifAll:workout' %}"><button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/workout-2.png'%}" />
+                      <span class="overview">Workout</span>
+                    </button></a>
+                    <button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/diet-plan-2.png'%}" />
+                      <span class="overview">Diet Plan</span>
+                    </button>
+                    <button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/goal-2.png'%}" />
+                      <span class="overview">Goals</span>
+                    </button>
+                    <a href="{% url 'mySchedule:mySched' %}"><button class="button-2 mac-book-air1-frame12">
+                      <img class="img" src="{% static '/images/schedule-2.png'%}" />
+                      <span class="overview">My Schedule</span>
+                    </button></a>
+                    <button class="button-2 mac-book-air1-frame12 mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
+                      <img class="img" src="{% static '/images/progres-2.png'%}" />
+                      <span class="overview">Progress</span>
+                      <img class="img mac-book-air1-arrowdark" src="{% static '/images/arrow-dark.png'%}" />
+                    </button>
+                    <div class="frame-7"></div>
+                  </div>
+                </div>
+                <div class="frame-8"></div>
+              </div>
+              <div class="component mac-book-air1-component2">
+                <img class="img" src="{% static '/images/help-2.png'%}" />
+                <span class="overview">Help</span>
+              </div>
+              <a href="{% url 'login:login' %}">
+                <button class="button-3 mac-book-air1-button7">
+                  <img class="img" src="{% static '/images/logout-2.png'%}" />
+                  <span class="overview">Logout</span>
+                </button>
+              </a>
+            </div>
+            <img class="logo-purple" src="{% static '/images/logoPurple.png'%}" />
+          </div>
+
+        <div class="logopurple-parent">
+          <a href="javascript:history.back()" class="back-button">
+            <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+          </a>
+          <h2>Advanced Progress</h2>
+          
+          <!-- Add progress bars inside this container -->
+          <div class="containerW1">
+            <div class="timer-label">Lunges</div>
+            <div class="progress-bar-container">
+              <div id="progressBar1" class="progress-bar"></div>
+              <div id="progressPercentage1" class="progress-percentage">0%</div>
+            </div>
+          </div>
+          <div class="containerW2">
+            <div class="timer-label">Sit Ups</div>
+            <div class="progress-bar-container">
+              <div id="progressBar2" class="progress-bar"></div>
+              <div id="progressPercentage2" class="progress-percentage">0%</div>
+            </div>
+          </div>
+          <div class="containerW3">
+            <div class="timer-label">Left Arm Row</div>
+            <div class="progress-bar-container">
+              <div id="progressBar3" class="progress-bar"></div>
+              <div id="progressPercentage3" class="progress-percentage">0%</div>
+            </div>
+          </div>
+          <div class="containerW4">
+            <div class="timer-label">Plank with Shoulder Taps</div>
+            <div class="progress-bar-container">
+              <div id="progressBar4" class="progress-bar"></div>
+              <div id="progressPercentage4" class="progress-percentage">0%</div>
+            </div>
+          </div>
+          <div class="containerW5">
+            <div class="timer-label">Overhead Dumbbell Press</div>
+            <div class="progress-bar-container">
+              <div id="progressBar5" class="progress-bar"></div>
+              <div id="progressPercentage5" class="progress-percentage">0%</div>
+            </div>
+          </div>
+          <div class="containerW6">
+            <div class="timer-label">Right Arm Row</div>
+            <div class="progress-bar-container">
+              <div id="progressBar6" class="progress-bar"></div>
+              <div id="progressPercentage6" class="progress-percentage">0%</div>
+            </div>
+          </div>
+        </div>
+
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <h2>Notification</h2>
+              <hr>
+              <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+              <hr>
+              <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+              <hr>
+              <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
+            </div>
+          </div>
+          <div id="setModal" class="set-modal">
+            <p>Do you want to go for another set with an increased timer?</p>
+            <button class="yes-btn" onclick="resetToDefault()">Yes</button>
+            <button class="no-btn" onclick="closeSetModal()">No</button>
+          </div>
+          
+            <script>
+              var modal = document.getElementById("myModal");
+              var btn = document.getElementById("bell-icon");
+              var badge = document.querySelector(".badge-label");
+            
+              btn.onclick = function() {
+                if (modal.style.display === "block") {
+                  modal.style.display = "none";
+                } else {
+                  modal.style.display = "block";
+                  badge.style.display = "none"; // Hide the badge when the modal is opened
+                }
+              }
+            
+              window.onclick = function(event) {
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              }
+            
+              function updateProgressBar(progressBarId, progressPercentageId, elapsedTime, totalTime) {
+                var progressBar = document.getElementById(progressBarId);
+                var progressPercentage = document.getElementById(progressPercentageId);
+                var progress = ((totalTime - elapsedTime) / totalTime) * 100;
+                progressBar.style.width = progress + '%';
+                progressPercentage.textContent = Math.round(progress) + '%';
+              }
+            
+              document.addEventListener('DOMContentLoaded', function() {
+                var progress = JSON.parse(localStorage.getItem('progress')) || {};
+            
+                function setProgress(timerValue, progressBarId, progressPercentageId, totalTime) {
+                  if (timerValue) {
+                    var timeParts = timerValue.split(':');
+                    var minutes = parseInt(timeParts[0]);
+                    var seconds = parseFloat(timeParts[1]);
+                    var elapsedTime = (minutes * 60) + seconds;
+                    updateProgressBar(progressBarId, progressPercentageId, elapsedTime, totalTime);
+                  }
+                }
+            
+                setProgress(progress.timer1, "progressBar1", "progressPercentage1", 300); // 5 minutes
+                setProgress(progress.timer2, "progressBar2", "progressPercentage2", 240);  // 4 minutes
+                setProgress(progress.timer3, "progressBar3", "progressPercentage3", 180); // 3 minutes
+                setProgress(progress.timer4, "progressBar4", "progressPercentage4", 300); // 5 minutes
+                setProgress(progress.timer5, "progressBar5", "progressPercentage5", 180);  // 3 minutes
+                setProgress(progress.timer6, "progressBar6", "progressPercentage6", 240); // 4 minutes
+                
+                // Calculate and store advanced progress
+                var totalExercises = 6;
+                var completedExercises = 0;
+                for (var i = 1; i <= totalExercises; i++) {
+                  var progressBar = document.getElementById('progressBar' + i);
+                  if (progressBar.style.width === '100%') {
+                    completedExercises++;
+                  }
+                }
+                var advancedProgress = (completedExercises / totalExercises) * 100;
+                var strengthProgress = JSON.parse(localStorage.getItem('strengthProgress')) || {};
+                strengthProgress.advanced = advancedProgress;
+                localStorage.setItem('strengthProgress', JSON.stringify(strengthProgress));
+              });
+
+              function resetProgress() {
+                localStorage.setItem('strengthProgress', JSON.stringify({
+                  beginner: 0,
+                  intermediate: 0,
+                  advanced: 0
+                }));
+                location.reload(); // Reload the page to update the progress bars
+              }
+            </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

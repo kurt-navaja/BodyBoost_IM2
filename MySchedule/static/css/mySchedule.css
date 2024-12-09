@@ -1,0 +1,1250 @@
+.mac-book-air1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mac-book-air1-mac-book-air1 {
+  width: 100%;
+  height: 832px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mac-book-air1-frame5 {
+  position: fixed;
+  top: 0px;
+  left: 40px;
+  width: 1500px;
+  height: 135px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(58, 46, 121, 0.93);
+}
+
+.mac-book-air1-avatarwphoto1 {
+  top: 50px;
+  left: 1161px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 2px solid rgba(255, 254, 254, 0.937);
+  border-radius: 999px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mac-book-air1-bell1 {
+  top: 55px;
+  left: 1035px;
+  width: 34px;
+  height: 33px;
+  position: absolute;
+}
+
+.mac-book-air1-badges {
+  top: 49px;
+  left: 1056px;
+  width: 16px;
+  display: flex;
+  padding: 0 4px;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: rgba(179, 38, 30, 1);
+}
+
+.mac-book-air1-greetings {
+  top: 49px;
+  left: 281px;
+  width: 151px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  z-index: 9;
+}
+
+.mac-book-air1-text10 {
+  top: 17.94px;
+  color: rgba(255, 255, 255, 1);
+  width: 151px;
+  opacity: 0.89;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mac-book-air1-text11 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  position: absolute;
+  font-size: 12px;
+  font-style: ExtraLight;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.mac-book-air1-iconsax-boldsetting2 {
+  top: 54px;
+  left: 1098px;
+  width: 34px;
+  height: 33px;
+  position: absolute;
+}
+
+.mac-book-air1-frame251 {
+  gap: 8px;
+  top: 49px;
+  left: 450px;
+  width: 537px;
+  display: flex;
+  padding: 8px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 245, 249, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(248, 250, 251, 1);
+}
+
+.mac-book-air1-iconsax-linearsearchnormal {
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.mac-book-air1-search-input {
+  border: none;
+  outline: none;
+  width: 510px;
+  background-color: transparent;
+  font-size: 1rem;
+  font-family: Outfit;
+  font-style: light;
+  font-weight: 300;
+  padding: 5px;
+  color: #333;
+}
+
+.mac-book-air1-sidebar {
+  gap: 16px;
+  top: -9px;
+  left: -7px;
+  width: 240px;
+  height: 841px;
+  display: flex;
+  padding: 24px;
+  position: absolute;
+  box-shadow: 0px 12px 17px 2px rgba(0, 0, 0, 0.03);
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mac-book-air1-frame16,
+.mac-book-air1-frame15 {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mac-book-air1-frame15 {
+  gap: 24px;
+}
+
+.mac-book-air1-app-logo {
+  gap: 10px;
+  display: flex;
+  padding: 8px 8px 24px;
+  align-self: stretch;
+  align-items: center;
+  border-color: rgba(203, 213, 225, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.mac-book-air1-frame812852 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.mac-book-air1-text13 {
+  color: rgba(79, 55, 138, 1);
+  margin-left: -40px;
+  font-size: 20px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.mac-book-air1-frame12 {
+  gap: 16px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Common button styles */
+.mac-book-air1-button1,
+.mac-book-air1-button2,
+.mac-book-air1-button3,
+.mac-book-air1-button4,
+.mac-book-air1-button5,
+.mac-book-air1-button6 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mac-book-air1-button1 {
+  background-color: rgba(72, 61, 130, 1);
+}
+
+/* Common button icon styles */
+.mac-book-air1-dashbaord,
+.mac-book-air1-workout,
+.mac-book-air1-diet-plan,
+.mac-book-air1-goal,
+.mac-book-air1-schedule,
+.mac-book-air1-progres,
+.mac-book-air1-help,
+.mac-book-air1-logout {
+  width: 24px;
+  height: 24px;
+}
+
+/* Common text styles for buttons */
+.mac-book-air1-text14,
+.mac-book-air1-text15,
+.mac-book-air1-text16,
+.mac-book-air1-text17,
+.mac-book-air1-text18,
+.mac-book-air1-text19,
+.mac-book-air1-text20,
+.mac-book-air1-text21 {
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--dl-color-default-slate600);
+}
+
+.mac-book-air1-text14 {
+  color: white;
+}
+
+.mac-book-air1-button7 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(226, 232, 240, 1);
+  border-style: solid;
+  border-width: 1px 0 0;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: -25px;
+}
+
+.mac-book-air1-component2 {
+  gap: 16px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: -22px;
+}
+
+.mac-book-air1-text23,
+.mac-book-air1-text27,
+.mac-book-air1-text28 {
+  position: absolute;
+  font-family: Manrope;
+}
+
+.mac-book-air1-text23 {
+  top: 325px;
+  left: 285px;
+  color: var(--dl-color-default-slate600);
+  width: 399px;
+  opacity: 0.76;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.mac-book-air1-text27,
+.mac-book-air1-text28 {
+  color: rgba(79, 55, 138, 1);
+  font-style: ExtraBold;
+  font-weight: 800;
+  line-height: 22px;
+}
+
+.mac-book-air1-text27 {
+  top: 182px;
+  left: 350px;
+  width: 279px;
+  font-size: 32px;
+}
+
+.mac-book-air1-text28 {
+  top: 285px;
+  left: 285px;
+  width: 235px;
+  font-size: 28px;
+}
+
+.mac-book-air1-logo-purple {
+  top: 34px;
+  left: 154px;
+  width: 44px;
+  height: 21px;
+  position: absolute;
+}
+
+.mac-book-air1-leftarrow1 {
+  top: 171px;
+  left: 277px;
+  width: 40px;
+  height: 41px;
+  position: absolute;
+}
+
+/* Main Content Frame */
+.main-content-frame {
+  position: fixed;
+  top: 135px; /* Height of the top header */
+  left: 240px; /* Width of the sidebar */
+  right: 0;
+  bottom: 0;
+  background-color: #F8FAFC;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.frame-header {
+  padding: 24px 32px;
+  background-color: white;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: rgba(79, 55, 138, 0.1);
+}
+
+.back-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.frame-title {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.frame-description {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* Schedule Content */
+.schedule-content {
+  padding: 24px 32px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Calendar Styles */
+/* Calendar Section */
+.calendar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* Creates space between calendar and step counter */
+}
+
+.calendar-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-title {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.calendar-nav-btn {
+  background: none;
+  border: none;
+  color: #4F378A;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.calendar-nav-btn:hover {
+  background-color: rgba(79, 55, 138, 0.1);
+}
+
+.calendar-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  color: #64748B;
+  font-size: 14px;
+}
+
+.calendar-day-today {
+  background-color: #4F378A;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calendar-day-today-success {
+  background-color: #00f863;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calendar-day-today .calendar-day-today-success .day-number {
+  color: white;
+}
+
+.calendar-day-today {
+  background-color: #4F378A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.calendar-day-today-success {
+  background-color: #00f863;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.calendar-day-success {
+  border-radius: 50%;
+  cursor: pointer;
+  color: #00f863;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.calendar-day-success:hover {
+  background-color: rgba(0, 248, 145, 0.1);
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+  background-color: rgba(79, 55, 138, 0.1);
+}
+
+.calendar-day.has-workout {
+  border: 2px solid #4F378A;
+}
+
+.workout-indicator {
+  width: 6px;
+  height: 6px;
+  background-color: #4F378A;
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+/* Daily Schedule Styles */
+.daily-schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.schedule-header h3 {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.date {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+}
+
+.schedule-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.card-header h4 {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+/* Workout Items */
+.workout-list, .meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.workout-item, .meal-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #F8FAFC;
+}
+
+.workout-time, .meal-time {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.workout-details h5, .meal-details h5 {
+  color: #1E293B;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.workout-details p, .meal-details p {
+  color: #64748B;
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+.workout-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4F378A;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.workout-status.pending {
+  background-color: #E2E8F0;
+  color: #64748B;
+}
+
+/* Workout Card */
+.schedule-card.workout-card {
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Workout List Container */
+.workout-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  max-height: calc(300px - 60px); /* Adjust based on your card header height */
+  padding-right: 8px; /* Add padding for scrollbar space */
+  
+  /* Hide scrollbar by default */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4F378A transparent; /* Firefox */
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #4F378A;
+    border-radius: 20px;
+    border: transparent;
+  }
+}
+
+/* Workout Items */
+.workout-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #F8FAFC;
+  margin-right: 2px; /* Prevent items from touching scrollbar */
+}
+
+/* Keep your existing styles for other elements */
+.workout-time {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.workout-details h5 {
+  color: #1E293B;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.workout-details p {
+  color: #64748B;
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+.workout-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4F378A;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.workout-status.pending {
+  background-color: #E2E8F0;
+  color: #64748B;
+}
+
+/* Meal List Container */
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  max-height: calc(195px - 60px); /* Adjust based on your card header height */
+  padding-right: 8px; /* Add padding for scrollbar space */
+  padding-left: 6px;
+  
+  /* Hide scrollbar by default */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4F378A transparent; /* Firefox */
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #4F378A;
+    border-radius: 20px;
+    border: transparent;
+  }
+}
+
+/* Meal Items */
+.meal-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #F8FAFC;
+  margin-right: 2px; /* Prevent items from touching scrollbar */
+}
+
+/* Meal Macros */
+.meal-macros {
+  display: flex;
+  gap: 8px;
+}
+
+.meal-macros span {
+  padding: 4px 8px;
+  background-color: #F1F5F9;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #64748B;
+}
+
+/* Progress Stats */
+.progress-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-circle-intake,
+.stat-circle-burned,
+.stat-circle-protein,
+.stat-circle-water {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.circular-chart {
+  width: 100%;
+  height: 100%;
+}
+
+.stat-number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #4F378A;
+}
+
+.stat-label {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .schedule-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .calendar-section {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content-frame {
+    left: 0;
+  }
+  
+  .schedule-content {
+    padding: 16px;
+  }
+  
+  .frame-header {
+    padding: 16px;
+  }
+  
+  .frame-title {
+    font-size: 24px;
+  }
+  
+  .workout-item, .meal-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .workout-status {
+    justify-self: start;
+  }
+}
+
+/* Step Counter Styles */
+.step-counter-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.step-counter {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.step-counter-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.step-counter-header h4 {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.step-counter-content {
+  padding: 0 4px;
+}
+
+.step-count {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.current-steps {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.step-goal {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #F1F5F9;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4F378A;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.step-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-value {
+  color: #1E293B;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.stat-label {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .step-counter {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+  
+  .current-steps {
+    font-size: 24px;
+  }
+  
+  .step-stats {
+    padding: 0 8px;
+  }
+}
+
+/* Mood Meter Styles */
+.mood-meter-wrapper {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-top: -5px;
+}
+
+.mood-meter {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.mood-meter-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.mood-meter-header h4 {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mood-meter-content {
+  padding: 0 4px;
+}
+
+.mood-level {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.current-mood {
+  color: #4F378A;
+  font-family: 'Outfit', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.mood-time {
+  color: #64748B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 10px;
+}
+
+.mood-slider-container {
+  margin-bottom: 20px;
+}
+
+.mood-slider {
+  width: 100%;
+  height: 6px;
+  -webkit-appearance: none;
+  background: linear-gradient(to right, #4F378A, #FFD93D, #FF6B6B);
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.mood-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #4F378A;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mood-slider::-webkit-slider-thumb:hover {
+  background: #4F378A;
+}
+
+.mood-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+.mood-factors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.mood-tag {
+  padding: 6px 12px;
+  background-color: #F1F5F9;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: #64748B;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mood-tag:hover {
+  background-color: #E2E8F0;
+}
+
+.mood-tag.active {
+  background-color: #4F378A;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mood-meter-wrapper {
+    margin-top: 16px;
+  }
+
+  .current-mood {
+    font-size: 20px;
+  }
+
+  .mood-factors {
+    gap: 6px;
+  }
+
+  .mood-tag {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+}
+
+/* Workout Status Button Styles */
+.workout-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 100px;
+}
+
+.workout-status.complete {
+  background-color: #4F378A;
+  color: white;
+}
+
+.workout-status.pending {
+  background-color: #F1F5F9;
+  color: #64748B;
+}
+
+.workout-status:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add animation */
+@keyframes statusChange {
+  0% { transform: scale(0.95); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.workout-status.animating {
+  animation: statusChange 0.3s ease;
+}
+
+.workout-intensity {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.workout-intensity.intensity-light {
+  background-color: #E6F2FF;
+  color: #1E40AF;
+}
+
+.workout-intensity.intensity-moderate {
+  background-color: #FEF3C7;
+  color: #92400E;
+}
+
+.workout-intensity.intensity-high {
+  background-color: #FEE2E2;
+  color: #9B1C1C;
+}
+
+.workout-intensity.intensity-extreme {
+  background-color: #5a5555;
+  color: #e0e3e5;
+}
+
+/* Existing styles remain the same, adding these new styles */
+.meal-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.meal-item:hover {
+  background-color: #F1E5FF; /* Light purple hover state */
+  transform: scale(1.02); /* Slight scale up on hover */
+}
+
+.meal-item.selected {
+  background-color: #4F378A; /* Deep purple selected state */
+  color: white;
+}
+
+.meal-item.selected .meal-time,
+.meal-item.selected .meal-details h5,
+.meal-item.selected .meal-details p {
+  color: white;
+}
+
+.meal-item.selected .meal-macros span {
+  background-color: #00a2ff; /* Slightly lighter purple for macros */
+  color: white;
+}

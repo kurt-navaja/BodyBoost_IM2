@@ -1,14 +1,104 @@
 from pyexpat.errors import messages
-from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect # type: ignore
+from django.http import HttpResponse, JsonResponse # type: ignore
+from django.contrib.auth.decorators import login_required # type: ignore
+from Signup.models import CustomUser  # Import your custom user model
+from django.views.decorators.http import require_http_methods # type: ignore
 
 
+import logging
+logger = logging.getLogger(__name__)
+
+@login_required
 def firstP(request):
-    return render(request, '1stP.html')
+    return render(request, '1stP.html', {'request': request})
 
-def secondP(request):
-    return render(request, '2ndP.html')
+def progress(request):
+    return render(request, 'progress.html')
+
+@login_required
+def accountSettings(request):
+    if request.method == 'GET':
+        # Render the account settings page
+        return render(request, 'accountSettings.html')
+    
+    if request.method == 'POST':
+        # Check if it's an AJAX request
+        is_ajax = request.headers.get('X-Requested-With') == 'XMLHttpRequest'
+        
+        try:
+            user = request.user
+            
+            # Get the form inputs
+            first_name_input = request.POST.get('first_name', '').strip()
+            last_name_input = request.POST.get('last_name', '').strip()
+            
+            # Update first name
+            if first_name_input:
+                # If input field is not empty, use the input
+                user.first_name = first_name_input
+            # If input is empty, keep the existing first name (do nothing)
+            
+            # Update last name
+            if last_name_input:
+                # If input field is not empty, use the input
+                user.last_name = last_name_input
+            # If input is empty, keep the existing last name (do nothing)
+            
+            weight = request.POST.get('weight')
+            if weight:
+                try:
+                    user.weight = float(weight)
+                except ValueError:
+                    if is_ajax:
+                        return JsonResponse({
+                            'status': 'error', 
+                            'message': 'Invalid weight format'
+                        }, status=400)
+                    else:
+                        messages.error(request, 'Invalid weight format')
+                        return render(request, 'accountSettings.html')
+            
+            user.body_goal = request.POST.get('body_goal', user.body_goal)
+            user.country = request.POST.get('country', user.country)
+            user.city = request.POST.get('city', user.city)
+            user.street = request.POST.get('street', user.street)
+            user.zip_code = request.POST.get('zip', user.zip_code)
+            user.intensity = request.POST.get('intensity', user.intensity)
+            
+            if 'profile_photo' in request.FILES:
+                user.profile_photo = request.FILES['profile_photo']
+                logger.info(f"Profile photo saved: {user.profile_photo}")
+            
+            user.save()
+            
+            logger.info(f"User {user.email} updated successfully.")
+            
+            # Return appropriate response based on request type
+            if is_ajax:
+                return JsonResponse({
+                    'status': 'success', 
+                    'message': 'Account settings updated successfully'
+                })
+            else:
+                messages.success(request, 'Account settings updated successfully')
+                return redirect('notifAll:accountSettings')
+        
+        except Exception as e:
+            logger.error(f"Error updating user {user.email}: {str(e)}")
+            
+            # Return appropriate error response based on request type
+            if is_ajax:
+                return JsonResponse({
+                    'status': 'error', 
+                    'message': f'Error updating account: {str(e)}'
+                }, status=400)
+            else:
+                messages.error(request, f'Error updating account: {str(e)}')
+                return render(request, 'accountSettings.html')
+    
+    # If somehow method is neither GET nor POST
+    return JsonResponse({'status': 'error', 'message': 'Invalid request method'}, status=405)
 
 def workout(request):
     return render(request, 'workout.html')
@@ -28,13 +118,28 @@ def save_workout_preferences(request):
         request.session['workout_style'] = workout_style
         request.session['health_concerns'] = health_concerns
 
-        # Redirect based on the workout style selected
+        # Redirect based on the workout style and fitness level selected
         if workout_style == 'strength-training':
-            return redirect('fitness:strength')
+            if fitness_level == 'beginner':
+                return redirect('fitness:strength_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('fitness:strength_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('fitness:strength_advanced')
         elif workout_style == 'cardio':
-            return redirect('cardio_page')
+            if fitness_level == 'beginner':
+                return redirect('fitness:cardio_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('fitness:cardio_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('fitness:cardio_advanced')
         elif workout_style == 'flexibility-yoga':
-            return redirect('flexibility_yoga_page')
+            if fitness_level == 'beginner':
+                return redirect('fitness:yoga_beginner')
+            elif fitness_level == 'intermediate':
+                return redirect('fitness:yoga_intermediate')
+            elif fitness_level == 'advanced':
+                return redirect('fitness:yoga_advanced')
 
     return HttpResponse("Form submission error")
 
@@ -42,7 +147,7 @@ def login(request):
     return render(request, 'login.html')
 
 def settings(request):
-    return render(request, 'settings.html')
+    return redirect('notifAll:accountSettings')
 
 # @login_required
 # def homepage_view(request):

@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="help-page-container">
+  <div class="help-page-header">
+    <a href="javascript:history.back()" class="back-button">
+      <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+    </a>
+    <h1 class="page-title">Help Center</h1>
+  </div>
+
+  <div class="help-content">
+    <div class="help-section">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          <img src="{% static 'images/settings/help.png' %}" alt="FAQ" class="faq-icon" />
+          <h3>How do I set up my profile?</h3>
+        </div>
+        <div class="faq-answer">
+          <p>Go to Account Settings and complete all the required fields. This helps us personalize your fitness journey.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <img src="{% static 'images/settings/help.png' %}" alt="FAQ" class="faq-icon" />
+          <h3>How are my workouts personalized?</h3>
+        </div>
+        <div class="faq-answer">
+          <p>Our AI analyzes your fitness goals, current fitness level, and previous workout history to recommend tailored workouts.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <img src="{% static 'images/settings/help.png' %}" alt="FAQ" class="faq-icon" />
+          <h3>How can I track my progress?</h3>
+        </div>
+        <div class="faq-answer">
+          <p>Use the Progress section to monitor your daily steps, calories burned, workout completion, and more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="help-contact">
+      <h2>Need More Help?</h2>
+      <div class="contact-methods">
+        <div class="contact-item">
+          <img src="{% static 'images/settings/email.png' %}" alt="Email" class="contact-icon" />
+          <div class="contact-details">
+            <h3>Email Support</h3>
+            <p>support@bodyboost.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <img src="{% static 'images/settings/chat.png' %}" alt="Chat" class="contact-icon" />
+          <div class="contact-details">
+            <h3>Live Chat</h3>
+            <p>Available Mon-Fri, 9am-5pm EST</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block styles %}
+<style>
+  .help-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: #333;
+  }
+
+  .help-page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+
+  .page-title {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #4F378A;
+    font-weight: 600;
+  }
+
+  .help-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+  }
+
+  .help-section h2,
+  .help-contact h2 {
+    color: #4F378A;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #4F378A;
+    padding-bottom: 10px;
+  }
+
+  .faq-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  .faq-question {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .faq-question:hover {
+    background-color: #e0e0e0;
+  }
+
+  .faq-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    opacity: 0.7;
+  }
+
+  .faq-question h3 {
+    color: #4F378A;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .faq-answer {
+    padding: 15px;
+    background-color: white;
+  }
+
+  .help-contact {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    opacity: 0.7;
+  }
+
+  .contact-details h3 {
+    color: #4F378A;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .contact-details p {
+    color: #666;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    .help-content {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+{% endblock %}

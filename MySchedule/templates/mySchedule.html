@@ -1,0 +1,726 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>My Schedule</title>
+    <link rel="icon" href="{% static 'images/logoPurpleB.png' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 68%;
+        top: 13%;
+        transform: translateX(-50%);
+        width: 350px;
+        height: auto;
+        background-color: rgba(0,0,0,0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 30px; /* Increased padding for a more formal layout */
+        border: 1px solid #888;
+        width: 100%;
+        font-family: Arial, sans-serif; /* Changed font family to Arial */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .modal-content h2 {
+        margin-top: 0;
+        font-size: 28px; /* Increased font size */
+        font-weight: bold; /* Ensure the font weight is set */
+        color: #333; /* Ensure the color is set */
+      }
+      .modal-content p {
+        margin: 20px 0; /* Increased margin for gap between texts */
+        font-size: 18px; /* Increased font size */
+      }
+      .modal-content .user-name {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <link href="{% static '/css/mySchedule.css'%}" rel="stylesheet" />
+      <link rel="stylesheet" href="{% static 'css/navStyle.css' %}" />
+
+      <div class="mac-book-air1-container">
+        <div class="mac-book-air1-mac-book-air1">
+          <!-- Header Section -->
+          <header class="mac-book-air1-frame5">
+            <a href="{% url 'notifAll:accountSettings' %}">
+              {% if user.profile_photo %}
+                  <img src="{{ user.profile_photo.url }}" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% else %}
+                  <img src="/static/images/profile_photo.png" alt="Profile Picture"
+                  class="mac-book-air1-avatarwphoto1" 
+                  style="cursor: pointer;"/>
+              {% endif %}
+            </a>
+            <input type="file" id="avatar-upload" style="display: none;" accept="image/*" />
+            <div class="mac-book-air1-greetings">
+              <span class="mac-book-air1-text10">Welcome Back!</span>
+              <span class="mac-book-air1-text11">Good Morning</span>
+            </div>
+            <div class="header-controls">
+              <a href="javascript:void(0);" id="bell-icon">
+                <img src="{% static '/images/bell-1.png' %}" alt="Notifications" class="mac-book-air1-bell1" />
+              </a>
+              <div class="mac-book-air1-badges">
+                <div class="badge-label">3</div>
+              </div>
+              <a href="{% url 'notifAll:accountSettings' %}">
+                <img src="/static/images/setting.png" alt="Settings" class="mac-book-air1-iconsax-boldsetting2" />
+              </a>
+            </div>
+            <div class="mac-book-air1-frame251">
+              <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
+              <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+            </div>
+          </header>
+
+          <!-- Sidebar Navigation -->
+          <nav class="mac-book-air1-sidebar">
+            <div class="mac-book-air1-frame16">
+              <div class="mac-book-air1-frame15">
+                <!-- Logo -->
+                <div class="mac-book-air1-app-logo">
+                  <div class="mac-book-air1-frame812852">
+                    <a href="/" class="mac-book-air1-text13">BodyBoost</a>
+                  </div>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="mac-book-air1-frame12">
+                  <img src="/static/images/logoPurple.png" alt="Logo" class="mac-book-air1-logo-purple" /> 
+
+                  <button 
+                    class="mac-book-air1-button1"
+                    data-href="{% url 'notifAll:firstP' %}"
+                    onclick="window.location.href=this.getAttribute('data-href')">
+                    <img src="/static/images/dashboard(1).png" alt="Dashboard" class="mac-book-air1-dashbaord" />
+                    <span class="mac-book-air1-text14">Overview</span>  
+                  </button>
+
+                  <button class="mac-book-air1-button2" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
+                    <img src="/static/images/workout-2.png" alt="Workout" class="mac-book-air1-workout" />
+                    <span class="mac-book-air1-text15">Workout</span>
+                  </button>
+                  <button class="mac-book-air1-button3">
+                    <img src="/static/images/diet-plan-2.png" alt="Diet Plan" class="mac-book-air1-diet-plan" />
+                    <span class="mac-book-air1-text16">Diet Plan</span>
+                  </button>
+                  <button class="mac-book-air1-button4">
+                    <img src="/static/images/settings/Goals.png" alt="Goal" class="mac-book-air1-goal" />
+                    <span class="mac-book-air1-text17">Goals</span>
+                  </button>
+                  <a href="{% url 'MySchedule:mySched' %}">
+                    <button class="mac-book-air1-button5">
+                      <img src="/static/images/schedule-2.png" alt="Schedule" class="mac-book-air1-schedule" />
+                      <span class="mac-book-air1-text18">My Schedule</span>
+                    </button>
+                  </a>
+                  <button class="mac-book-air1-button6" data-href="{% url 'notifAll:progress' %}" onclick="window.location.href=this.getAttribute('data-href')">
+                    <img src="/static/images/progres-2.png" alt="Progress" class="mac-book-air1-progres" />
+                    <span class="mac-book-air1-text19">Progress</span>
+                    <img src="/static/images/arrow-dark.png" alt="Arrow" class="mac-book-air1-arrowdark" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+              <div class="mac-book-air1-component2"
+    data-href="{% url 'MySchedule:help' %}"
+    onclick="window.location.href=this.getAttribute('data-href')">
+    <img src="/static/images/settings/help.png" alt="Help" class="mac-book-air1-help" />
+    <span class="mac-book-air1-text20">Help</span>
+</div>
+                <a href="{% url 'login:login' %}">
+                <button class="mac-book-air1-button7">
+                  <img src="/static/images/settings/logout-2.png" alt="Logout" class="mac-book-air1-logout" />
+                  <span class="mac-book-air1-text21">Logout</span>
+                </button>
+                </a>
+            </div>
+          </nav>
+
+
+          <!-- Main Content -->
+          <main>
+            {% block content %}
+            <div class="main-content-frame">
+              <div class="frame-header">
+                <div class="header-left">
+                  <a href="javascript:history.back()" class="back-button">
+                    <img src="{% static 'images/settings/LeftArrow.png' %}" alt="Back" class="back-arrow" />
+                  </a>
+                  <h1 class="frame-title">My Schedule</h1>
+                </div>
+                <p class="frame-description">
+                  Here you can view and manage your schedule here.
+                  Complete the tasks to stay on track with your fitness goals.
+                </p>
+              </div>
+
+              <div class="schedule-content">
+                <div class="schedule-grid">
+                  
+                  <!-- Calendar Section -->
+                  <div class="calendar-section">
+                    {% include "_calendar.html" %}
+
+                    <div class="step-counter-wrapper">
+                      <div class="step-counter">
+                        <div class="step-counter-header">
+                          <img src="{% static '/images/sneaker.png' %}" alt="Steps" class="card-icon" style="opacity: 0.7; margin-left: 2px;">
+                          <h4>Daily Steps</h4>
+                        </div>
+                        <div class="step-counter-content">
+                          <div class="step-count">
+                            <span class="current-steps">8,426</span>
+                            <span class="step-goal">/ 10,000 steps</span>
+                          </div>
+                          <div class="progress-bar">
+                            <div class="progress-fill" style="width: 84.26%"></div>
+                          </div>
+                          <div class="step-stats">
+                            <div class="stat">
+                              <span class="stat-value">4.2</span>
+                              <span class="stat-label">km</span>
+                            </div>
+                            <div class="stat">
+                              <span class="stat-value">247</span>
+                              <span class="stat-label">cal</span>
+                            </div>
+                            <div class="stat">
+                              <span class="stat-value">1.1</span>
+                              <span class="stat-label">hours</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mood-meter-wrapper">
+                      <div class="mood-meter">
+                        <div class="mood-meter-header">
+                          <img src="{% static '/images/mental-health.png' %}" alt="Mood" class="card-icon" style="opacity: 0.7; margin-left: -1px;">
+                          <h4>Mood-O-Meter</h4>
+                        </div>
+                        <div class="mood-meter-content">
+                          <div class="mood-level">
+                            <span class="current-mood">Great</span>
+                            <span class="mood-time" style="margin-left: auto;">Updated 2h ago</span>
+                          </div>
+                          <div class="mood-slider-container">
+                            <input type="range" min="1" max="5" value="4" class="mood-slider" id="moodSlider">
+                            <div class="mood-labels">
+                              <span>😔</span>
+                              <span>😐</span>
+                              <span>🙂</span>
+                              <span>😊</span>
+                              <span>😁</span>
+                            </div>
+                          </div>
+                          <div class="mood-factors">
+                            <div class="mood-tag">Energetic</div>
+                            <div class="mood-tag">Stressed</div>
+                            <div class="mood-tag">Motivated</div>
+                            <div class="mood-tag">Tired</div>
+                            <div class="mood-tag">Anxious</div>
+                            <div class="mood-tag">Confident</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <script src="/static/js/mood-meter.js"></script>
+                  </div>
+
+                  <!-- Daily Schedule Section -->
+                  <div class="daily-schedule">
+                    <div class="schedule-header">
+                      <h3>Today's Recommendations</h3>
+                      <span class="date"></span>
+                    </div>
+                    <script>
+                      document.addEventListener('DOMContentLoaded', function() {
+                        const dateElement = document.querySelector('.date');
+                        const today = new Date();
+                        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                        dateElement.textContent = today.toLocaleDateString('en-US', options);
+                      });
+                    </script>
+
+                  <!-- Workout Card -->
+                  <div class="schedule-card workout-card">
+                    <div class="card-header">
+                      <img src="{% static 'images/workout-2.png' %}" alt="Workout" class="card-icon">
+                      <h4>Recommended Workouts</h4>
+                    </div>
+                    <div class="workout-list">
+                      {% if personalized_workouts %}
+                        {% for workout in personalized_workouts %}
+                          <div class="workout-item">
+                            <span class="workout-time">
+                              {{ workout_times|index:forloop.counter0 }}
+                            </span>
+                            <div class="workout-details">
+                              <h5>{{ workout.workout_type.name }}</h5>
+                              <p>{{ workout.duration }} min | {{ workout.workout_type.target_muscles }} - {{ workout.calories_burned }} calories | 
+                                <span class="workout-intensity intensity-{{ workout.workout_type.difficulty_level|lower }}">
+                                    {{ workout.workout_type.difficulty_level }}
+                                </span>
+                            </p>
+                            </div>
+                            <button class="workout-status pending">Pending</button>
+                          </div>
+                        {% endfor %}
+                      {% else %}
+                        <div class="no-workouts">
+                          <p>No workouts found for your profile. Please complete your profile settings.</p>
+                          <a href="{% url 'notifAll:accountSettings' %}" class="btn btn-primary">Update Profile</a>
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                      
+                      <script src="/static/js/workout-status.js"></script>
+
+                      <div class="schedule-card meal-card">
+                        <div class="card-header">
+                          <img src="{% static 'images/diet-plan-2.png' %}" alt="Meals" class="card-icon">
+                          <h4>Meal Plan</h4>
+                        </div>
+                        <div class="meal-list">
+                          {% if personalized_meals %}
+                            {% for meal in personalized_meals %}
+                              <div class="meal-item">
+                                <span class="meal-time">{{ meal.meal_type.category }}</span>
+                                <div class="meal-details">
+                                  <h5>{{ meal.meal_type.name }}</h5>
+                                  <p>{{ meal.total_calories }} cal | {{ meal.meal_type.target_nutrients }}</p>
+                                </div>
+                                <div class="meal-macros">
+                                  <span>P: {{ meal.proteins }}g</span>
+                                  <span>C: {{ meal.carbs }}g</span>
+                                  <span>F: {{ meal.fats }}g</span>
+                                </div>
+                              </div>
+                            {% endfor %}
+                          {% else %}
+                            <div class="no-meals">
+                              <p>No meal plan found. Please complete your profile settings.</p>
+                              <a href="{% url 'notifAll:accountSettings' %}" class="btn btn-primary">Update Profile</a>
+                            </div>
+                          {% endif %}
+                        </div>
+                      </div>
+
+                      <script src="/static/js/meal-status.js"></script>
+
+                    <!-- Progress Card -->
+                    <div class="schedule-card progress-card">
+                      <div class="card-header">
+                      <img src="{% static 'images/progres-2.png' %}" alt="Progress" class="card-icon">
+                      <h4>Daily Progress</h4>
+                      </div>
+                      <div class="progress-stats" style="display: flex; gap: 65px; margin-left: 40px;">
+                      <div class="stat-item">
+                        <div class="stat-circle-intake">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="75, 100"/>
+                        </svg>
+                        <div class="stat-number">1,200</div>
+                        </div>
+                        <span class="stat-label">Calorie Intake</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle-water">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="50, 100"/>
+                        </svg>
+                        <div class="stat-number">4/8</div>
+                        </div>
+                        <span class="stat-label">Water (cups)</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle-protein">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="60, 100"/>
+                        </svg>
+                        <div class="stat-number">60g</div>
+                        </div>
+                        <span class="stat-label">Protein Intake</span>
+                      </div>
+                      <div class="stat-item">
+                        <div class="stat-circle-burned">
+                        <svg viewBox="0 0 36 36" class="circular-chart">
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#eee" stroke-width="3"/>
+                          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4F378A" stroke-width="3" stroke-dasharray="67, 100"/>
+                        </svg>
+                        <div class="stat-number">560</div>
+                        </div>
+                        <span class="stat-label">Calories Burned</span>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endblock %}
+          </main>
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              const calendarDays = document.querySelectorAll('.calendar-day, .calendar-day-today, .calendar-day-success');
+              const navigationButtons = document.querySelectorAll('.calendar-nav-btn');
+
+              navigationButtons.forEach(button => {
+                  button.addEventListener('click', function() {
+                      const year = this.getAttribute('data-year');
+                      const month = this.getAttribute('data-month');
+                      
+                      // Redirect to the same page with new month/year parameters
+                      window.location.href = `/mySchedule/schedule/?year=${year}&month=${month}`;
+                  });
+              });
+              calendarDays.forEach(dayElement => {
+                dayElement.addEventListener('click', function() {
+                  const dayNumber = this.querySelector('.day-number').textContent;
+                  const currentMonth = document.querySelector('.calendar-title').textContent;
+                  const [month, year] = currentMonth.split(' ');
+                  
+                  const monthNames = [
+                    'January', 'February', 'March', 'April', 'May', 'June', 
+                    'July', 'August', 'September', 'October', 'November', 'December'
+                  ];
+                  
+                  const monthIndex = monthNames.indexOf(month) + 1;
+                  const formattedDate = `${year}-${monthIndex.toString().padStart(2, '0')}-${dayNumber.padStart(2, '0')}`;
+                  
+                  // Determine the action based on current class
+                  const isCurrentlyCompleted = this.classList.contains('calendar-day-success');
+                  const actionUrl = isCurrentlyCompleted ? '/mySchedule/unmark-completed/' : '/mySchedule/mark-completed/';
+                  
+                  fetch(actionUrl, {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: `date=${formattedDate}`
+                  })
+                  .then(response => response.json())
+                  .then(data => {
+                    if (data.status === 'success') {
+                      // Toggle between completed and normal state
+                      if (isCurrentlyCompleted) {
+                        this.classList.remove('calendar-day-success');
+                        this.classList.add(this.dataset.today === 'true' ? 'calendar-day-today' : 'calendar-day');
+                      } else {
+                        // Remove any existing special classes
+                        this.classList.remove('calendar-day', 'calendar-day-today');
+                        this.classList.add('calendar-day-success');
+                      }
+                    }
+                  })
+                  .catch(error => {
+                    console.error('Error:', error);
+                  });
+                });
+              });
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h2>Notification</h2>
+        <hr>
+        <p>Workout Time!<br>Hey <span class="user-name">{{ request.user.first_name }}</span>, it’s time for your workout. Let’s go!</p>
+        <hr>
+        <p>Meal Time!<br>Time for a healthy meal, <span class="user-name">{{ request.user.first_name }}</span>. Enjoy!</p>
+        <hr>
+        <p>Keep It Up!<br>Great job, <span class="user-name">{{ request.user.first_name }}</span>! Keep going!</p>
+      </div>
+    </div>
+    <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("bell-icon");
+      var badge = document.querySelector(".badge-label");
+
+      btn.onclick = function() {
+        if (modal.style.display === "block") {
+          modal.style.display = "none";
+        } else {
+          modal.style.display = "block";
+          badge.style.display = "none"; // Hide the badge when the modal is opened
+        }
+      }
+
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
