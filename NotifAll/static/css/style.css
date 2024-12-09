@@ -477,6 +477,11 @@
   background-color: var(--cyan-500);
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.div-wrapper:hover {
+  background-color: #0096c7;
 }
 
 .navaja-notification .overlap-group-3 {
@@ -558,6 +563,11 @@
   background-color: #37f44a;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.frame-13:hover {
+  background-color: #058c42;
 }
 
 .navaja-notification .frame-wrapper {
@@ -580,7 +590,13 @@
   position: relative;
   width: 149px;
   height: 168px;
+  border-radius: 8px;
   margin-right: -0.33px;
+  cursor: pointer;
+}
+
+.frame-15 .overlap-3:hover {
+  background-color: #ff9500;
 }
 
 .navaja-notification .overlap-3 {
@@ -673,6 +689,13 @@
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+  cursor: pointer;
+}
+
+.text-wrapper-8:hover {
+  color: #6C5DD3; /* Change text color on hover */
+  text-decoration: underline; /* Add underline on hover */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
 }
 
 .navaja-notification .frame-20 {

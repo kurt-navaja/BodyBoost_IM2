@@ -453,6 +453,11 @@
         box-sizing: border-box; /* Include padding and border in the element's total width */
         /* ...existing code... */
       }
+      .text-wrapper-8:hover {
+        color: #6C5DD3; /* Change text color on hover */
+        text-decoration: underline; /* Add underline on hover */
+        transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition */
+      }
     </style>
   </head>
   <body>
@@ -476,7 +481,7 @@
               </div>
               <div class="mac-book-air1-frame251">
                 <img src="/static/images/settings/searchnormal.png" alt="Search" class="mac-book-air1-iconsax-linearsearchnormal" />
-                <input type="text" class="mac-book-air1-search-input" placeholder="Search" />
+                <input type="text" class="mac-book-air1-search-input" placeholder="Search" onkeyup="filterContent()" />
               </div>
               <div class="greetings">
                 <div class="text-wrapper">Welcome Back!</div>
@@ -555,37 +560,37 @@
             </div>
           </div>
           <div class="frame-10">
-            <div class="div-wrapper">
+            <div class="div-wrapper" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
               <div class="overlap-group-3">
                 <div class="frame-11">
                   <div class="group-wrapper"><img class="group-2" src="{% static '/images/group-11.png'%}" /></div>
                   <div class="frame-12">
-                    <div class="text-wrapper-5">Workout</div>
-                    <div class="text-wrapper-6">4 hrs</div>
+                    <div class="text-wrapper-5">Strength Training</div>
+                    <div class="text-wrapper-6">Start Now!</div>
                   </div>
                 </div>
                 <img class="group-3" src="{% static '/images/group-6.png'%}" />
               </div>
             </div>
-            <div class="frame-13">
+            <div class="frame-13" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
               <div class="overlap-group-3">
                 <div class="frame-11">
                   <div class="frame-wrapper"><img class="frame-14" src="{% static '/images/frame.svg'%}" /></div>
                   <div class="frame-12">
-                    <div class="text-wrapper-5">Steps</div>
-                    <div class="text-wrapper-6">4 hrs</div>
+                    <div class="text-wrapper-5">Cardio</div>
+                    <div class="text-wrapper-6">Start Now!</div>
                   </div>
                 </div>
                 <img class="group-3" src="{% static '/images/group-6-1.png'%}" />
               </div>
             </div>
-            <div class="frame-15">
+            <div class="frame-15" data-href="{% url 'notifAll:workout' %}" onclick="window.location.href=this.getAttribute('data-href')">
               <div class="overlap-3">
                 <div class="frame-16">
                   <div class="img-wrapper"><img class="group-4" src="{% static '/images/group-8.png'%}" /></div>
                   <div class="frame-12">
-                    <div class="text-wrapper-5">Calories</div>
-                    <div class="text-wrapper-6">1800 kcl</div>
+                    <div class="text-wrapper-5">Flexibility/Yoga</div>
+                    <div class="text-wrapper-6">Start Now!</div>
                   </div>
                 </div>
                 <img class="group-5" src="{% static '/images/group-5.png'%}" />
@@ -596,7 +601,7 @@
             <div class="frame-18">
               <div class="text-wrapper-7">My Schedule</div>
               <div class="frame-19">
-                <div class="text-wrapper-8">View All</div>
+                <div class="text-wrapper-8" data-href="{% url 'MySchedule:mySched' %}" onclick="window.location.href=this.getAttribute('data-href')">View All</div>
                 <img class="img" src="{% static '/images/arrow-dark-5.svg'%}" />
               </div>
             </div>
@@ -805,6 +810,36 @@
               this.classList.add('active'); // Add active class on click
               window.location.href = "{% url 'notifAll:workout' %}"; // Redirect to workout page
             });
+
+            function filterContent() {
+              var input, filter, workoutCards, workoutTitles, scheduleCards, scheduleTitles, i, txtValue;
+              input = document.querySelector('.mac-book-air1-search-input');
+              filter = input.value.toUpperCase();
+              
+              // Filter workout cards
+              workoutCards = document.querySelectorAll('.frame-10 > div');
+              workoutTitles = document.querySelectorAll('.frame-12 .text-wrapper-5');
+              for (i = 0; i < workoutCards.length; i++) {
+                txtValue = workoutTitles[i].textContent || workoutTitles[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  workoutCards[i].style.display = "";
+                } else {
+                  workoutCards[i].style.display = "none";
+                }
+              }
+
+              // Filter schedule cards
+              scheduleCards = document.querySelectorAll('.frame-20 .frame-21');
+              scheduleTitles = document.querySelectorAll('.frame-22 .text-wrapper-9');
+              for (i = 0; i < scheduleCards.length; i++) {
+                txtValue = scheduleTitles[i].textContent || scheduleTitles[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  scheduleCards[i].style.display = "";
+                } else {
+                  scheduleCards[i].style.display = "none";
+                }
+              }
+            }
           </script>
         </div>
       </div>

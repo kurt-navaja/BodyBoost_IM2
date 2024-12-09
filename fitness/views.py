@@ -99,4 +99,4 @@ def exercise_library(request):
         'flexibility_exercises': Exercise.objects.filter(category='flexibility'),
         'recommended_exercises': recommended_exercises,
     }
-    return render(request, 'fitness/exercise_library.html', context)
+    return render(request, 'MySchedule/mySched.html', context)
