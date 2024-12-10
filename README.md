@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/static/loginPage/images/logoPurple.png" alt="Logo" width="80" height="80">
+    <img src="/images/logoPurple.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">BodyBoost</h1>
@@ -75,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About BodyBoost
 
-[![Product Name Screen Shot][product-screenshot]](Login/static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png) 
+[![Product Name Screen Shot](Login/static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png)](Login/static/loginPage/images/screenshot20240828at100419pmremovebgpreview11333-r5i-200h.png)
 
 In this day and age, there are a lot of individuals out there who have decided to make a change and improve their lives through exercise and diet! Unfortunately, this process does not come easily and may be quite discouraging for newbies without the proper guide. BodyBoost is here to make sure that you get the proper nutrition and push to help you achieve the best version of yourself. Whether you're inexperienced or someone that can bench 200 kgs! BodyBoost is here to get you all set!
 

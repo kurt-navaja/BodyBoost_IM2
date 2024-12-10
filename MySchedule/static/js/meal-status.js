@@ -4,8 +4,42 @@ document.addEventListener('DOMContentLoaded', () => {
   const proteinIntakeCircle = document.querySelector('.stat-circle-protein');
   const caloriesBurnedCircle = document.querySelector('.stat-circle-burned');
 
-  const maxCalories = 2000; // Adjust based on user's daily calorie target
-  const maxProtein = 65; // Adjust based on user's protein target
+  // Mapping body goals to daily calorie and protein targets
+  const nutritionTargets = {
+    'victoria-secret-thin': {
+      calories: 1700,
+      protein: 50 // Lower protein for weight loss
+    },
+    'slim': {
+      calories: 2000,
+      protein: 65 // Moderate protein for general fitness
+    },
+    'athletic': {
+      calories: 2400,
+      protein: 90 // Higher protein for active individuals
+    },
+    'muscular': {
+      calories: 3100,
+      protein: 130 // High protein for muscle building
+    },
+    'sumo-wrestler': {
+      calories: 4000,
+      protein: 180 // Very high protein and calorie intake
+    }
+  };
+
+  // Get the user's body goal from a data attribute on the body or a hidden input
+  const bodyGoalElement = document.body.getAttribute('data-user-body-goal') || 
+                          document.querySelector('input[name="user_body_goal"]');
+  
+  // Extract the body goal value
+  const bodyGoal = bodyGoalElement ? 
+    (typeof bodyGoalElement === 'string' ? bodyGoalElement : bodyGoalElement.value).toLowerCase() 
+    : 'slim';
+
+  // Set max calories and protein based on body goal, defaulting to 'slim' if not found
+  const { calories: maxCalories, protein: maxProtein } = nutritionTargets[bodyGoal] || nutritionTargets['slim'];
+
   const maxCaloriesBurned = 1000; // Adjust based on user's daily calorie burn goal
 
   if (!calorieIntakeCircle || !proteinIntakeCircle) {
