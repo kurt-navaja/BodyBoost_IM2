@@ -5,7 +5,25 @@ document.addEventListener('DOMContentLoaded', function() {
   const waterIntakeCircle = document.querySelector('.stat-circle-water');
   const proteinIntakeCircle = document.querySelector('.stat-circle-protein');
 
-  const maxCalories = 1000;
+   // Mapping body goals to daily calorie burn targets
+   const caloriesBurnTargets = {
+    'victoria-secret-thin': 600, // Lower calorie burn for weight loss
+    'slim': 800, // Moderate calorie burn for general fitness
+    'athletic': 1200, // Higher calorie burn for active individuals
+    'muscular': 1500, // High calorie burn for muscle building
+    'sumo-wrestler': 2000 // Very high calorie burn
+  };
+
+  // Get the user's body goal from a data attribute on the body or a hidden input
+  const bodyGoalElement = document.body.getAttribute('data-user-body-goal') || 
+                          document.querySelector('input[name="user_body_goal"]');
+  
+  // Extract the body goal value
+  const bodyGoal = bodyGoalElement ? 
+    (typeof bodyGoalElement === 'string' ? bodyGoalElement : bodyGoalElement.value).toLowerCase() 
+    : 'slim';
+    
+  const maxCalories = caloriesBurnTargets[bodyGoal] || caloriesBurnTargets['slim'];
   const maxCaloriesIntake = 2000;
   const maxWaterCups = 8;
   const maxProtein = 65;
