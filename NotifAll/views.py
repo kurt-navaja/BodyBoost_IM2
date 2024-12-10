@@ -16,6 +16,9 @@ def firstP(request):
 def progress(request):
     return render(request, 'progress.html')
 
+def help(request):
+    return render(request, 'help.html')
+
 @login_required
 def accountSettings(request):
     if request.method == 'GET':

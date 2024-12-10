@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/static/loginPage/images/logopurple.png" alt="Logo" width="80" height="80">
+    <img src="{% static 'images/logopurple.png' %}" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">BodyBoost</h1>
